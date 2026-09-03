@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>DarwinOS &mdash; General Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/shared.css">
+</head>
+<body>
+<div class="wrap">
+
+  <nav class="quicknav" id="quicknav"></nav>
+
+  <header class="mast">
+    <div class="mast-top">
+      <div class="word">Darwin<b>OS</b>
+        <span class="sub">The Ledger · Fundamental Watch</span>
+      </div>
+      <div class="asof">
+        <div id="asof">as of —</div>
+      </div>
+    </div>
+
+  </header>
+
+  <div class="tabbar" id="tabbar">
+    <a class="tab-btn active" href="index.html">General Portfolio</a>
+    <a class="tab-btn" href="macro_intel.html">Macro Intel</a>
+  </div>
+
+  <div class="tab-panel active" id="tabGeneral">
+
+  <div class="sec"><span class="eyebrow">§2 · not yet ready</span><h2>Watchlist</h2><span class="rule"></span></div>
+  <div class="muted" style="margin:-4px 0 10px">Candidates not yet in the book — Darwin/Nalanda classification and entry zones only, nothing here is owned. <b>🚩</b> on a card means its PE/ROCE/classification moved enough since the last run to be worth a manual re-check — click it for why.</div>
+  <div class="funnel" id="pipeline" style="margin-bottom:12px"></div>
+  <div class="lwrap" id="watchlist"></div>
+
+  </div><!-- /tabGeneral -->
+
+  <footer id="footer"></footer>
+</div>
+
+<script src="assets/shared.js"></script>
+<script>
+let DATA = {};
+
+function renderPipeline(){
+  const p=DATA.pipeline||{};
+  document.getElementById("pipeline").innerHTML = `
+    <div class="fstep buy"><div class="n">${p.buy??"—"}</div><div class="l">Buy</div></div>
+    <div class="fstep watch"><div class="n">${p.watch??"—"}</div><div class="l">Watch</div></div>
+    <div class="fstep monitor"><div class="n">${p.monitor??"—"}</div><div class="l">Monitor</div></div>`;
+}
+
+
+/* Sort state lives outside render() so it survives re-renders (pipeline runs,
+   live-price refreshes) instead of resetting to insertion order every time. */
+let wSort={key:null, dir:1};
+const WSORT_TEXT_KEYS=new Set(["name","ticker","status","buy_zone"]);
+function wSortValue(w, key){
+  switch(key){
+    case "name": return (w.name||"").toLowerCase();
+    case "ticker": return (w.ticker||"").toLowerCase();
+    case "status": return (w.status||"").toLowerCase();
+    case "buy_zone": return (w.buy_zone&&w.buy_zone!=="-")?w.buy_zone.toLowerCase():null;
+    case "price": return w.live_price;
+    case "pe": return w.live_pe;
+    case "roce": return (screenRowFor(w)||{}).metrics?.roce_pct;
+    case "de": return w.de;
+    default: return null;
+  }
+}
+function setWatchlistSort(key){
+  if(wSort.key===key){ wSort.dir*=-1; }
+  else{ wSort.key=key; wSort.dir=WSORT_TEXT_KEYS.has(key)?1:-1; }
+  renderWatchlist();
+}
+function wSortHeader(key,label,extraClass){
+  const active=wSort.key===key;
+  const arrow=active?(wSort.dir===1?" ▲":" ▼"):` <span class="sort-hint">⇅</span>`;
+  return `<span class="${extraClass||""} sortable${active?" active":""}" onclick="setWatchlistSort('${key}')"
+    role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();setWatchlistSort('${key}')}"
+    title="Sort by ${esc(label)}">${esc(label)}${arrow}</span>`;
+}
+function renderWatchlist(){
+  const buyNowTickers=new Set((DATA.framework_screen||[]).filter(r=>r.classification==="BUY NOW").map(r=>r.ticker));
+  const faeTriggerTickers=new Set((DATA.fae_triggers||[]).map(r=>r.ticker));
+  const head=`<div class="wlist-head"><span>#</span><span></span>${wSortHeader("name","Company")}${wSortHeader("ticker","Ticker")}${wSortHeader("status","Status")}${wSortHeader("buy_zone","Buy zone")}
+    <span class="wmetrics">${wSortHeader("price","Price","wm-price")}${wSortHeader("pe","PE","wm-pe")}${wSortHeader("roce","ROCE","wm-roce")}${wSortHeader("de","D/E","wm-de")}</span>
+    <span>Note</span><span>Links</span></div>`;
+  let list=(DATA.watchlist||[]).slice();
+  if(wSort.key){
+    const isText=WSORT_TEXT_KEYS.has(wSort.key);
+    list.sort((a,b)=>{
+      const va=wSortValue(a,wSort.key), vb=wSortValue(b,wSort.key);
+      const aEmpty=va==null||va==="", bEmpty=vb==null||vb==="";
+      if(aEmpty&&bEmpty) return 0;
+      if(aEmpty) return 1;   // missing values always sort last, regardless of direction
+      if(bEmpty) return -1;
+      if(isText) return va<vb?-1*wSort.dir:va>vb?1*wSort.dir:0;
+      return (va-vb)*wSort.dir;
+    });
+  }
+  document.getElementById("watchlist").innerHTML = `<div class="wlist-compact">` + head + list.map((w,i)=>{
+    const isBuyNow=buyNowTickers.has(w.ticker), isFaeTrigger=faeTriggerTickers.has(w.ticker);
+    const band=classBand(w.status||"");
+    const flag=isBuyNow
+      ? `<span class="flag flag-buynow" title="Passes both Gate 2.1 (ROCE) and Gate 2.4 (valuation) — ready for a manual full FAE cycle">⭐</span>`
+      : isFaeTrigger
+      ? `<span class="flag flag-trigger" style="cursor:pointer" onclick="showFaeTrigger('${esc(w.ticker)}')" role="button" tabindex="0"
+          onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showFaeTrigger('${esc(w.ticker)}')}"
+          title="Classification/PE/ROCE moved enough since the last run to be worth a manual re-check — click for why">🚩</span>`
+      : "";
+    const roce=(screenRowFor(w)||{}).metrics?.roce_pct;
+    const deFlag=w.de!=null&&w.de>0.5;
+    const metrics=`<span class="wm-price">${w.live_price!=null?"₹"+w.live_price:'<span class="wm-empty">—</span>'}</span>
+      <span class="wm-pe">${w.live_pe!=null?w.live_pe+"x":'<span class="wm-empty">—</span>'}</span>
+      <span class="wm-roce">${roce!=null?roce+"%":'<span class="wm-empty">—</span>'}</span>
+      <span class="wm-de${deFlag?' flag':''}">${w.de!=null?w.de:'<span class="wm-empty">—</span>'}</span>`;
+    return `<div class="wrow ${band}" title="${esc(w.concern||"")}">
+      <span class="wseq">${i+1}</span>
+      <span class="wflag">${flag}</span>
+      <span class="wname">${esc(w.name)}</span>
+      <span class="wtk">${esc(w.ticker)}</span>
+      <span class="wstatus ${band}">${esc(w.status||"—")}</span>
+      <span class="wbuyzone">${w.buy_zone&&w.buy_zone!=="-"?esc(w.buy_zone):'<span class="wm-empty">—</span>'}</span>
+      <span class="wmetrics">${metrics}</span>
+      <span class="wconcern">${esc(w.concern||"")}</span>
+      <span class="wlinks">${screenerLink(w)}${faeBadge(w)}${scoreBadge(w)}${forensicBadge(w)}${validationBadge(w)}${faeReportUrlFor(w.ticker)?`<a href="${esc(faeReportUrlFor(w.ticker))}" target="_blank" rel="noopener" class="scrbtn" title="Read the full FAE report">FAE report ↗</a>`:""}</span>
+    </div>`;
+  }).join("") + `</div>`;
+}
+
+function render(){
+  document.getElementById("asof").textContent = "as of "+(DATA.as_of||DATA.generated||"\u2014");
+  renderPipeline(); renderWatchlist(); renderFooter(); buildQuickNav();
+}
+boot(render);
+
+</script>
+</body>
+</html>

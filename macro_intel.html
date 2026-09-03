@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>DarwinOS &mdash; Macro Intel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/shared.css">
+</head>
+<body>
+<div class="wrap">
+
+  <nav class="quicknav" id="quicknav"></nav>
+
+  <header class="mast">
+    <div class="mast-top">
+      <div class="word">Darwin<b>OS</b>
+        <span class="sub">The Ledger · Fundamental Watch</span>
+      </div>
+      <div class="asof">
+        <div id="asof">as of —</div>
+      </div>
+    </div>
+
+  </header>
+
+  <div class="tabbar" id="tabbar">
+    <a class="tab-btn" href="index.html">General Portfolio</a>
+    <a class="tab-btn active" href="macro_intel.html">Macro Intel</a>
+  </div>
+
+  <div class="tab-panel active" id="tabMacro">
+
+  <div class="sec"><span class="eyebrow">§6 · macro intel · india/us/china</span><h2>India Macro Intel</h2><span class="rule"></span></div>
+  <div class="muted" style="margin:-4px 0 10px">Real India/US/China + commodity indicators (FRED, market data, and a hand-updated RBI repo rate) — model-based interpretation, not a forecast. Every indicator lives inside its own country's card below (colour-coded green = supportive, amber = mixed/neutral, red = adverse), each with a plain-English explanation, its latest value/change, and a source link.</div>
+  <div id="macro_impact_panel"></div>
+  <div class="grid" id="macro_regions"></div>
+  <div id="macro_trend"></div>
+
+  </div><!-- /tabMacro -->
+
+  <footer id="footer"></footer>
+</div>
+
+<script src="assets/shared.js"></script>
+<script>
+let DATA = {};
+
+function renderMacro(){
+  const el=document.getElementById("macro");
+  const st=DATA.ticker_state||{};
+  el.innerHTML = (DATA.macro?.factors||[]).map((f,fi)=>{
+    const branches=(f.cascade||[]).map(b=>{
+      const hits=(b.hits||[]).map(tk=>{
+        const s=st[tk]?.signal||"AMBER";
+        return `<span class="hit"><span class="sig ${s}"></span>${esc(tk)}</span>`;
+      }).join("");
+      const ord={1:"1st",2:"2nd",3:"3rd",4:"4th"}[b.order]||(b.order+"th");
+      return `<div class="branch">
+        <div class="ord">${ord} order</div>
+        <div><div class="beff">${esc(b.effect)}</div><div class="hits">${hits}</div></div>
+      </div>`;
+    }).join("");
+    const autoNote=f.state_auto_updated_at
+      ? `<div class="muted fauto" style="font-size:11px" title="${esc(f.state_auto_reason||"")}">🤖 auto-escalated by news_watcher ${esc(f.state_auto_updated_at)} — edit macro/india_macro_model.json to override</div>`
+      : "";
+    return `<div class="factor" id="factor${fi}">
+      <div class="fhead" onclick="document.getElementById('factor${fi}').classList.toggle('open')" role="button" tabindex="0"
+        onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();document.getElementById('factor${fi}').classList.toggle('open')}">
+        <span class="chev">▸</span>
+        <span class="fname">${esc(f.name)}</span>
+        <span class="fstate ${f.state}">${f.state}</span>
+      </div>
+      <div class="flens">${esc(f.india_lens||"")}</div>
+      ${autoNote}
+      <div class="tree">${branches}</div>
+    </div>`;
+  }).join("");
+  // fix ordinal labels precisely
+  document.querySelectorAll(".branch .ord").forEach((o)=>{});
+}
+
+
+/* Per-indicator labels/explanations, shared by renderMacroRegions() below -- the India Macro
+   Score composite panel that used to live here (renderMacroIntel(), a #macro_intel div) was
+   removed per explicit user direction; macro_score.py itself still computes mi.score/
+   mi.components every refresh (macroVitalHtml()'s vitals tile and macro_intel/macro_history.py's
+   trend tracking both still read it), this was purely the on-page bars-and-table panel going
+   away, not the underlying computation. */
+const MI_CATEGORY_LABEL={growth:"Growth",inflation:"Inflation",monetary:"Liquidity / Monetary",
+  external:"External",global_risk:"Global Risk",context:"Context — not scored",commodity:"Commodity — not scored"};
+function indicatorBand(c){ return c==null?"na":c>0?"intact":c<0?"broken":"weakening"; }
+/* Plain-English explanation of what each indicator actually measures and, where it isn't
+   self-evident, why it's relevant to India -- written once here rather than duplicated per
+   card, since indicators.py owns the underlying source/category facts and this is purely the
+   human-readable gloss on top of them. */
+const MI_EXPLAIN={
+  us_cpi: "US headline inflation — how fast prices for a typical US shopping basket are rising. Shapes how aggressive the Fed can be on rates.",
+  us_core_cpi: "US inflation excluding volatile food & energy — the steadier read policymakers watch instead of the noisier headline number.",
+  us_pce: "The Fed's actual preferred inflation gauge (not CPI) — a broader basket that adjusts for how people substitute when prices change.",
+  us_core_pce: "Core PCE ex food & energy — the single number the Fed's 2% inflation target is formally defined against.",
+  us_payrolls: "Monthly US jobs added — the Fed's other mandate alongside inflation. A strong print argues against rate cuts.",
+  us_real_gdp: "US economic output adjusted for inflation — the headline US growth number.",
+  us_fed_funds_rate: "The Fed's policy rate — sets the floor for global dollar borrowing costs. Higher-for-longer keeps capital in the US and away from emerging markets like India.",
+  us_2y_yield: "What bond markets expect the Fed to do over the next 2 years — a forward-looking read on where policy is headed.",
+  us_10y_yield: "The benchmark long-term US borrowing cost. A rise here often pulls global capital, including from India, toward US bonds.",
+  us_dollar_index: "Dollar strength vs a basket of major currencies. A stronger dollar makes India's oil imports costlier and pressures the rupee.",
+  vix: "Wall Street's 'fear gauge' — expected US stock-market volatility. Calm VIX tends to mean risk-on flows into markets like India; a spike means the opposite.",
+  india_cpi: "India's own headline inflation — feeds directly into RBI's repo-rate decisions and everyday purchasing power.",
+  india_real_gdp: "India's inflation-adjusted economic growth — the core number policymakers and investors watch.",
+  india_industrial_production: "A proxy for India's factory-floor output — an early read on manufacturing momentum (not the licensed PMI survey).",
+  usdinr: "The rupee's exchange rate vs the dollar. A weaker rupee raises the cost of everything India imports, oil above all.",
+  india_repo_rate: "RBI's key policy rate — what banks pay to borrow from the central bank, and the base every loan/deposit rate in India is priced off. Hand-updated after each MPC meeting.",
+  china_cpi: "China's inflation. Deflation (falling prices) usually signals weak domestic demand and raises the risk of China exporting cheap goods into markets India competes in.",
+  china_gdp: "China's economic output — the world's second-largest economy. A slowdown here ripples through global commodity demand and trade.",
+  brent: "The global oil benchmark price. India imports ~85% of its crude, so this is one of the most direct levers on India's trade deficit and inflation.",
+  gold: "Gold price — often a safe-haven signal. A rising gold price alongside market stress usually means investors are de-risking globally.",
+  copper: "Copper price, nicknamed 'Dr. Copper' — a real-time gauge of global industrial demand and growth expectations.",
+};
+/* Region breakdown -- DATA.macro_intel.indicators, grouped by country instead of by component,
+   and holding EVERY indicator for that country (not a trimmed
+   "headline" subset) -- anything that can be categorised under India/US/China lives entirely
+   inside that one card, never duplicated into a separate flat list elsewhere. Brent is folded
+   into the India card even though indicators.py tags it country:"Global" -- it's a global
+   commodity price, but its category ("external") already feeds India's own External score
+   alongside usdinr (see indicators.py's own doc comment), and it's India's single largest
+   import-cost driver, so leaving it out of the India card would hide the real story. Gold/copper
+   genuinely aren't India/US/China-specific, so rather than force them into one of those three or
+   leave them dangling outside every card, they get their own fourth "Global" card. */
+const MACRO_REGIONS=[
+  {country:"India", flag:"🇮🇳", note:"Includes Brent crude — a global commodity price, but scored into India's External component since it's India's largest import-cost driver."},
+  {country:"US", flag:"🇺🇸", note:null},
+  {country:"China", flag:"🇨🇳", note:null},
+  {country:"Global", flag:"🌐", note:"Gold and copper aren't specific to one region, so they get their own card rather than being forced into India/US/China. Not summed into the composite score."},
+];
+const REGION_BAND_LABEL={intact:"Supportive for India", weakening:"Mixed / neutral", broken:"Adverse for India", na:"No scored signal yet"};
+function regionBand(avg){
+  if(avg==null) return "na";
+  if(avg>=0.5) return "intact";
+  if(avg<=-0.5) return "broken";
+  return "weakening";
+}
+function indicatorDotCls(contribution){
+  if(contribution==null) return "NA";
+  if(contribution>0) return "GREEN";
+  if(contribution<0) return "RED";
+  return "AMBER";
+}
+/* RBI's own forward guidance (macro_intel/rbi_guidance.json, via macro_history.py's
+   DATA.macro_trend.rbi_guidance) isn't part of mi.indicators at all -- it's a forecast, not an
+   actual, so it never went through macro_score.py's z-score pipeline (see rbi_guidance.json's
+   own comment for why). Appended into the India card as its own rows so it lives alongside the
+   repo rate instead of only showing up in the separate Macro Trend panel below. */
+function rbiGuidanceRows(){
+  const g=DATA.macro_trend && DATA.macro_trend.rbi_guidance && DATA.macro_trend.rbi_guidance.latest;
+  if(!g) return "";
+  const rows=[
+    {name:`RBI ${g.gdp_forecast_fy} GDP Forecast`, val:`${g.gdp_forecast_pct}%`,
+     desc:"RBI's own forward growth projection from its latest Monetary Policy Statement — fresher than the lagged India Real GDP actual above."},
+    {name:`RBI ${g.cpi_forecast_fy} CPI Forecast`, val:`${g.cpi_forecast_pct}%`,
+     desc:"RBI's own forward inflation projection — fresher than the lagged India CPI actual above, which can run over a year behind."},
+    {name:"RBI Policy Stance", val:g.stance,
+     desc:"The MPC's declared posture as of its latest meeting — Neutral means no pre-commitment to a future hike or cut."},
+  ];
+  return rows.map(r=>`<div class="region-row">
+    <span class="rg-name"><span class="sig NA"></span>${esc(r.name)}</span>
+    <div class="rg-desc">${esc(r.desc)}</div>
+    <div class="rg-stats">
+      <span>${esc(String(r.val))}</span>
+      <span class="muted">RBI guidance</span>
+    </div>
+    <div class="rg-foot"><span>${esc(g.meeting_date)}</span></div>
+  </div>`).join("");
+}
+function renderMacroRegions(){
+  const el=document.getElementById("macro_regions");
+  if(!el) return;
+  const mi=DATA.macro_intel;
+  if(!mi || !(mi.indicators||[]).length){
+    el.innerHTML=`<div class="muted">No macro data yet — click "Refresh Macro Data" above.</div>`;
+    return;
+  }
+  el.innerHTML=MACRO_REGIONS.map(({country,flag,note})=>{
+    const all=(mi.indicators||[]).filter(i=>{
+      if(country==="India") return i.country==="India" || i.id==="brent";
+      if(country==="Global") return i.country==="Global" && i.id!=="brent";
+      return i.country===country;
+    });
+    const scored=all.filter(i=>i.contribution!=null);
+    const avg=scored.length? scored.reduce((s,i)=>s+i.contribution,0)/scored.length : null;
+    const band=regionBand(avg);
+    const inds=all.slice().sort((a,b)=>(a.category||"").localeCompare(b.category||"")||a.name.localeCompare(b.name));
+    const rows=inds.map(i=>{
+      const chgUnit=i.change_kind==="diff_pp"?"pp":"%";
+      const chg=i.change==null?"—":(i.change>0?"+":"")+i.change.toFixed(2)+chgUnit;
+      const chgCls=i.contribution==null?"":i.contribution>0?"pos":i.contribution<0?"neg":"";
+      const staleTag=i.stale?` <span class="muted" title="Latest observation is older than expected for this indicator's frequency">⏱ stale</span>`:"";
+      const link=i.source_url?`<a href="${esc(i.source_url)}" target="_blank" rel="noopener">source ↗</a>`:"";
+      const explain=MI_EXPLAIN[i.id]||i.note||"";
+      const catLabel=MI_CATEGORY_LABEL[i.category]||i.category;
+      const valFmt=(typeof i.latest_value==="number") ? i.latest_value.toLocaleString(undefined,{maximumFractionDigits:4}) : i.latest_value;
+      return `<div class="region-row">
+        <span class="rg-name"><span class="sig ${indicatorDotCls(i.contribution)}"></span>${esc(i.name)}</span>
+        <div class="rg-desc">${esc(explain)}</div>
+        <div class="rg-stats">
+          <span>${valFmt}<span class="muted"> ${esc(i.unit)}</span></span>
+          <span class="rg-chg ${chgCls}">${chg}</span>
+          <span class="muted">${esc(catLabel)}</span>
+        </div>
+        <div class="rg-foot"><span>${esc(i.latest_date)}${staleTag}</span>${link}</div>
+      </div>`;
+    }).join("") + (country==="India" ? rbiGuidanceRows() : "");
+    const rowsFinal = rows || `<div class="muted" style="font-size:12px">No indicators tracked yet.</div>`;
+    return `<div class="card region-card ${band}">
+      <div class="region-head">
+        <h3><span class="region-flag">${flag}</span>${esc(country)}</h3>
+        <span class="tag ${band}">${esc(REGION_BAND_LABEL[band])}${avg!=null?` (${avg>0?"+":""}${avg.toFixed(1)})`:""}</span>
+      </div>
+      ${rowsFinal}
+      ${note?`<div class="region-note">${esc(note)}</div>`:""}
+    </div>`;
+  }).join("");
+}
+
+/* macro_intel/macro_history.py's output -- deterministic (no LLM) trend narrative: how the
+   composite score moved since the last recorded run, the RBI repo rate's own status, and RBI's
+   own FY GDP/CPI forecast + any revision since the prior recorded MPC meeting. Every sentence
+   here is template text over real numbers already computed server-side -- this function only
+   lays it out, it doesn't compute anything itself. */
+function renderMacroTrend(){
+  const el=document.getElementById("macro_trend");
+  if(!el) return;
+  const mt=DATA.macro_trend;
+  if(!mt){ el.innerHTML=""; return; }
+  const section=(title, narrative)=> (narrative && narrative.length) ? `
+    <div style="margin-top:11px">
+      <span class="lbl" style="display:block;margin-bottom:4px">${esc(title)}</span>
+      ${narrative.map(n=>`<div class="muted" style="font-size:12.5px;line-height:1.5;margin-bottom:3px">${esc(n)}</div>`).join("")}
+    </div>` : "";
+  // Repo rate and RBI guidance sections were dropped from here per explicit user direction --
+  // both now only restate what the India region card's rbiGuidanceRows() already shows (current
+  // rate, current GDP/CPI forecast, current stance); this panel's only remaining job is the one
+  // thing not covered anywhere else, the composite score's own trend over time. The underlying
+  // repo_rate/rbi_guidance narrative is still computed and still sits in DATA.macro_trend if a
+  // future need brings them back.
+  el.innerHTML=`<div class="score-block" style="margin-top:14px">
+    <div class="score-head"><span class="lbl">Macro Trend</span>
+      <span class="muted" style="font-size:11px">computed ${esc((mt.computed_at||"").slice(0,16).replace("T"," "))} UTC</span></div>
+    ${section("India Macro Score trend", mt.score_trend && mt.score_trend.narrative)}
+  </div>`;
+}
+
+
+/* macro_intel/macro_predictions.py's output -- the feedback/learning loop: specific, checkable
+   claims logged once, resolved later against real newer data (never re-judged, never re-opened).
+   "open" means not enough new data yet, not "unclear" -- see that file's own docstring. */
+function predBadgeCls(p){ return p.status==="open" ? "na" : p.outcome==="hit" ? "intact" : "broken"; }
+function predBadgeText(p){ return p.status==="open" ? "OPEN" : p.outcome.toUpperCase(); }
+function renderMacroPredictions(){
+  const el=document.getElementById("macro_predictions");
+  if(!el) return;
+  const mp=DATA.macro_predictions;
+  if(!mp || !(mp.predictions||[]).length){ el.innerHTML=""; return; }
+  const rows=mp.predictions.slice()
+    .sort((a,b)=>(a.status===b.status?0:a.status==="open"?-1:1))
+    .map(p=>`<div class="pred-row">
+      <div class="pred-head">
+        <span class="pred-claim">${esc(p.claim)}</span>
+        <span class="tag ${predBadgeCls(p)}" style="flex:0 0 auto">${predBadgeText(p)}</span>
+      </div>
+      ${p.resolution_note?`<div class="pred-note">${esc(p.resolution_note)}</div>`:""}
+    </div>`).join("");
+  el.innerHTML=`<div class="score-block" style="margin-top:14px">
+    <div class="score-head"><span class="lbl">Macro Predictions — feedback &amp; learning</span>
+      <span class="muted" style="font-size:11px">${mp.open_count} open · ${mp.hit_count} hit · ${mp.miss_count} miss</span></div>
+    <div class="muted" style="font-size:11.5px;margin:6px 0 2px">Specific, checkable claims logged from macro analysis. Each resolves only once genuinely newer real data confirms or contradicts it — never re-judged, never guessed early.</div>
+    ${rows}
+  </div>`;
+}
+
+
+/* ============================================================= LLM PANELS */
+async function assessNews(){
+  const head=document.getElementById("headline").value.trim();
+  const status=document.getElementById("llmStatus");
+  const box=document.getElementById("impact");
+  if(!head){status.textContent="Enter a headline first.";return;}
+  const btn=document.getElementById("assessBtn");
+  btn.disabled=true; status.innerHTML=`<span class="spin"></span> tracing the cascade…`; box.className="impact";
+
+  const holdings=(DATA.holdings||[]).map(h=>({ticker:h.ticker,name:h.name,signal:h.signal,health:h.thesis_health,kill_criteria:h.kill_criteria}));
+  const payload = {event: head, book: holdings};
+
+  try{
+    const r=await callAdapter("/api/assess-news", payload);
+    status.textContent="";
+    const cards=(r.affected||[]).map(a=>{
+      const sev=(a.severity||"").toUpperCase();
+      const sevCls=sev==="HIGH"?"broken":sev==="MEDIUM"?"weakening":"intact";
+      const kc=(a.kill_criteria_touched||[]).map(k=>`<li>${esc(k)}</li>`).join("");
+      const ordL={1:"1st",2:"2nd",3:"3rd",4:"4th"};
+      const chain=(a.chain||[]).map((c,i)=>`<div class="branch"><div class="ord">${ordL[i+1]||(i+1)+"th"} order</div><div class="beff">${esc(c)}</div></div>`).join("");
+      return `<div class="card"><div class="corner"></div>
+        <h3>${esc(a.ticker)} <span class="tag ${sevCls}">${esc(a.severity||"")}</span></h3>
+        ${chain}
+        ${kc?`<span class="lbl">Moves toward kill-criteria</span><ul class="kc">${kc}</ul>`:`<div class="note">No stated kill-criterion breached — monitor only.</div>`}
+      </div>`;
+    }).join("");
+    box.innerHTML = `<div class="muted" style="margin-bottom:10px"><strong>${esc(r.summary||"")}</strong></div>${cards}
+      ${r.not_affected_note?`<div class="muted">${esc(r.not_affected_note)}</div>`:""}`;
+    box.className="impact show";
+  }catch(e){
+    status.innerHTML=`<span class="err">Couldn’t reach the model. Make sure serve.py is running and adapter/llm_adapter.py is configured — GEMINI_API_KEY set, google-genai installed (see README). [${esc(e.message)}]</span>`;
+  }finally{
+    btn.disabled=false;
+  }
+}
+
+
+async function refreshMacroData(){
+  const btn=document.getElementById("refreshMacroBtn");
+  const status=document.getElementById("refreshMacroStatus");
+  btn.disabled=true; btn.textContent="Fetching…";
+  status.innerHTML=`<span class="spin"></span> fetching FRED + commodity data…`;
+  try{
+    const res=await fetch("/api/refresh-macro",{method:"POST"});
+    const payload=await res.json();
+    if(!res.ok) throw new Error(payload.error||("server returned "+res.status));
+    const dres=await fetch("/dashboard_data.json",{cache:"no-store"});
+    if(dres.ok) DATA=await dres.json();
+    render();
+    status.textContent="Macro data refreshed — board updated at "+new Date().toLocaleTimeString();
+  }catch(e){
+    status.innerHTML=`<span class="err">Couldn't refresh macro data. This only works when the board is opened via \`python serve.py\`, and needs a free FRED_API_KEY set (see requirements.txt). [${esc(e.message)}]</span>`;
+  }finally{
+    btn.disabled=false; btn.textContent="Refresh Macro Data";
+  }
+}
+
+
+async function refreshNewsData(){
+  const btn=document.getElementById("refreshNewsBtn");
+  const status=document.getElementById("refreshNewsStatus");
+  btn.disabled=true; btn.textContent="Fetching…";
+  status.innerHTML=`<span class="spin"></span> fetching live news + triaging (a full run across the whole book can take a couple of minutes)…`;
+  try{
+    const res=await fetch("/api/refresh-news",{method:"POST"});
+    const payload=await res.json();
+    if(!res.ok) throw new Error(payload.error||("server returned "+res.status));
+    const dres=await fetch("/dashboard_data.json",{cache:"no-store"});
+    if(dres.ok) DATA=await dres.json();
+    render();
+    status.textContent="News refreshed — board updated at "+new Date().toLocaleTimeString()+". A factor's state only changes if fresh news is genuinely more severe than what's already there.";
+  }catch(e){
+    status.innerHTML=`<span class="err">Couldn't refresh news. This only works when the board is opened via \`python serve.py\`. [${esc(e.message)}]</span>`;
+  }finally{
+    btn.disabled=false; btn.textContent="Refresh News";
+  }
+}
+
+
+/* Shared by the live "Analyze India Impact" call and renderMacroImpactPanel() (the persisted
+   version loaded from DATA.macro_impact on page load) -- one markup builder so a fresh run and a
+   reload never drift out of sync with each other. */
+/* Turns a "\n\n"-separated block of prose into <p> tags, bolding **word** markdown (the prompt
+   asks the model to bold each sector name on first mention so it stays scannable inside a
+   paragraph). esc() runs first for XSS safety -- the bold regex only ever matches literal
+   asterisks, which esc() doesn't touch, so this ordering is safe. */
+function mdParagraphs(text){
+  if(!text) return "";
+  return text.split(/\n\s*\n/).map(p=>p.trim()).filter(Boolean)
+    .map(p=>`<p style="margin:0 0 14px;line-height:1.7;font-size:14.5px;color:var(--ivory)">${esc(p).replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>")}</p>`)
+    .join("");
+}
+/* Key figures the narrative below actually references, pulled straight from DATA.macro_intel
+   (already the source of truth the LLM call was given, just formatted consistently here rather
+   than trusting prose to render every decimal cleanly). Lets the paragraphs focus on the WHY
+   instead of re-stating every number -- the prompt is told this table exists so it doesn't
+   duplicate it. Split into India vs Global per explicit user direction, and the India half
+   includes every India figure captured from RBI -- not just the repo rate (the actual/lagged
+   indicators.py side) but also RBI's own forward GDP/CPI forecast and stance from
+   rbi_guidance.json (same source rbiGuidanceRows() reads for the India region card). */
+const MACRO_IMPACT_INDIA_IDS=["india_real_gdp","india_cpi","usdinr","india_repo_rate"];
+const MACRO_IMPACT_GLOBAL_IDS=["brent","us_10y_yield","us_dollar_index","vix"];
+function macroImpactIndicatorRow(i){
+  const chgUnit=i.change_kind==="diff_pp"?"pp":"%";
+  const chg=i.change==null?"—":(i.change>0?"+":"")+i.change.toFixed(2)+chgUnit;
+  const chgCls=i.contribution==null?"":i.contribution>0?"pos":i.contribution<0?"neg":"";
+  const valFmt=(typeof i.latest_value==="number")?i.latest_value.toLocaleString(undefined,{maximumFractionDigits:2}):i.latest_value;
+  return `<tr><td>${esc(i.name)}</td>
+    <td style="font-family:var(--mono);text-align:right;white-space:nowrap">${valFmt} <span class="muted">${esc(i.unit)}</span></td>
+    <td class="${chgCls}" style="font-family:var(--mono);text-align:right;white-space:nowrap">${chg}</td>
+    <td class="muted" style="font-family:var(--mono);font-size:11px;text-align:right;white-space:nowrap">${esc(i.latest_date)}</td></tr>`;
+}
+function macroImpactRbiGuidanceRows(){
+  const g=DATA.macro_trend && DATA.macro_trend.rbi_guidance && DATA.macro_trend.rbi_guidance.latest;
+  if(!g) return "";
+  const rows=[
+    [`RBI ${g.gdp_forecast_fy} GDP Forecast`, `${g.gdp_forecast_pct}%`],
+    [`RBI ${g.cpi_forecast_fy} CPI Forecast`, `${g.cpi_forecast_pct}%`],
+    ["RBI Policy Stance", g.stance],
+  ];
+  return rows.map(([name,val])=>`<tr><td>${esc(name)}</td>
+    <td style="font-family:var(--mono);text-align:right;white-space:nowrap">${esc(String(val))}</td>
+    <td class="muted" style="text-align:right">—</td>
+    <td class="muted" style="font-family:var(--mono);font-size:11px;text-align:right;white-space:nowrap">${esc(g.meeting_date)}</td></tr>`).join("");
+}
+function macroImpactTableBlock(title, trs){
+  if(!trs) return "";
+  return `<div style="margin-top:12px">
+    <span class="lbl" style="display:block;margin-bottom:4px;font-size:10.5px">${esc(title)}</span>
+    <div style="overflow-x:auto"><table class="ft-table">
+      <thead><tr><th>Key figure</th><th style="text-align:right">Value</th><th style="text-align:right">Change</th><th style="text-align:right">As of</th></tr></thead>
+      <tbody>${trs}</tbody>
+    </table></div>
+  </div>`;
+}
+function macroImpactKeyFiguresTable(){
+  const mi=DATA.macro_intel;
+  const findRows=ids=>ids.map(id=>(mi && mi.indicators||[]).find(i=>i.id===id)).filter(Boolean);
+  const indiaTrs=findRows(MACRO_IMPACT_INDIA_IDS).map(macroImpactIndicatorRow).join("") + macroImpactRbiGuidanceRows();
+  const globalTrs=findRows(MACRO_IMPACT_GLOBAL_IDS).map(macroImpactIndicatorRow).join("");
+  return macroImpactTableBlock("🇮🇳 India", indiaTrs) + macroImpactTableBlock("🌐 Global", globalTrs);
+}
+/* Static, hand-picked real links -- deliberately NOT something the LLM prompt generates, since a
+   model asked to cite "a good article" has no way to guarantee the URL it invents actually
+   exists. Both verified live via WebSearch before being hardcoded here: RBI's own official
+   financial-education microsite (India-specific monetary policy/RBI basics) and Economics Help
+   (economicshelp.org, a long-established general economics education site) for the exchange-
+   rate/inflation/interest-rate mechanics this panel discusses generally. */
+/* scenario_forecast -- 3 illustrative scenarios (Base/Bull/Bear), each with a QUALITATIVE
+   likelihood label the model was told never to turn into a fabricated percentage, plus
+   direction-only bank/market impact (no index level, no price target -- same "never a forecast
+   or signal" rule the rest of this panel already follows, just extended to a scenario table
+   since that's what was asked for). */
+function scenarioBand(scenario){
+  const s=(scenario||"").toLowerCase();
+  if(s.includes("bull")) return "intact";
+  if(s.includes("bear")) return "broken";
+  return "weakening";
+}
+/* macro_scenario_tracker.py's live, deterministic re-check of each scenario's
+   structured trigger_conditions against today's macro_intel indicator values --
+   see that script's own docstring for the in_force/partially_met/not_met/
+   not_in_force/unknown status logic (LLM states the condition, Python checks
+   the fact, same split as fae_pipeline.py's Gate 4.5 STATUS parsing). */
+function scenarioTrackingRow(scenarioName){
+  const st=DATA.scenario_tracking;
+  if(!st || !st.scenarios) return null;
+  return st.scenarios.find(x=>x.scenario===scenarioName) || null;
+}
+const TRACK_STATUS_TEXT={
+  in_force:"🟢 Currently tracking",
+  partially_met:"🟡 Partially met",
+  not_met:"⚪ Not triggered",
+  not_in_force:"⚪ No longer the base case",
+  unknown:"— not checked yet",
+};
+function trackingBadgeHtml(scenarioName){
+  const row=scenarioTrackingRow(scenarioName);
+  if(!row) return "";
+  const total=(row.conditions||[]).length;
+  const known=(row.conditions||[]).filter(c=>c.met!=null);
+  const met=known.filter(c=>c.met).length;
+  const countTxt = total ? ` (${met}/${total} conditions)` : "";
+  return `<span class="muted" style="font-size:11px">${esc((TRACK_STATUS_TEXT[row.status]||row.status||"")+countTxt)}</span>`;
+}
+function scenarioConditionRows(row, isBaseCase){
+  if(!row || !row.conditions || !row.conditions.length){
+    return isBaseCase
+      ? `<li class="p">Base Case has no thresholds of its own — it's the default state whenever neither Bull Case nor Bear Case has fully triggered below.</li>`
+      : `<li class="n">No structured conditions on this scenario yet — re-run "Analyze India Impact" to generate them.</li>`;
+  }
+  return row.conditions.map(c=>{
+    const icon = c.met==null ? "?" : (c.met ? "✅" : "—");
+    const rowCls = c.met ? "p" : "n";
+    const cmpTxt = c.comparator==="below" ? "below" : "above";
+    const nowTxt = c.latest_value==null ? "unknown" : `${c.latest_value} ${c.unit||""}`;
+    return `<li class="${rowCls}"><span style="margin-right:4px">${icon}</span>${esc(c.name||c.indicator_id)}: needs to go ${cmpTxt} ${c.threshold} ${esc(c.unit||"")} — currently ${esc(nowTxt)}</li>`;
+  }).join("");
+}
+function scenarioDetailHtml(s){
+  const row=scenarioTrackingRow(s.scenario);
+  const checkedAt=DATA.scenario_tracking && DATA.scenario_tracking.checked_at;
+  const checkedTxt=checkedAt ? `<span class="muted" style="font-size:11px">checked ${esc(checkedAt.slice(0,16).replace("T"," "))} UTC</span>` : "";
+  return `<div class="scard-h">
+      <div><h3>${esc(s.scenario||"")}</h3><div class="tk">${esc(s.likelihood||"")}</div></div>
+    </div>
+    <div class="note" style="margin-top:6px">${esc(s.trigger||"")}</div>
+    ${s.detail?`<div style="margin-top:10px;line-height:1.6;font-size:13.5px;color:var(--ivory)">${esc(s.detail)}</div>`:""}
+    <div style="margin-top:14px;display:flex;justify-content:space-between;align-items:center">
+      <span class="lbl" style="font-size:10.5px">Live condition check</span>${checkedTxt}
+    </div>
+    <ul class="rlist" style="margin-top:4px">${scenarioConditionRows(row, (s.scenario||"").toLowerCase().includes("base"))}</ul>
+    <div class="proposal">Illustrative scenario analysis, not a forecast or a trading signal — this only checks whether the named conditions have crossed, never whether you should act on it.</div>`;
+}
+function showScenarioDetail(scenarioName){
+  const forecast=(DATA.macro_impact && DATA.macro_impact.scenario_forecast) || [];
+  const s=forecast.find(x=>x.scenario===scenarioName);
+  if(!s) return;
+  openModal(scenarioDetailHtml(s));
+}
+function macroImpactScenarioTable(scenarios){
+  if(!scenarios || !scenarios.length) return "";
+  const rows=scenarios.map(s=>{
+    const name=s.scenario||"";
+    const badge=trackingBadgeHtml(name);
+    return `<tr>
+      <td><span class="tag ${scenarioBand(name)}">${esc(name)}</span></td>
+      <td>${esc(s.likelihood||"")}</td>
+      <td>${esc(s.trigger||"")}
+        <div style="margin-top:6px">${badge}${badge?" · ":""}<span class="flag flag-trigger" style="cursor:pointer" onclick="showScenarioDetail('${esc(name)}')" role="button" tabindex="0"
+          onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showScenarioDetail('${esc(name)}')}">Why this level ↗</span></div>
+      </td>
+      <td>${esc(s.bank_impact||"")}</td>
+      <td>${esc(s.market_impact||"")}</td>
+    </tr>`;
+  }).join("");
+  return `<div style="margin-top:14px">
+    <span class="lbl" style="display:block;margin-bottom:2px">Scenario forecast — India banks &amp; stock market</span>
+    <div class="muted" style="font-size:11px;margin-bottom:6px">Illustrative scenario analysis, not a probability-weighted forecast or a trading signal — likelihood is a qualitative read, never a fabricated percentage. "Why this level" shows which of the named conditions have actually crossed, checked against live data.</div>
+    <div style="overflow-x:auto"><table class="ft-table">
+      <thead><tr><th>Scenario</th><th>Likelihood</th><th>Trigger</th><th>Banks</th><th>Nifty / Sensex</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table></div>
+  </div>`;
+}
+function macroImpactFurtherReading(){
+  return `<div style="margin-top:14px">
+    <span class="lbl" style="display:block;margin-bottom:6px">Further reading</span>
+    <ul class="kc">
+      <li><a href="https://www.rbi.org.in/FinancialEducation/" target="_blank" rel="noopener">RBI Financial Education</a> — the central bank's own plain-language guide to monetary policy, interest rates, and how RBI decisions work</li>
+      <li><a href="https://www.economicshelp.org/blog/5394/interest-rates/interest-rates-and-exchange-rate/" target="_blank" rel="noopener">Economics Help: Interest Rates and Exchange Rates</a> — a clear general explainer of the mechanics behind the transmission chains described above</li>
+    </ul>
+  </div>`;
+}
+function buildMacroImpactHtml(r){
+  const stamp=r.computed_at?`<span class="muted" style="font-size:11px">computed ${esc(r.computed_at.slice(0,16).replace("T"," "))} UTC</span>`:"";
+  return `<div class="score-block" style="margin-top:14px">
+    <div class="score-head"><span class="lbl">India Impact — Model Interpretation, Not a Forecast</span>${stamp}</div>
+    <div style="margin-top:8px">${mdParagraphs(r.summary)}</div>
+    ${macroImpactKeyFiguresTable()}
+    ${r.transmission_narrative?`<span class="lbl" style="display:block;margin:14px 0 6px">How this reaches India</span>${mdParagraphs(r.transmission_narrative)}`:""}
+    ${r.sector_narrative?`<span class="lbl" style="display:block;margin:14px 0 6px">Sector &amp; asset impact</span>${mdParagraphs(r.sector_narrative)}`:""}
+    ${r.watch_narrative?`<span class="lbl" style="display:block;margin:14px 0 6px">What would change this read</span>${mdParagraphs(r.watch_narrative)}`:""}
+    ${macroImpactScenarioTable(r.scenario_forecast)}
+    ${macroImpactFurtherReading()}
+  </div>`;
+}
+function renderMacroImpactPanel(){
+  const el=document.getElementById("macro_impact_panel");
+  if(!el) return;
+  el.innerHTML = DATA.macro_impact ? buildMacroImpactHtml(DATA.macro_impact) : "";
+}
+async function analyzeMacroImpact(){
+  const btn=document.getElementById("analyzeMacroBtn");
+  const status=document.getElementById("analyzeMacroStatus");
+  const mi=DATA.macro_intel;
+  if(!mi || mi.score==null){
+    status.innerHTML=`<span class="err">No macro data yet — click "Refresh Macro Data" first.</span>`;
+    return;
+  }
+  btn.disabled=true; status.innerHTML=`<span class="spin"></span> tracing the India transmission chain…`;
+  try{
+    const r=await callAdapter("/api/analyze-macro-impact", {macro_intel: mi});
+    status.textContent="";
+    DATA.macro_impact=r.macro_impact;
+    if(r.scenario_tracking) DATA.scenario_tracking=r.scenario_tracking;
+    renderMacroImpactPanel();
+    document.getElementById("macro_impact_panel").scrollIntoView({behavior:"smooth", block:"start"});
+  }catch(e){
+    status.innerHTML=`<span class="err">Couldn't reach the model. Make sure serve.py is running and adapter/llm_adapter.py is configured — GEMINI_API_KEY set, google-genai installed. [${esc(e.message)}]</span>`;
+  }finally{
+    btn.disabled=false;
+  }
+}
+
+function render(){
+  document.getElementById("asof").textContent = "as of "+(DATA.as_of||DATA.generated||"\u2014");
+  renderMacroImpactPanel(); renderMacroRegions(); renderMacroTrend();
+  renderFooter(); buildQuickNav();
+}
+boot(render);
+
+</script>
+</body>
+</html>

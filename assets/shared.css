@@ -1,0 +1,541 @@
+  :root{
+    --ground:#f7f3ea;        /* warm parchment desk */
+    --ground-2:#faf7f0;
+    --panel:#fdfbf6;         /* paper white -- cards sit lighter than the desk */
+    --panel-2:#f1ece0;
+    --panel-3:#e9e2d2;       /* one step darker -- hover/elevated surfaces */
+    --line:#3a423608;
+    --hair:#d8cdb8;
+    --hair-bright:#b5a888;   /* darkened hairline for hover borders (light theme: more visible = darker) */
+    --ivory:#2a2118;         /* ink -- primary text (name kept for compatibility with existing rules) */
+    --ivory-dim:#6b5f4d;
+    --herb:#7a2331;          /* oxblood -- primary accent/links (name kept for compatibility) */
+    --herb-deep:#5c1a25;
+    --herb-bright:#9c3345;
+    --brass:#6e4e17;         /* brass label, darkened for AA contrast on parchment */
+    --brass-bright:#8a6420;
+    --sage:#366b46;          /* INTACT */
+    --amber:#8a5f1f;         /* WEAKENING */
+    --rust:#a13e2e;          /* BROKEN / RED */
+    --green:#366b46;
+    --red:#a13e2e;
+    --disp:'Source Serif 4',Georgia,'Times New Roman',serif;
+    --body:'Source Sans 3',system-ui,-apple-system,sans-serif;
+    --mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+
+    --sp-1:4px; --sp-2:8px; --sp-3:12px; --sp-4:16px; --sp-5:22px; --sp-6:32px;
+    --r-1:1px; --r-2:2px; --r-3:3px; --r-4:4px;
+    --shadow-1:0 1px 2px rgba(90,60,20,.10);
+    --shadow-2:0 8px 20px -8px rgba(70,45,15,.20), 0 2px 6px -2px rgba(70,45,15,.12);
+    --shadow-inset:inset 0 1px 2px rgba(70,45,15,.14);
+    --dur:.16s; --ease:cubic-bezier(.4,0,.2,1);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  html{scroll-behavior:smooth}
+  body{background:
+        radial-gradient(1100px 520px at 50% -8%, var(--ground-2), transparent 60%),
+        var(--ground);
+       color:var(--ivory);font-family:var(--body);
+       font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+  a{color:var(--herb);transition:color var(--dur) var(--ease)}
+  a:hover{color:var(--herb-bright)}
+  ::selection{background:var(--herb-deep);color:var(--panel)}
+  /* thin, themed scrollbars -- default OS chrome breaks the cabinet-drawer feel
+     on the horizontally-scrolling tables/pipeline log */
+  *{scrollbar-width:thin;scrollbar-color:var(--hair-bright) transparent}
+  *::-webkit-scrollbar{width:9px;height:9px}
+  *::-webkit-scrollbar-track{background:transparent}
+  *::-webkit-scrollbar-thumb{background:var(--hair-bright);border-radius:5px;border:2px solid var(--ground)}
+  *::-webkit-scrollbar-thumb:hover{background:var(--brass)}
+  .wrap{max-width:1560px;margin:0 auto;padding:0 18px 30px}
+  /* baseline keyboard-focus ring for every interactive element -- several
+     custom clickable spans (sort headers, FAE/trigger badges) have no
+     native focus style at all without this */
+  a:focus-visible,button:focus-visible,[tabindex]:focus-visible{
+    outline:2px solid var(--herb);outline-offset:2px;border-radius:2px}
+  @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+  /* ---- quick nav ---- */
+  .quicknav{position:sticky;top:0;z-index:50;display:flex;gap:4px;overflow-x:auto;
+            background:rgba(247,243,234,.88);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+            border-bottom:1px solid var(--hair);
+            padding:6px 18px;margin:0 -18px 16px;font-family:var(--mono)}
+  .quicknav a{flex:0 0 auto;padding:4px 9px;border-radius:var(--r-1);font-size:11px;color:var(--ivory-dim);
+             text-decoration:none;border:1px solid transparent;white-space:nowrap;
+             transition:color var(--dur) var(--ease),border-color var(--dur) var(--ease),background var(--dur) var(--ease)}
+  .quicknav a:hover{color:var(--ivory);border-color:var(--hair);background:var(--panel)}
+  .quicknav a.active{color:var(--ivory);border-color:var(--herb-deep);background:var(--panel-2)}
+  .quicknav a.active b{color:var(--herb-bright)}
+  .quicknav a b{color:var(--brass);font-weight:500;margin-right:3px}
+  .quicknav .qnav-label{display:inline-block;max-width:140px;overflow:hidden;text-overflow:ellipsis;
+    white-space:nowrap;vertical-align:bottom}
+  @media(max-width:720px){.quicknav .qnav-label{display:none}}
+  /* jump targets must clear the sticky quicknav bar, or the section heading
+     lands hidden underneath it instead of visible at the top of the viewport */
+  .sec{scroll-margin-top:52px}
+
+  /* ---- primary tabs: My Portfolio / General Portfolio (watchlist) / Macro Intel ---- */
+  .tabbar{display:flex;gap:8px;margin:14px 0 18px}
+  .tab-btn{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    background:var(--panel);color:var(--ivory-dim);border:1px solid var(--hair);
+    padding:9px 18px;border-radius:var(--r-3);cursor:pointer;text-decoration:none;display:inline-block;
+    transition:background var(--dur) var(--ease),color var(--dur) var(--ease),border-color var(--dur) var(--ease)}
+  .tab-btn:hover{color:var(--ivory);border-color:var(--hair-bright);background:var(--panel-2)}
+  .tab-btn.active{background:var(--herb-deep);color:var(--panel);border-color:var(--herb)}
+  .tab-panel{display:none}
+  .tab-panel.active{display:block}
+
+  /* ---- masthead ---- */
+  header.mast{border-bottom:1px solid var(--hair);padding:16px 0 12px;margin-bottom:14px;position:relative}
+  header.mast:after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:1px;
+    background:linear-gradient(90deg,var(--herb-deep),transparent 55%)}
+  .mast-top{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap}
+  .word{font-family:var(--disp);font-weight:500;font-size:32px;letter-spacing:.01em}
+  .word b{color:var(--herb);font-weight:600}
+  .word .sub{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.28em;
+             text-transform:uppercase;color:var(--ivory-dim);margin-top:5px}
+  .asof{font-family:var(--mono);font-size:12px;color:var(--ivory-dim);text-align:right}
+  .asof #asof{padding:3px 9px;border:1px solid var(--hair);border-radius:var(--r-1);background:var(--panel);display:inline-block}
+  .asof button{margin-top:8px}
+
+  /* ---- vital signs hero ---- */
+  .vitals{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr 1fr;gap:1px;background:var(--hair);
+          border:1px solid var(--hair);border-radius:var(--r-3);overflow:hidden;margin-top:14px;box-shadow:var(--shadow-2)}
+  .vital{background:var(--ground-2);padding:10px 15px;transition:background var(--dur) var(--ease)}
+  .vital:hover{background:var(--panel-2)}
+  .vital .k{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ivory-dim)}
+  .vital .v{font-family:var(--disp);font-size:28px;font-weight:500;margin-top:4px;line-height:1;font-variant-numeric:tabular-nums}
+  .vital .v small{font-size:14px;color:var(--ivory-dim);font-family:var(--body)}
+  .health-bar{display:flex;height:12px;margin-top:9px;border-radius:var(--r-1);overflow:hidden;background:var(--hair);box-shadow:var(--shadow-inset)}
+  .health-bar span{display:block;transition:width .4s var(--ease)}
+  .health-legend{display:flex;gap:14px;margin-top:6px;font-family:var(--mono);font-size:11px;color:var(--ivory-dim)}
+  .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;vertical-align:middle}
+  .pos{color:var(--sage)}.neg{color:var(--rust)}
+
+  /* ---- section headers ---- */
+  .sec{margin:26px 0 10px;display:flex;align-items:baseline;gap:14px}
+  .sec .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.2em;color:var(--brass);text-transform:uppercase;flex:0 0 auto}
+  .sec h2{font-family:var(--disp);font-weight:500;font-size:23px;margin:0}
+  .sec .rule{flex:1;height:1px;background:linear-gradient(90deg,var(--hair),transparent)}
+
+  /* ---- specimen grid ---- */
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:10px}
+  /* region cards vary wildly in content length (US carries 11 indicators, China 2) -- without
+     this, CSS Grid stretches every card in a row to match the tallest, leaving huge empty space
+     in the shorter ones */
+  #macro_regions{align-items:start}
+  .card{background:var(--panel);border:1px solid var(--hair);border-radius:var(--r-3);padding:12px 14px;position:relative;
+        box-shadow:var(--shadow-1);transition:border-color var(--dur) var(--ease),box-shadow var(--dur) var(--ease),transform var(--dur) var(--ease)}
+  .card:hover{border-color:var(--hair-bright);box-shadow:var(--shadow-2);transform:translateY(-1px)}
+  .card .corner{position:absolute;top:0;right:0;width:0;height:0;
+                border-top:22px solid var(--herb-deep);border-left:22px solid transparent;opacity:.55;border-top-right-radius:var(--r-3)}
+  .card h3{font-family:var(--disp);font-size:19px;font-weight:600;margin:0 0 2px}
+  .card .tk{font-family:var(--mono);font-size:11px;color:var(--ivory-dim);letter-spacing:.06em}
+  .tag{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+       padding:2px 7px;border-radius:var(--r-1);border:1px solid;vertical-align:middle}
+  .tag.intact{color:var(--sage);border-color:#366b4655;background:#366b4611}
+  .tag.weakening{color:var(--amber);border-color:#8a5f1f55;background:#8a5f1f11}
+  .tag.broken{color:var(--rust);border-color:#a13e2e55;background:#a13e2e11}
+  .tag.na{color:var(--ivory-dim);border-color:var(--hair);background:transparent}
+  .sig{width:9px;height:9px;border-radius:50%;display:inline-block;margin-right:6px}
+  .sig.GREEN{background:var(--sage)}.sig.AMBER{background:var(--amber)}.sig.RED{background:var(--rust)}
+  .sig.NA{background:var(--hair-bright)}
+
+  /* ---- macro-by-region cards (India / US / China) ---- */
+  .region-card{border-left-width:3px;border-left-style:solid;border-left-color:var(--hair)}
+  .region-card.intact{border-left-color:var(--sage)}
+  .region-card.weakening{border-left-color:var(--amber)}
+  .region-card.broken{border-left-color:var(--rust)}
+  .region-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-bottom:8px;flex-wrap:wrap}
+  .region-flag{font-size:19px;margin-right:6px;vertical-align:middle}
+  .region-avg{font-family:var(--mono);font-size:11px;color:var(--ivory-dim);display:block;margin-top:2px}
+  .region-row{padding:8px 0;font-size:12px}
+  .region-row+.region-row{border-top:1px dashed var(--hair)}
+  .region-row .rg-name{color:var(--ivory);display:flex;align-items:center;font-weight:500}
+  .region-row .rg-desc{font-size:11.5px;color:var(--ivory-dim);margin:4px 0 6px;line-height:1.4}
+  .region-row .rg-stats{display:flex;align-items:baseline;flex-wrap:wrap;gap:3px 10px;font-family:var(--mono);font-size:12px}
+  .region-row .rg-chg{color:var(--ivory-dim)}
+  .region-row .rg-chg.pos{color:var(--sage)}
+  .region-row .rg-chg.neg{color:var(--rust)}
+  .region-row .rg-foot{display:flex;justify-content:space-between;font-size:10px;color:var(--ivory-dim);margin-top:4px}
+  .region-row .rg-foot a{color:var(--brass);text-decoration:none}
+  .region-row .rg-foot a:hover{text-decoration:underline}
+  .region-note{font-size:10.5px;color:var(--ivory-dim);margin-top:8px;font-style:italic}
+
+  /* ---- macro predictions (macro_intel/macro_predictions.py) ---- */
+  .pred-row{padding:8px 0}
+  .pred-row+.pred-row{border-top:1px dashed var(--hair)}
+  .pred-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+  .pred-claim{font-size:12.5px;color:var(--ivory);line-height:1.4}
+  .pred-note{font-size:11.5px;color:var(--ivory-dim);margin-top:4px;font-style:italic}
+  .ft-summary{font-size:13px;color:var(--ivory-dim);margin:-2px 0 10px}
+  .ft-summary b{color:var(--ivory)}
+  .ft-table tr.ft-nodata td{color:var(--ivory-dim);opacity:.65}
+  .ft-table{width:100%;border-collapse:collapse;font-size:12.5px}
+  .ft-table th{text-align:left;font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ivory-dim);padding:4px 9px;border-bottom:1px solid var(--hair)}
+  .ft-table th.sortable{cursor:pointer;user-select:none;white-space:nowrap}
+  .ft-table th.sortable:hover{color:var(--ivory)}
+  .ft-table th.sortable.active{color:var(--brass)}
+  .ft-table th.sortable:focus-visible,.wlist-head .sortable:focus-visible{
+    outline:1.5px solid var(--herb);outline-offset:2px;border-radius:2px;color:var(--ivory)}
+  .ft-table td{padding:4px 9px;border-bottom:1px solid var(--hair);vertical-align:middle;font-family:var(--mono);transition:background var(--dur) var(--ease)}
+  .ft-table tbody tr:hover td{background:var(--panel-2)}
+  .ft-table tr.ft-flag td{background:rgba(161,62,46,.06)}
+  .ft-table tr.ft-flag:hover td{background:rgba(161,62,46,.12)}
+  .ft-table td.neg{color:var(--rust)}
+  .ft-table td.ft-seq{color:var(--ivory-dim);font-size:11px;width:1%}
+  .ft-table .spark{width:80px;margin:0}
+  .metrics{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px 10px;margin:9px 0 8px}
+  .metrics div{font-family:var(--mono)}
+  .metrics .mk{font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ivory-dim)}
+  .metrics .mv{font-size:16px;color:var(--ivory)}
+  .spark{height:26px;width:100%;margin:2px 0 8px;display:block}
+  .note{font-size:12.5px;color:var(--ivory-dim);border-top:1px dashed var(--hair);padding-top:9px;margin-top:4px}
+  .kc{margin:8px 0 0;padding:0;list-style:none}
+  .kc li{font-size:11.5px;color:var(--ivory-dim);padding-left:14px;position:relative;margin-bottom:2px}
+  .kc li:before{content:"›";position:absolute;left:0;color:var(--rust)}
+  /* .lbl is used as a generic section-label span in ~15 places across this file (Component
+     Score, Reverse DCF, Piotroski, Macro Trend, the India Impact panel, etc.) but had no base
+     rule of its own -- only the more specific .kc .lbl below, so every other use rendered as
+     completely unstyled plain text. This is the actual fix for "make heading bold", not a
+     one-off inline style on a single panel. */
+  .lbl{font-weight:700;color:var(--ivory)}
+  .kc .lbl{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--brass);display:block;margin:9px 0 3px}
+
+  button{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+         background:var(--panel);color:var(--herb);border:1px solid var(--herb-deep);
+         padding:6px 11px;border-radius:var(--r-2);cursor:pointer;
+         transition:background var(--dur) var(--ease),color var(--dur) var(--ease),border-color var(--dur) var(--ease),transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease)}
+  button:hover{background:var(--herb-deep);color:var(--panel);border-color:var(--herb);box-shadow:var(--shadow-1)}
+  button:active{transform:translateY(1px)}
+  button:disabled{opacity:.45;cursor:wait;transform:none}
+  /* solid-fill variant for the one primary action per panel -- everything else
+     defaults to the outline style above, so a page of identical buttons doesn't
+     leave the user guessing which one actually matters */
+  button.btn-primary{background:var(--herb-deep);color:var(--panel);border-color:var(--herb)}
+  button.btn-primary:hover{background:var(--herb);color:var(--ground);border-color:var(--herb-bright)}
+  /* shared form-field look -- used with class="field" so the many inputs in
+     Run Pipeline / Record a Trade / Trace a Headline don't each repeat the
+     same background/border/padding as an inline style (which would also
+     block them from ever picking up a hover/focus state). */
+  input.field,select.field,textarea.field{
+    background:var(--ground);color:var(--ivory);border:1px solid var(--hair);
+    border-radius:var(--r-2);padding:8px 10px;font-family:var(--mono);font-size:12px;
+    transition:border-color var(--dur) var(--ease),box-shadow var(--dur) var(--ease)}
+  textarea.field{font-family:var(--body);font-size:13.5px}
+  input.field:hover,select.field:hover,textarea.field:hover{border-color:var(--hair-bright)}
+  input.field:focus,select.field:focus,textarea.field:focus{
+    outline:none;border-color:var(--herb);box-shadow:0 0 0 3px rgba(127,174,143,.18)}
+  input.field::placeholder,textarea.field::placeholder{color:var(--ivory-dim);opacity:.65}
+  .verdict{margin-top:11px;border-top:1px solid var(--hair);padding-top:10px;font-size:12.5px;display:none}
+  .verdict.show{display:block}
+  .verdict .vh{font-family:var(--mono);font-size:12px;letter-spacing:.06em}
+  .verdict ul{margin:6px 0 0;padding-left:16px}
+  .verdict li{margin-bottom:3px;color:var(--ivory-dim)}
+
+  /* ---- live alerts ---- */
+  .alert-cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .alsub{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--brass);margin-bottom:8px}
+  .alist{display:flex;flex-direction:column;gap:6px}
+  .alert{background:var(--panel);border:1px solid var(--hair);border-left-width:3px;border-radius:var(--r-2);padding:8px 12px;
+        box-shadow:var(--shadow-1);transition:border-color var(--dur) var(--ease),transform var(--dur) var(--ease)}
+  .alert:hover{border-color:var(--hair-bright);transform:translateX(1px)}
+  .alert.high{border-left-color:var(--rust)}
+  .alert.medium{border-left-color:var(--amber)}
+  .alert.low{border-left-color:var(--ivory-dim)}
+  .alert-h{display:flex;align-items:center;gap:9px;margin-bottom:5px}
+  .sev{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;padding:1px 6px;border-radius:2px;border:1px solid}
+  .sev.high{color:var(--rust);border-color:#a13e2e66;background:#a13e2e12}
+  .sev.medium{color:var(--amber);border-color:#8a5f1f66;background:#8a5f1f12}
+  .sev.low{color:var(--ivory-dim);border-color:var(--hair)}
+  .atk{font-family:var(--mono);font-size:12px;color:var(--ivory);font-weight:500}
+  .timp{font-family:var(--mono);font-size:9.5px;padding:1px 6px;border-radius:2px;border:1px solid;margin-left:auto}
+  .timp.threatens{color:var(--rust);border-color:#a13e2e66}
+  .timp.watch{color:var(--amber);border-color:#8a5f1f66}
+  .timp.intact{color:var(--sage);border-color:#366b4666}
+  .atitle{font-size:13px;line-height:1.4}
+  .akc{font-family:var(--mono);font-size:11px;color:var(--rust);margin-top:6px}
+  .ahits{display:flex;gap:6px;flex-wrap:wrap;margin-top:7px}
+  .alink{font-family:var(--mono);font-size:10.5px;color:var(--herb);display:inline-block;margin-top:7px;text-decoration:none}
+  @media(max-width:720px){.alert-cols{grid-template-columns:1fr}}
+
+  /* compact one-line alert row */
+  .alsub2{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ivory-dim);margin:10px 0 6px}
+  .alist-compact{display:flex;flex-direction:column;gap:1px}
+  .arow{display:flex;align-items:baseline;gap:7px;padding:5px 6px;border-radius:2px;border-left:2px solid transparent;font-size:11.5px;line-height:1.35}
+  .arow.high{border-left-color:var(--rust)}
+  .arow.medium{border-left-color:var(--amber)}
+  .arow.low{border-left-color:var(--ivory-dim)}
+  .arow:hover{background:var(--panel)}
+  .arow .adot{font-family:var(--mono);font-size:8.5px;letter-spacing:.06em;flex:0 0 auto;padding:1px 5px;border-radius:2px;border:1px solid;text-transform:uppercase}
+  .arow .adot.high{color:var(--rust);border-color:#a13e2e66}
+  .arow .adot.medium{color:var(--amber);border-color:#8a5f1f66}
+  .arow .adot.low{color:var(--ivory-dim);border-color:var(--hair)}
+  .arow .atk2{font-family:var(--mono);font-size:11px;color:var(--ivory);flex:0 0 auto}
+  .arow .atxt{flex:1 1 auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--ivory-dim)}
+  .arow .asrc{flex:0 0 auto;font-family:var(--mono);font-size:9.5px;color:var(--herb);text-decoration:none;opacity:.75}
+  .arow .asrc:hover{opacity:1}
+  .cascade-mini{font-family:var(--mono);font-size:9.5px;color:var(--ivory-dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:1 1 auto}
+
+  /* compact one-line watchlist row -- grid, not flex, so every row's columns
+     line up vertically across the whole list instead of drifting per-row
+     with content length (a plain flex row can't do that). */
+  /* every column but the note is a fixed width, not auto/fr sized to that
+     row's own content -- each .wrow is its own independent grid container,
+     so an `auto` track (e.g. sized to how many links a row has) computes
+     differently per row and the columns after it drift out of alignment;
+     keeping every track but the note fixed keeps the note's 1fr identical
+     across every row, so the whole list still lines up as one table. */
+  :root{ --wgrid: 26px 18px minmax(130px,170px) 76px minmax(100px,130px) minmax(100px,130px) 210px minmax(160px,1fr) 168px; }
+  /* overflow-x:auto, not hidden -- on any viewport narrower than the grid's
+     natural width (~1130px, common on laptops), `hidden` was silently
+     clipping the Price/PE/ROCE/D-E/Note/Links columns with no way to see
+     them at all. auto still clips to the rounded corners, but scrolls. */
+  .wlist-compact{display:flex;flex-direction:column;border:1px solid var(--hair);border-radius:var(--r-3);overflow-x:auto;box-shadow:var(--shadow-1)}
+  .wlist-head{display:grid;grid-template-columns:var(--wgrid);column-gap:12px;padding:5px 12px;
+    font-family:var(--mono);font-size:9px;letter-spacing:.09em;text-transform:uppercase;color:var(--ivory-dim);
+    background:var(--panel);border-bottom:1px solid var(--hair)}
+  .wlist-head span:last-child{text-align:right}
+  .wlist-head .wmetrics{display:grid;grid-template-columns:60px 44px 46px 42px;column-gap:6px}
+  .wlist-head .wmetrics span{text-align:right;overflow:hidden;text-overflow:ellipsis}
+  .wlist-head .sortable{cursor:pointer;user-select:none}
+  .wlist-head .sortable:hover{color:var(--ivory)}
+  .wlist-head .sortable.active{color:var(--brass)}
+  .sort-hint{opacity:.35;font-size:9px}
+  .sortable:hover .sort-hint{opacity:.7}
+  .wrow{display:grid;grid-template-columns:var(--wgrid);align-items:center;column-gap:12px;
+    padding:4px 12px;border-left:2px solid transparent;font-size:11.5px;line-height:1.3;
+    border-bottom:1px solid var(--hair);transition:background .1s}
+  .wrow:last-child{border-bottom:none}
+  .wrow:nth-child(even){background:var(--panel-2)}
+  .wrow.buycand{border-left-color:var(--sage)}
+  .wrow.watch{border-left-color:var(--amber)}
+  .wrow.monitor{border-left-color:var(--ivory-dim)}
+  .wrow.pause{border-left-color:var(--rust)}
+  .wrow:hover{background:var(--panel)}
+  .wrow .wseq{color:var(--ivory-dim);font-size:10px;text-align:right;font-family:var(--mono)}
+  .wrow .wflag{font-size:11px;text-align:center;line-height:1}
+  .wrow .wname{font-family:var(--body);font-weight:500;font-size:12px;color:var(--ivory);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .wrow .wtk{font-family:var(--mono);font-size:9.5px;color:var(--ivory-dim);background:var(--ground);
+    border:1px solid var(--hair);border-radius:3px;padding:2px 6px;text-align:center;white-space:nowrap;justify-self:start}
+  .wrow .wstatus{font-family:var(--disp);font-style:italic;font-weight:600;font-size:11.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .wrow .wstatus.buycand{color:var(--sage)}
+  .wrow .wstatus.watch{color:var(--amber)}
+  .wrow .wstatus.monitor{color:var(--ivory-dim)}
+  .wrow .wstatus.pause{color:var(--rust)}
+  .wrow .wbuyzone{font-family:var(--mono);font-size:10.5px;color:var(--brass);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  /* Price/PE/ROCE/D-E as their own fixed-width sub-columns, not one joined
+     string -- a string like "₹862 · 59.16x PE · 47.21% ROCE" ragged-aligns
+     differently per row depending which fields exist; separate slots keep
+     every metric under the same header regardless of which are missing. */
+  .wrow .wmetrics{display:grid;grid-template-columns:60px 44px 46px 42px;column-gap:6px;
+    font-family:var(--mono);font-size:10px}
+  .wrow .wmetrics span{overflow:hidden;text-overflow:ellipsis;text-align:right}
+  .wrow .wmetrics .wm-empty{color:var(--hair)}
+  .wrow .wmetrics .wm-price{color:var(--ivory)}
+  .wrow .wmetrics .wm-pe{color:var(--brass)}
+  .wrow .wmetrics .wm-roce{color:var(--sage)}
+  .wrow .wmetrics .wm-de{color:var(--ivory-dim)}
+  .wrow .wmetrics .wm-de.flag{color:var(--rust)}
+  .wrow .wconcern{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--ivory-dim);font-size:11px}
+  .wrow .wlinks{display:flex;gap:8px;justify-self:end;align-items:center}
+  .wrow .wlinks a, .wrow .wlinks .fae-badge{font-size:9.5px;white-space:nowrap}
+
+  /* macro alert card -- deliberately NOT the compact one-line company row:
+     a macro item carries a multi-level cascade + a list of reachable holdings,
+     neither of which survives being squeezed into one ellipsis-truncated line */
+  .macro-card{background:var(--panel);border:1px solid var(--hair);border-left:3px solid transparent;
+              border-radius:3px;padding:7px 12px;margin-bottom:4px}
+  .macro-card.high{border-left-color:var(--rust)}
+  .macro-card.medium{border-left-color:var(--amber)}
+  .macro-card.low{border-left-color:var(--ivory-dim)}
+  .macro-card-head{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+  .macro-card-factor{font-family:var(--mono);font-size:10px;letter-spacing:.04em;color:var(--brass);flex:0 0 auto}
+  .macro-card-title{font-size:12.5px;color:var(--ivory);flex:1 1 260px;line-height:1.4}
+  .macro-card-src{font-family:var(--mono);font-size:9.5px;color:var(--ivory-dim);flex:0 0 auto}
+  .macro-chain{font-size:11px;color:var(--ivory-dim);line-height:1.7;margin:7px 0}
+  .macro-chain b{color:var(--ivory);font-family:var(--mono);font-size:9.5px;margin-right:3px}
+  .macro-affected{margin-top:7px}
+  .macro-affected-lbl{font-family:var(--mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--ivory-dim);display:block;margin-bottom:5px}
+  .macro-affected-list{display:flex;flex-wrap:wrap;gap:5px}
+  .hit-owned{border-color:var(--brass) !important;color:var(--brass) !important}
+
+  /* ---- framework screen ---- */
+  .screen-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:10px}
+  .scard{background:var(--panel);border:1px solid var(--hair);border-left-width:3px;border-radius:var(--r-3);padding:12px 14px;
+        box-shadow:var(--shadow-1);transition:border-color var(--dur) var(--ease),box-shadow var(--dur) var(--ease),transform var(--dur) var(--ease)}
+  .scard:hover{border-color:var(--hair-bright);box-shadow:var(--shadow-2);transform:translateY(-1px)}
+  .scard.buycand{border-left-color:var(--sage)}
+  .scard.watch{border-left-color:var(--amber)}
+  .scard.monitor{border-left-color:var(--ivory-dim)}
+  .scard.pause{border-left-color:var(--rust)}
+  .scard-h{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+  .scard h3{font-family:var(--disp);font-size:18px;font-weight:600;margin:0}
+  .cls{font-family:var(--disp);font-style:italic;font-weight:600;font-size:12px;letter-spacing:0;text-align:right;max-width:150px;padding:3px 8px;border-radius:2px;border:1px solid}
+  .cls.buycand{color:var(--sage);border-color:#366b4655;background:#366b4610}
+  .cls.watch{color:var(--amber);border-color:#8a5f1f55;background:#8a5f1f10}
+  .cls.monitor{color:var(--ivory-dim);border-color:var(--hair)}
+  .cls.pause{color:var(--rust);border-color:#a13e2e55;background:#a13e2e10}
+  .scard-meta{font-family:var(--mono);font-size:11px;color:var(--ivory-dim);margin:8px 0 6px}
+  .rlist{list-style:none;margin:8px 0 0;padding:0}
+  .rlist li{font-size:12.5px;padding-left:16px;position:relative;margin-bottom:3px}
+  .rlist li.p{color:var(--ivory)}.rlist li.p:before{content:"+";position:absolute;left:0;color:var(--sage)}
+  .rlist li.n{color:var(--ivory-dim)}.rlist li.n:before{content:"–";position:absolute;left:0;color:var(--rust)}
+  .brk{margin-top:9px}
+  .proposal{margin-top:11px;border-top:1px dashed var(--hair);padding-top:9px;font-family:var(--mono);font-size:11px;color:var(--brass)}
+  .proposal .muted{display:block;margin-top:3px;font-family:var(--body);font-size:11.5px}
+  .score-block{margin-top:11px;border-top:1px dashed var(--hair);padding-top:9px}
+  .score-head{display:flex;justify-content:space-between;align-items:baseline}
+  .score-overall{font-family:var(--mono);font-size:16px;color:var(--ivory)}
+  .score-overall .muted{font-size:11px;color:var(--ivory-dim)}
+  .score-row{display:flex;align-items:center;gap:8px;margin-top:5px}
+  .score-label{flex:0 0 118px;font-size:11px;color:var(--ivory-dim)}
+  .score-track{flex:1;height:6px;border-radius:3px;background:var(--hair);overflow:hidden;box-shadow:var(--shadow-inset)}
+  .score-fill{height:100%;background:var(--ivory-dim);border-radius:3px;transition:width .5s var(--ease)}
+  .score-fill.pos{background:var(--sage)}
+  .score-fill.neg{background:var(--rust)}
+  .score-fill.na{background:transparent}
+  .score-val{flex:0 0 24px;text-align:right;font-family:var(--mono);font-size:11px;color:var(--ivory-dim)}
+  .score-val.pos{color:var(--sage)}.score-val.neg{color:var(--rust)}
+  .score-overall.pos{color:var(--sage)}.score-overall.neg{color:var(--rust)}
+
+  /* ---- macro intel: India Macro Score summary (per-indicator detail now lives inside each
+     region card -- see .region-row) ---- */
+
+  /* ---- pipeline ---- */
+  .funnel{display:flex;gap:10px;flex-wrap:wrap}
+  .fstep{flex:1;min-width:150px;background:var(--panel);border:1px solid var(--hair);padding:11px 14px;border-radius:var(--r-3);
+        box-shadow:var(--shadow-1);transition:border-color var(--dur) var(--ease),transform var(--dur) var(--ease)}
+  .fstep:hover{border-color:var(--hair-bright);transform:translateY(-1px)}
+  .fstep .n{font-family:var(--disp);font-size:35px;font-weight:600;font-variant-numeric:tabular-nums}
+  .fstep .l{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ivory-dim)}
+  .fstep.buy{border-left:3px solid var(--sage)}
+  .fstep.watch{border-left:3px solid var(--amber)}
+  .fstep.monitor{border-left:3px solid var(--ivory-dim)}
+
+  /* ---- macro cascade (signature) ---- */
+  .macro-wrap{background:var(--panel);border:1px solid var(--hair);border-radius:var(--r-3);padding:4px;box-shadow:var(--shadow-1)}
+  .factor{border-bottom:1px solid var(--hair)}
+  .factor:last-child{border-bottom:none}
+  .fhead{display:flex;align-items:center;gap:12px;padding:8px 14px;cursor:pointer;user-select:none;transition:background var(--dur) var(--ease)}
+  .fhead:hover{background:var(--panel-2)}
+  .fstate{font-family:var(--disp);font-style:italic;font-weight:600;font-size:11.5px;letter-spacing:0;padding:2px 8px;border-radius:2px;border:1px solid}
+  .fstate.TAILWIND{color:var(--sage);border-color:#366b4655}
+  .fstate.NEUTRAL{color:var(--ivory-dim);border-color:var(--hair)}
+  .fstate.WATCH{color:var(--amber);border-color:#8a5f1f55}
+  .fstate.CONCERN{color:var(--rust);border-color:#a13e2e55}
+  .fname{font-family:var(--disp);font-size:17px;font-weight:500;flex:1}
+  .flens{font-size:12px;color:var(--ivory-dim);flex-basis:100%;padding:0 16px 8px 44px;margin-top:-4px;display:none}
+  .fauto{flex-basis:100%;padding:0 16px 6px 44px;margin-top:-4px;display:none}
+  .chev{font-family:var(--mono);color:var(--ivory-dim);transition:.2s}
+  .factor.open .chev{transform:rotate(90deg)}
+  .factor.open .flens{display:block}
+  .factor.open .fauto{display:block}
+  .tree{display:none;padding:6px 16px 18px 16px}
+  .factor.open .tree{display:block}
+  .branch{display:grid;grid-template-columns:70px 1fr;gap:12px;padding:9px 0;border-top:1px dashed var(--hair)}
+  .ord{font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:var(--brass);padding-top:3px;text-transform:uppercase}
+  .beff{font-size:13.5px}
+  .hits{margin-top:6px;display:flex;gap:6px;flex-wrap:wrap}
+  .hit{font-family:var(--mono);font-size:10.5px;padding:2px 7px;border-radius:2px;border:1px solid var(--hair);color:var(--ivory-dim);
+      transition:border-color var(--dur) var(--ease),color var(--dur) var(--ease)}
+  .hit:hover{border-color:var(--hair-bright);color:var(--ivory)}
+  .hit .sig{width:7px;height:7px;margin-right:5px}
+
+  /* ---- cohort chart bars -- hover feedback + transitions for the mark specs above ---- */
+  .cohort-bar .cbar{transition:opacity .12s var(--ease)}
+  .cohort-bar:hover .cbar{opacity:1}
+  .cohort-bar text{transition:fill .12s var(--ease)}
+  .cohort-bar:hover text{fill:var(--ivory)}
+
+  /* ---- news impact ---- */
+  .news{background:var(--panel);border:1px solid var(--hair);border-radius:var(--r-3);padding:13px 14px;box-shadow:var(--shadow-1)}
+  .news textarea{width:100%;background:var(--ground);color:var(--ivory);border:1px solid var(--hair);
+                 border-radius:var(--r-2);padding:10px;font-family:var(--body);font-size:14px;resize:vertical;min-height:64px;
+                 transition:border-color var(--dur) var(--ease),box-shadow var(--dur) var(--ease)}
+  .news textarea:focus{outline:none;border-color:var(--herb);box-shadow:0 0 0 3px rgba(127,174,143,.18)}
+  .news .row{display:flex;gap:10px;align-items:center;margin-top:10px;flex-wrap:wrap}
+  .impact{margin-top:10px;display:none}
+  .impact.show{display:block}
+  .impact .card{margin-bottom:10px}
+  .muted{color:var(--ivory-dim);font-size:12.5px}
+  .llm-note{font-family:var(--mono);font-size:11px;color:var(--ivory-dim);margin-top:8px}
+  .err{color:var(--rust);font-size:12.5px;margin-top:8px;font-family:var(--mono)}
+  .spin{display:inline-block;width:12px;height:12px;border:2px solid var(--herb-deep);border-top-color:var(--herb);
+        border-radius:50%;animation:sp .7s linear infinite;vertical-align:middle;margin-right:6px}
+  @keyframes sp{to{transform:rotate(360deg)}}
+
+  /* ---- list view (holdings + watchlist) — full data always visible, no collapse ---- */
+  .lwrap{background:var(--panel);border:1px solid var(--hair);border-radius:var(--r-3);box-shadow:var(--shadow-1);overflow:hidden}
+  .lrow{border-bottom:1px solid var(--hair);padding:10px 14px;transition:background var(--dur) var(--ease)}
+  .lrow:hover{background:var(--panel-2)}
+  .lrow:last-child{border-bottom:none}
+  .lrow.flagged{border-left:3px solid var(--brass)}
+  .lhead{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .lname{font-family:var(--disp);font-size:15.5px;font-weight:600;flex:0 1 auto;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:280px}
+  .ltk{font-family:var(--mono);font-size:10.5px;color:var(--ivory-dim);letter-spacing:.05em}
+  .lstats{font-family:var(--mono);font-size:11.5px;color:var(--ivory-dim);margin-left:auto;white-space:nowrap;text-align:right}
+  .ldetail{padding:8px 0 0 0;display:flex;gap:22px;flex-wrap:wrap;align-items:flex-start}
+  .ldetail .tk{font-family:var(--mono);font-size:11px;color:var(--ivory-dim);letter-spacing:.06em;margin-bottom:6px;flex:0 0 100%}
+  .ldetail-col{flex:1 1 220px;min-width:180px}
+  .ldetail-col.wide{flex:2 1 320px}
+  .ldetail-actions{flex:0 0 100%}
+  .ldetail .metrics{margin:4px 0 0}
+  .ldetail .note{border-top:none;padding-top:0;margin-top:0}
+  .ldetail .kc .lbl{margin-top:0}
+
+  /* watchlist */
+  .card-flagged{border-color:var(--brass)}
+  .flag{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.04em;padding:2px 8px;border-radius:2px;margin-bottom:8px}
+  .flag-buynow{color:var(--sage);background:#366b461a;border:1px solid #366b4655}
+  .flag-trigger{color:var(--amber);background:#8a5f1f1a;border:1px solid #8a5f1f55}
+  .livebar{display:flex;gap:12px;flex-wrap:wrap;font-family:var(--mono);font-size:12px;color:var(--ivory);margin:6px 0;padding:6px 0;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)}
+  .livebar-k{display:block;font-size:8.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ivory-dim)}
+  .scrbtn{font-family:var(--mono);font-size:10.5px;color:var(--herb);text-decoration:none;margin-left:8px;white-space:nowrap}
+  .scrbtn:hover{text-decoration:underline}
+  .wl .st{font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:var(--brass);text-transform:uppercase}
+
+  /* ---- FAE screen badge + modal ---- */
+  .fae-badge{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.04em;
+             padding:2px 8px;border-radius:var(--r-1);margin-left:8px;cursor:pointer;vertical-align:middle;
+             color:var(--brass);background:#8a5f1f1a;border:1px solid #8a5f1f55;
+             transition:background var(--dur) var(--ease),border-color var(--dur) var(--ease)}
+  .fae-badge:hover{background:#8a5f1f33;border-color:var(--brass)}
+  .modal-overlay{position:fixed;inset:0;background:rgba(10,12,9,.72);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);display:none;
+                 align-items:flex-start;justify-content:center;padding:40px 16px;z-index:999;overflow-y:auto;
+                 animation:fadeIn var(--dur) var(--ease)}
+  .modal-overlay.show{display:flex}
+  .modal-box{background:var(--panel);border:1px solid var(--hair-bright);border-radius:var(--r-3);
+            padding:18px 20px;max-width:640px;width:100%;position:relative;margin-top:16px;
+            box-shadow:var(--shadow-2);animation:modalIn .18s var(--ease)}
+  .modal-close{position:absolute;top:10px;right:12px;background:none;border:1px solid transparent;
+              color:var(--ivory-dim);font-size:22px;line-height:1;cursor:pointer;padding:4px;border-radius:var(--r-1);
+              transition:color var(--dur) var(--ease),border-color var(--dur) var(--ease)}
+  .modal-close:hover{color:var(--ivory);border-color:var(--hair)}
+  @keyframes fadeIn{from{opacity:0}to{opacity:1}}
+  @keyframes modalIn{from{opacity:0;transform:translateY(6px) scale(.985)}to{opacity:1;transform:none}}
+
+  footer{margin-top:30px;border-top:1px solid var(--hair);padding-top:12px;font-size:12px;color:var(--ivory-dim)}
+  footer code{font-family:var(--mono);color:var(--herb)}
+
+  @media(max-width:720px){
+    .vitals{grid-template-columns:1fr 1fr}
+    /* 5 vitals in a 2-col grid leaves an empty orphan cell after the last
+       one -- span it full-width instead of leaving a blank dark box */
+    .vital:last-child{grid-column:1/-1}
+    .metrics{grid-template-columns:1fr 1fr}
+    .word{font-size:26px}
+  }
+  @media(max-width:1200px){
+    /* between the 720px mobile breakpoint and the grid's natural ~1130px
+       width, tables had no middle ground -- shrink the note column's floor
+       and let the whole table scroll horizontally within its own frame
+       rather than only at full desktop width. */
+    :root{ --wgrid: 22px 16px minmax(110px,150px) 70px minmax(90px,120px) minmax(90px,120px) 200px minmax(120px,1fr) 150px; }
+  }
+  @media(prefers-reduced-motion:reduce){
+    .spin{animation:none}
+    .modal-overlay,.modal-box{animation:none}
+    .card:hover,.scard:hover,.alert:hover,.fstep:hover,button:active{transform:none}
+  }
