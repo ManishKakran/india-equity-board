@@ -1511,7 +1511,7 @@
       "next_for_full_fae": "Verify Gate 1 qualitatively (promoter integrity, D/E, ownership) from the latest annual report before acting.",
       "thesis_source": "fae-report",
       "fae_report_path": "Protfolio Thesis/HEROMOTOCO_FAE.md",
-      "fae_report_url": "https://claude.ai/code/artifact/bafde63f-9b92-4c6c-9aac-193ab6a40236"
+      "fae_report_url": "reports/HEROMOTOCO.html"
     },
     {
       "ticker": "ORIENTCEM",
@@ -1685,7 +1685,7 @@
       "next_for_full_fae": "Verify Gate 1 qualitatively (promoter integrity, D/E, ownership) from the latest annual report before acting.",
       "thesis_source": "fae-report",
       "fae_report_path": "Protfolio Thesis/ACE_FAE.md",
-      "fae_report_url": "https://claude.ai/code/artifact/c0f39370-0fe1-45a9-aea3-f0b4e645e5ac"
+      "fae_report_url": "reports/ACE.html"
     },
     {
       "ticker": "KNRCON",
@@ -1773,7 +1773,7 @@
       "next_for_full_fae": "Verify Gate 1 qualitatively (promoter integrity, D/E, ownership) from the latest annual report before acting.",
       "thesis_source": "fae-report",
       "fae_report_path": "Protfolio Thesis/TCS_FAE.md",
-      "fae_report_url": "https://claude.ai/code/artifact/6a382931-cf6b-474a-8ad5-a1a38eb63792"
+      "fae_report_url": "reports/TCS.html"
     },
     {
       "ticker": "SONATSOFTW",
@@ -4157,7 +4157,7 @@
       "next_for_full_fae": "Verify Gate 1 qualitatively (promoter integrity, D/E, ownership) from the latest annual report before acting.",
       "thesis_source": "fae-report",
       "fae_report_path": "Protfolio Thesis/CAMS_FAE.md",
-      "fae_report_url": null
+      "fae_report_url": "reports/CAMS.html"
     },
     {
       "ticker": "NSDL",
@@ -4594,7 +4594,7 @@
       "next_for_full_fae": "Verify Gate 1 qualitatively (promoter integrity, D/E, ownership) from the latest annual report before acting.",
       "thesis_source": "fae-report",
       "fae_report_path": "Protfolio Thesis/ITC_FAE.md",
-      "fae_report_url": null
+      "fae_report_url": "reports/ITC.html"
     },
     {
       "ticker": "KMEW",
@@ -10174,9 +10174,9 @@
         "observation_count": 505
       }
     ],
-    "computed_at": "2026-09-03T13:53:09.581414+00:00"
+    "computed_at": "2026-09-03T15:51:19.560645+00:00"
   },
-  "macro_intel_run_at": "2026-09-03T13:53:09.581414+00:00",
+  "macro_intel_run_at": "2026-09-03T15:51:19.560645+00:00",
   "macro_trend": {
     "score_trend": {
       "has_prior": true,
