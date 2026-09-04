@@ -3506,11 +3506,9 @@
       "classification": "BUILD POSITION ON WEAKNESS",
       "gate": "Profitability: PASS · Valuation: FAIL (originally flagged BUY; price hasn't reached the target discount yet)",
       "reasons": [
-        "FAE verdict: HOLD -- not a conviction buy, not a sell. Business quality GOOD (7.5/10): excellent financial mechanics, clean governance on the critical metrics, impeccable debt discipline. Penalised for capital-allocation inaction and competitive fragility in heavy cranes. Stock is -35% from its 52-week high -- moved from EXPENSIVE to fair value on reported earnings, but still EXPENSIVE on operational earnings (34.4x ex-treasury income).",
         "Profitability check (PASS): Return on capital employed (ROCE) is 31.7% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
-        "The one number that determines everything in the next 12 months: Q1 FY27 OPM (August 2026 result). Above 14% on recovered revenue -> bull thesis reasserts. Below 13% -> de-rating extends, stock could revisit its 52-week low of Rs.745.",
         "Valuation check (FAIL): Trading at 31.09x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
@@ -3525,9 +3523,9 @@
         "industry": "Construction Vehicles"
       },
       "next_for_full_fae": "Independently verify promoter integrity, debt levels, and ownership structure from the latest annual report before acting on this.",
-      "thesis_source": "fae-report",
-      "fae_report_path": "Protfolio Thesis/ACE_FAE.md",
-      "fae_report_url": "reports/ACE.html"
+      "thesis_source": null,
+      "fae_report_path": null,
+      "fae_report_url": null
     },
     {
       "ticker": "KNRCON",
@@ -3593,13 +3591,10 @@
       "classification": "BUILD POSITION ON WEAKNESS",
       "gate": "Profitability: PASS · Valuation: WATCHLIST (originally flagged BUY; price hasn't reached the target discount yet)",
       "reasons": [
-        "FAE verdict: BUY. Financial Health STABLE-IMPROVING (revenue CAGR 9.8%, EPS CAGR 7.8%, OCF never below 95% of PAT, zero debt). Management Integrity HIGH (8.5/10 FALCON, 90/100 QoE). Gate 4.5 retrofit (2026-08-22): 6 of 7 hard filters clear -- only H3 (related-party) unverifiable; H4 (CWIP) was wrongly marked unverifiable and corrected 2026-08-23 to Clear. Healthiest soft-filter profile in the repo (0 red flags). Stress test verdict: RESILIENT (zero debt, never had a negative-OCF year in 7 years). Now includes a Plain-English Summary section (2026-08-23) explaining every open concern in layman terms.",
         "Profitability check (PASS): Return on capital employed (ROCE) is 63% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
-        "Trigger already tripped once: Americas growth was -0.05% in FY2025 (needs >=4% in FY2026 to avoid a Phase 3 review). Five numbers to watch: Americas YoY growth, AI revenue run-rate (target $4-5B by FY27), HyperVault anchor customer (by Q2FY27), employee cost % of revenue, BSNL Phase 2 PO. Real precedent worth tracking: the FY23-24 'Great Stall' already showed what a BFSI-sector shock does to this business.",
-        "Valuation check (WATCHLIST): Trading at 16.02x earnings vs the Sensex average (19.7x) — only a 19% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)",
-        "Worth checking yourself: governance/legal concern mentioned"
+        "Valuation check (WATCHLIST): Trading at 16.02x earnings vs the Sensex average (19.7x) — only a 19% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "At market ₹2,317"
@@ -3613,9 +3608,9 @@
         "industry": "Computers — Software & Consulting"
       },
       "next_for_full_fae": "Independently verify promoter integrity, debt levels, and ownership structure from the latest annual report before acting on this.",
-      "thesis_source": "fae-report",
-      "fae_report_path": "Protfolio Thesis/TCS_FAE.md",
-      "fae_report_url": "reports/TCS.html"
+      "thesis_source": null,
+      "fae_report_path": null,
+      "fae_report_url": null
     },
     {
       "ticker": "SONATSOFTW",
