@@ -3495,12 +3495,13 @@
       "classification": "BUILD POSITION ON WEAKNESS",
       "gate": "Profitability: PASS · Valuation: WATCHLIST (originally flagged BUY; price hasn't reached the target discount yet)",
       "reasons": [
-        "58.7% ROCE; 40.8% 5-yr ROE; positive FCF ₹500 Cr; PE at Sensex parity — only stock in sector clearing all Darwin gates",
+        "FAE verdict: WAIT. First standalone report for this holding, built via fae_pipeline.py's full 8-gate automated run (with live web search and 5 years of the company's own annual reports read directly, Grep-first) then rewritten into this repo's plain-English format. Business quality is genuinely strong: ROCE ~48-55%, D/E never above 0.005 (effectively debt-free), Piotroski 6/8, zero dilution across the tracked period, and a component score of 77.3/100 driven by top-of-scale Business Quality/Financial Strength/Capital Allocation. The central fact of this company: Mahindra & Mahindra is both its 52.11% controlling shareholder AND, via its Farm Equipment Sector, effectively its sole customer -- confirmed, not just suspected, via 5 years of primary-source annual-report data showing trade receivables ~99-100% owed by M&M every single year FY2022-FY2026, with a disclosed but not independently benchmarked related-party pricing framework (AGM-approved caps, auditor Key Audit Matter flag). All 7 hard filters clear. Every valuation check fails: trailing PE ~21.4x is a premium to Sensex (19.7x); Graham number (PE x PB) ~189, ~8x the 22.5 threshold; reverse-DCF implies 38.1%/yr FCF growth priced in (WACC 15.57%, Beta 1.412, computed) against a 13.0% historical revenue CAGR (~2.9x gap) or ~19%/yr recent 2-year CAGR (~2x gap). FY2026 was also the first year in the 5-year window Swaraj's own dispatch growth (20.1%) lagged total industry growth (23%), a small but real reversal after 4 straight years of outperformance. Industry is past its FY2026 cyclical peak (a record 1.16M+ tractor units sold) with ICRA/Crisil both guiding a sharp FY2027 deceleration (1-4%/0-2%). One correction made during the plain-English rewrite, not present in the raw automated draft: the FY2026 cash-flow-statement-vs-balance-sheet cash gap (Rs.63.17cr) that the automated Gates 1/2/5F/5I repeatedly treated as the single most important open question was checked against the full 9-year record before finalizing -- it recurs in 8 of 9 years (as large as Rs.66cr in FY2024), so it was downgraded from 'this year's alarming new problem' to 'a long-standing, likely definitional (cash-equivalents classification) pattern,' with the correction stated explicitly in the report rather than silently fixed.",
         "Profitability check (PASS): Return on capital employed (ROCE) is 58.7% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
-        "*Personal note :: Swaraj is a subsidiary of M&M and has limited growth scope. Buy only if the dividend yield is higher than FD rates.*",
-        "Valuation check (WATCHLIST): Trading at 21.42x earnings vs the Sensex average (19.7x) — only a -9% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Six things to watch: (1) whether Swaraj's dispatch growth resumes matching or beating M&M's Swaraj-brand tractor sales, or the FY2026 underperformance persists/widens -- the single cleanest signal for which side of the bull/bear case is playing out, since the entire thesis runs through this one relationship; (2) domestic and China steel-price trends and any confirmed large China fiscal stimulus (raw materials are ~78% of revenue, unhedged) -- explicitly the largest identified swing risk on the cost side; (3) the 2026 monsoon's final outturn and subsequent rural-income/kharif data, against ICRA's (1-4%) and Crisil's (0-2%) guided FY2027 industry deceleration; (4) receivable days -- stays near the current ~37-38 day level (tied to the M&M relationship) or rises further; (5) whether any future annual report discloses an independent fairness/benchmarking assessment of the M&M related-party pricing terms, still unconfirmed in either direction; (6) whether the cash-flow-statement-vs-balance-sheet reconciliation gap (see 'why' above) behaves within its own 9-year historical range in FY2027, or moves unusually large relative to that range.",
+        "Valuation check (WATCHLIST): Trading at 21.42x earnings vs the Sensex average (19.7x) — only a -9% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)",
+        "Worth checking yourself: governance/legal concern mentioned"
       ],
       "thesis_breakers": [
         "₹3,200–3,700 (at market)"
@@ -3514,9 +3515,9 @@
         "industry": "Compressors, Pumps & Diesel Engines"
       },
       "next_for_full_fae": "Independently verify promoter integrity, debt levels, and ownership structure from the latest annual report before acting on this.",
-      "thesis_source": "human",
-      "fae_report_path": null,
-      "fae_report_url": null
+      "thesis_source": "fae-report",
+      "fae_report_path": "Protfolio Thesis/SWARAJENG_FAE.md",
+      "fae_report_url": "reports/SWARAJENG.html"
     },
     {
       "ticker": "ACE",
