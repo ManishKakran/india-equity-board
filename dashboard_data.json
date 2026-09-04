@@ -38,33 +38,9 @@
       "live_price": 5300.0,
       "live_pe": 19.46,
       "de": 0.04,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/HEROMOTOCO/consolidated/",
-      "fundamentals_dir": "HERO_MOTOCORP",
-      "fundamentals": {
-        "period": "FY17-FY26",
-        "revenue_latest": 47411.24,
-        "revenue_cagr": 5.8,
-        "pat_latest": 5741.73,
-        "opm": 13.1,
-        "npm": 12.1,
-        "cfo_pat_5y": 117.2,
-        "de": 0.04,
-        "price": 5600.0,
-        "mcap": 112079.07,
-        "revenue_spark": [
-          33970.82,
-          29253.97,
-          30959.19,
-          29551.28,
-          34158.38,
-          37788.62,
-          40923.42,
-          47411.24
-        ],
-        "opm_note": "EBIT approx = PBT + Interest - Other Income (from Screener schema)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "HERO_MOTOCORP"
     },
     {
       "name": "Coal India",
@@ -75,29 +51,9 @@
       "live_price": 415.35,
       "live_pe": 8.17,
       "de": 0.12,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/COALINDIA/consolidated/",
-      "fundamentals_dir": "COALINDIA_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 166417.3,
-        "revenue_cagr": 9.3,
-        "pat_latest": 31094.29,
-        "opm": 25.7,
-        "npm": 18.7,
-        "cfo_pat_5y": 93.8,
-        "de": 0.12,
-        "price": 420.05,
-        "mcap": 258865.39,
-        "revenue_spark": [
-          127429.03,
-          127074.41,
-          166295.62,
-          166417.3
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "COALINDIA_YF"
     },
     {
       "name": "D-Link India",
@@ -108,29 +64,9 @@
       "live_price": 451.15,
       "live_pe": 14.93,
       "de": 0.03,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/DLINKINDIA/consolidated/",
-      "fundamentals_dir": "DLINKINDIA_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 1565.7,
-        "revenue_cagr": 9.9,
-        "pat_latest": 104.06,
-        "opm": 9.0,
-        "npm": 6.6,
-        "cfo_pat_5y": 59.7,
-        "de": 0.03,
-        "price": 452.35,
-        "mcap": 1606.06,
-        "revenue_spark": [
-          1180.48,
-          1235.41,
-          1383.86,
-          1565.7
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "DLINKINDIA_YF"
     },
     {
       "name": "Action Construction Equipment",
@@ -141,29 +77,9 @@
       "live_price": 1125.4,
       "live_pe": 29.24,
       "de": 0.0,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/ACE/consolidated/",
-      "fundamentals_dir": "ACE_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 3277.74,
-        "revenue_cagr": 15.0,
-        "pat_latest": 415.09,
-        "opm": 17.7,
-        "npm": 12.7,
-        "cfo_pat_5y": 116.1,
-        "de": 0.0,
-        "price": 1145.5,
-        "mcap": 13634.64,
-        "revenue_spark": [
-          2157.41,
-          2909.68,
-          3324.58,
-          3277.74
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "ACE_YF"
     },
     {
       "name": "KNR Constructions",
@@ -174,29 +90,9 @@
       "live_price": 124.66,
       "live_pe": 8.72,
       "de": 0.49,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/KNRCON/consolidated/",
-      "fundamentals_dir": "KNRCON_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 2698.01,
-        "revenue_cagr": -10.6,
-        "pat_latest": 437.08,
-        "opm": 26.6,
-        "npm": 16.2,
-        "cfo_pat_5y": 6.8,
-        "de": 0.49,
-        "price": 119.27,
-        "mcap": 3354.28,
-        "revenue_spark": [
-          3777.84,
-          4429.49,
-          4753.17,
-          2698.01
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "KNRCON_YF"
     },
     {
       "name": "Likhitha Infrastructure",
@@ -207,29 +103,9 @@
       "live_price": 204.8,
       "live_pe": 24.76,
       "de": 0.0,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/LIKHITHA/",
-      "fundamentals_dir": "LIKHITHA_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 456.73,
-        "revenue_cagr": 7.8,
-        "pat_latest": 39.2,
-        "opm": 11.8,
-        "npm": 8.6,
-        "cfo_pat_5y": 21.0,
-        "de": 0.0,
-        "price": 202.9,
-        "mcap": 800.9,
-        "revenue_spark": [
-          364.95,
-          421.68,
-          520.09,
-          456.73
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "LIKHITHA_YF"
     },
     {
       "name": "Sonata Software",
@@ -240,29 +116,9 @@
       "live_price": 285.25,
       "live_pe": 17.37,
       "de": 0.38,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/SONATSOFTW/consolidated/",
-      "fundamentals_dir": "SONATSOFTW_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 10675.65,
-        "revenue_cagr": 12.8,
-        "pat_latest": 464.39,
-        "opm": 6.4,
-        "npm": 4.3,
-        "cfo_pat_5y": 105.0,
-        "de": 0.38,
-        "price": 284.0,
-        "mcap": 7860.96,
-        "revenue_spark": [
-          7446.84,
-          8609.95,
-          10134.43,
-          10675.65
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "SONATSOFTW_YF"
     },
     {
       "name": "Marc Technocrats",
@@ -273,29 +129,9 @@
       "live_price": 148.95,
       "live_pe": null,
       "de": null,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/MARC/",
-      "fundamentals_dir": "MARC_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 69.73,
-        "revenue_cagr": 51.2,
-        "pat_latest": 10.56,
-        "opm": 20.5,
-        "npm": 15.1,
-        "cfo_pat_5y": 64.9,
-        "de": 0.01,
-        "price": null,
-        "mcap": null,
-        "revenue_spark": [
-          20.16,
-          26.04,
-          47.87,
-          69.73
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "MARC_YF"
     },
     {
       "name": "Vadilal Industries",
@@ -306,29 +142,9 @@
       "live_price": 7655.0,
       "live_pe": 25.13,
       "de": 0.27,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/VADILALIND/consolidated/",
-      "fundamentals_dir": "VADILALIND_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 1497.43,
-        "revenue_cagr": 12.4,
-        "pat_latest": 155.1,
-        "opm": 14.7,
-        "npm": 10.4,
-        "cfo_pat_5y": 88.7,
-        "de": 0.27,
-        "price": 7615.0,
-        "mcap": 5473.53,
-        "revenue_spark": [
-          1054.77,
-          1122.76,
-          1234.97,
-          1497.43
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "VADILALIND_YF"
     },
     {
       "name": "Career Point Edutech",
@@ -339,29 +155,9 @@
       "live_price": 191.97,
       "live_pe": 14.72,
       "de": null,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/CPEDU/",
-      "fundamentals_dir": "CPEDU_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 51.23,
-        "revenue_cagr": 87.4,
-        "pat_latest": 22.95,
-        "opm": 60.6,
-        "npm": 44.8,
-        "cfo_pat_5y": 59.5,
-        "de": 0.0,
-        "price": 189.76,
-        "mcap": 345.23,
-        "revenue_spark": [
-          7.79,
-          46.73,
-          49.66,
-          51.23
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "CPEDU_YF"
     },
     {
       "name": "Chambal Fertilisers",
@@ -372,33 +168,9 @@
       "live_price": 419.05,
       "live_pe": 8.7,
       "de": 0.1,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/CHAMBLFERT/consolidated/",
-      "fundamentals_dir": "CHAMBAL_FERTILISERS_&_CHEMICALS",
-      "fundamentals": {
-        "period": "FY17-FY26",
-        "revenue_latest": 20793.66,
-        "revenue_cagr": 11.9,
-        "pat_latest": 1953.39,
-        "opm": 11.3,
-        "npm": 9.4,
-        "cfo_pat_5y": 107.9,
-        "de": 0.1,
-        "price": 409.55,
-        "mcap": 16398.99,
-        "revenue_spark": [
-          10094.52,
-          12205.95,
-          12719.01,
-          16068.83,
-          27772.81,
-          17966.41,
-          16646.2,
-          20793.66
-        ],
-        "opm_note": "EBIT approx = PBT + Interest - Other Income (from Screener schema)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "CHAMBAL_FERTILISERS_&_CHEMICALS"
     },
     {
       "name": "Aditya Birla AMC",
@@ -409,29 +181,9 @@
       "live_price": 1062.3,
       "live_pe": 30.57,
       "de": 0.02,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/ABSLAMC/consolidated/",
-      "fundamentals_dir": "ABSLAMC_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 1845.03,
-        "revenue_cagr": 14.6,
-        "pat_latest": 975.07,
-        "opm": 68.9,
-        "npm": 52.8,
-        "cfo_pat_5y": 80.5,
-        "de": 0.02,
-        "price": 1045.2,
-        "mcap": 30243.75,
-        "revenue_spark": [
-          1226.61,
-          1353.19,
-          1684.78,
-          1845.03
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "ABSLAMC_YF"
     },
     {
       "name": "Canara Robeco AMC",
@@ -442,7 +194,7 @@
       "live_price": 251.5,
       "live_pe": 23.12,
       "de": 0.02,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/CRAMC/"
     },
     {
@@ -454,29 +206,9 @@
       "live_price": 2458.3,
       "live_pe": 36.13,
       "de": 0.02,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/HDFCAMC/",
-      "fundamentals_dir": "HDFCAMC_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 4122.16,
-        "revenue_cagr": 23.9,
-        "pat_latest": 2858.06,
-        "opm": 90.3,
-        "npm": 69.3,
-        "cfo_pat_5y": 84.8,
-        "de": null,
-        "price": 2510.8,
-        "mcap": 107665.75,
-        "revenue_spark": [
-          2166.81,
-          2584.37,
-          3498.44,
-          4122.16
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "HDFCAMC_YF"
     },
     {
       "name": "ICICI Pru AMC",
@@ -488,28 +220,8 @@
       "live_price": 2970.9,
       "live_pe": 42.16,
       "de": 0.04,
-      "live_fetched_at": "2026-09-04T16:01:23",
-      "fundamentals_dir": "ICICIAMC_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 5764.63,
-        "revenue_cagr": 28.9,
-        "pat_latest": 3298.26,
-        "opm": 76.8,
-        "npm": 57.2,
-        "cfo_pat_5y": 94.8,
-        "de": null,
-        "price": 2980.0,
-        "mcap": 147289.04,
-        "revenue_spark": [
-          2689.18,
-          3375.9,
-          4682.78,
-          5764.63
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "live_fetched_at": "2026-09-04T10:45:17",
+      "fundamentals_dir": "ICICIAMC_YF"
     },
     {
       "name": "Nippon Life AMC",
@@ -518,31 +230,11 @@
       "buy_zone": "15–18x Market dislocation",
       "concern": "Strong ROCE; foreign parentage adds stability",
       "live_price": 1159.9,
-      "live_pe": 45.88,
+      "live_pe": 45.85,
       "de": 0.02,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/NAM-INDIA/consolidated/",
-      "fundamentals_dir": "NAM-INDIA_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 2708.74,
-        "revenue_cagr": 26.1,
-        "pat_latest": 1529.38,
-        "opm": 73.1,
-        "npm": 56.5,
-        "cfo_pat_5y": 86.7,
-        "de": 0.02,
-        "price": 1164.9,
-        "mcap": 74528.16,
-        "revenue_spark": [
-          1349.82,
-          1643.22,
-          2230.69,
-          2708.74
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "NAM-INDIA_YF"
     },
     {
       "name": "Page Industries",
@@ -551,31 +243,11 @@
       "buy_zone": "14.9–16x ₹10,300–12,300",
       "concern": "Only Darwin-grade business in 56-co garments universe; 64% ROCE; Jockey licence moat; net cash; 30-yr track record; positive FCF ₹2,861 Cr (5-yr)",
       "live_price": 36300.0,
-      "live_pe": 54.12,
+      "live_pe": 53.55,
       "de": 0.18,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/PAGEIND/",
-      "fundamentals_dir": "PAGEIND_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 5227.26,
-        "revenue_cagr": 3.8,
-        "pat_latest": 763.82,
-        "opm": 20.6,
-        "npm": 14.6,
-        "cfo_pat_5y": 116.8,
-        "de": 0.18,
-        "price": 35865.0,
-        "mcap": 40003.37,
-        "revenue_spark": [
-          4678.34,
-          4547.09,
-          4913.06,
-          5227.26
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "PAGEIND_YF"
     },
     {
       "name": "Titan Company",
@@ -586,29 +258,9 @@
       "live_price": 5020.0,
       "live_pe": 77.41,
       "de": 1.95,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/TITAN/consolidated/",
-      "fundamentals_dir": "TITAN_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 87305.0,
-        "revenue_cagr": 29.2,
-        "pat_latest": 5073.0,
-        "opm": 9.1,
-        "npm": 5.8,
-        "cfo_pat_5y": 53.5,
-        "de": 1.95,
-        "price": 5027.0,
-        "mcap": 446051.91,
-        "revenue_spark": [
-          40447.0,
-          50936.0,
-          60298.0,
-          87305.0
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "TITAN_YF"
     },
     {
       "name": "Timex Group India",
@@ -619,7 +271,7 @@
       "live_price": 669.85,
       "live_pe": 78.71,
       "de": 0.32,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/TIMEX/"
     },
     {
@@ -629,9 +281,9 @@
       "buy_zone": "14–16x PE 14–16x zone",
       "concern": "33.78% ROCE; POSITIVE FCF (only FCF-positive quality name in sector); founder-led; Nalanda entry zone approaching",
       "live_price": 547.0,
-      "live_pe": 18.41,
+      "live_pe": 18.39,
       "de": 0.08,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/543709/"
     },
     {
@@ -643,29 +295,9 @@
       "live_price": 4856.0,
       "live_pe": 34.79,
       "de": 0.0,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/HAL/consolidated/",
-      "fundamentals_dir": "HAL_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 31791.74,
-        "revenue_cagr": 6.4,
-        "pat_latest": 9115.6,
-        "opm": 38.2,
-        "npm": 28.7,
-        "cfo_pat_5y": 134.5,
-        "de": 0.0,
-        "price": 4765.6,
-        "mcap": 318711.4,
-        "revenue_spark": [
-          26360.56,
-          28161.9,
-          30104.69,
-          31791.74
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "HAL_YF"
     },
     {
       "name": "Bharat Electronics",
@@ -676,29 +308,9 @@
       "live_price": 405.35,
       "live_pe": 47.91,
       "de": 0.0,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/BEL/consolidated/",
-      "fundamentals_dir": "BEL_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 26796.47,
-        "revenue_cagr": 15.5,
-        "pat_latest": 6062.0,
-        "opm": 30.1,
-        "npm": 22.6,
-        "cfo_pat_5y": 43.4,
-        "de": 0.0,
-        "price": 408.6,
-        "mcap": 298677.57,
-        "revenue_spark": [
-          17404.18,
-          19905.49,
-          23117.3,
-          26796.47
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "BEL_YF"
     },
     {
       "name": "Bajaj Auto",
@@ -709,29 +321,9 @@
       "live_price": 11919.0,
       "live_pe": 28.33,
       "de": 0.56,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/BAJAJ-AUTO/consolidated/",
-      "fundamentals_dir": "BAJAJ-AUTO_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 60386.43,
-        "revenue_cagr": 19.5,
-        "pat_latest": 10744.21,
-        "opm": 25.0,
-        "npm": 17.8,
-        "cfo_pat_5y": 40.9,
-        "de": 0.58,
-        "price": 11920.0,
-        "mcap": 327566.18,
-        "revenue_spark": [
-          35391.52,
-          43782.08,
-          49266.95,
-          60386.43
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "BAJAJ-AUTO_YF"
     },
     {
       "name": "Grindwell Norton",
@@ -742,29 +334,9 @@
       "live_price": 1962.5,
       "live_pe": 49.87,
       "de": 0.02,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/GRINDWELL/consolidated/",
-      "fundamentals_dir": "GRINDWELL_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 3060.36,
-        "revenue_cagr": 6.6,
-        "pat_latest": 415.66,
-        "opm": 18.4,
-        "npm": 13.6,
-        "cfo_pat_5y": 115.1,
-        "de": 0.02,
-        "price": 1974.4,
-        "mcap": 21860.56,
-        "revenue_spark": [
-          2525.2,
-          2668.64,
-          2798.95,
-          3060.36
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "GRINDWELL_YF"
     },
     {
       "name": "Timken India",
@@ -775,29 +347,9 @@
       "live_price": 3125.3,
       "live_pe": 55.09,
       "de": 0.01,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/TIMKEN/",
-      "fundamentals_dir": "TIMKEN_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 3462.36,
-        "revenue_cagr": 7.5,
-        "pat_latest": 414.88,
-        "opm": 16.1,
-        "npm": 12.0,
-        "cfo_pat_5y": 91.9,
-        "de": 0.0,
-        "price": 3124.8,
-        "mcap": 23504.35,
-        "revenue_spark": [
-          2787.85,
-          2895.71,
-          3183.58,
-          3462.36
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "TIMKEN_YF"
     },
     {
       "name": "Avanti Feeds",
@@ -808,29 +360,9 @@
       "live_price": 798.6,
       "live_pe": 20.65,
       "de": 0.0,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/AVANTIFEED/consolidated/",
-      "fundamentals_dir": "AVANTIFEED_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 5974.61,
-        "revenue_cagr": 5.9,
-        "pat_latest": 606.06,
-        "opm": 14.8,
-        "npm": 10.1,
-        "cfo_pat_5y": 101.7,
-        "de": 0.0,
-        "price": 795.85,
-        "mcap": 10843.11,
-        "revenue_spark": [
-          5036.85,
-          5311.71,
-          5525.43,
-          5974.61
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "AVANTIFEED_YF"
     },
     {
       "name": "TAAL Tech",
@@ -839,9 +371,9 @@
       "buy_zone": "15x 2,200–2,400",
       "concern": "Niche MRO/engineering services; high ROCE for size",
       "live_price": 4502.2,
-      "live_pe": 22.45,
+      "live_pe": 22.49,
       "de": 0.0,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/TAALTECH/consolidated/"
     },
     {
@@ -853,29 +385,9 @@
       "live_price": 374.1,
       "live_pe": 10.17,
       "de": 0.0,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/NATIONALUM/consolidated/",
-      "fundamentals_dir": "NATIONALUM_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 17729.23,
-        "revenue_cagr": 7.8,
-        "pat_latest": 5797.01,
-        "opm": 43.8,
-        "npm": 32.7,
-        "cfo_pat_5y": 109.6,
-        "de": 0.01,
-        "price": 374.0,
-        "mcap": 68690.03,
-        "revenue_spark": [
-          14170.86,
-          13070.12,
-          16662.21,
-          17729.23
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "NATIONALUM_YF"
     },
     {
       "name": "United Spirits",
@@ -886,29 +398,9 @@
       "live_price": 1471.7,
       "live_pe": 61.78,
       "de": 0.05,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/UNITDSPR/consolidated/",
-      "fundamentals_dir": "UNITDSPR_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 12415.0,
-        "revenue_cagr": 5.6,
-        "pat_latest": 1838.0,
-        "opm": 19.1,
-        "npm": 14.8,
-        "cfo_pat_5y": 86.2,
-        "de": 0.05,
-        "price": 1488.9,
-        "mcap": 105720.15,
-        "revenue_spark": [
-          10554.0,
-          11259.0,
-          11517.0,
-          12415.0
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "UNITDSPR_YF"
     },
     {
       "name": "Tilaknagar Industries",
@@ -919,7 +411,7 @@
       "live_price": 535.1,
       "live_pe": null,
       "de": 0.77,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/TI/consolidated/"
     },
     {
@@ -931,29 +423,9 @@
       "live_price": 934.05,
       "live_pe": 90.95,
       "de": 0.02,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/ANTHEM/consolidated/",
-      "fundamentals_dir": "ANTHEM_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 2124.33,
-        "revenue_cagr": 26.2,
-        "pat_latest": 591.79,
-        "opm": 39.1,
-        "npm": 27.9,
-        "cfo_pat_5y": 86.9,
-        "de": 0.02,
-        "price": 950.7,
-        "mcap": 53402.14,
-        "revenue_spark": [
-          1056.92,
-          1419.37,
-          1844.55,
-          2124.33
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "ANTHEM_YF"
     },
     {
       "name": "eClerx Services",
@@ -962,31 +434,11 @@
       "buy_zone": "14–15x 1,000–1,100",
       "concern": "Only listed KPO with 30–35% ROCE; founder-led; zero debt; 25-yr track record; AI risk mitigated by domain depth",
       "live_price": 1905.7,
-      "live_pe": 24.66,
+      "live_pe": 25.1,
       "de": 0.15,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/ECLERX/consolidated/",
-      "fundamentals_dir": "ECLERX_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 4117.03,
-        "revenue_cagr": 15.8,
-        "pat_latest": 706.21,
-        "opm": 23.7,
-        "npm": 17.2,
-        "cfo_pat_5y": 113.3,
-        "de": 0.15,
-        "price": 1971.7,
-        "mcap": 18144.62,
-        "revenue_spark": [
-          2648.71,
-          2925.54,
-          3365.86,
-          4117.03
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "ECLERX_YF"
     },
     {
       "name": "Polycab India",
@@ -997,29 +449,9 @@
       "live_price": 8300.0,
       "live_pe": 43.83,
       "de": 0.02,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/POLYCAB/consolidated/",
-      "fundamentals_dir": "POLYCAB_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 28269.51,
-        "revenue_cagr": 26.6,
-        "pat_latest": 2672.03,
-        "opm": 13.5,
-        "npm": 9.5,
-        "cfo_pat_5y": 107.7,
-        "de": 0.37,
-        "price": 8807.5,
-        "mcap": 132671.83,
-        "revenue_spark": [
-          13941.89,
-          17760.41,
-          22031.42,
-          28269.51
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "POLYCAB_YF"
     },
     {
       "name": "RR Kabel",
@@ -1028,31 +460,11 @@
       "buy_zone": "18–22x 800–1,000",
       "concern": "Strong ROCE; gaining market share; significantly overvalued now",
       "live_price": 2454.1,
-      "live_pe": 45.96,
+      "live_pe": 45.73,
       "de": 0.13,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/RRKABEL/consolidated/",
-      "fundamentals_dir": "RRKABEL_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 9587.0,
-        "revenue_cagr": 20.1,
-        "pat_latest": 492.22,
-        "opm": 7.6,
-        "npm": 5.1,
-        "cfo_pat_5y": 122.5,
-        "de": 0.13,
-        "price": 2617.7,
-        "mcap": 29607.63,
-        "revenue_spark": [
-          5536.89,
-          6517.62,
-          7517.83,
-          9587.0
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "RRKABEL_YF"
     },
     {
       "name": "Advait Energy",
@@ -1063,29 +475,9 @@
       "live_price": 2151.3,
       "live_pe": 41.05,
       "de": 0.44,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/ADVAIT/consolidated/",
-      "fundamentals_dir": "ADVAIT_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 713.68,
-        "revenue_cagr": 91.2,
-        "pat_latest": 51.72,
-        "opm": 12.4,
-        "npm": 7.2,
-        "cfo_pat_5y": 34.8,
-        "de": 0.46,
-        "price": 2210.9,
-        "mcap": 2418.01,
-        "revenue_spark": [
-          102.16,
-          207.19,
-          397.66,
-          713.68
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "ADVAIT_YF"
     },
     {
       "name": "Himadri Speciality Chemical",
@@ -1096,29 +488,9 @@
       "live_price": 671.05,
       "live_pe": 42.23,
       "de": 0.16,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/HSCL/consolidated/",
-      "fundamentals_dir": "HSCL_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 4657.66,
-        "revenue_cagr": 3.7,
-        "pat_latest": 751.34,
-        "opm": 22.8,
-        "npm": 16.1,
-        "cfo_pat_5y": 66.6,
-        "de": 0.16,
-        "price": 662.0,
-        "mcap": 33402.81,
-        "revenue_spark": [
-          4171.83,
-          4184.61,
-          4599.22,
-          4657.66
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "HSCL_YF"
     },
     {
       "name": "Kajaria Ceramics",
@@ -1127,31 +499,11 @@
       "buy_zone": "18–20x 650–750",
       "concern": "Only ceramics company with 20%+ ROCE; zero debt; 47.7% promoter; gaining organised-market share",
       "live_price": 1239.6,
-      "live_pe": 36.15,
+      "live_pe": 36.14,
       "de": 0.07,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/KAJARIACER/consolidated/",
-      "fundamentals_dir": "KAJARIACER_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 4824.63,
-        "revenue_cagr": 3.3,
-        "pat_latest": 485.41,
-        "opm": 14.6,
-        "npm": 10.1,
-        "cfo_pat_5y": 133.1,
-        "de": 0.07,
-        "price": 1260.6,
-        "mcap": 19809.45,
-        "revenue_spark": [
-          4371.51,
-          4464.25,
-          4628.26,
-          4824.63
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "KAJARIACER_YF"
     },
     {
       "name": "Godfrey Phillips",
@@ -1162,29 +514,9 @@
       "live_price": 2051.0,
       "live_pe": 23.38,
       "de": 0.04,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/GODFRYPHLP/consolidated/",
-      "fundamentals_dir": "GODFRYPHLP_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 6352.63,
-        "revenue_cagr": 21.6,
-        "pat_latest": 1526.06,
-        "opm": 30.7,
-        "npm": 24.0,
-        "cfo_pat_5y": 39.6,
-        "de": 0.04,
-        "price": 2045.0,
-        "mcap": 31898.27,
-        "revenue_spark": [
-          3530.43,
-          3969.02,
-          5578.46,
-          6352.63
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "GODFRYPHLP_YF"
     },
     {
       "name": "Sandur Manganese",
@@ -1195,29 +527,9 @@
       "live_price": 197.83,
       "live_pe": 13.42,
       "de": 0.31,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/SANDUMA/consolidated/",
-      "fundamentals_dir": "SANDUMA_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 5031.03,
-        "revenue_cagr": 33.5,
-        "pat_latest": 656.64,
-        "opm": 20.2,
-        "npm": 13.1,
-        "cfo_pat_5y": 139.2,
-        "de": 0.31,
-        "price": 197.89,
-        "mcap": 9619.53,
-        "revenue_spark": [
-          2112.76,
-          1237.84,
-          3103.03,
-          5031.03
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "SANDUMA_YF"
     },
     {
       "name": "SML Mahindra",
@@ -1228,7 +540,7 @@
       "live_price": 6298.5,
       "live_pe": 54.19,
       "de": 0.56,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/SMLMAH/"
     },
     {
@@ -1240,7 +552,7 @@
       "live_price": 70.59,
       "live_pe": 19.94,
       "de": 0.01,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/GRAUWEIL/consolidated/"
     },
     {
@@ -1252,7 +564,7 @@
       "live_price": 3231.6,
       "live_pe": 95.1,
       "de": 0.25,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/TANFACIND/"
     },
     {
@@ -1264,7 +576,7 @@
       "live_price": 172.89,
       "live_pe": 24.66,
       "de": 0.09,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/AMNPLST/consolidated/"
     },
     {
@@ -1276,7 +588,7 @@
       "live_price": 328.05,
       "live_pe": 36.61,
       "de": null,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/STEELCAS/"
     },
     {
@@ -1288,29 +600,9 @@
       "live_price": 1130.0,
       "live_pe": 14.79,
       "de": 0.1,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/INFY/consolidated/",
-      "fundamentals_dir": "INFY_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 2015.8,
-        "revenue_cagr": 3.4,
-        "pat_latest": 331.3,
-        "opm": 22.6,
-        "npm": 16.4,
-        "cfo_pat_5y": 114.0,
-        "de": 0.1,
-        "price": 1130.3,
-        "mcap": 457805.35,
-        "revenue_spark": [
-          1821.2,
-          1856.2,
-          1927.7,
-          2015.8
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "INFY_YF"
     },
     {
       "name": "HCL Technologies",
@@ -1319,31 +611,11 @@
       "buy_zone": "16–18x ₹950–1,000",
       "concern": "30.6% ROCE; strong product + services mix; less US-concentrated than peers",
       "live_price": 1293.4,
-      "live_pe": 20.3,
+      "live_pe": 20.13,
       "de": 0.07,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/HCLTECH/consolidated/",
-      "fundamentals_dir": "HCLTECH_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 130144.0,
-        "revenue_cagr": 8.7,
-        "pat_latest": 16642.0,
-        "opm": 17.7,
-        "npm": 12.8,
-        "cfo_pat_5y": 128.0,
-        "de": 0.07,
-        "price": 1319.0,
-        "mcap": 356890.63,
-        "revenue_spark": [
-          101456.0,
-          109913.0,
-          117055.0,
-          130144.0
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "HCLTECH_YF"
     },
     {
       "name": "LTIMindtree",
@@ -1361,29 +633,9 @@
       "live_price": 5643.0,
       "live_pe": 46.39,
       "de": 0.07,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/PERSISTENT/consolidated/",
-      "fundamentals_dir": "PERSISTENT_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 14748.45,
-        "revenue_cagr": 20.9,
-        "pat_latest": 1865.12,
-        "opm": 16.8,
-        "npm": 12.6,
-        "cfo_pat_5y": 98.1,
-        "de": 0.06,
-        "price": 5657.0,
-        "mcap": 88379.9,
-        "revenue_spark": [
-          8350.59,
-          9821.59,
-          11938.72,
-          14748.45
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "PERSISTENT_YF"
     },
     {
       "name": "KPIT Technologies",
@@ -1394,29 +646,9 @@
       "live_price": 575.45,
       "live_pe": 27.25,
       "de": 0.24,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/KPITTECH/consolidated/",
-      "fundamentals_dir": "KPITTECH_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 6454.93,
-        "revenue_cagr": 24.3,
-        "pat_latest": 637.34,
-        "opm": 14.6,
-        "npm": 9.9,
-        "cfo_pat_5y": 165.1,
-        "de": 0.24,
-        "price": 583.5,
-        "mcap": 15884.46,
-        "revenue_spark": [
-          3365.04,
-          4871.54,
-          5842.35,
-          6454.93
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "KPITTECH_YF"
     },
     {
       "name": "Zensar Technologies",
@@ -1427,29 +659,9 @@
       "live_price": 461.55,
       "live_pe": 13.68,
       "de": 0.02,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/ZENSARTECH/consolidated/",
-      "fundamentals_dir": "ZENSARTECH_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 5687.4,
-        "revenue_cagr": 5.5,
-        "pat_latest": 774.6,
-        "opm": 18.1,
-        "npm": 13.6,
-        "cfo_pat_5y": 111.4,
-        "de": 0.02,
-        "price": 465.45,
-        "mcap": 10556.38,
-        "revenue_spark": [
-          4848.2,
-          4901.9,
-          5280.6,
-          5687.4
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "ZENSARTECH_YF"
     },
     {
       "name": "Newgen Software",
@@ -1460,29 +672,9 @@
       "live_price": 524.8,
       "live_pe": 23.67,
       "de": 0.02,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/NEWGEN/consolidated/",
-      "fundamentals_dir": "NEWGEN_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 1574.4,
-        "revenue_cagr": 17.4,
-        "pat_latest": 300.58,
-        "opm": 24.9,
-        "npm": 19.1,
-        "cfo_pat_5y": 82.8,
-        "de": 0.02,
-        "price": 517.65,
-        "mcap": 7317.07,
-        "revenue_spark": [
-          973.98,
-          1243.83,
-          1486.88,
-          1574.4
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "NEWGEN_YF"
     },
     {
       "name": "Birlasoft",
@@ -1493,7 +685,7 @@
       "live_price": 289.35,
       "live_pe": 14.18,
       "de": 0.03,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/BSOFT/consolidated/"
     },
     {
@@ -1505,29 +697,9 @@
       "live_price": 110.0,
       "live_pe": 11.41,
       "de": null,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/FIDEL/consolidated/",
-      "fundamentals_dir": "FIDEL_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 102.36,
-        "revenue_cagr": 45.3,
-        "pat_latest": 13.81,
-        "opm": 18.4,
-        "npm": 13.5,
-        "cfo_pat_5y": 62.5,
-        "de": 0.77,
-        "price": 110.0,
-        "mcap": 151.26,
-        "revenue_spark": [
-          33.37,
-          40.09,
-          55.04,
-          102.36
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "FIDEL_YF"
     },
     {
       "name": "Cummins India",
@@ -1538,29 +710,9 @@
       "live_price": 5035.0,
       "live_pe": 59.1,
       "de": 0.0,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/CUMMINSIND/consolidated/",
-      "fundamentals_dir": "CUMMINSIND_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 11949.73,
-        "revenue_cagr": 16.1,
-        "pat_latest": 2361.75,
-        "opm": 25.9,
-        "npm": 19.8,
-        "cfo_pat_5y": 75.5,
-        "de": 0.0,
-        "price": 5071.0,
-        "mcap": 140568.11,
-        "revenue_spark": [
-          7641.4,
-          8859.99,
-          10219.24,
-          11949.73
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "CUMMINSIND_YF"
     },
     {
       "name": "Ingersoll-Rand India",
@@ -1571,29 +723,9 @@
       "live_price": 4844.7,
       "live_pe": 57.02,
       "de": 0.01,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/INGERRAND/",
-      "fundamentals_dir": "INGERRAND_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 1372.24,
-        "revenue_cagr": 6.7,
-        "pat_latest": 256.03,
-        "opm": 25.1,
-        "npm": 18.7,
-        "cfo_pat_5y": 96.2,
-        "de": 0.01,
-        "price": 4846.4,
-        "mcap": 15299.12,
-        "revenue_spark": [
-          1130.78,
-          1179.66,
-          1318.04,
-          1372.24
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "INGERRAND_YF"
     },
     {
       "name": "Elgi Equipments",
@@ -1604,29 +736,9 @@
       "live_price": 642.1,
       "live_pe": 45.25,
       "de": 0.24,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
-      "fundamentals_dir": "ELGIEQUIP_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 3929.5,
-        "revenue_cagr": 9.1,
-        "pat_latest": 430.2,
-        "opm": 15.3,
-        "npm": 10.9,
-        "cfo_pat_5y": 88.5,
-        "de": 0.24,
-        "price": 630.35,
-        "mcap": 19871.25,
-        "revenue_spark": [
-          3021.95,
-          3202.4,
-          3490.0,
-          3929.5
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "ELGIEQUIP_YF"
     },
     {
       "name": "KSB India",
@@ -1637,29 +749,9 @@
       "live_price": 813.55,
       "live_pe": 57.7,
       "de": 0.0,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/KSB/consolidated/",
-      "fundamentals_dir": "KSB_YF",
-      "fundamentals": {
-        "period": "FY22-FY25",
-        "revenue_latest": 2679.63,
-        "revenue_cagr": 14.0,
-        "pat_latest": 270.49,
-        "opm": 13.6,
-        "npm": 10.1,
-        "cfo_pat_5y": 50.5,
-        "de": 0.0,
-        "price": 810.6,
-        "mcap": 14107.62,
-        "revenue_spark": [
-          1808.27,
-          2231.7,
-          2520.06,
-          2679.63
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "KSB_YF"
     },
     {
       "name": "Kirloskar Brothers",
@@ -1670,29 +762,9 @@
       "live_price": 1862.0,
       "live_pe": 39.59,
       "de": 0.1,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/KIRLOSBROS/consolidated/",
-      "fundamentals_dir": "KIRLOSBROS_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 4481.24,
-        "revenue_cagr": 6.9,
-        "pat_latest": 373.63,
-        "opm": 10.5,
-        "npm": 8.3,
-        "cfo_pat_5y": 103.4,
-        "de": 0.1,
-        "price": 1881.3,
-        "mcap": 14939.2,
-        "revenue_spark": [
-          3672.15,
-          3938.2,
-          4422.76,
-          4481.24
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "KIRLOSBROS_YF"
     },
     {
       "name": "Kirloskar Pneumatic",
@@ -1703,29 +775,9 @@
       "live_price": 760.45,
       "live_pe": 37.63,
       "de": 0.0,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/KIRLPNU/",
-      "fundamentals_dir": "KIRLPNU_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 1776.68,
-        "revenue_cagr": 13.1,
-        "pat_latest": 256.13,
-        "opm": 19.1,
-        "npm": 14.4,
-        "cfo_pat_5y": 94.6,
-        "de": 0.0,
-        "price": 759.8,
-        "mcap": 9871.81,
-        "revenue_spark": [
-          1229.32,
-          1311.52,
-          1627.99,
-          1776.68
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "KIRLPNU_YF"
     },
     {
       "name": "Ajax Engineering",
@@ -1736,29 +788,9 @@
       "live_price": 582.45,
       "live_pe": 29.46,
       "de": 0.0,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/AJAXENGG/",
-      "fundamentals_dir": "AJAXENGG_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 2102.54,
-        "revenue_cagr": 22.3,
-        "pat_latest": 225.15,
-        "opm": 14.3,
-        "npm": 10.7,
-        "cfo_pat_5y": 96.0,
-        "de": 0.0,
-        "price": 579.75,
-        "mcap": 6633.0,
-        "revenue_spark": [
-          1149.77,
-          1739.58,
-          2073.91,
-          2102.54
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "AJAXENGG_YF"
     },
     {
       "name": "Brady & Morris",
@@ -1769,7 +801,7 @@
       "live_price": 677.8,
       "live_pe": 31.75,
       "de": 0.09,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/505690/"
     },
     {
@@ -1779,9 +811,9 @@
       "buy_zone": "20–25x ₹430–550",
       "concern": "27.9% ROCE; 27% 5-yr ROE; but 80.95x PE prohibitive and FCF negative",
       "live_price": 2152.95,
-      "live_pe": 81.58,
+      "live_pe": 81.86,
       "de": 0.03,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/544037/consolidated/"
     },
     {
@@ -1793,29 +825,9 @@
       "live_price": 115.55,
       "live_pe": 1.32,
       "de": 0.24,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/ASHOKA/consolidated/",
-      "fundamentals_dir": "ASHOKA_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 7519.88,
-        "revenue_cagr": 0.7,
-        "pat_latest": 2550.01,
-        "opm": 53.8,
-        "npm": 33.9,
-        "cfo_pat_5y": 70.8,
-        "de": 0.24,
-        "price": 117.32,
-        "mcap": 3293.44,
-        "revenue_spark": [
-          7353.7,
-          8956.99,
-          10036.63,
-          7519.88
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "ASHOKA_YF"
     },
     {
       "name": "Goel Constructions",
@@ -1826,29 +838,9 @@
       "live_price": 400.0,
       "live_pe": 11.35,
       "de": 0.03,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/544504/",
-      "fundamentals_dir": "GOELCONS_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 655.9,
-        "revenue_cagr": 34.4,
-        "pat_latest": 46.26,
-        "opm": 9.7,
-        "npm": 7.1,
-        "cfo_pat_5y": 142.9,
-        "de": 0.03,
-        "price": 400.0,
-        "mcap": 577.98,
-        "revenue_spark": [
-          269.9,
-          385.73,
-          589.11,
-          655.9
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "GOELCONS_YF"
     },
     {
       "name": "Mahendra Realtors & Infra",
@@ -1867,7 +859,7 @@
       "live_price": 72.3,
       "live_pe": 8.89,
       "de": 0.55,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/543544/"
     },
     {
@@ -1887,7 +879,7 @@
       "live_price": 279.45,
       "live_pe": 19.62,
       "de": 0.01,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/ENGINERSIN/consolidated/"
     },
     {
@@ -1899,29 +891,9 @@
       "live_price": 2306.1,
       "live_pe": 18.62,
       "de": 0.26,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/POWERMECH/consolidated/",
-      "fundamentals_dir": "POWERMECH_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 6049.9,
-        "revenue_cagr": 18.9,
-        "pat_latest": 363.99,
-        "opm": 10.7,
-        "npm": 6.0,
-        "cfo_pat_5y": 67.5,
-        "de": 0.26,
-        "price": 2399.8,
-        "mcap": 7587.28,
-        "revenue_spark": [
-          3600.44,
-          4205.8,
-          5220.24,
-          6049.9
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "POWERMECH_YF"
     },
     {
       "name": "GNG Electronics",
@@ -1932,7 +904,7 @@
       "live_price": 601.25,
       "live_pe": 49.81,
       "de": 0.59,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/EBGNG/consolidated/"
     },
     {
@@ -1944,7 +916,7 @@
       "live_price": 37.9,
       "live_pe": null,
       "de": null,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/MAYASHEEL/"
     },
     {
@@ -1956,7 +928,7 @@
       "live_price": 305.25,
       "live_pe": 11.61,
       "de": 0.05,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/544453/"
     },
     {
@@ -1968,29 +940,9 @@
       "live_price": 1154.0,
       "live_pe": 44.37,
       "de": 0.03,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/HAVELLS/consolidated/",
-      "fundamentals_dir": "HAVELLS_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 22288.12,
-        "revenue_cagr": 9.9,
-        "pat_latest": 1690.56,
-        "opm": 10.1,
-        "npm": 7.6,
-        "cfo_pat_5y": 102.0,
-        "de": 0.03,
-        "price": 1200.0,
-        "mcap": 75307.4,
-        "revenue_spark": [
-          16805.72,
-          18473.31,
-          21600.08,
-          22288.12
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "HAVELLS_YF"
     },
     {
       "name": "Dixon Technologies",
@@ -2001,29 +953,9 @@
       "live_price": 14240.0,
       "live_pe": 42.13,
       "de": 0.18,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/DIXON/consolidated/",
-      "fundamentals_dir": "DIXON_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 48872.8,
-        "revenue_cagr": 58.9,
-        "pat_latest": 1438.64,
-        "opm": 4.5,
-        "npm": 2.9,
-        "cfo_pat_5y": 134.4,
-        "de": 0.21,
-        "price": 14445.0,
-        "mcap": 87828.33,
-        "revenue_spark": [
-          12173.35,
-          17613.91,
-          38860.1,
-          48872.8
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "DIXON_YF"
     },
     {
       "name": "Hindustan Copper",
@@ -2034,29 +966,9 @@
       "live_price": 521.65,
       "live_pe": 44.32,
       "de": 0.03,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/HINDCOPPER/",
-      "fundamentals_dir": "HINDCOPPER_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 3077.92,
-        "revenue_cagr": 22.7,
-        "pat_latest": 918.54,
-        "opm": 40.2,
-        "npm": 29.8,
-        "cfo_pat_5y": 153.6,
-        "de": 0.03,
-        "price": 518.5,
-        "mcap": 50140.19,
-        "revenue_spark": [
-          1665.14,
-          1704.57,
-          2070.96,
-          3077.92
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "HINDCOPPER_YF"
     },
     {
       "name": "CDSL",
@@ -2067,29 +979,9 @@
       "live_price": 1394.6,
       "live_pe": 60.63,
       "de": 0.0,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/CDSL/consolidated/",
-      "fundamentals_dir": "CDSL_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 1144.92,
-        "revenue_cagr": 27.3,
-        "pat_latest": 456.13,
-        "opm": 53.2,
-        "npm": 39.8,
-        "cfo_pat_5y": 98.0,
-        "de": 0.0,
-        "price": 1394.0,
-        "mcap": 29134.6,
-        "revenue_spark": [
-          555.09,
-          812.26,
-          1082.28,
-          1144.92
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "CDSL_YF"
     },
     {
       "name": "NSDL",
@@ -2100,29 +992,9 @@
       "live_price": 812.85,
       "live_pe": 41.9,
       "de": 0.01,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/544467/consolidated/",
-      "fundamentals_dir": "NSDL_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 1529.96,
-        "revenue_cagr": 14.4,
-        "pat_latest": 379.74,
-        "opm": 33.5,
-        "npm": 24.8,
-        "cfo_pat_5y": 153.9,
-        "de": 0.01,
-        "price": 811.75,
-        "mcap": 16235.0,
-        "revenue_spark": [
-          1021.42,
-          1267.87,
-          1419.65,
-          1529.96
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "NSDL_YF"
     },
     {
       "name": "KFin Technologies",
@@ -2133,29 +1005,9 @@
       "live_price": 928.9,
       "live_pe": 47.18,
       "de": 0.03,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/KFINTECH/consolidated/",
-      "fundamentals_dir": "KFINTECH_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 1274.33,
-        "revenue_cagr": 22.5,
-        "pat_latest": 343.71,
-        "opm": 37.1,
-        "npm": 27.0,
-        "cfo_pat_5y": 114.6,
-        "de": 0.03,
-        "price": 927.7,
-        "mcap": 16037.34,
-        "revenue_spark": [
-          693.42,
-          810.62,
-          1066.31,
-          1274.33
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "KFINTECH_YF"
     },
     {
       "name": "Jinkushal Industries",
@@ -2166,7 +1018,7 @@
       "live_price": 100.56,
       "live_pe": 45.09,
       "de": 0.5,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/JKIPL/consolidated/"
     },
     {
@@ -2178,29 +1030,9 @@
       "live_price": 32845.0,
       "live_pe": 64.15,
       "de": 0.1,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/3MINDIA/",
-      "fundamentals_dir": "3MINDIA_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 5086.95,
-        "revenue_cagr": 8.7,
-        "pat_latest": 522.32,
-        "opm": 18.4,
-        "npm": 10.3,
-        "cfo_pat_5y": 97.3,
-        "de": 0.1,
-        "price": 32820.0,
-        "mcap": 36971.96,
-        "revenue_spark": [
-          3957.28,
-          4186.87,
-          4442.86,
-          5086.95
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "3MINDIA_YF"
     },
     {
       "name": "M K Exim India",
@@ -2211,29 +1043,9 @@
       "live_price": 62.18,
       "live_pe": 12.74,
       "de": 0.01,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/MKEXIM/consolidated/",
-      "fundamentals_dir": "MKEXIM_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 97.33,
-        "revenue_cagr": -2.1,
-        "pat_latest": 18.79,
-        "opm": 27.9,
-        "npm": 19.3,
-        "cfo_pat_5y": 43.7,
-        "de": 0.01,
-        "price": 60.18,
-        "mcap": 242.93,
-        "revenue_spark": [
-          103.66,
-          92.38,
-          92.69,
-          97.33
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "MKEXIM_YF"
     },
     {
       "name": "IGI India",
@@ -2242,31 +1054,11 @@
       "buy_zone": "20–22x ₹270–290",
       "concern": "50-yr gemstone certification moat; 37% 5-yr ROE; 46% net margins; lab-grown diamond catalyst; asset-light; franchise strengthens as diamond proliferates — but PE promoter structure limits conviction",
       "live_price": 323.5,
-      "live_pe": 27.28,
+      "live_pe": 27.32,
       "de": 0.1,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/IGIL/consolidated/",
-      "fundamentals_dir": "IGIL_YF",
-      "fundamentals": {
-        "period": "FY22-FY25",
-        "revenue_latest": 1053.16,
-        "revenue_cagr": 29.6,
-        "pat_latest": 427.29,
-        "opm": 56.4,
-        "npm": 40.6,
-        "cfo_pat_5y": 97.5,
-        "de": 0.1,
-        "price": 325.95,
-        "mcap": 14086.25,
-        "revenue_spark": [
-          484.04,
-          888.01,
-          1042.16,
-          1053.16
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "IGIL_YF"
     },
     {
       "name": "NESCO",
@@ -2275,31 +1067,11 @@
       "buy_zone": "17–19x ₹1,000–1,050",
       "concern": "Irreplaceable Mumbai exhibition/IT park real estate; Bhartia family (58–60%); debt-free; EPS doubling every 6 yrs; no acquisitions; consistent FCF ₹121 Cr",
       "live_price": 1047.6,
-      "live_pe": 17.62,
+      "live_pe": 17.71,
       "de": 0.09,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/NESCO/consolidated/",
-      "fundamentals_dir": "NESCO_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 932.06,
-        "revenue_cagr": 19.5,
-        "pat_latest": 412.74,
-        "opm": 57.7,
-        "npm": 44.3,
-        "cfo_pat_5y": 97.9,
-        "de": 0.09,
-        "price": 1044.8,
-        "mcap": 7361.66,
-        "revenue_spark": [
-          546.0,
-          678.18,
-          732.01,
-          932.06
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "NESCO_YF"
     },
     {
       "name": "Positron Energy",
@@ -2310,7 +1082,7 @@
       "live_price": 180.0,
       "live_pe": null,
       "de": null,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/POSITRON/"
     },
     {
@@ -2322,7 +1094,7 @@
       "live_price": 14.45,
       "live_pe": null,
       "de": null,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/ARUNAYA/"
     },
     {
@@ -2332,31 +1104,11 @@
       "buy_zone": "35–40x ₹250–320",
       "concern": "25-yr brand moat (Parachute, Saffola); 47% 5-yr ROCE; zero debt; professional mgmt succession; India + international edible oils + FMCG; bolt-on M&A disciplined",
       "live_price": 815.15,
-      "live_pe": 55.99,
+      "live_pe": 56.29,
       "de": 0.12,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/MARICO/consolidated/",
-      "fundamentals_dir": "MARICO_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 13548.0,
-        "revenue_cagr": 11.8,
-        "pat_latest": 1762.0,
-        "opm": 17.1,
-        "npm": 13.0,
-        "cfo_pat_5y": 101.3,
-        "de": 0.13,
-        "price": 827.4,
-        "mcap": 107245.65,
-        "revenue_spark": [
-          9689.0,
-          9573.0,
-          10733.0,
-          13548.0
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "MARICO_YF"
     },
     {
       "name": "Hindustan Unilever",
@@ -2365,31 +1117,11 @@
       "buy_zone": "28–30x ₹1,100–1,400",
       "concern": "9 million retailer touchpoints; 27–30% ROCE; ₹51,279 Cr 5-yr FCF; Unilever 61.9% parent; dominant across Home Care, Beauty, Foods; ice-cream demerged (capital discipline)",
       "live_price": 1973.4,
-      "live_pe": 43.92,
+      "live_pe": 44.12,
       "de": 0.03,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/HINDUNILVR/consolidated/",
-      "fundamentals_dir": "HINDUNILVR_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 63763.0,
-        "revenue_cagr": 2.3,
-        "pat_latest": 15040.0,
-        "opm": 22.3,
-        "npm": 23.6,
-        "cfo_pat_5y": 104.9,
-        "de": 0.03,
-        "price": 1962.0,
-        "mcap": 460989.82,
-        "revenue_spark": [
-          59549.0,
-          60966.0,
-          60573.0,
-          63763.0
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "HINDUNILVR_YF"
     },
     {
       "name": "Knowledge Marine & Engineering",
@@ -2400,29 +1132,9 @@
       "live_price": 3033.4,
       "live_pe": 60.94,
       "de": 0.39,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/KMEW/consolidated/",
-      "fundamentals_dir": "KMEW_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 256.28,
-        "revenue_cagr": 8.3,
-        "pat_latest": 78.8,
-        "opm": 36.5,
-        "npm": 30.7,
-        "cfo_pat_5y": -58.8,
-        "de": 0.39,
-        "price": 3150.4,
-        "mcap": 7990.77,
-        "revenue_spark": [
-          201.53,
-          163.58,
-          200.7,
-          256.28
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "KMEW_YF"
     },
     {
       "name": "MPS Limited",
@@ -2433,29 +1145,9 @@
       "live_price": 2658.9,
       "live_pe": 23.93,
       "de": 0.1,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/MPSLTD/consolidated/",
-      "fundamentals_dir": "MPSLTD_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 768.36,
-        "revenue_cagr": 15.4,
-        "pat_latest": 173.22,
-        "opm": 30.1,
-        "npm": 22.5,
-        "cfo_pat_5y": 96.1,
-        "de": 0.1,
-        "price": 2620.6,
-        "mcap": 4448.61,
-        "revenue_spark": [
-          500.45,
-          545.31,
-          726.89,
-          768.36
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "MPSLTD_YF"
     },
     {
       "name": "Macfos",
@@ -2466,7 +1158,7 @@
       "live_price": 1095.1,
       "live_pe": 42.91,
       "de": 0.38,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/543787/"
     },
     {
@@ -2478,7 +1170,7 @@
       "live_price": 0.47,
       "live_pe": null,
       "de": 0.02,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/GLOBAL/"
     },
     {
@@ -2488,31 +1180,11 @@
       "buy_zone": "14.9–17x ₹191 (60% correction)",
       "concern": "21.34% ROCE; global refractory tech leader (Vesuvius plc subsidiary); near-zero debt; India steel demand tailwind; capex completing — FCF to improve",
       "live_price": 419.15,
-      "live_pe": 32.72,
+      "live_pe": 33.27,
       "de": 0.01,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/VESUVIUS/",
-      "fundamentals_dir": "VESUVIUS_YF",
-      "fundamentals": {
-        "period": "FY22-FY25",
-        "revenue_latest": 2099.95,
-        "revenue_cagr": 16.3,
-        "pat_latest": 264.08,
-        "opm": 17.0,
-        "npm": 12.6,
-        "cfo_pat_5y": 75.3,
-        "de": 0.01,
-        "price": 420.0,
-        "mcap": 8524.35,
-        "revenue_spark": [
-          1335.21,
-          1591.21,
-          1864.97,
-          2099.95
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "VESUVIUS_YF"
     },
     {
       "name": "Raghav Productivity Enhancers",
@@ -2521,31 +1193,11 @@
       "buy_zone": "14.9–17x ₹178–203",
       "concern": "31.22% ROCE; 63% gross margins; near-zero debt (D/E 0.03); founder-led (62.91%); niche silica ramming mass monopoly; global foundry + semiconductor-grade silica expansion",
       "live_price": 1807.2,
-      "live_pe": 133.18,
+      "live_pe": 124.46,
       "de": 0.02,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/RPEL/consolidated/",
-      "fundamentals_dir": "RPEL_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 254.25,
-        "revenue_cagr": 23.5,
-        "pat_latest": 54.8,
-        "opm": 27.6,
-        "npm": 21.6,
-        "cfo_pat_5y": 81.5,
-        "de": 0.02,
-        "price": 1885.2,
-        "mcap": 8657.21,
-        "revenue_spark": [
-          134.86,
-          132.77,
-          197.47,
-          254.25
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "RPEL_YF"
     },
     {
       "name": "Foseco India",
@@ -2556,7 +1208,7 @@
       "live_price": 6263.0,
       "live_pe": 48.47,
       "de": null,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/FOSECOIND/consolidated/"
     },
     {
@@ -2568,29 +1220,9 @@
       "live_price": 1288.4,
       "live_pe": 13.26,
       "de": 0.35,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/IMFA/consolidated/",
-      "fundamentals_dir": "IMFA_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 2793.99,
-        "revenue_cagr": 1.9,
-        "pat_latest": 424.28,
-        "opm": 20.8,
-        "npm": 15.2,
-        "cfo_pat_5y": 110.4,
-        "de": 0.35,
-        "price": 1281.7,
-        "mcap": 6915.3,
-        "revenue_spark": [
-          2639.39,
-          2743.35,
-          2534.63,
-          2793.99
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "IMFA_YF"
     },
     {
       "name": "Solar Industries India",
@@ -2601,7 +1233,7 @@
       "live_price": 21445.0,
       "live_pe": 97.79,
       "de": 0.23,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/SOLARINDS/consolidated/"
     },
     {
@@ -2613,29 +1245,9 @@
       "live_price": 3409.8,
       "live_pe": 49.58,
       "de": 0.0,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/BSE/consolidated/",
-      "fundamentals_dir": "BSE_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 4485.44,
-        "revenue_cagr": 76.5,
-        "pat_latest": 2496.98,
-        "opm": 73.6,
-        "npm": 55.7,
-        "cfo_pat_5y": 124.9,
-        "de": 0.0,
-        "price": 3306.1,
-        "mcap": 134270.34,
-        "revenue_spark": [
-          815.53,
-          1371.04,
-          2737.66,
-          4485.44
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "BSE_YF"
     },
     {
       "name": "Multi Commodity Exchange",
@@ -2646,29 +1258,9 @@
       "live_price": 3275.4,
       "live_pe": 54.09,
       "de": 0.0,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/MCX/consolidated/",
-      "fundamentals_dir": "MCX_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 2117.71,
-        "revenue_cagr": 67.9,
-        "pat_latest": 1331.55,
-        "opm": 79.8,
-        "npm": 62.9,
-        "cfo_pat_5y": 215.1,
-        "de": 0.0,
-        "price": 3170.2,
-        "mcap": 80686.06,
-        "revenue_spark": [
-          447.69,
-          583.54,
-          994.49,
-          2117.71
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "MCX_YF"
     },
     {
       "name": "Coromandel International",
@@ -2677,31 +1269,11 @@
       "buy_zone": "14–17x ₹950–1,100",
       "concern": "22.75% ROCE; ₹4,785 Cr 5-yr FCF; Murugappa Group; 2nd largest phosphatic fertilizer maker; 1,000+ rural retail outlets; crop protection diversification",
       "live_price": 1938.8,
-      "live_pe": 31.18,
+      "live_pe": 30.99,
       "de": 0.11,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/COROMANDEL/consolidated/",
-      "fundamentals_dir": "COROMANDEL_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 20223.21,
-        "revenue_cagr": 10.2,
-        "pat_latest": 1956.15,
-        "opm": 14.5,
-        "npm": 9.7,
-        "cfo_pat_5y": 78.7,
-        "de": 0.52,
-        "price": 1931.3,
-        "mcap": 56884.72,
-        "revenue_spark": [
-          15098.84,
-          13832.01,
-          15936.64,
-          20223.21
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "COROMANDEL_YF"
     },
     {
       "name": "Panorama Studios International",
@@ -2712,29 +1284,9 @@
       "live_price": 47.41,
       "live_pe": 52.1,
       "de": 0.59,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/PANORAMA/consolidated/",
-      "fundamentals_dir": "PANORAMA_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 308.5,
-        "revenue_cagr": -1.9,
-        "pat_latest": 15.67,
-        "opm": 8.9,
-        "npm": 5.1,
-        "cfo_pat_5y": 6.4,
-        "de": 0.59,
-        "price": 45.83,
-        "mcap": null,
-        "revenue_spark": [
-          326.57,
-          401.61,
-          364.15,
-          308.5
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "PANORAMA_YF"
     },
     {
       "name": "Anand Rathi Wealth",
@@ -2743,9 +1295,9 @@
       "buy_zone": "14.9–16x ₹691–738",
       "concern": "57.47% ROCE; 18 consecutive quarters >20% PAT growth; HNI wealth platform; ₹1 lakh crore AUM (April 2026); asset-light; EXCELLENT management",
       "live_price": 2215.9,
-      "live_pe": 80.37,
+      "live_pe": 79.74,
       "de": 0.08,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/ANANDRATHI/"
     },
     {
@@ -2755,31 +1307,11 @@
       "buy_zone": "14.9–16x ₹786–840",
       "concern": "37.48% ROCE; B2B2C MFD aggregator; ₹1.33 lakh crore AUM; 5,100 new partners in FY26; Sanjay Shah founder; Prudent Edge AI platform; Q4 FY26 weakness is proximate (market correction)",
       "live_price": 3347.6,
-      "live_pe": 56.51,
+      "live_pe": 56.5,
       "de": 0.04,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/PRUDENT/consolidated/",
-      "fundamentals_dir": "PRUDENT_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 1306.47,
-        "revenue_cagr": 29.3,
-        "pat_latest": 222.05,
-        "opm": 23.2,
-        "npm": 17.0,
-        "cfo_pat_5y": 96.1,
-        "de": 0.04,
-        "price": 3328.5,
-        "mcap": 13782.21,
-        "revenue_spark": [
-          604.84,
-          799.07,
-          1095.95,
-          1306.47
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "PRUDENT_YF"
     },
     {
       "name": "ICICI Lombard General Insurance",
@@ -2790,7 +1322,7 @@
       "live_price": 1510.0,
       "live_pe": 31.5,
       "de": null,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/ICICIGI/"
     },
     {
@@ -2800,31 +1332,11 @@
       "buy_zone": "14–15x ~₹265–270 (~50% correction from ₹555)",
       "concern": "Accreditation-moated CRO/CRT; 25-year FSSAI PPP anchor contract (National Food Laboratory, Navi Mumbai); near-zero debt (D/E 0.01); 30% PAT CAGR 5yr; multi-sector testing (pharma, food, electronics, environment) reduces cyclicality; FCF ₹108 Cr 5yr",
       "live_price": 635.65,
-      "live_pe": 35.57,
+      "live_pe": 35.83,
       "de": 0.01,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/VIMTALABS/",
-      "fundamentals_dir": "VIMTALABS_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 407.29,
-        "revenue_cagr": 8.9,
-        "pat_latest": 77.51,
-        "opm": 25.6,
-        "npm": 19.0,
-        "cfo_pat_5y": 166.7,
-        "de": 0.01,
-        "price": 652.25,
-        "mcap": 2914.7,
-        "revenue_spark": [
-          315.06,
-          288.6,
-          343.98,
-          407.29
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "VIMTALABS_YF"
     },
     {
       "name": "Dr Lal Pathlabs",
@@ -2835,29 +1347,9 @@
       "live_price": 1877.5,
       "live_pe": 57.98,
       "de": 0.08,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/LALPATHLAB/consolidated/",
-      "fundamentals_dir": "LALPATHLAB_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 2762.76,
-        "revenue_cagr": 11.1,
-        "pat_latest": 504.78,
-        "opm": 25.0,
-        "npm": 18.3,
-        "cfo_pat_5y": 138.2,
-        "de": 0.08,
-        "price": 1925.2,
-        "mcap": 32146.56,
-        "revenue_spark": [
-          2016.64,
-          2226.5,
-          2461.22,
-          2762.76
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "LALPATHLAB_YF"
     },
     {
       "name": "Vijaya Diagnostic Centre",
@@ -2868,29 +1360,9 @@
       "live_price": 1493.2,
       "live_pe": 81.95,
       "de": 0.44,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/VIJAYA/consolidated/",
-      "fundamentals_dir": "VIJAYA_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 813.88,
-        "revenue_cagr": 21.0,
-        "pat_latest": 172.98,
-        "opm": 32.4,
-        "npm": 21.3,
-        "cfo_pat_5y": 162.0,
-        "de": 0.44,
-        "price": 1505.5,
-        "mcap": 15506.31,
-        "revenue_spark": [
-          459.0,
-          547.58,
-          680.96,
-          813.88
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "VIJAYA_YF"
     },
     {
       "name": "Thyrocare Technologies",
@@ -2901,29 +1373,9 @@
       "live_price": 576.15,
       "live_pe": 52.28,
       "de": 0.09,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/THYROCARE/consolidated/",
-      "fundamentals_dir": "THYROCARE_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 821.89,
-        "revenue_cagr": 16.7,
-        "pat_latest": 163.04,
-        "opm": 26.2,
-        "npm": 19.8,
-        "cfo_pat_5y": 177.0,
-        "de": 0.09,
-        "price": 578.65,
-        "mcap": 9209.89,
-        "revenue_spark": [
-          517.2,
-          567.88,
-          680.71,
-          821.89
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "THYROCARE_YF"
     },
     {
       "name": "3B Blackbio",
@@ -2934,7 +1386,7 @@
       "live_price": 1460.1,
       "live_pe": 21.99,
       "de": 0.01,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/3BBLACKBIO/consolidated/"
     },
     {
@@ -2944,31 +1396,11 @@
       "buy_zone": "14–15x ~₹295–310 (~20–22% correction from ₹384)",
       "concern": "ROCE 39.69% 5yr avg (peak 66.94% Q2 FY26); single-site mature Apollo hospital on Delhi Govt land at nominal rent = structural cost moat; zero debt; zero acquisitions in 35yr history; Apollo brand medical tourism; FCF ₹523 Cr 5yr",
       "live_price": 349.7,
-      "live_pe": 17.05,
+      "live_pe": 17.03,
       "de": 0.05,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/INDRAMEDCO/",
-      "fundamentals_dir": "INDRAMEDCO_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 1424.95,
-        "revenue_cagr": 10.2,
-        "pat_latest": 183.62,
-        "opm": 17.5,
-        "npm": 12.9,
-        "cfo_pat_5y": 120.6,
-        "de": 0.05,
-        "price": 356.35,
-        "mcap": 3266.77,
-        "revenue_spark": [
-          1064.95,
-          1204.06,
-          1306.95,
-          1424.95
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "INDRAMEDCO_YF"
     },
     {
       "name": "Kovai Medical Center & Hospital",
@@ -2979,7 +1411,7 @@
       "live_price": 6062.5,
       "live_pe": 25.9,
       "de": 0.31,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/KOVAI/"
     },
     {
@@ -2991,29 +1423,9 @@
       "live_price": 275.65,
       "live_pe": 21.77,
       "de": 0.65,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/TRITURBINE/consolidated/",
-      "fundamentals_dir": "TRIVENI_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 6290.49,
-        "revenue_cagr": 4.1,
-        "pat_latest": 268.71,
-        "opm": 7.4,
-        "npm": 4.3,
-        "cfo_pat_5y": 21.5,
-        "de": 0.65,
-        "price": 280.5,
-        "mcap": 6181.18,
-        "revenue_spark": [
-          5574.51,
-          5209.3,
-          5689.24,
-          6290.49
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "TRIVENI_YF"
     },
     {
       "name": "Voltamp Transformers",
@@ -3024,29 +1436,9 @@
       "live_price": 11418.0,
       "live_pe": 34.85,
       "de": 0.0,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/VOLTAMP/",
-      "fundamentals_dir": "VOLTAMP_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 2145.66,
-        "revenue_cagr": 16.0,
-        "pat_latest": 305.38,
-        "opm": 19.0,
-        "npm": 14.2,
-        "cfo_pat_5y": 65.3,
-        "de": 0.0,
-        "price": 11182.0,
-        "mcap": 11312.96,
-        "revenue_spark": [
-          1376.17,
-          1609.42,
-          1924.73,
-          2145.66
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "VOLTAMP_YF"
     },
     {
       "name": "Hitachi Energy India",
@@ -3057,7 +1449,7 @@
       "live_price": 31650.0,
       "live_pe": 122.11,
       "de": 0.02,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/POWERINDIA/"
     },
     {
@@ -3069,29 +1461,9 @@
       "live_price": 7410.0,
       "live_pe": 99.7,
       "de": 0.02,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/ABB/",
-      "fundamentals_dir": "ABB_YF",
-      "fundamentals": {
-        "period": "FY22-FY25",
-        "revenue_latest": 13065.32,
-        "revenue_cagr": 15.4,
-        "pat_latest": 1668.26,
-        "opm": 17.2,
-        "npm": 12.8,
-        "cfo_pat_5y": 80.1,
-        "de": 0.01,
-        "price": 7432.0,
-        "mcap": 157490.3,
-        "revenue_spark": [
-          8498.41,
-          10366.68,
-          12087.67,
-          13065.32
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "ABB_YF"
     },
     {
       "name": "GE Vernova T&D India",
@@ -3102,7 +1474,7 @@
       "live_price": 4306.3,
       "live_pe": 82.28,
       "de": 0.01,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/GVT&D/"
     },
     {
@@ -3114,7 +1486,7 @@
       "live_price": 3115.7,
       "live_pe": 74.81,
       "de": 0.04,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/ENRIN/"
     },
     {
@@ -3126,7 +1498,7 @@
       "live_price": 1232.4,
       "live_pe": 159.64,
       "de": 0.71,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/SCHNEIDER/"
     },
     {
@@ -3138,7 +1510,7 @@
       "live_price": 291.9,
       "live_pe": 25.23,
       "de": 0.05,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/EIHOTEL/consolidated/"
     },
     {
@@ -3150,29 +1522,9 @@
       "live_price": 297.65,
       "live_pe": 20.61,
       "de": 0.01,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/EIHAHOTELS/",
-      "fundamentals_dir": "EIHAHOTELS_YF",
-      "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 383.73,
-        "revenue_cagr": 4.4,
-        "pat_latest": 87.17,
-        "opm": 30.6,
-        "npm": 22.7,
-        "cfo_pat_5y": 116.4,
-        "de": 0.01,
-        "price": 303.85,
-        "mcap": 1851.55,
-        "revenue_spark": [
-          337.07,
-          384.79,
-          408.24,
-          383.73
-        ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
-      },
-      "has_fundamentals": true
+      "fundamentals_dir": "EIHAHOTELS_YF"
     },
     {
       "name": "Benares Hotels",
@@ -3183,7 +1535,7 @@
       "live_price": 10200.0,
       "live_pe": 30.21,
       "de": 0.02,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/BENARAS/"
     },
     {
@@ -3193,9 +1545,9 @@
       "buy_zone": "14–15x ₹380–410 (~77% correction from ~₹1,665)",
       "concern": "India's largest homegrown HVAC company; ROCE 21.17% rising; market leader in commercial AC; 8–10% India household AC penetration = multi-decade runway; Advani family entrepreneur; FCF turning positive",
       "live_price": 1484.0,
-      "live_pe": 59.81,
+      "live_pe": 60.06,
       "de": 0.24,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/BLUESTARCO/consolidated/"
     },
     {
@@ -3207,7 +1559,7 @@
       "live_price": 8406.5,
       "live_pe": 32.79,
       "de": 0.07,
-      "live_fetched_at": "2026-09-04T16:01:23",
+      "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/HAWKINCOOK/"
     },
     {
@@ -3220,7 +1572,7 @@
       "de": 0.11,
       "screener_url": "https://www.screener.in/company/TCS/consolidated/",
       "live_pe": 16.75,
-      "live_fetched_at": "2026-09-04T16:01:23"
+      "live_fetched_at": "2026-09-04T10:45:17"
     },
     {
       "name": "CAMS",
@@ -3232,7 +1584,7 @@
       "de": null,
       "screener_url": "https://www.screener.in/company/CAMS/",
       "live_pe": 37.38,
-      "live_fetched_at": "2026-09-04T16:01:23"
+      "live_fetched_at": "2026-09-04T10:45:17"
     },
     {
       "name": "CARE Ratings",
@@ -3245,7 +1597,7 @@
       "screener_url": "https://www.screener.in/company/CARERATING/consolidated/",
       "fae_report_url": "reports/CARERATING.html",
       "live_pe": 29.07,
-      "live_fetched_at": "2026-09-04T16:01:23"
+      "live_fetched_at": "2026-09-04T10:45:17"
     },
     {
       "name": "IndiGo",
@@ -3257,7 +1609,7 @@
       "de": null,
       "screener_url": "https://www.screener.in/company/INDIGO/consolidated/",
       "live_pe": null,
-      "live_fetched_at": "2026-09-04T16:01:23"
+      "live_fetched_at": "2026-09-04T10:45:17"
     },
     {
       "name": "ITC",
@@ -3268,8 +1620,8 @@
       "live_price": 264.1,
       "de": null,
       "screener_url": "https://www.screener.in/company/ITC/consolidated/",
-      "live_pe": 16.68,
-      "live_fetched_at": "2026-09-04T16:01:23"
+      "live_pe": 16.88,
+      "live_fetched_at": "2026-09-04T10:45:17"
     },
     {
       "name": "L&T",
@@ -3281,7 +1633,7 @@
       "de": null,
       "screener_url": "https://www.screener.in/company/LTF/consolidated/",
       "live_pe": 32.91,
-      "live_fetched_at": "2026-09-04T16:01:23"
+      "live_fetched_at": "2026-09-04T10:45:17"
     },
     {
       "name": "Manappuram Finance",
@@ -3293,7 +1645,7 @@
       "de": null,
       "screener_url": "https://www.screener.in/company/MANAPPURAM/consolidated/",
       "live_pe": 20.75,
-      "live_fetched_at": "2026-09-04T16:01:23"
+      "live_fetched_at": "2026-09-04T10:45:17"
     },
     {
       "name": "IEX",
@@ -3305,8 +1657,8 @@
       "de": 0.01,
       "screener_url": "https://www.screener.in/company/IEX/",
       "fae_report_url": "reports/IEX.html",
-      "live_pe": 20.86,
-      "live_fetched_at": "2026-09-04T16:01:23"
+      "live_pe": 20.79,
+      "live_fetched_at": "2026-09-04T10:45:17"
     },
     {
       "name": "Wonderla Holidays",
@@ -3328,7 +1680,7 @@
       "de": null,
       "screener_url": "https://www.screener.in/company/SWARAJENG/",
       "live_pe": 21.42,
-      "live_fetched_at": "2026-09-04T16:01:23"
+      "live_fetched_at": "2026-09-04T10:45:17"
     },
     {
       "name": "Tanla Platforms",
@@ -3339,8 +1691,8 @@
       "live_price": 521.15,
       "de": null,
       "screener_url": "https://www.screener.in/company/TANLA/consolidated/",
-      "live_pe": 12.96,
-      "live_fetched_at": "2026-09-04T16:01:23"
+      "live_pe": 13.3,
+      "live_fetched_at": "2026-09-04T10:45:17"
     }
   ],
   "framework_screen": [
@@ -3931,14 +2283,14 @@
       ],
       "concerns": [
         "Enter only during market dislocation; no price target set",
-        "Valuation check (FAIL): Trading at 45.88x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 45.85x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "15–18x Market dislocation"
       ],
       "metrics": {
         "period": null,
-        "pe": 45.88,
+        "pe": 45.85,
         "roce_pct": 43.8,
         "mcap_cr": 70250.0,
         "fcf_status": "positive",
@@ -3960,14 +2312,14 @@
       ],
       "concerns": [
         "Wait for 35–40% market correction or 3–4 yrs earnings compounding; currently 3x above Nalanda entry PE",
-        "Valuation check (FAIL): Trading at 54.12x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 53.55x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14.9–16x ₹10,300–12,300"
       ],
       "metrics": {
         "period": null,
-        "pe": 54.12,
+        "pe": 53.55,
         "roce_pct": 64.38,
         "mcap_cr": 41520.0,
         "fcf_status": "positive",
@@ -4047,14 +2399,14 @@
       ],
       "concerns": [
         "⭐ Priority watch; entry at 14–16x PE; independently verify promoter background; gold import duty headwind is proximate not ultimate",
-        "Valuation check (WATCHLIST): Trading at 18.41x earnings vs the Sensex average (19.7x) — only a 7% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 18.39x earnings vs the Sensex average (19.7x) — only a 7% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "14–16x PE 14–16x zone"
       ],
       "metrics": {
         "period": null,
-        "pe": 18.41,
+        "pe": 18.39,
         "roce_pct": 33.78,
         "mcap_cr": null,
         "fcf_status": "positive",
@@ -4251,14 +2603,14 @@
       ],
       "concerns": [
         "Fairly valued; watch for 15x PE confirmation",
-        "Valuation check (WATCHLIST): Trading at 22.45x earnings vs the Sensex average (19.7x) — only a -14% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 22.49x earnings vs the Sensex average (19.7x) — only a -14% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "15x 2,200–2,400"
       ],
       "metrics": {
         "period": null,
-        "pe": 22.45,
+        "pe": 22.49,
         "roce_pct": 32.7,
         "mcap_cr": 862.0,
         "fcf_status": "positive",
@@ -4455,14 +2807,14 @@
       ],
       "concerns": [
         "Wait for Sensex-wide correction; target 14–15x TTM PE",
-        "Valuation check (WATCHLIST): Trading at 24.66x earnings vs the Sensex average (19.7x) — only a -25% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 25.1x earnings vs the Sensex average (19.7x) — only a -27% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "14–15x 1,000–1,100"
       ],
       "metrics": {
         "period": null,
-        "pe": 24.66,
+        "pe": 25.1,
         "roce_pct": 34.8,
         "mcap_cr": 13867.0,
         "fcf_status": "positive",
@@ -4513,14 +2865,14 @@
       ],
       "concerns": [
         "Wait for 18–22x PE entry",
-        "Valuation check (FAIL): Trading at 45.96x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 45.73x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "18–22x 800–1,000"
       ],
       "metrics": {
         "period": null,
-        "pe": 45.96,
+        "pe": 45.73,
         "roce_pct": 25.0,
         "mcap_cr": 20000.0,
         "fcf_status": "positive",
@@ -4630,14 +2982,14 @@
       ],
       "concerns": [
         "Wait for 29–38% correction; gas price or demand softness the trigger",
-        "Valuation check (FAIL): Trading at 36.15x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 36.14x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "18–20x 650–750"
       ],
       "metrics": {
         "period": null,
-        "pe": 36.15,
+        "pe": 36.14,
         "roce_pct": 23.3,
         "mcap_cr": 16775.0,
         "fcf_status": "positive",
@@ -4949,14 +3301,14 @@
       ],
       "concerns": [
         "Buy at ₹950–1,000",
-        "Valuation check (WATCHLIST): Trading at 20.3x earnings vs the Sensex average (19.7x) — only a -3% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 20.13x earnings vs the Sensex average (19.7x) — only a -2% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "16–18x ₹950–1,000"
       ],
       "metrics": {
         "period": null,
-        "pe": 20.3,
+        "pe": 20.13,
         "roce_pct": 30.6,
         "mcap_cr": 315000.0,
         "fcf_status": "positive",
@@ -5471,14 +3823,14 @@
       ],
       "concerns": [
         "Wait for PE to compress to 20–25x (target ₹430–550)",
-        "Valuation check (FAIL): Trading at 81.58x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 81.86x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "20–25x ₹430–550"
       ],
       "metrics": {
         "period": null,
-        "pe": 81.58,
+        "pe": 81.86,
         "roce_pct": 27.9,
         "mcap_cr": 2042.0,
         "fcf_status": "negative",
@@ -6171,14 +4523,14 @@
       ],
       "concerns": [
         "Wait for ~30% correction to ₹270–290; monitor Blackstone exit timeline; high priority on price",
-        "Valuation check (WATCHLIST): Trading at 27.28x earnings vs the Sensex average (19.7x) — only a -38% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 27.32x earnings vs the Sensex average (19.7x) — only a -39% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "20–22x ₹270–290"
       ],
       "metrics": {
         "period": null,
-        "pe": 27.28,
+        "pe": 27.32,
         "roce_pct": 30.7,
         "mcap_cr": 16117.0,
         "fcf_status": "positive",
@@ -6200,14 +4552,14 @@
       ],
       "concerns": [
         "Alert at ₹1,050; buy at ₹1,000–1,050 (15–20% pullback from CMP); permanent hold candidate",
-        "Valuation check (WATCHLIST): Trading at 17.62x earnings vs the Sensex average (19.7x) — only a 11% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 17.71x earnings vs the Sensex average (19.7x) — only a 10% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "17–19x ₹1,000–1,050"
       ],
       "metrics": {
         "period": null,
-        "pe": 17.62,
+        "pe": 17.71,
         "roce_pct": 21.1,
         "mcap_cr": 8747.0,
         "fcf_status": "positive",
@@ -6374,14 +4726,14 @@
       ],
       "concerns": [
         "Target ₹250–320 (~35–40x PE); requires 40–50% correction; STRONG BUY trigger at that level; no structural concern — only valuation",
-        "Valuation check (FAIL): Trading at 55.99x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 56.29x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "35–40x ₹250–320"
       ],
       "metrics": {
         "period": null,
-        "pe": 55.99,
+        "pe": 56.29,
         "roce_pct": 47.21,
         "mcap_cr": 202231.0,
         "fcf_status": "positive",
@@ -6403,14 +4755,14 @@
       ],
       "concerns": [
         "Wait for 50%+ correction to ₹1,100–1,400 (sub-30x PE); longest-term watch; permanent holding at right price",
-        "Valuation check (FAIL): Trading at 43.92x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 44.12x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "28–30x ₹1,100–1,400"
       ],
       "metrics": {
         "period": null,
-        "pe": 43.92,
+        "pe": 44.12,
         "roce_pct": 28.4,
         "mcap_cr": 517756.0,
         "fcf_status": "positive",
@@ -6432,7 +4784,7 @@
       ],
       "concerns": [
         "The single biggest open research gap: no post-February-2026 re-measurement of India's illicit cigarette trade share (~26.1% pre-hike) exists in any source found. Watch: whether cigarette segment gross revenue decline moderates below -15% YoY for a full quarter beyond Q1 FY27's -31.5%; whether the NCCD statutory headroom (25%->60%, effective still held at 25%) gets activated; a post-hike illicit-trade re-estimate from any credible source; inventory days (86.2 in FY26, a 10-year high) reverting toward the historical 60-77 day range; the unexplained FY26 borrowings jump (Rs.284.5cr -> Rs.2,399.1cr) reversing or persisting; and whether a future cycle can successfully re-fetch ITC's own Annual Report directly to independently re-confirm the related-party and equity-statement figures currently carried forward from earlier research.",
-        "Valuation check (WATCHLIST): Trading at 16.68x earnings vs the Sensex average (19.7x) — only a 15% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)",
+        "Valuation check (WATCHLIST): Trading at 16.88x earnings vs the Sensex average (19.7x) — only a 14% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)",
         "Worth checking yourself: governance/legal concern mentioned"
       ],
       "thesis_breakers": [
@@ -6440,7 +4792,7 @@
       ],
       "metrics": {
         "period": null,
-        "pe": 16.68,
+        "pe": 16.88,
         "roce_pct": 38.9,
         "mcap_cr": 378014.0,
         "fcf_status": "positive",
@@ -6636,14 +4988,14 @@
       ],
       "concerns": [
         "Monitor promoter holding reduction (74.98% → 63.54%); wait for 14.9–17x PE entry",
-        "Valuation check (FAIL): Trading at 32.72x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 33.27x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14.9–17x ₹191 (60% correction)"
       ],
       "metrics": {
         "period": null,
-        "pe": 32.72,
+        "pe": 33.27,
         "roce_pct": 21.34,
         "mcap_cr": 9580.0,
         "fcf_status": "positive",
@@ -6665,14 +5017,14 @@
       ],
       "concerns": [
         "Highest conviction in sector; requires ~75–80% PE correction for Nalanda entry; patience essential",
-        "Valuation check (FAIL): Trading at 133.18x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 124.46x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14.9–17x ₹178–203"
       ],
       "metrics": {
         "period": null,
-        "pe": 133.18,
+        "pe": 124.46,
         "roce_pct": 31.22,
         "mcap_cr": 4395.0,
         "fcf_status": "positive",
@@ -6839,14 +5191,14 @@
       ],
       "concerns": [
         "Wait for 30–40% correction to 14–17x PE; DAP import disruption is proximate risk, not structural; highest quality private fertilizer franchise",
-        "Valuation check (FAIL): Trading at 31.18x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 30.99x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14–17x ₹950–1,100"
       ],
       "metrics": {
         "period": null,
-        "pe": 31.18,
+        "pe": 30.99,
         "roce_pct": 22.75,
         "mcap_cr": 54038.0,
         "fcf_status": "positive",
@@ -6898,14 +5250,14 @@
       ],
       "concerns": [
         "TTM PE 75.65x (261% premium); entry ₹691–738; monitor April 2026 police case resolution; highest quality in sector",
-        "Valuation check (FAIL): Trading at 80.37x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 79.74x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14.9–16x ₹691–738"
       ],
       "metrics": {
         "period": null,
-        "pe": 80.37,
+        "pe": 79.74,
         "roce_pct": 57.47,
         "mcap_cr": 29611.0,
         "fcf_status": "positive",
@@ -6927,14 +5279,14 @@
       ],
       "concerns": [
         "TTM PE 49.84x (138% premium); entry ₹786–840; monitor SIP book growth and GST notice outcome",
-        "Valuation check (FAIL): Trading at 56.51x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 56.5x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14.9–16x ₹786–840"
       ],
       "metrics": {
         "period": null,
-        "pe": 56.51,
+        "pe": 56.5,
         "roce_pct": 37.48,
         "mcap_cr": 11067.0,
         "fcf_status": "positive",
@@ -7014,14 +5366,14 @@
       ],
       "concerns": [
         "Set alert ₹270; PE 31.44x (57% premium to Sensex); target ≤15x; smaller MCap ₹2,478 Cr — position size accordingly",
-        "Valuation check (FAIL): Trading at 35.57x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 35.83x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14–15x ~₹265–270 (~50% correction from ₹555)"
       ],
       "metrics": {
         "period": null,
-        "pe": 35.57,
+        "pe": 35.83,
         "roce_pct": 25.23,
         "mcap_cr": 2478.0,
         "fcf_status": "positive",
@@ -7159,14 +5511,14 @@
       ],
       "concerns": [
         "PE 19.20x just above Darwin entry zone (14.9x); buy trigger ~₹298 (14.9x × TTM EPS ₹20); nearest to buy zone in hospital sector; Delhi Govt 26% minority stake = partial flag (Apollo controls management)",
-        "Valuation check (WATCHLIST): Trading at 17.05x earnings vs the Sensex average (19.7x) — only a 13% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 17.03x earnings vs the Sensex average (19.7x) — only a 14% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "14–15x ~₹295–310 (~20–22% correction from ₹384)"
       ],
       "metrics": {
         "period": null,
-        "pe": 17.05,
+        "pe": 17.03,
         "roce_pct": 35.83,
         "mcap_cr": 3524.0,
         "fcf_status": "positive",
@@ -7507,14 +5859,14 @@
       ],
       "concerns": [
         "PE 61.47x = 3.1x above Sensex; capex cycle winding down; LG Sri City plant (2026–27) is a competitive risk to monitor",
-        "Valuation check (FAIL): Trading at 59.81x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 60.06x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14–15x ₹380–410 (~77% correction from ~₹1,665)"
       ],
       "metrics": {
         "period": null,
-        "pe": 59.81,
+        "pe": 60.06,
         "roce_pct": 21.17,
         "mcap_cr": 34229.0,
         "fcf_status": "positive",
@@ -11754,13 +10106,13 @@
         "latest_date": "2026-08-01",
         "change": 0.0,
         "change_kind": "diff_pp",
-        "z_score": -0.15,
+        "z_score": -0.17,
         "contribution": 0,
         "source": "fred",
         "source_url": "https://fred.stlouisfed.org/series/FEDFUNDS",
         "stale": false,
         "note": null,
-        "observation_count": 81
+        "observation_count": 80
       },
       {
         "id": "us_2y_yield",
@@ -11773,13 +10125,13 @@
         "latest_date": "2026-09-02",
         "change": 0.34,
         "change_kind": "diff_pp",
-        "z_score": 0.72,
+        "z_score": 0.73,
         "contribution": null,
         "source": "fred",
         "source_url": "https://fred.stlouisfed.org/series/DGS2",
         "stale": false,
         "note": null,
-        "observation_count": 867
+        "observation_count": 863
       },
       {
         "id": "us_10y_yield",
@@ -11798,7 +10150,7 @@
         "source_url": "https://fred.stlouisfed.org/series/DGS10",
         "stale": false,
         "note": null,
-        "observation_count": 867
+        "observation_count": 863
       },
       {
         "id": "us_dollar_index",
@@ -11817,7 +10169,7 @@
         "source_url": "https://fred.stlouisfed.org/series/DTWEXBGS",
         "stale": false,
         "note": "DXY proxy -- FRED has no free feed of the ICE DXY itself; a rising broad dollar index means USD strength, same direction macro/india_macro_model.json's own china_stimulus factor already treats as adverse for India (INR depreciation).",
-        "observation_count": 869
+        "observation_count": 864
       },
       {
         "id": "vix",
@@ -11836,7 +10188,7 @@
         "source_url": "https://fred.stlouisfed.org/series/VIXCLS",
         "stale": false,
         "note": null,
-        "observation_count": 893
+        "observation_count": 890
       },
       {
         "id": "india_cpi",
@@ -11906,13 +10258,13 @@
         "latest_date": "2026-08-28",
         "change": 8.844,
         "change_kind": "yoy_pct",
-        "z_score": 1.33,
+        "z_score": 1.32,
         "contribution": -1,
         "source": "fred",
         "source_url": "https://fred.stlouisfed.org/series/DEXINUS",
         "stale": false,
         "note": null,
-        "observation_count": 869
+        "observation_count": 864
       },
       {
         "id": "india_repo_rate",
@@ -11982,13 +10334,13 @@
         "latest_date": "2026-09-01",
         "change": 43.121,
         "change_kind": "yoy_pct",
-        "z_score": 1.66,
+        "z_score": 1.67,
         "contribution": -2,
         "source": "fred",
         "source_url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
         "stale": false,
         "note": "India imports ~85% of crude -- same reasoning as macro/india_macro_model.json's own 'crude' cascade factor.",
-        "observation_count": 875
+        "observation_count": 870
       },
       {
         "id": "gold",
@@ -11997,17 +10349,17 @@
         "category": "commodity",
         "unit": "USD/oz",
         "frequency": "daily",
-        "latest_value": 4515.2002,
+        "latest_value": 4518.6001,
         "latest_date": "2026-09-04",
-        "change": 26.625,
+        "change": 26.721,
         "change_kind": "yoy_pct",
-        "z_score": -1.22,
+        "z_score": -1.21,
         "contribution": null,
         "source": "yfinance",
         "source_url": "https://finance.yahoo.com/quote/GC=F",
         "stale": false,
         "note": "FRED's own gold series (GOLDAMGBD228NLBM) was confirmed discontinued in 2025 with an unstable replacement history -- routed through yfinance instead, already a proven dependency (compute_beta.py).",
-        "observation_count": 506
+        "observation_count": 505
       },
       {
         "id": "copper",
@@ -12016,22 +10368,22 @@
         "category": "commodity",
         "unit": "USD/lb",
         "frequency": "daily",
-        "latest_value": 6.644,
+        "latest_value": 6.639,
         "latest_date": "2026-09-04",
-        "change": 48.039,
+        "change": 47.928,
         "change_kind": "yoy_pct",
-        "z_score": 1.75,
+        "z_score": 1.74,
         "contribution": null,
         "source": "yfinance",
         "source_url": "https://finance.yahoo.com/quote/HG=F",
         "stale": false,
         "note": "A global-growth proxy per the PRD's own commodity classification (section 7E) -- shown informationally, not forced into one of the 5 scored categories.",
-        "observation_count": 506
+        "observation_count": 505
       }
     ],
-    "computed_at": "2026-09-04T10:33:47.569043+00:00"
+    "computed_at": "2026-09-04T10:45:37.261114+00:00"
   },
-  "macro_intel_run_at": "2026-09-04T10:33:47.569043+00:00",
+  "macro_intel_run_at": "2026-09-04T10:45:37.261114+00:00",
   "macro_trend": {
     "score_trend": {
       "has_prior": true,
@@ -12140,7 +10492,7 @@
     "computed_at": "2026-09-03T12:24:09.116760+00:00"
   },
   "scenario_tracking": {
-    "checked_at": "2026-09-04T10:33:47.788115+00:00",
+    "checked_at": "2026-09-04T10:45:37.383210+00:00",
     "based_on_forecast_computed_at": "2026-09-03T12:24:09.116760+00:00",
     "scenarios": [
       {
@@ -13375,6 +11727,14 @@
       "period": "FY23-FY26",
       "flags": [],
       "flag_count": 0
+    },
+    {
+      "ticker": "CHAMBLFERT",
+      "name": "Chambal Fertilisers",
+      "fundamentals_dir": "CHAMBLFERT_YF",
+      "period": "FY23-FY26",
+      "flags": [],
+      "flag_count": 0
     }
   ],
   "scores": [
@@ -13432,7 +11792,7 @@
       },
       "components_scored": 6,
       "overall": 79.0,
-      "pe_used": 8.3,
+      "pe_used": 8.2,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -13466,7 +11826,7 @@
         "growth": 39.6,
         "cash_generation": 37.125,
         "capital_allocation": 100,
-        "valuation": 71.65492184809428
+        "valuation": 71.86272855078727
       },
       "components_scored": 6,
       "overall": 68.1,
@@ -13489,7 +11849,7 @@
       },
       "components_scored": 6,
       "overall": 69.9,
-      "pe_used": 32.8,
+      "pe_used": 32.3,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -13599,11 +11959,11 @@
         "growth": 36.4,
         "cash_generation": 100.0,
         "capital_allocation": 100,
-        "valuation": 84.42442196746978
+        "valuation": 84.79937283987054
       },
       "components_scored": 6,
-      "overall": 72.6,
-      "pe_used": 12.9,
+      "overall": 72.7,
+      "pe_used": 12.8,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -13618,11 +11978,11 @@
         "growth": 100,
         "cash_generation": 36.875,
         "capital_allocation": 100,
-        "valuation": 73.6411090098758
+        "valuation": 72.75195470179047
       },
       "components_scored": 6,
-      "overall": 84.1,
-      "pe_used": 15.0,
+      "overall": 84.0,
+      "pe_used": 15.2,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -13660,7 +12020,7 @@
       },
       "components_scored": 6,
       "overall": 65.2,
-      "pe_used": 31.0,
+      "pe_used": 31.5,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -13675,11 +12035,11 @@
         "growth": null,
         "cash_generation": null,
         "capital_allocation": null,
-        "valuation": 29.492385786802032
+        "valuation": 33.4010152284264
       },
       "components_scored": 2,
-      "overall": 64.2,
-      "pe_used": 23.74,
+      "overall": 65.7,
+      "pe_used": 22.97,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -13793,7 +12153,7 @@
       },
       "components_scored": 2,
       "overall": 62.5,
-      "pe_used": 74.04,
+      "pe_used": 78.71,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -13808,11 +12168,11 @@
         "growth": null,
         "cash_generation": null,
         "capital_allocation": null,
-        "valuation": 56.040609137055824
+        "valuation": 56.54822335025381
       },
       "components_scored": 2,
-      "overall": 67.3,
-      "pe_used": 18.51,
+      "overall": 67.5,
+      "pe_used": 18.41,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -13850,7 +12210,7 @@
       },
       "components_scored": 6,
       "overall": 61.6,
-      "pe_used": 49.3,
+      "pe_used": 48.9,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -13922,11 +12282,11 @@
         "growth": 23.6,
         "cash_generation": 76.41666666666667,
         "capital_allocation": 100,
-        "valuation": 59.18198278604368
+        "valuation": 58.868147446827635
       },
       "components_scored": 6,
       "overall": 70.2,
-      "pe_used": 17.9,
+      "pe_used": 18.0,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -13941,11 +12301,11 @@
         "growth": null,
         "cash_generation": null,
         "capital_allocation": null,
-        "valuation": 34.51776649746192
+        "valuation": 36.04060913705584
       },
       "components_scored": 2,
-      "overall": 58.1,
-      "pe_used": 22.75,
+      "overall": 58.7,
+      "pe_used": 22.45,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -14040,7 +12400,7 @@
       },
       "components_scored": 6,
       "overall": 71.1,
-      "pe_used": 90.2,
+      "pe_used": 88.7,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -14055,11 +12415,11 @@
         "growth": 63.2,
         "cash_generation": 86.08333333333333,
         "capital_allocation": 70.0,
-        "valuation": 19.578921212158683
+        "valuation": 23.94454289024196
       },
       "components_scored": 6,
-      "overall": 69.8,
-      "pe_used": 25.7,
+      "overall": 70.5,
+      "pe_used": 24.8,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -14116,7 +12476,7 @@
       },
       "components_scored": 6,
       "overall": 53.4,
-      "pe_used": 46.8,
+      "pe_used": 45.5,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -14230,7 +12590,7 @@
       },
       "components_scored": 2,
       "overall": 43.2,
-      "pe_used": 48.01,
+      "pe_used": 54.19,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -14264,11 +12624,11 @@
         "growth": null,
         "cash_generation": null,
         "capital_allocation": null,
-        "valuation": 47.715736040609144
+        "valuation": 48.781725888324864
       },
       "components_scored": 2,
-      "overall": 52.8,
-      "pe_used": 20.15,
+      "overall": 53.2,
+      "pe_used": 19.94,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -14306,7 +12666,7 @@
       },
       "components_scored": 2,
       "overall": 35.3,
-      "pe_used": 91.38,
+      "pe_used": 95.1,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -14321,11 +12681,11 @@
         "growth": null,
         "cash_generation": null,
         "capital_allocation": null,
-        "valuation": 16.649746192893403
+        "valuation": 24.822335025380703
       },
       "components_scored": 2,
-      "overall": 37.5,
-      "pe_used": 26.27,
+      "overall": 40.6,
+      "pe_used": 24.66,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -14344,7 +12704,7 @@
       },
       "components_scored": 2,
       "overall": 45.4,
-      "pe_used": 38.16,
+      "pe_used": 36.61,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -14354,16 +12714,16 @@
       "data_path": "full",
       "sector_type": "general",
       "components": {
-        "business_quality": 84.475,
+        "business_quality": 86.35,
         "financial_strength": 95.0,
-        "growth": 13.600000000000001,
-        "cash_generation": 86.66666666666666,
+        "growth": 33.6,
+        "cash_generation": 87.08333333333334,
         "capital_allocation": 100,
-        "valuation": 0
+        "valuation": 75.67946428123857
       },
       "components_scored": 6,
-      "overall": 65.2,
-      "pe_used": 1381.8,
+      "overall": 80.0,
+      "pe_used": 14.6,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -14378,11 +12738,11 @@
         "growth": 34.8,
         "cash_generation": 98.33333333333334,
         "capital_allocation": 100,
-        "valuation": 41.14123522102051
+        "valuation": 43.254035261527164
       },
       "components_scored": 6,
-      "overall": 72.1,
-      "pe_used": 21.4,
+      "overall": 72.4,
+      "pe_used": 21.0,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -14492,11 +12852,11 @@
         "growth": null,
         "cash_generation": null,
         "capital_allocation": null,
-        "valuation": 78.3756345177665
+        "valuation": 78.02030456852792
       },
       "components_scored": 2,
-      "overall": 62.4,
-      "pe_used": 14.11,
+      "overall": 62.3,
+      "pe_used": 14.18,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -14534,7 +12894,7 @@
       },
       "components_scored": 6,
       "overall": 68.4,
-      "pe_used": 59.5,
+      "pe_used": 59.1,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -14572,7 +12932,7 @@
       },
       "components_scored": 6,
       "overall": 56.7,
-      "pe_used": 46.2,
+      "pe_used": 47.1,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -14644,11 +13004,11 @@
         "growth": 89.2,
         "cash_generation": 71.66666666666667,
         "capital_allocation": 100,
-        "valuation": 0.4550265981731272
+        "valuation": 0
       },
       "components_scored": 6,
-      "overall": 68.3,
-      "pe_used": 29.5,
+      "overall": 68.2,
+      "pe_used": 29.6,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -14667,7 +13027,7 @@
       },
       "components_scored": 6,
       "overall": 51.4,
-      "pe_used": 122.5,
+      "pe_used": 121.2,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -14686,7 +13046,7 @@
       },
       "components_scored": 2,
       "overall": 37.2,
-      "pe_used": 32.86,
+      "pe_used": 31.75,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -14705,7 +13065,7 @@
       },
       "components_scored": 6,
       "overall": 51.5,
-      "pe_used": 31.4,
+      "pe_used": 31.1,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -14724,7 +13084,7 @@
       },
       "components_scored": 2,
       "overall": 39.9,
-      "pe_used": 73.41,
+      "pe_used": 81.58,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -14800,7 +13160,7 @@
       },
       "components_scored": 2,
       "overall": 71.3,
-      "pe_used": 7.87,
+      "pe_used": 8.89,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -14834,11 +13194,11 @@
         "growth": null,
         "cash_generation": null,
         "capital_allocation": null,
-        "valuation": 60.20304568527918
+        "valuation": 50.406091370558364
       },
       "components_scored": 2,
-      "overall": 59.3,
-      "pe_used": 17.69,
+      "overall": 55.6,
+      "pe_used": 19.62,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -14872,11 +13232,11 @@
         "growth": 66.4,
         "cash_generation": 59.333333333333336,
         "capital_allocation": 100,
-        "valuation": 38.21659758766824
+        "valuation": 39.51008242909701
       },
       "components_scored": 6,
-      "overall": 65.1,
-      "pe_used": 22.0,
+      "overall": 65.3,
+      "pe_used": 21.8,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -14895,7 +13255,7 @@
       },
       "components_scored": 2,
       "overall": 31.6,
-      "pe_used": 50.89,
+      "pe_used": 49.81,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -14929,11 +13289,11 @@
         "growth": null,
         "cash_generation": null,
         "capital_allocation": null,
-        "valuation": 100
+        "valuation": 91.06598984771574
       },
       "components_scored": 2,
-      "overall": 78.1,
-      "pe_used": 8.68,
+      "overall": 74.7,
+      "pe_used": 11.61,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -14971,7 +13331,7 @@
       },
       "components_scored": 6,
       "overall": 80.5,
-      "pe_used": 61.0,
+      "pe_used": 60.2,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -15024,11 +13384,11 @@
         "growth": 54.400000000000006,
         "cash_generation": 91.25,
         "capital_allocation": 100,
-        "valuation": 27.289111960303426
+        "valuation": 27.64463202722483
       },
       "components_scored": 6,
       "overall": 66.8,
-      "pe_used": 24.2,
+      "pe_used": 24.1,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -15104,7 +13464,7 @@
       },
       "components_scored": 2,
       "overall": 34.9,
-      "pe_used": 47.05,
+      "pe_used": 45.09,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -15237,7 +13597,7 @@
       },
       "components_scored": 6,
       "overall": 62.1,
-      "pe_used": 82.6,
+      "pe_used": 82.8,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -15370,7 +13730,7 @@
       },
       "components_scored": 6,
       "overall": 65.9,
-      "pe_used": 65.1,
+      "pe_used": 65.3,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -15389,7 +13749,7 @@
       },
       "components_scored": 2,
       "overall": 54.0,
-      "pe_used": 43.31,
+      "pe_used": 42.91,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -15484,7 +13844,7 @@
       },
       "components_scored": 2,
       "overall": 45.5,
-      "pe_used": 49.34,
+      "pe_used": 48.47,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -15522,7 +13882,7 @@
       },
       "components_scored": 2,
       "overall": 49.6,
-      "pe_used": 93.46,
+      "pe_used": 97.79,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -15541,7 +13901,7 @@
       },
       "components_scored": 6,
       "overall": 81.2,
-      "pe_used": 53.8,
+      "pe_used": 55.5,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -15575,11 +13935,11 @@
         "growth": 40.8,
         "cash_generation": 57.25,
         "capital_allocation": 70.0,
-        "valuation": 2.3861033878444857
+        "valuation": 1.8128495175504753
       },
       "components_scored": 6,
-      "overall": 47.7,
-      "pe_used": 29.1,
+      "overall": 47.6,
+      "pe_used": 29.2,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -15617,7 +13977,7 @@
       },
       "components_scored": 2,
       "overall": 61.3,
-      "pe_used": 80.49,
+      "pe_used": 80.37,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -15655,7 +14015,7 @@
       },
       "components_scored": 2,
       "overall": 33.3,
-      "pe_used": 32.9,
+      "pe_used": 31.5,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -15765,11 +14125,11 @@
         "growth": null,
         "cash_generation": null,
         "capital_allocation": null,
-        "valuation": 39.84771573604061
+        "valuation": 38.3756345177665
       },
       "components_scored": 2,
-      "overall": 52.2,
-      "pe_used": 21.7,
+      "overall": 51.6,
+      "pe_used": 21.99,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -15803,11 +14163,11 @@
         "growth": null,
         "cash_generation": null,
         "capital_allocation": null,
-        "valuation": 19.441624365482234
+        "valuation": 18.527918781725887
       },
       "components_scored": 2,
-      "overall": 40.9,
-      "pe_used": 25.72,
+      "overall": 40.6,
+      "pe_used": 25.9,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -15864,7 +14224,7 @@
       },
       "components_scored": 2,
       "overall": 41.1,
-      "pe_used": 131.58,
+      "pe_used": 122.11,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -15883,7 +14243,7 @@
       },
       "components_scored": 6,
       "overall": 64.7,
-      "pe_used": 94.4,
+      "pe_used": 94.1,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -15902,7 +14262,7 @@
       },
       "components_scored": 2,
       "overall": 62.5,
-      "pe_used": 86.21,
+      "pe_used": 82.28,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -15921,7 +14281,7 @@
       },
       "components_scored": 2,
       "overall": 62.5,
-      "pe_used": 78.12,
+      "pe_used": 74.81,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -15940,7 +14300,7 @@
       },
       "components_scored": 2,
       "overall": 41.8,
-      "pe_used": 155.69,
+      "pe_used": 159.64,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -15955,11 +14315,11 @@
         "growth": null,
         "cash_generation": null,
         "capital_allocation": null,
-        "valuation": 16.091370558375637
+        "valuation": 21.92893401015228
       },
       "components_scored": 2,
-      "overall": 38.0,
-      "pe_used": 26.38,
+      "overall": 40.2,
+      "pe_used": 25.23,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -15974,11 +14334,11 @@
         "growth": 17.6,
         "cash_generation": 88.66666666666667,
         "capital_allocation": 70.0,
-        "valuation": 42.17929374249163
+        "valuation": 44.379324139947094
       },
       "components_scored": 6,
-      "overall": 61.9,
-      "pe_used": 21.2,
+      "overall": 62.2,
+      "pe_used": 20.8,
       "quality_metric_used": "roce_pct"
     },
     {
@@ -15997,7 +14357,7 @@
       },
       "components_scored": 2,
       "overall": 42.0,
-      "pe_used": 29.98,
+      "pe_used": 30.21,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -16016,7 +14376,7 @@
       },
       "components_scored": 2,
       "overall": 32.5,
-      "pe_used": 60.61,
+      "pe_used": 59.81,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -16035,7 +14395,7 @@
       },
       "components_scored": 2,
       "overall": 53.5,
-      "pe_used": 32.12,
+      "pe_used": 32.79,
       "quality_metric_used": "roce_pct (active-list sourced)"
     },
     {
@@ -18760,11 +17120,11 @@
       "fcf_year": 2026,
       "fcf0_cr": 502.2,
       "net_debt_cr": -642.4,
-      "ev_cr": 36329.6,
+      "ev_cr": 36357.7,
       "wacc": 0.1068,
       "wacc_detail": {
-        "re": 0.1066,
-        "beta": 0.593,
+        "re": 0.1065,
+        "beta": 0.592,
         "beta_source": "computed",
         "rd": 0.25,
         "tax_rate": 0.35,
@@ -18784,11 +17144,11 @@
       "fcf_year": 2025,
       "fcf0_cr": 1582.8,
       "net_debt_cr": -1467.8,
-      "ev_cr": 156022.5,
-      "wacc": 0.1481,
+      "ev_cr": 155556.4,
+      "wacc": 0.1482,
       "wacc_detail": {
-        "re": 0.148,
-        "beta": 1.284,
+        "re": 0.1482,
+        "beta": 1.286,
         "beta_source": "computed",
         "rd": 0.2286,
         "tax_rate": 0.2514,
@@ -18797,7 +17157,7 @@
         "borrowings_cr": 84.82
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 74.4,
+      "implied_growth_pct": 74.3,
       "historical_revenue_cagr_pct": 15.4,
       "note": null
     },
@@ -18808,11 +17168,11 @@
       "fcf_year": 2026,
       "fcf0_cr": 717.3,
       "net_debt_cr": 5.3,
-      "ev_cr": 30249.1,
-      "wacc": 0.1331,
+      "ev_cr": 30743.9,
+      "wacc": 0.1325,
       "wacc_detail": {
-        "re": 0.1333,
-        "beta": 1.038,
+        "re": 0.1327,
+        "beta": 1.028,
         "beta_source": "computed",
         "rd": 0.0786,
         "tax_rate": 0.2295,
@@ -18821,7 +17181,7 @@
         "borrowings_cr": 63.73
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 40.1,
+      "implied_growth_pct": 40.4,
       "historical_revenue_cagr_pct": 14.6,
       "note": null
     },
@@ -18832,11 +17192,11 @@
       "fcf_year": 2026,
       "fcf0_cr": 67.4,
       "net_debt_cr": -56.4,
-      "ev_cr": 13578.2,
-      "wacc": 0.1471,
+      "ev_cr": 13339.0,
+      "wacc": 0.1474,
       "wacc_detail": {
-        "re": 0.1471,
-        "beta": 1.268,
+        "re": 0.1474,
+        "beta": 1.273,
         "beta_source": "computed",
         "rd": 0.25,
         "tax_rate": 0.2544,
@@ -18845,7 +17205,7 @@
         "borrowings_cr": 7.91
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 102.0,
+      "implied_growth_pct": 101.4,
       "historical_revenue_cagr_pct": 15.0,
       "note": null
     },
@@ -18856,16 +17216,16 @@
       "fcf_year": 2026,
       "fcf0_cr": -43.0,
       "net_debt_cr": 103.4,
-      "ev_cr": 2521.4,
-      "wacc": 0.1274,
+      "ev_cr": 2456.2,
+      "wacc": 0.1273,
       "wacc_detail": {
         "re": 0.131,
         "beta": 1.0,
         "beta_source": "fallback",
         "rd": 0.0804,
         "tax_rate": 0.2541,
-        "d_over_v": 0.0503,
-        "e_over_v": 0.9497,
+        "d_over_v": 0.0516,
+        "e_over_v": 0.9484,
         "borrowings_cr": 128.08
       },
       "terminal_growth": 0.04,
@@ -18880,11 +17240,11 @@
       "fcf_year": 2026,
       "fcf0_cr": 467.3,
       "net_debt_cr": -204.8,
-      "ev_cr": 39665.4,
-      "wacc": 0.1136,
+      "ev_cr": 39280.9,
+      "wacc": 0.1137,
       "wacc_detail": {
-        "re": 0.1135,
-        "beta": 0.709,
+        "re": 0.1137,
+        "beta": 0.712,
         "beta_source": "computed",
         "rd": 0.25,
         "tax_rate": 0.2028,
@@ -18893,7 +17253,7 @@
         "borrowings_cr": 10.27
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 53.5,
+      "implied_growth_pct": 53.3,
       "historical_revenue_cagr_pct": -3.4,
       "note": null
     },
@@ -18904,11 +17264,11 @@
       "fcf_year": 2026,
       "fcf0_cr": 120.3,
       "net_debt_cr": -164.1,
-      "ev_cr": 6468.9,
-      "wacc": 0.1189,
+      "ev_cr": 6499.8,
+      "wacc": 0.1183,
       "wacc_detail": {
-        "re": 0.1189,
-        "beta": 0.799,
+        "re": 0.1183,
+        "beta": 0.789,
         "beta_source": "computed",
         "rd": 0.153,
         "tax_rate": 0.2526,
@@ -18917,7 +17277,7 @@
         "borrowings_cr": 1.83
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 41.8,
+      "implied_growth_pct": 41.6,
       "historical_revenue_cagr_pct": 22.3,
       "note": null
     },
@@ -18928,11 +17288,11 @@
       "fcf_year": 2026,
       "fcf0_cr": 142.9,
       "net_debt_cr": -219.0,
-      "ev_cr": 53183.2,
-      "wacc": 0.1315,
+      "ev_cr": 52247.9,
+      "wacc": 0.1326,
       "wacc_detail": {
-        "re": 0.1315,
-        "beta": 1.009,
+        "re": 0.1326,
+        "beta": 1.027,
         "beta_source": "computed",
         "rd": 0.1213,
         "tax_rate": 0.282,
@@ -18941,7 +17301,7 @@
         "borrowings_cr": 53.92
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 120.2,
+      "implied_growth_pct": 120.0,
       "historical_revenue_cagr_pct": 26.2,
       "note": null
     },
@@ -18952,20 +17312,20 @@
       "fcf_year": 2026,
       "fcf0_cr": 1930.9,
       "net_debt_cr": 1017.5,
-      "ev_cr": 4311.0,
-      "wacc": 0.1766,
+      "ev_cr": 4261.3,
+      "wacc": 0.177,
       "wacc_detail": {
-        "re": 0.1625,
-        "beta": 1.525,
+        "re": 0.1629,
+        "beta": 1.531,
         "beta_source": "computed",
         "rd": 0.25,
         "tax_rate": 0.1777,
-        "d_over_v": 0.3281,
-        "e_over_v": 0.6719,
+        "d_over_v": 0.3315,
+        "e_over_v": 0.6685,
         "borrowings_cr": 1608.46
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": -26.5,
+      "implied_growth_pct": -26.7,
       "historical_revenue_cagr_pct": 0.7,
       "note": null
     },
@@ -18976,11 +17336,11 @@
       "fcf_year": 2026,
       "fcf0_cr": 119.7,
       "net_debt_cr": -29.0,
-      "ev_cr": 10814.1,
+      "ev_cr": 10851.6,
       "wacc": 0.1698,
       "wacc_detail": {
         "re": 0.1699,
-        "beta": 1.649,
+        "beta": 1.648,
         "beta_source": "computed",
         "rd": 0.0975,
         "tax_rate": 0.2551,
@@ -18989,7 +17349,7 @@
         "borrowings_cr": 13.23
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 79.8,
+      "implied_growth_pct": 79.9,
       "historical_revenue_cagr_pct": 5.9,
       "note": null
     },
@@ -19000,7 +17360,7 @@
       "fcf_year": 2026,
       "fcf0_cr": -4437.3,
       "net_debt_cr": 19649.9,
-      "ev_cr": 347216.1,
+      "ev_cr": 347188.6,
       "wacc": 0.1331,
       "wacc_detail": {
         "re": 0.1396,
@@ -19008,8 +17368,8 @@
         "beta_source": "computed",
         "rd": 0.0516,
         "tax_rate": 0.2421,
-        "d_over_v": 0.0646,
-        "e_over_v": 0.9354,
+        "d_over_v": 0.0647,
+        "e_over_v": 0.9353,
         "borrowings_cr": 22639.85
       },
       "terminal_growth": 0.04,
@@ -19024,11 +17384,11 @@
       "fcf_year": 2026,
       "fcf0_cr": 3271.4,
       "net_debt_cr": -1822.5,
-      "ev_cr": 296855.1,
-      "wacc": 0.1515,
+      "ev_cr": 294479.4,
+      "wacc": 0.1517,
       "wacc_detail": {
-        "re": 0.1515,
-        "beta": 1.342,
+        "re": 0.1517,
+        "beta": 1.345,
         "beta_source": "computed",
         "rd": 0.0993,
         "tax_rate": 0.252,
@@ -19037,7 +17397,7 @@
         "borrowings_cr": 65.46
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 72.8,
+      "implied_growth_pct": 72.6,
       "historical_revenue_cagr_pct": 15.5,
       "note": null
     },
@@ -19048,16 +17408,16 @@
       "fcf_year": 2026,
       "fcf0_cr": -236.0,
       "net_debt_cr": 302.1,
-      "ev_cr": 17621.2,
-      "wacc": 0.1816,
+      "ev_cr": 17441.3,
+      "wacc": 0.1819,
       "wacc_detail": {
-        "re": 0.183,
-        "beta": 1.866,
+        "re": 0.1833,
+        "beta": 1.871,
         "beta_source": "computed",
         "rd": 0.147,
         "tax_rate": 0.2916,
-        "d_over_v": 0.0175,
-        "e_over_v": 0.9825,
+        "d_over_v": 0.0177,
+        "e_over_v": 0.9823,
         "borrowings_cr": 308.84
       },
       "terminal_growth": 0.04,
@@ -19072,11 +17432,11 @@
       "fcf_year": 2026,
       "fcf0_cr": 364.0,
       "net_debt_cr": -110.2,
-      "ev_cr": 134160.1,
-      "wacc": 0.151,
+      "ev_cr": 138371.7,
+      "wacc": 0.1505,
       "wacc_detail": {
-        "re": 0.151,
-        "beta": 1.334,
+        "re": 0.1505,
+        "beta": 1.325,
         "beta_source": "computed",
         "rd": 0.0565,
         "tax_rate": 0.2497,
@@ -19085,7 +17445,7 @@
         "borrowings_cr": 2.83
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 131.1,
+      "implied_growth_pct": 132.3,
       "historical_revenue_cagr_pct": 76.5,
       "note": null
     },
@@ -19096,11 +17456,11 @@
       "fcf_year": 2026,
       "fcf0_cr": 26.0,
       "net_debt_cr": 109.0,
-      "ev_cr": 14624.8,
+      "ev_cr": 14663.6,
       "wacc": 0.1252,
       "wacc_detail": {
         "re": 0.1257,
-        "beta": 0.912,
+        "beta": 0.911,
         "beta_source": "computed",
         "rd": 0.0889,
         "tax_rate": 0.1598,
@@ -19109,7 +17469,7 @@
         "borrowings_cr": 140.43
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 135.3,
+      "implied_growth_pct": 135.4,
       "historical_revenue_cagr_pct": 29.0,
       "note": null
     },
@@ -19120,7 +17480,7 @@
       "fcf_year": 2026,
       "fcf0_cr": 281.6,
       "net_debt_cr": -35.6,
-      "ev_cr": 29099.0,
+      "ev_cr": 29111.6,
       "wacc": 0.1851,
       "wacc_detail": {
         "re": 0.1851,
@@ -19144,20 +17504,20 @@
       "fcf_year": 2026,
       "fcf0_cr": 119.6,
       "net_debt_cr": 109.1,
-      "ev_cr": 4028.4,
-      "wacc": 0.1347,
+      "ev_cr": 4006.0,
+      "wacc": 0.1348,
       "wacc_detail": {
-        "re": 0.1386,
-        "beta": 1.126,
+        "re": 0.1387,
+        "beta": 1.128,
         "beta_source": "computed",
         "rd": 0.088,
         "tax_rate": 0.2516,
-        "d_over_v": 0.0535,
-        "e_over_v": 0.9465,
+        "d_over_v": 0.0538,
+        "e_over_v": 0.9462,
         "borrowings_cr": 221.38
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 34.0,
+      "implied_growth_pct": 33.9,
       "historical_revenue_cagr_pct": 9.1,
       "note": null
     },
@@ -19168,20 +17528,20 @@
       "fcf_year": 2026,
       "fcf0_cr": 9260.0,
       "net_debt_cr": 5452.5,
-      "ev_cr": 264317.9,
-      "wacc": 0.1042,
+      "ev_cr": 261421.5,
+      "wacc": 0.1045,
       "wacc_detail": {
-        "re": 0.1074,
-        "beta": 0.607,
+        "re": 0.1077,
+        "beta": 0.612,
         "beta_source": "computed",
         "rd": 0.0609,
         "tax_rate": 0.2589,
-        "d_over_v": 0.0516,
-        "e_over_v": 0.9484,
+        "d_over_v": 0.0521,
+        "e_over_v": 0.9479,
         "borrowings_cr": 14072.18
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 17.9,
+      "implied_growth_pct": 17.7,
       "historical_revenue_cagr_pct": 9.3,
       "note": null
     },
@@ -19192,11 +17552,11 @@
       "fcf_year": 2026,
       "fcf0_cr": 27.0,
       "net_debt_cr": -11.7,
-      "ev_cr": 948.5,
-      "wacc": 0.1198,
+      "ev_cr": 937.4,
+      "wacc": 0.1201,
       "wacc_detail": {
-        "re": 0.1195,
-        "beta": 0.809,
+        "re": 0.1198,
+        "beta": 0.814,
         "beta_source": "computed",
         "rd": 0.25,
         "tax_rate": 0.35,
@@ -19205,7 +17565,7 @@
         "borrowings_cr": 6.82
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 29.7,
+      "implied_growth_pct": 29.5,
       "historical_revenue_cagr_pct": 16.6,
       "note": null
     },
@@ -19216,20 +17576,20 @@
       "fcf_year": 2026,
       "fcf0_cr": 998.6,
       "net_debt_cr": 6105.8,
-      "ev_cr": 62990.5,
-      "wacc": 0.1179,
+      "ev_cr": 63211.4,
+      "wacc": 0.118,
       "wacc_detail": {
         "re": 0.1274,
         "beta": 0.94,
         "beta_source": "computed",
         "rd": 0.0491,
         "tax_rate": 0.2747,
-        "d_over_v": 0.1029,
-        "e_over_v": 0.8971,
+        "d_over_v": 0.1026,
+        "e_over_v": 0.8974,
         "borrowings_cr": 6528.29
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 46.2,
+      "implied_growth_pct": 46.3,
       "historical_revenue_cagr_pct": 10.2,
       "note": null
     },
@@ -19240,11 +17600,11 @@
       "fcf_year": 2026,
       "fcf0_cr": 18.5,
       "net_debt_cr": -5.2,
-      "ev_cr": 340.0,
-      "wacc": 0.2137,
+      "ev_cr": 344.0,
+      "wacc": 0.2127,
       "wacc_detail": {
-        "re": 0.2137,
-        "beta": 2.378,
+        "re": 0.2127,
+        "beta": 2.362,
         "beta_source": "computed",
         "rd": null,
         "tax_rate": null,
@@ -19253,7 +17613,7 @@
         "borrowings_cr": 0
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 37.2,
+      "implied_growth_pct": 37.3,
       "historical_revenue_cagr_pct": 87.4,
       "note": null
     },
@@ -19264,11 +17624,11 @@
       "fcf_year": 2026,
       "fcf0_cr": 1749.2,
       "net_debt_cr": -463.5,
-      "ev_cr": 140104.6,
-      "wacc": 0.1348,
+      "ev_cr": 139106.7,
+      "wacc": 0.1349,
       "wacc_detail": {
-        "re": 0.1348,
-        "beta": 1.063,
+        "re": 0.1349,
+        "beta": 1.065,
         "beta_source": "computed",
         "rd": 0.25,
         "tax_rate": 0.2347,
@@ -19277,7 +17637,7 @@
         "borrowings_cr": 36.51
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 61.4,
+      "implied_growth_pct": 61.2,
       "historical_revenue_cagr_pct": 16.1,
       "note": null
     },
@@ -19288,20 +17648,20 @@
       "fcf_year": 2026,
       "fcf0_cr": 531.8,
       "net_debt_cr": 226.8,
-      "ev_cr": 88055.1,
-      "wacc": 0.1528,
+      "ev_cr": 86808.7,
+      "wacc": 0.1531,
       "wacc_detail": {
-        "re": 0.1533,
-        "beta": 1.372,
+        "re": 0.1536,
+        "beta": 1.376,
         "beta_source": "computed",
         "rd": 0.1383,
         "tax_rate": 0.2059,
-        "d_over_v": 0.0112,
-        "e_over_v": 0.9888,
+        "d_over_v": 0.0114,
+        "e_over_v": 0.9886,
         "borrowings_cr": 994.22
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 96.7,
+      "implied_growth_pct": 96.2,
       "historical_revenue_cagr_pct": 58.9,
       "note": null
     },
@@ -19312,16 +17672,16 @@
       "fcf_year": 2026,
       "fcf0_cr": 80.7,
       "net_debt_cr": -16.0,
-      "ev_cr": 1590.1,
-      "wacc": 0.1538,
+      "ev_cr": 1585.8,
+      "wacc": 0.154,
       "wacc_detail": {
-        "re": 0.1546,
-        "beta": 1.394,
+        "re": 0.1548,
+        "beta": 1.396,
         "beta_source": "computed",
         "rd": 0.0898,
         "tax_rate": 0.257,
-        "d_over_v": 0.0091,
-        "e_over_v": 0.9909,
+        "d_over_v": 0.0092,
+        "e_over_v": 0.9908,
         "borrowings_cr": 14.81
       },
       "terminal_growth": 0.04,
@@ -19336,11 +17696,11 @@
       "fcf_year": 2026,
       "fcf0_cr": -740.2,
       "net_debt_cr": 1659.4,
-      "ev_cr": 247099.6,
-      "wacc": 0.1161,
+      "ev_cr": 247556.1,
+      "wacc": 0.116,
       "wacc_detail": {
-        "re": 0.1168,
-        "beta": 0.763,
+        "re": 0.1167,
+        "beta": 0.762,
         "beta_source": "computed",
         "rd": 0.0585,
         "tax_rate": 0.2724,
@@ -19360,11 +17720,11 @@
       "fcf_year": 2026,
       "fcf0_cr": 9.3,
       "net_debt_cr": -24.2,
-      "ev_cr": 6430.2,
-      "wacc": 0.1362,
+      "ev_cr": 6411.5,
+      "wacc": 0.1361,
       "wacc_detail": {
-        "re": 0.1371,
-        "beta": 1.101,
+        "re": 0.137,
+        "beta": 1.1,
         "beta_source": "computed",
         "rd": 0.0377,
         "tax_rate": 0.0487,
@@ -19373,7 +17733,7 @@
         "borrowings_cr": 56.99
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 153.0,
+      "implied_growth_pct": 152.8,
       "historical_revenue_cagr_pct": 13.6,
       "note": null
     },
@@ -19384,20 +17744,20 @@
       "fcf_year": 2026,
       "fcf0_cr": 732.7,
       "net_debt_cr": -311.8,
-      "ev_cr": 17832.8,
-      "wacc": 0.1502,
+      "ev_cr": 17225.5,
+      "wacc": 0.1507,
       "wacc_detail": {
-        "re": 0.1516,
-        "beta": 1.344,
+        "re": 0.1522,
+        "beta": 1.354,
         "beta_source": "computed",
         "rd": 0.1095,
         "tax_rate": 0.2445,
-        "d_over_v": 0.0208,
-        "e_over_v": 0.9792,
+        "d_over_v": 0.0215,
+        "e_over_v": 0.9785,
         "borrowings_cr": 384.95
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 29.5,
+      "implied_growth_pct": 28.7,
       "historical_revenue_cagr_pct": 15.8,
       "note": null
     },
@@ -19408,20 +17768,20 @@
       "fcf_year": 2026,
       "fcf0_cr": 20.7,
       "net_debt_cr": -0.3,
-      "ev_cr": 1851.3,
-      "wacc": 0.1405,
+      "ev_cr": 1813.5,
+      "wacc": 0.1411,
       "wacc_detail": {
-        "re": 0.1407,
-        "beta": 1.161,
+        "re": 0.1413,
+        "beta": 1.171,
         "beta_source": "computed",
         "rd": 0.1002,
         "tax_rate": 0.2554,
-        "d_over_v": 0.0023,
-        "e_over_v": 0.9977,
+        "d_over_v": 0.0024,
+        "e_over_v": 0.9976,
         "borrowings_cr": 4.29
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 67.7,
+      "implied_growth_pct": 67.2,
       "historical_revenue_cagr_pct": 4.4,
       "note": null
     },
@@ -19432,20 +17792,20 @@
       "fcf_year": 2026,
       "fcf0_cr": 355.2,
       "net_debt_cr": 369.6,
-      "ev_cr": 20240.8,
-      "wacc": 0.1405,
+      "ev_cr": 20611.2,
+      "wacc": 0.1399,
       "wacc_detail": {
-        "re": 0.1433,
-        "beta": 1.205,
+        "re": 0.1426,
+        "beta": 1.194,
         "beta_source": "computed",
         "rd": 0.0476,
         "tax_rate": 0.2549,
-        "d_over_v": 0.0261,
-        "e_over_v": 0.9739,
+        "d_over_v": 0.0257,
+        "e_over_v": 0.9743,
         "borrowings_cr": 533.1
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 52.4,
+      "implied_growth_pct": 52.7,
       "historical_revenue_cagr_pct": 9.1,
       "note": null
     },
@@ -19457,10 +17817,10 @@
       "fcf0_cr": -36.3,
       "net_debt_cr": 30.4,
       "ev_cr": 181.7,
-      "wacc": 0.095,
+      "wacc": 0.0952,
       "wacc_detail": {
-        "re": 0.1191,
-        "beta": 0.802,
+        "re": 0.1194,
+        "beta": 0.806,
         "beta_source": "computed",
         "rd": 0.0131,
         "tax_rate": 0.2331,
@@ -19480,20 +17840,20 @@
       "fcf_year": 2026,
       "fcf0_cr": 396.7,
       "net_debt_cr": 39.2,
-      "ev_cr": 4049.9,
-      "wacc": 0.1413,
+      "ev_cr": 4041.2,
+      "wacc": 0.1412,
       "wacc_detail": {
         "re": 0.1426,
-        "beta": 1.194,
+        "beta": 1.193,
         "beta_source": "computed",
         "rd": 0.1024,
         "tax_rate": 0.2645,
-        "d_over_v": 0.0203,
-        "e_over_v": 0.9797,
+        "d_over_v": 0.0204,
+        "e_over_v": 0.9796,
         "borrowings_cr": 83.3
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 3.9,
+      "implied_growth_pct": 3.8,
       "historical_revenue_cagr_pct": -12.3,
       "note": null
     },
@@ -19507,8 +17867,8 @@
       "ev_cr": 32127.0,
       "wacc": 0.153,
       "wacc_detail": {
-        "re": 0.1539,
-        "beta": 1.381,
+        "re": 0.1538,
+        "beta": 1.38,
         "beta_source": "computed",
         "rd": 0.0506,
         "tax_rate": 0.2137,
@@ -19555,8 +17915,8 @@
       "ev_cr": 21842.6,
       "wacc": 0.1483,
       "wacc_detail": {
-        "re": 0.1484,
-        "beta": 1.29,
+        "re": 0.1485,
+        "beta": 1.291,
         "beta_source": "computed",
         "rd": 0.1346,
         "tax_rate": 0.2495,
@@ -19565,7 +17925,7 @@
         "borrowings_cr": 60.71
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 73.6,
+      "implied_growth_pct": 73.7,
       "historical_revenue_cagr_pct": 6.6,
       "note": null
     },
@@ -19577,10 +17937,10 @@
       "fcf0_cr": 2569.5,
       "net_debt_cr": -3756.7,
       "ev_cr": 314954.7,
-      "wacc": 0.1667,
+      "wacc": 0.1664,
       "wacc_detail": {
-        "re": 0.1667,
-        "beta": 1.595,
+        "re": 0.1664,
+        "beta": 1.59,
         "beta_source": "computed",
         "rd": 0.25,
         "tax_rate": 0.2499,
@@ -19589,7 +17949,7 @@
         "borrowings_cr": 10.97
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 90.5,
+      "implied_growth_pct": 90.4,
       "historical_revenue_cagr_pct": 6.4,
       "note": null
     },
@@ -19601,10 +17961,10 @@
       "fcf0_cr": 1121.9,
       "net_debt_cr": 1788.9,
       "ev_cr": 27645.5,
-      "wacc": 0.096,
+      "wacc": 0.0959,
       "wacc_detail": {
-        "re": 0.0985,
-        "beta": 0.459,
+        "re": 0.0984,
+        "beta": 0.457,
         "beta_source": "computed",
         "rd": 0.0796,
         "tax_rate": 0.2429,
@@ -19613,7 +17973,7 @@
         "borrowings_cr": 1838.25
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 10.7,
+      "implied_growth_pct": 10.6,
       "historical_revenue_cagr_pct": 11.3,
       "note": null
     },
@@ -19625,10 +17985,10 @@
       "fcf0_cr": 679.1,
       "net_debt_cr": -523.4,
       "ev_cr": 74784.0,
-      "wacc": 0.1408,
+      "wacc": 0.1414,
       "wacc_detail": {
-        "re": 0.1409,
-        "beta": 1.165,
+        "re": 0.1415,
+        "beta": 1.175,
         "beta_source": "computed",
         "rd": 0.14,
         "tax_rate": 0.2355,
@@ -19637,7 +17997,7 @@
         "borrowings_cr": 265.2
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 75.3,
+      "implied_growth_pct": 75.6,
       "historical_revenue_cagr_pct": 9.9,
       "note": null
     },
@@ -19648,20 +18008,20 @@
       "fcf_year": 2026,
       "fcf0_cr": 18502.0,
       "net_debt_cr": -2997.0,
-      "ev_cr": 353893.6,
-      "wacc": 0.1239,
+      "ev_cr": 346966.9,
+      "wacc": 0.1242,
       "wacc_detail": {
-        "re": 0.1239,
-        "beta": 0.881,
+        "re": 0.1242,
+        "beta": 0.887,
         "beta_source": "computed",
         "rd": 0.1666,
         "tax_rate": 0.2466,
-        "d_over_v": 0.0144,
-        "e_over_v": 0.9856,
+        "d_over_v": 0.0147,
+        "e_over_v": 0.9853,
         "borrowings_cr": 5215.0
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 14.8,
+      "implied_growth_pct": 14.4,
       "historical_revenue_cagr_pct": 8.7,
       "note": null
     },
@@ -19673,10 +18033,10 @@
       "fcf0_cr": 1884.7,
       "net_debt_cr": -11.6,
       "ev_cr": 107654.2,
-      "wacc": 0.1537,
+      "wacc": 0.1541,
       "wacc_detail": {
-        "re": 0.1537,
-        "beta": 1.379,
+        "re": 0.1541,
+        "beta": 1.385,
         "beta_source": "computed",
         "rd": null,
         "tax_rate": null,
@@ -19685,7 +18045,7 @@
         "borrowings_cr": 0
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 57.4,
+      "implied_growth_pct": 57.5,
       "historical_revenue_cagr_pct": 23.9,
       "note": null
     },
@@ -19697,10 +18057,10 @@
       "fcf0_cr": 1040.0,
       "net_debt_cr": -284.9,
       "ev_cr": 49855.2,
-      "wacc": 0.1686,
+      "wacc": 0.1684,
       "wacc_detail": {
-        "re": 0.1689,
-        "beta": 1.631,
+        "re": 0.1687,
+        "beta": 1.629,
         "beta_source": "computed",
         "rd": 0.0443,
         "tax_rate": 0.2531,
@@ -19721,10 +18081,10 @@
       "fcf0_cr": 7315.0,
       "net_debt_cr": -1105.0,
       "ev_cr": 459884.8,
-      "wacc": 0.103,
+      "wacc": 0.1029,
       "wacc_detail": {
-        "re": 0.1027,
-        "beta": 0.528,
+        "re": 0.1026,
+        "beta": 0.527,
         "beta_source": "computed",
         "rd": 0.25,
         "tax_rate": 0.2288,
@@ -19745,10 +18105,10 @@
       "fcf0_cr": -581.8,
       "net_debt_cr": 605.2,
       "ev_cr": 34008.0,
-      "wacc": 0.1508,
+      "wacc": 0.1507,
       "wacc_detail": {
-        "re": 0.1529,
-        "beta": 1.365,
+        "re": 0.1527,
+        "beta": 1.362,
         "beta_source": "computed",
         "rd": 0.0813,
         "tax_rate": 0.2456,
@@ -19793,10 +18153,10 @@
       "fcf0_cr": 195.1,
       "net_debt_cr": 44.2,
       "ev_cr": 14130.5,
-      "wacc": 0.1581,
+      "wacc": 0.1584,
       "wacc_detail": {
-        "re": 0.1593,
-        "beta": 1.472,
+        "re": 0.1596,
+        "beta": 1.477,
         "beta_source": "computed",
         "rd": 0.058,
         "tax_rate": 0.27,
@@ -19805,7 +18165,7 @@
         "borrowings_cr": 142.6
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 67.2,
+      "implied_growth_pct": 67.3,
       "historical_revenue_cagr_pct": 29.6,
       "note": null
     },
@@ -19867,8 +18227,8 @@
       "ev_cr": 3298.7,
       "wacc": 0.153,
       "wacc_detail": {
-        "re": 0.154,
-        "beta": 1.384,
+        "re": 0.1541,
+        "beta": 1.385,
         "beta_source": "computed",
         "rd": 0.0795,
         "tax_rate": 0.2536,
@@ -19886,23 +18246,23 @@
       "name": "Infosys",
       "fundamentals_dir": "INFY_YF",
       "fcf_year": 2026,
-      "fcf0_cr": 404.9,
-      "net_debt_cr": -137.4,
-      "ev_cr": 457667.9,
-      "wacc": 0.1204,
+      "fcf0_cr": 38204.7,
+      "net_debt_cr": -12964.5,
+      "ev_cr": 444719.3,
+      "wacc": 0.1188,
       "wacc_detail": {
         "re": 0.1204,
         "beta": 0.824,
         "beta_source": "computed",
         "rd": 0.0486,
         "tax_rate": 0.2641,
-        "d_over_v": 0.0002,
-        "e_over_v": 0.9998,
-        "borrowings_cr": 96.7
+        "d_over_v": 0.0195,
+        "e_over_v": 0.9805,
+        "borrowings_cr": 9124.22
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 167.3,
-      "historical_revenue_cagr_pct": 3.4,
+      "implied_growth_pct": 1.0,
+      "historical_revenue_cagr_pct": 8.4,
       "note": null
     },
     {
@@ -19913,10 +18273,10 @@
       "fcf0_cr": 204.3,
       "net_debt_cr": -148.5,
       "ev_cr": 15150.6,
-      "wacc": 0.1244,
+      "wacc": 0.1246,
       "wacc_detail": {
-        "re": 0.1244,
-        "beta": 0.89,
+        "re": 0.1246,
+        "beta": 0.893,
         "beta_source": "computed",
         "rd": 0.1659,
         "tax_rate": 0.2544,
@@ -19925,7 +18285,7 @@
         "borrowings_cr": 9.04
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 54.3,
+      "implied_growth_pct": 54.4,
       "historical_revenue_cagr_pct": 6.7,
       "note": null
     },
@@ -19937,10 +18297,10 @@
       "fcf0_cr": 127.5,
       "net_debt_cr": 6064.0,
       "ev_cr": 45003.4,
-      "wacc": 0.1264,
+      "wacc": 0.1261,
       "wacc_detail": {
-        "re": 0.1391,
-        "beta": 1.135,
+        "re": 0.1387,
+        "beta": 1.129,
         "beta_source": "computed",
         "rd": 0.0677,
         "tax_rate": 0.3157,
@@ -19949,7 +18309,7 @@
         "borrowings_cr": 6182.99
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 114.6,
+      "implied_growth_pct": 114.4,
       "historical_revenue_cagr_pct": 12.1,
       "note": null
     },
@@ -19961,10 +18321,10 @@
       "fcf0_cr": 327.3,
       "net_debt_cr": 172.7,
       "ev_cr": 19982.1,
-      "wacc": 0.1182,
+      "wacc": 0.1185,
       "wacc_detail": {
-        "re": 0.1188,
-        "beta": 0.796,
+        "re": 0.1191,
+        "beta": 0.802,
         "beta_source": "computed",
         "rd": 0.0945,
         "tax_rate": 0.2823,
@@ -19973,7 +18333,7 @@
         "borrowings_cr": 228.59
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 45.3,
+      "implied_growth_pct": 45.5,
       "historical_revenue_cagr_pct": 3.3,
       "note": null
     },
@@ -20009,10 +18369,10 @@
       "fcf0_cr": 125.1,
       "net_debt_cr": -150.9,
       "ev_cr": 14788.3,
-      "wacc": 0.1602,
+      "wacc": 0.1601,
       "wacc_detail": {
-        "re": 0.1619,
-        "beta": 1.515,
+        "re": 0.1618,
+        "beta": 1.513,
         "beta_source": "computed",
         "rd": 0.0725,
         "tax_rate": 0.2011,
@@ -20021,7 +18381,7 @@
         "borrowings_cr": 250.09
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 86.4,
+      "implied_growth_pct": 86.3,
       "historical_revenue_cagr_pct": 6.9,
       "note": null
     },
@@ -20033,10 +18393,10 @@
       "fcf0_cr": 122.2,
       "net_debt_cr": -110.6,
       "ev_cr": 9761.2,
-      "wacc": 0.1551,
+      "wacc": 0.1548,
       "wacc_detail": {
-        "re": 0.1551,
-        "beta": 1.402,
+        "re": 0.1548,
+        "beta": 1.397,
         "beta_source": "computed",
         "rd": 0.25,
         "tax_rate": 0.2474,
@@ -20045,7 +18405,7 @@
         "borrowings_cr": 3.34
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 69.6,
+      "implied_growth_pct": 69.5,
       "historical_revenue_cagr_pct": 13.1,
       "note": null
     },
@@ -20057,10 +18417,10 @@
       "fcf0_cr": -304.8,
       "net_debt_cr": 148.4,
       "ev_cr": 8139.2,
-      "wacc": 0.1592,
+      "wacc": 0.1585,
       "wacc_detail": {
-        "re": 0.1617,
-        "beta": 1.512,
+        "re": 0.1611,
+        "beta": 1.501,
         "beta_source": "computed",
         "rd": 0.0671,
         "tax_rate": 0.0,
@@ -20081,10 +18441,10 @@
       "fcf0_cr": -288.1,
       "net_debt_cr": 2257.8,
       "ev_cr": 5612.1,
-      "wacc": 0.1143,
+      "wacc": 0.1139,
       "wacc_detail": {
-        "re": 0.1452,
-        "beta": 1.237,
+        "re": 0.1445,
+        "beta": 1.225,
         "beta_source": "computed",
         "rd": 0.0866,
         "tax_rate": 0.1701,
@@ -20105,10 +18465,10 @@
       "fcf0_cr": 8.7,
       "net_debt_cr": -475.9,
       "ev_cr": 15408.6,
-      "wacc": 0.1525,
+      "wacc": 0.1527,
       "wacc_detail": {
-        "re": 0.1572,
-        "beta": 1.436,
+        "re": 0.1573,
+        "beta": 1.439,
         "beta_source": "computed",
         "rd": 0.0873,
         "tax_rate": 0.2691,
@@ -20117,7 +18477,7 @@
         "borrowings_cr": 838.39
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 219.5,
+      "implied_growth_pct": 219.6,
       "historical_revenue_cagr_pct": 24.3,
       "note": null
     },
@@ -20129,10 +18489,10 @@
       "fcf0_cr": 142.3,
       "net_debt_cr": -161.6,
       "ev_cr": 13946.0,
-      "wacc": 0.0982,
+      "wacc": 0.098,
       "wacc_detail": {
-        "re": 0.0981,
-        "beta": 0.452,
+        "re": 0.098,
+        "beta": 0.45,
         "beta_source": "computed",
         "rd": 0.25,
         "tax_rate": 0.2496,
@@ -20141,7 +18501,7 @@
         "borrowings_cr": 5.2
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 49.7,
+      "implied_growth_pct": 49.6,
       "historical_revenue_cagr_pct": 14.0,
       "note": null
     },
@@ -20153,10 +18513,10 @@
       "fcf0_cr": 213.8,
       "net_debt_cr": -43.8,
       "ev_cr": 32102.8,
-      "wacc": 0.1123,
+      "wacc": 0.1127,
       "wacc_detail": {
-        "re": 0.1125,
-        "beta": 0.691,
+        "re": 0.1128,
+        "beta": 0.697,
         "beta_source": "computed",
         "rd": 0.1146,
         "tax_rate": 0.2381,
@@ -20165,7 +18525,7 @@
         "borrowings_cr": 198.99
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 72.2,
+      "implied_growth_pct": 72.4,
       "historical_revenue_cagr_pct": 11.1,
       "note": null
     },
@@ -20177,10 +18537,10 @@
       "fcf0_cr": -8.1,
       "net_debt_cr": -69.9,
       "ev_cr": 731.0,
-      "wacc": 0.1523,
+      "wacc": 0.1521,
       "wacc_detail": {
-        "re": 0.1523,
-        "beta": 1.355,
+        "re": 0.1521,
+        "beta": 1.352,
         "beta_source": "computed",
         "rd": 0.25,
         "tax_rate": 0.2699,
@@ -20201,10 +18561,10 @@
       "fcf0_cr": 1362.0,
       "net_debt_cr": 153.0,
       "ev_cr": 107398.6,
-      "wacc": 0.0975,
+      "wacc": 0.0978,
       "wacc_detail": {
-        "re": 0.0977,
-        "beta": 0.445,
+        "re": 0.098,
+        "beta": 0.45,
         "beta_source": "computed",
         "rd": 0.0682,
         "tax_rate": 0.2038,
@@ -20213,7 +18573,7 @@
         "borrowings_cr": 557.0
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 42.6,
+      "implied_growth_pct": 42.8,
       "historical_revenue_cagr_pct": 11.8,
       "note": null
     },
@@ -20225,10 +18585,10 @@
       "fcf0_cr": 635.6,
       "net_debt_cr": -815.0,
       "ev_cr": 79871.1,
-      "wacc": 0.1499,
+      "wacc": 0.1493,
       "wacc_detail": {
-        "re": 0.1499,
-        "beta": 1.315,
+        "re": 0.1493,
+        "beta": 1.305,
         "beta_source": "computed",
         "rd": 0.0756,
         "tax_rate": 0.2123,
@@ -20237,7 +18597,7 @@
         "borrowings_cr": 4.76
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 84.3,
+      "implied_growth_pct": 84.1,
       "historical_revenue_cagr_pct": 67.9,
       "note": null
     },
@@ -20273,10 +18633,10 @@
       "fcf0_cr": 63.9,
       "net_debt_cr": -15.9,
       "ev_cr": 4432.7,
-      "wacc": 0.1276,
+      "wacc": 0.1273,
       "wacc_detail": {
-        "re": 0.129,
-        "beta": 0.966,
+        "re": 0.1287,
+        "beta": 0.962,
         "beta_source": "computed",
         "rd": 0.0332,
         "tax_rate": 0.2445,
@@ -20285,7 +18645,7 @@
         "borrowings_cr": 60.63
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 53.5,
+      "implied_growth_pct": 53.4,
       "historical_revenue_cagr_pct": 15.4,
       "note": null
     },
@@ -20297,10 +18657,10 @@
       "fcf0_cr": 1140.3,
       "net_debt_cr": 58.8,
       "ev_cr": 74586.9,
-      "wacc": 0.1576,
+      "wacc": 0.1578,
       "wacc_detail": {
-        "re": 0.1577,
-        "beta": 1.445,
+        "re": 0.1579,
+        "beta": 1.448,
         "beta_source": "computed",
         "rd": 0.0929,
         "tax_rate": 0.2251,
@@ -20309,7 +18669,7 @@
         "borrowings_cr": 75.34
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 63.4,
+      "implied_growth_pct": 63.5,
       "historical_revenue_cagr_pct": 26.1,
       "note": null
     },
@@ -20321,10 +18681,10 @@
       "fcf0_cr": 2238.1,
       "net_debt_cr": 48.7,
       "ev_cr": 68738.7,
-      "wacc": 0.141,
+      "wacc": 0.1409,
       "wacc_detail": {
         "re": 0.1411,
-        "beta": 1.169,
+        "beta": 1.168,
         "beta_source": "computed",
         "rd": 0.1127,
         "tax_rate": 0.2519,
@@ -20347,8 +18707,8 @@
       "ev_cr": 7619.1,
       "wacc": 0.1322,
       "wacc_detail": {
-        "re": 0.1347,
-        "beta": 1.061,
+        "re": 0.1346,
+        "beta": 1.06,
         "beta_source": "computed",
         "rd": 0.0825,
         "tax_rate": 0.1995,
@@ -20369,10 +18729,10 @@
       "fcf0_cr": 69.6,
       "net_debt_cr": -64.2,
       "ev_cr": 7252.9,
-      "wacc": 0.1378,
+      "wacc": 0.1375,
       "wacc_detail": {
-        "re": 0.138,
-        "beta": 1.117,
+        "re": 0.1377,
+        "beta": 1.112,
         "beta_source": "computed",
         "rd": 0.1136,
         "tax_rate": 0.2239,
@@ -20381,7 +18741,7 @@
         "borrowings_cr": 39.36
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 71.9,
+      "implied_growth_pct": 71.8,
       "historical_revenue_cagr_pct": 17.4,
       "note": null
     },
@@ -20393,10 +18753,10 @@
       "fcf0_cr": 94.4,
       "net_debt_cr": -205.4,
       "ev_cr": 16029.6,
-      "wacc": 0.134,
+      "wacc": 0.1341,
       "wacc_detail": {
-        "re": 0.1339,
-        "beta": 1.049,
+        "re": 0.134,
+        "beta": 1.05,
         "beta_source": "computed",
         "rd": 0.25,
         "tax_rate": 0.2483,
@@ -20417,10 +18777,10 @@
       "fcf0_cr": -29.8,
       "net_debt_cr": 56.3,
       "ev_cr": 2696.0,
-      "wacc": 0.1133,
+      "wacc": 0.1131,
       "wacc_detail": {
-        "re": 0.1118,
-        "beta": 0.68,
+        "re": 0.1116,
+        "beta": 0.676,
         "beta_source": "computed",
         "rd": 0.1695,
         "tax_rate": 0.0,
@@ -20441,10 +18801,10 @@
       "fcf0_cr": 773.2,
       "net_debt_cr": 9.6,
       "ev_cr": 40012.9,
-      "wacc": 0.1178,
+      "wacc": 0.1177,
       "wacc_detail": {
-        "re": 0.1177,
-        "beta": 0.779,
+        "re": 0.1176,
+        "beta": 0.776,
         "beta_source": "computed",
         "rd": 0.1791,
         "tax_rate": 0.255,
@@ -20453,7 +18813,7 @@
         "borrowings_cr": 276.81
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 40.2,
+      "implied_growth_pct": 40.1,
       "historical_revenue_cagr_pct": 3.8,
       "note": null
     },
@@ -20489,10 +18849,10 @@
       "fcf0_cr": 961.0,
       "net_debt_cr": 4110.8,
       "ev_cr": 136782.6,
-      "wacc": 0.1395,
+      "wacc": 0.1404,
       "wacc_detail": {
-        "re": 0.1431,
-        "beta": 1.202,
+        "re": 0.144,
+        "beta": 1.217,
         "beta_source": "computed",
         "rd": 0.0434,
         "tax_rate": 0.2504,
@@ -20501,7 +18861,7 @@
         "borrowings_cr": 4501.14
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 84.4,
+      "implied_growth_pct": 84.8,
       "historical_revenue_cagr_pct": 26.6,
       "note": null
     },
@@ -20513,10 +18873,10 @@
       "fcf0_cr": 202.7,
       "net_debt_cr": 556.9,
       "ev_cr": 8144.2,
-      "wacc": 0.1761,
+      "wacc": 0.1766,
       "wacc_detail": {
-        "re": 0.1828,
-        "beta": 1.864,
+        "re": 0.1834,
+        "beta": 1.873,
         "beta_source": "computed",
         "rd": 0.1349,
         "tax_rate": 0.2616,
@@ -20525,7 +18885,7 @@
         "borrowings_cr": 663.64
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 52.9,
+      "implied_growth_pct": 53.1,
       "historical_revenue_cagr_pct": 18.9,
       "note": null
     },
@@ -20537,10 +18897,10 @@
       "fcf0_cr": -2.4,
       "net_debt_cr": -14.9,
       "ev_cr": 71.1,
-      "wacc": 0.082,
+      "wacc": 0.0814,
       "wacc_detail": {
-        "re": 0.0816,
-        "beta": 0.176,
+        "re": 0.0809,
+        "beta": 0.165,
         "beta_source": "computed",
         "rd": 0.1318,
         "tax_rate": 0.2595,
@@ -20561,10 +18921,10 @@
       "fcf0_cr": 16.6,
       "net_debt_cr": 21.1,
       "ev_cr": 13803.3,
-      "wacc": 0.1708,
+      "wacc": 0.1703,
       "wacc_detail": {
-        "re": 0.171,
-        "beta": 1.666,
+        "re": 0.1704,
+        "beta": 1.657,
         "beta_source": "computed",
         "rd": 0.1392,
         "tax_rate": 0.2547,
@@ -20573,7 +18933,7 @@
         "borrowings_cr": 34.13
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 185.7,
+      "implied_growth_pct": 185.4,
       "historical_revenue_cagr_pct": 29.3,
       "note": null
     },
@@ -20585,10 +18945,10 @@
       "fcf0_cr": 5.5,
       "net_debt_cr": -1.8,
       "ev_cr": 8655.4,
-      "wacc": 0.1368,
+      "wacc": 0.1379,
       "wacc_detail": {
-        "re": 0.1369,
-        "beta": 1.098,
+        "re": 0.1379,
+        "beta": 1.115,
         "beta_source": "computed",
         "rd": 0.1091,
         "tax_rate": 0.213,
@@ -20597,7 +18957,7 @@
         "borrowings_cr": 5.41
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 199.5,
+      "implied_growth_pct": 200.3,
       "historical_revenue_cagr_pct": 23.5,
       "note": null
     },
@@ -20609,10 +18969,10 @@
       "fcf0_cr": 31.9,
       "net_debt_cr": 251.5,
       "ev_cr": 29859.1,
-      "wacc": 0.133,
+      "wacc": 0.1338,
       "wacc_detail": {
-        "re": 0.1328,
-        "beta": 1.03,
+        "re": 0.1336,
+        "beta": 1.044,
         "beta_source": "computed",
         "rd": 0.1982,
         "tax_rate": 0.2531,
@@ -20621,7 +18981,7 @@
         "borrowings_cr": 337.03
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 166.9,
+      "implied_growth_pct": 167.6,
       "historical_revenue_cagr_pct": 20.1,
       "note": null
     },
@@ -20659,8 +19019,8 @@
       "ev_cr": 8211.5,
       "wacc": 0.1819,
       "wacc_detail": {
-        "re": 0.1937,
-        "beta": 2.045,
+        "re": 0.1936,
+        "beta": 2.044,
         "beta_source": "computed",
         "rd": 0.0727,
         "tax_rate": 0.2597,
@@ -20669,7 +19029,7 @@
         "borrowings_cr": 723.03
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 40.0,
+      "implied_growth_pct": 39.9,
       "historical_revenue_cagr_pct": 12.8,
       "note": null
     },
@@ -20681,10 +19041,10 @@
       "fcf0_cr": 955.7,
       "net_debt_cr": 4596.6,
       "ev_cr": 82166.0,
-      "wacc": 0.11,
+      "wacc": 0.1104,
       "wacc_detail": {
-        "re": 0.1148,
-        "beta": 0.73,
+        "re": 0.1153,
+        "beta": 0.738,
         "beta_source": "computed",
         "rd": 0.0474,
         "tax_rate": 0.2027,
@@ -20693,7 +19053,7 @@
         "borrowings_cr": 5187.04
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 52.1,
+      "implied_growth_pct": 52.3,
       "historical_revenue_cagr_pct": 1.8,
       "note": null
     },
@@ -20705,10 +19065,10 @@
       "fcf0_cr": 190.2,
       "net_debt_cr": 12.4,
       "ev_cr": 9222.3,
-      "wacc": 0.1071,
+      "wacc": 0.1072,
       "wacc_detail": {
         "re": 0.1075,
-        "beta": 0.608,
+        "beta": 0.609,
         "beta_source": "computed",
         "rd": 0.0552,
         "tax_rate": 0.235,
@@ -20717,7 +19077,7 @@
         "borrowings_cr": 50.69
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 33.4,
+      "implied_growth_pct": 33.5,
       "historical_revenue_cagr_pct": 16.7,
       "note": null
     },
@@ -20729,10 +19089,10 @@
       "fcf0_cr": 43.2,
       "net_debt_cr": -253.9,
       "ev_cr": 23250.4,
-      "wacc": 0.1253,
+      "wacc": 0.1255,
       "wacc_detail": {
-        "re": 0.1253,
-        "beta": 0.905,
+        "re": 0.1254,
+        "beta": 0.907,
         "beta_source": "computed",
         "rd": 0.25,
         "tax_rate": 0.2493,
@@ -20741,7 +19101,7 @@
         "borrowings_cr": 14.56
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 133.3,
+      "implied_growth_pct": 133.4,
       "historical_revenue_cagr_pct": 7.5,
       "note": null
     },
@@ -20777,10 +19137,10 @@
       "fcf0_cr": 24.8,
       "net_debt_cr": 2105.8,
       "ev_cr": 8287.0,
-      "wacc": 0.115,
+      "wacc": 0.1153,
       "wacc_detail": {
-        "re": 0.1432,
-        "beta": 1.203,
+        "re": 0.1437,
+        "beta": 1.211,
         "beta_source": "computed",
         "rd": 0.0464,
         "tax_rate": 0.2621,
@@ -20789,7 +19149,7 @@
         "borrowings_cr": 2161.01
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 104.8,
+      "implied_growth_pct": 105.0,
       "historical_revenue_cagr_pct": 4.1,
       "note": null
     },
@@ -20801,10 +19161,10 @@
       "fcf0_cr": 1031.0,
       "net_debt_cr": -385.0,
       "ev_cr": 105335.1,
-      "wacc": 0.1139,
+      "wacc": 0.1141,
       "wacc_detail": {
-        "re": 0.1136,
-        "beta": 0.71,
+        "re": 0.1138,
+        "beta": 0.714,
         "beta_source": "computed",
         "rd": 0.25,
         "tax_rate": 0.2298,
@@ -20813,7 +19173,7 @@
         "borrowings_cr": 413.0
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 59.8,
+      "implied_growth_pct": 59.9,
       "historical_revenue_cagr_pct": 5.6,
       "note": null
     },
@@ -20825,10 +19185,10 @@
       "fcf0_cr": 35.5,
       "net_debt_cr": 192.3,
       "ev_cr": 5665.9,
-      "wacc": 0.1357,
+      "wacc": 0.1354,
       "wacc_detail": {
-        "re": 0.1393,
-        "beta": 1.138,
+        "re": 0.139,
+        "beta": 1.134,
         "beta_source": "computed",
         "rd": 0.0655,
         "tax_rate": 0.2445,
@@ -20837,7 +19197,7 @@
         "borrowings_cr": 229.64
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 86.9,
+      "implied_growth_pct": 86.8,
       "historical_revenue_cagr_pct": 12.4,
       "note": null
     },
@@ -20849,10 +19209,10 @@
       "fcf0_cr": 159.9,
       "net_debt_cr": -274.3,
       "ev_cr": 8250.1,
-      "wacc": 0.1254,
+      "wacc": 0.1255,
       "wacc_detail": {
-        "re": 0.1255,
-        "beta": 0.909,
+        "re": 0.1256,
+        "beta": 0.91,
         "beta_source": "computed",
         "rd": 0.0881,
         "tax_rate": 0.259,
@@ -20873,10 +19233,10 @@
       "fcf0_cr": 96.4,
       "net_debt_cr": 382.9,
       "ev_cr": 15889.2,
-      "wacc": 0.1035,
+      "wacc": 0.1034,
       "wacc_detail": {
-        "re": 0.1048,
-        "beta": 0.564,
+        "re": 0.1047,
+        "beta": 0.562,
         "beta_source": "computed",
         "rd": 0.0741,
         "tax_rate": 0.2566,
@@ -20885,7 +19245,7 @@
         "borrowings_cr": 422.58
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 70.2,
+      "implied_growth_pct": 70.1,
       "historical_revenue_cagr_pct": 21.0,
       "note": null
     },
@@ -20897,10 +19257,10 @@
       "fcf0_cr": 17.5,
       "net_debt_cr": -19.6,
       "ev_cr": 2895.1,
-      "wacc": 0.1354,
+      "wacc": 0.1359,
       "wacc_detail": {
-        "re": 0.1354,
-        "beta": 1.073,
+        "re": 0.1359,
+        "beta": 1.082,
         "beta_source": "computed",
         "rd": 0.1532,
         "tax_rate": 0.2544,
@@ -20909,7 +19269,7 @@
         "borrowings_cr": 3.33
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 88.2,
+      "implied_growth_pct": 88.5,
       "historical_revenue_cagr_pct": 8.9,
       "note": null
     },
@@ -20921,10 +19281,10 @@
       "fcf0_cr": 138.7,
       "net_debt_cr": -72.6,
       "ev_cr": 11240.4,
-      "wacc": 0.1692,
+      "wacc": 0.1689,
       "wacc_detail": {
-        "re": 0.1692,
-        "beta": 1.636,
+        "re": 0.1689,
+        "beta": 1.631,
         "beta_source": "computed",
         "rd": 0.25,
         "tax_rate": 0.2474,
@@ -20933,7 +19293,7 @@
         "borrowings_cr": 0.54
       },
       "terminal_growth": 0.04,
-      "implied_growth_pct": 75.4,
+      "implied_growth_pct": 75.3,
       "historical_revenue_cagr_pct": 16.0,
       "note": null
     },
@@ -20945,10 +19305,10 @@
       "fcf0_cr": 530.2,
       "net_debt_cr": -337.0,
       "ev_cr": 10219.4,
-      "wacc": 0.1386,
+      "wacc": 0.1388,
       "wacc_detail": {
-        "re": 0.1389,
-        "beta": 1.132,
+        "re": 0.1391,
+        "beta": 1.135,
         "beta_source": "computed",
         "rd": 0.1299,
         "tax_rate": 0.2419,
@@ -20960,6 +19320,30 @@
       "implied_growth_pct": 19.6,
       "historical_revenue_cagr_pct": 5.5,
       "note": null
+    },
+    {
+      "ticker": "CHAMBLFERT",
+      "name": "Chambal Fertilisers",
+      "fundamentals_dir": "CHAMBLFERT_YF",
+      "fcf_year": 2026,
+      "fcf0_cr": -344.1,
+      "net_debt_cr": 759.6,
+      "ev_cr": 17548.9,
+      "wacc": 0.1194,
+      "wacc_detail": {
+        "re": 0.127,
+        "beta": 0.933,
+        "beta_source": "computed",
+        "rd": 0.0013,
+        "tax_rate": 0.2424,
+        "d_over_v": 0.0598,
+        "e_over_v": 0.9402,
+        "borrowings_cr": 1067.5
+      },
+      "terminal_growth": 0.04,
+      "implied_growth_pct": null,
+      "historical_revenue_cagr_pct": -9.2,
+      "note": "FCF is zero or negative -- reverse DCF isn't meaningful from a negative base"
     }
   ],
   "piotroski": [
@@ -21915,7 +20299,7 @@
     },
     {
       "sector_type": "general",
-      "score": 6,
+      "score": 5,
       "applicable": 8,
       "tests": {
         "positive_net_income": true,
@@ -21923,7 +20307,7 @@
         "roa_improved": true,
         "cfo_exceeds_net_income": true,
         "leverage_decreased": false,
-        "no_dilution": true,
+        "no_dilution": false,
         "asset_turnover_improved": true,
         "gross_margin_improved": false
       },
@@ -22805,6 +21189,25 @@
       "ticker": "ZENSARTECH",
       "name": "Zensar Technologies",
       "fundamentals_dir": "ZENSARTECH_YF"
+    },
+    {
+      "sector_type": "general",
+      "score": 3,
+      "applicable": 8,
+      "tests": {
+        "positive_net_income": true,
+        "positive_cfo": true,
+        "roa_improved": false,
+        "cfo_exceeds_net_income": false,
+        "leverage_decreased": false,
+        "no_dilution": true,
+        "asset_turnover_improved": false,
+        "gross_margin_improved": false
+      },
+      "as_of_year": 2026,
+      "ticker": "CHAMBLFERT",
+      "name": "Chambal Fertilisers",
+      "fundamentals_dir": "CHAMBLFERT_YF"
     }
   ],
   "fae_validation": [

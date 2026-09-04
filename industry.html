@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>DarwinOS &mdash; Industry</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/shared.css">
+<style>
+  .sector-card .stocks{display:flex;flex-wrap:wrap;gap:5px;margin:8px 0}
+  .sector-card .stock-chip{font-family:var(--mono);font-size:10px;padding:2px 7px;border-radius:var(--r-1);border:1px solid;white-space:nowrap}
+  .sector-card .stock-chip.B{color:var(--sage);border-color:#366b4655;background:#366b4611}
+  .sector-card .stock-chip.W{color:var(--amber);border-color:#8a5f1f55;background:#8a5f1f11}
+  .sector-card .stock-chip.M{color:var(--ivory-dim);border-color:var(--hair);background:transparent}
+  .sector-card .no-stocks{font-size:11.5px;color:var(--ivory-dim)}
+  .sector-card .playbook{font-family:var(--mono);font-size:10.5px;color:var(--brass);margin-top:8px}
+  .sector-card h3{font-family:var(--disp);font-weight:600;font-size:15px;margin:0 0 2px}
+  .sector-card .snum{font-family:var(--mono);font-size:10px;color:var(--ivory-dim);letter-spacing:.06em}
+  .sector-card .scrbtn{display:inline-block;margin-top:9px}
+  .sector-card .not-yet{font-family:var(--mono);font-size:10.5px;color:var(--hair-bright);margin-top:9px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <nav class="quicknav" id="quicknav"></nav>
+
+  <header class="mast">
+    <div class="mast-top">
+      <div class="word">Darwin<b>OS</b>
+        <span class="sub">THE LEDGER · FUNDAMENTAL WATCH</span>
+      </div>
+      <div class="asof">
+        <div id="asof">as of —</div>
+      </div>
+    </div>
+  </header>
+
+  <div class="tabbar" id="tabbar">
+    <a class="tab-btn" href="index.html">General Portfolio</a>
+    <a class="tab-btn" href="macro_intel.html">Macro Intel</a>
+    <a class="tab-btn active" href="industry.html">Industry</a>
+  </div>
+
+  <div class="sec"><span class="eyebrow">§9 · outside view</span><h2>Industry</h2><span class="rule"></span></div>
+  <div class="muted" style="margin:-4px 0 10px">Sector-level "outside view" analysis — industry base rates, structural trends, and the Darwin/Nalanda screen applied within each one. Cross-referenced against the Watchlist's own Buy/Watch/Monitor calls where a match exists. Full write-ups are added incrementally — a sector without a link yet still shows its known candidates.</div>
+
+  <div class="grid" id="sectors"></div>
+
+  <footer id="footer"></footer>
+</div>
+
+<script src="assets/shared.js"></script>
+<script>
+let DATA = {};
+let SECTORS = { sectors: [] };
+
+function renderSectors(){
+  const rows = (SECTORS.sectors||[]).slice().sort((a,b)=>a.industry.localeCompare(b.industry));
+  document.getElementById("sectors").innerHTML = rows.map(s=>{
+    const stocks = (s.stocks||[]).length
+      ? `<div class="stocks">${s.stocks.map(st=>`<span class="stock-chip ${esc(st.status_code)}">${esc(st.name)} · ${esc(st.status)}</span>`).join("")}</div>`
+      : `<div class="no-stocks">No Darwin-screened stocks in this industry yet.</div>`;
+    const playbook = s.playbook_chapter ? `<div class="playbook">Playbook: ${esc(s.playbook_chapter)}</div>` : "";
+    const link = s.report_url
+      ? `<a href="${esc(s.report_url)}" target="_blank" rel="noopener" class="scrbtn">Read full analysis ↗</a>`
+      : `<div class="not-yet">Full write-up not yet published</div>`;
+    return `<div class="card sector-card">
+      <div class="snum">§${s.number}</div>
+      <h3>${esc(s.industry)}</h3>
+      ${stocks}
+      ${playbook}
+      ${link}
+    </div>`;
+  }).join("");
+}
+
+async function boot(){
+  try{
+    const [dashRes, secRes] = await Promise.all([
+      fetch("dashboard_data.json"), fetch("sector_index.json")
+    ]);
+    DATA = await dashRes.json();
+    SECTORS = await secRes.json();
+  }catch(e){
+    console.error("load failed", e);
+    return;
+  }
+  document.getElementById("asof").textContent = "as of " + (DATA.as_of || DATA.generated || "—");
+  renderSectors();
+  renderFooter();
+  buildQuickNav();
+}
+boot();
+</script>
+</body>
+</html>

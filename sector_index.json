@@ -1,0 +1,1895 @@
+{
+  "generated": "04 Sep 2026",
+  "sectors": [
+    {
+      "number": 1,
+      "industry": "2/3 Wheelers",
+      "source_file": "1.2-3_Wheelers_Companies.md",
+      "slug": "2-3-wheelers",
+      "stocks": [
+        {
+          "name": "Hero MotoCorp",
+          "status_code": "B",
+          "status": "Worth a look"
+        },
+        {
+          "name": "Bajaj Auto",
+          "status_code": "W",
+          "status": "Watch"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 2,
+      "industry": "Abrasives & Bearings",
+      "source_file": "2.Abrasives & Bearings.md",
+      "slug": "abrasives-bearings",
+      "stocks": [
+        {
+          "name": "Grindwell Norton",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Timken India",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "SKF India Industrial",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 3,
+      "industry": "Advertising & Media",
+      "source_file": "3.Advertising & Media Agencies.md",
+      "slug": "advertising-media",
+      "stocks": [
+        {
+          "name": "Cash UR Drive",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 4,
+      "industry": "Aerospace & Defence",
+      "source_file": "4.Aerospace & Defense.md",
+      "slug": "aerospace-defence",
+      "stocks": [
+        {
+          "name": "Hindustan Aeronautics",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Bharat Electronics",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "TAAL Tech",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Garden Reach Shipbuilders",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Sika Interplant",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "C2C Advanced Systems",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Digilogic Systems",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 5,
+      "industry": "Airline",
+      "source_file": "5.Airline Companies.md",
+      "slug": "airline",
+      "stocks": [
+        {
+          "name": "FlySBS Aviation",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 6,
+      "industry": "Airport & Airport Services",
+      "source_file": "6.Airport & Airport services.md",
+      "slug": "airport-airport-services",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 7,
+      "industry": "Aluminium",
+      "source_file": "7.Aluminium.md",
+      "slug": "aluminium",
+      "stocks": [
+        {
+          "name": "NALCO",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Msafe Equipments",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Jainik Power",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Palco Metals",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Sudal Industries",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": "§13 Non-Ferrous Metals",
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 8,
+      "industry": "Aluminium, Copper & Zinc Products",
+      "source_file": "8.Aluminium, Copper & Zinc Products.md",
+      "slug": "aluminium-copper-zinc-products",
+      "stocks": [],
+      "playbook_chapter": "§13 Non-Ferrous Metals",
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 9,
+      "industry": "Amusement Parks",
+      "source_file": "9.Amusement_Parks_Other_Recreation.md",
+      "slug": "amusement-parks",
+      "stocks": [
+        {
+          "name": "Wonderla Holidays",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Nicco Parks",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 10,
+      "industry": "Animal Feed",
+      "source_file": "10.Animal Feed.md",
+      "slug": "animal-feed",
+      "stocks": [
+        {
+          "name": "Avanti Feeds",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "KSE Limited",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 11,
+      "industry": "Asset Management (AMC)",
+      "source_file": "11.Asset Management Company.md",
+      "slug": "asset-management-amc",
+      "stocks": [
+        {
+          "name": "Aditya Birla AMC",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Canara Robeco AMC",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "HDFC AMC",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "ICICI Pru AMC",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Nippon Life AMC",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "UTI AMC",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 12,
+      "industry": "Auto Components & Equipments",
+      "source_file": "12.Auto Components & Equipments.md",
+      "slug": "auto-components-equipments",
+      "stocks": [],
+      "playbook_chapter": "§28 Auto Ancillary",
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 13,
+      "industry": "Auto Dealer",
+      "source_file": "13.Auto Dealer.md",
+      "slug": "auto-dealer",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 14,
+      "industry": "Biotechnology",
+      "source_file": "14.Biotechnology.md",
+      "slug": "biotechnology",
+      "stocks": [
+        {
+          "name": "Anthem Biosciences",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Advanced Enzyme",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 15,
+      "industry": "Breweries & Distilleries",
+      "source_file": "15. Breweries & Distilleries.md",
+      "slug": "breweries-distilleries",
+      "stocks": [
+        {
+          "name": "United Spirits",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Tilaknagar Industries",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "G M Breweries",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Radico Khaitan",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Piccadily Agro",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Associated Alcohols",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Som Distilleries",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Sula Vineyards",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 16,
+      "industry": "BPO / KPO",
+      "source_file": "16.Business Process Outsourcing_BPO Knowledge Process Outsourcing_KPO.md",
+      "slug": "bpo-kpo",
+      "stocks": [
+        {
+          "name": "eClerx Services",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Alldigi Tech",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 17,
+      "industry": "Cables — Electricals",
+      "source_file": "17.Cables - Electricals.md",
+      "slug": "cables-electricals",
+      "stocks": [
+        {
+          "name": "Polycab India",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "RR Kabel",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Advait Energy",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Dynamic Cables",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "JD Cables",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Bhadora Industries",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Defrail Technologies",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 18,
+      "industry": "Carbon Black",
+      "source_file": "18.Carbon Black.md",
+      "slug": "carbon-black",
+      "stocks": [
+        {
+          "name": "Himadri Speciality Chemical",
+          "status_code": "W",
+          "status": "Watch"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 19,
+      "industry": "Castings & Forgings",
+      "source_file": "19.Castings & Forgings.md",
+      "slug": "castings-forgings",
+      "stocks": [
+        {
+          "name": "Steelcast",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "AIA Engineering",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Amic Forging",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Balu Forge",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Happy Forgings",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Magna Electrocas",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 20,
+      "industry": "Cement & Cement Products",
+      "source_file": "20.Cement & Cement Products.md",
+      "slug": "cement-cement-products",
+      "stocks": [
+        {
+          "name": "Orient Cement",
+          "status_code": "B",
+          "status": "Worth a look"
+        },
+        {
+          "name": "JK Cement",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Heidelberg Cement",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Birla Corporation",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "K C P",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Mangalam Cement",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": "§26 Cement",
+      "notes": null,
+      "report_url": "sectors/cement-cement-products.html"
+    },
+    {
+      "number": 21,
+      "industry": "Ceramics",
+      "source_file": "21.Ceramics.md",
+      "slug": "ceramics",
+      "stocks": [
+        {
+          "name": "Kajaria Ceramics",
+          "status_code": "W",
+          "status": "Watch"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 22,
+      "industry": "Cigarettes & Tobacco",
+      "source_file": "22.Cigarettes & Tobacco Products.md",
+      "slug": "cigarettes-tobacco",
+      "stocks": [
+        {
+          "name": "Godfrey Phillips",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "VST Industries",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 23,
+      "industry": "Civil Construction",
+      "source_file": "23.Civil Construction.md",
+      "slug": "civil-construction",
+      "stocks": [
+        {
+          "name": "KNR Constructions",
+          "status_code": "B",
+          "status": "Worth a look"
+        },
+        {
+          "name": "Likhitha Infrastructure",
+          "status_code": "B",
+          "status": "Worth a look"
+        },
+        {
+          "name": "Ashoka Buildcon",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Goel Constructions",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Mahendra Realtors & Infra",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Jayant Infratech",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Readymix Construction Machinery",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Engineers India",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Power Mech Projects",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Mayasheel Ventures",
+          "status_code": "W",
+          "status": "Watch"
+        }
+      ],
+      "playbook_chapter": "§14 Construction",
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 24,
+      "industry": "Coal",
+      "source_file": "24.Coal.md",
+      "slug": "coal",
+      "stocks": [
+        {
+          "name": "Coal India",
+          "status_code": "B",
+          "status": "Worth a look"
+        },
+        {
+          "name": "Sandur Manganese",
+          "status_code": "W",
+          "status": "Watch"
+        }
+      ],
+      "playbook_chapter": "§9 Mining (related — coal)",
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 25,
+      "industry": "Commercial Vehicles",
+      "source_file": "25.Commercial Vehicles.md",
+      "slug": "commercial-vehicles",
+      "stocks": [
+        {
+          "name": "SML Mahindra",
+          "status_code": "W",
+          "status": "Watch"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 26,
+      "industry": "Commodity Chemicals",
+      "source_file": "26.Commodity_chemicals.md",
+      "slug": "commodity-chemicals",
+      "stocks": [
+        {
+          "name": "GHCL",
+          "status_code": "B",
+          "status": "Worth a look"
+        },
+        {
+          "name": "Sr. Rayalaseema Hi-Strength Hypo",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Grauer & Weil",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "SRF",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Tanfac Industries",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Amines & Plasticizers",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Vikram Thermo",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Sonal Adhesives",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Tuticorin Alkali",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Archit Organosys",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": "§24 Chemicals",
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 27,
+      "industry": "Compressors, Pumps & Diesel Engines",
+      "source_file": "27.Compressors, Pumps & Diesel Engines.md",
+      "slug": "compressors-pumps-diesel-engines",
+      "stocks": [
+        {
+          "name": "Swaraj Engines",
+          "status_code": "B",
+          "status": "Worth a look"
+        },
+        {
+          "name": "Cummins India",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Ingersoll-Rand India",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Elgi Equipments",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "KSB India",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Kirloskar Brothers",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Kirloskar Pneumatic",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Roto Pumps",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 28,
+      "industry": "Computers — Software & Consulting",
+      "source_file": "28.Computers - Software & Consulting.md",
+      "slug": "computers-software-consulting",
+      "stocks": [
+        {
+          "name": "Tata Consultancy Services",
+          "status_code": "B",
+          "status": "Worth a look"
+        },
+        {
+          "name": "Sonata Software",
+          "status_code": "B",
+          "status": "Worth a look"
+        },
+        {
+          "name": "Infosys",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "HCL Technologies",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "LTIMindtree",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Persistent Systems",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "KPIT Technologies",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Zensar Technologies",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Newgen Software",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Birlasoft",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Fidel Softech",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Mphasis",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Accelya Solutions",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Saksoft",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "InfoBeans Technologies",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "TAC Infosec",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Systango Tech",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "CapitalNumbers Infotech",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": "§29 IT Services",
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 29,
+      "industry": "Computers Hardware & Equipments",
+      "source_file": "29.Computers_Hardware_Software_Consulting.md",
+      "slug": "computers-hardware-equipments",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 30,
+      "industry": "Construction Vehicles",
+      "source_file": "30.Construction Vehicles.md",
+      "slug": "construction-vehicles",
+      "stocks": [
+        {
+          "name": "Action Construction Equipment",
+          "status_code": "B",
+          "status": "Worth a look"
+        },
+        {
+          "name": "Ajax Engineering",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "BEML",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Brady & Morris",
+          "status_code": "W",
+          "status": "Watch"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 31,
+      "industry": "Consulting Services",
+      "source_file": "31.Consulting_Services_Companies.md",
+      "slug": "consulting-services",
+      "stocks": [
+        {
+          "name": "Marc Technocrats",
+          "status_code": "B",
+          "status": "Worth a look"
+        },
+        {
+          "name": "Monarch Surveyors",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Techknowgreen Solutions",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Onesource Industries",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Walchand PeopleFirst",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "DMR Engineering",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 32,
+      "industry": "Consumer Electronics",
+      "source_file": "32.Consumer_Electronics_Companies.md",
+      "slug": "consumer-electronics",
+      "stocks": [
+        {
+          "name": "Havells India",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Dixon Technologies",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Arham Technologies",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Nanta Technologies",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Pro FX",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Kundan Edifice",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Pulz Electronics",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 33,
+      "industry": "Copper",
+      "source_file": "33.Copper_Companies.md",
+      "slug": "copper",
+      "stocks": [
+        {
+          "name": "Hindustan Copper",
+          "status_code": "W",
+          "status": "Watch"
+        }
+      ],
+      "playbook_chapter": "§13 Non-Ferrous Metals",
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 34,
+      "industry": "Dairy Products",
+      "source_file": "34.Dairy_Products_Companies_Darwin_Analysis.md",
+      "slug": "dairy-products",
+      "stocks": [
+        {
+          "name": "Vadilal Industries",
+          "status_code": "B",
+          "status": "Worth a look"
+        },
+        {
+          "name": "Hatsun Agro",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Dodla Dairy",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Heritage Foods",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Vadilal Enterprises",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Sheetal Cool Products",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Milkfood Ltd",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 35,
+      "industry": "Data Processing Services",
+      "source_file": "35.Data_Processing_Services_Companies_Darwin_Analysis.md",
+      "slug": "data-processing-services",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 36,
+      "industry": "Dealers — CV / Tractors / Construction",
+      "source_file": "36.Dealers-Commercial_Vehicles_Tractors_Construction_Vehicles_Darwin_Analysis.md",
+      "slug": "dealers-cv-tractors-construction",
+      "stocks": [
+        {
+          "name": "Jinkushal Industries",
+          "status_code": "W",
+          "status": "Watch"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 37,
+      "industry": "Depositories & Clearing Houses",
+      "source_file": "37.Darwin_Analysis_Depositories_Clearing_Intermediaries.md",
+      "slug": "depositories-clearing-houses",
+      "stocks": [
+        {
+          "name": "CDSL",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "CAMS",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "NSDL",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "KFin Technologies",
+          "status_code": "W",
+          "status": "Watch"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 38,
+      "industry": "Digital Entertainment",
+      "source_file": "38.Digital_Entertainment.md",
+      "slug": "digital-entertainment",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 39,
+      "industry": "Distributors",
+      "source_file": "39.Distributor_Companies_Darwin_Analysis.md",
+      "slug": "distributors",
+      "stocks": [
+        {
+          "name": "M K Exim India",
+          "status_code": "W",
+          "status": "Watch"
+        }
+      ],
+      "playbook_chapter": "§6 Trading Companies (related)",
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 40,
+      "industry": "Diversified",
+      "source_file": "40.Diversified_Companies.md",
+      "slug": "diversified",
+      "stocks": [
+        {
+          "name": "3M India",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Balmer Lawrie & Co",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Empire Industries",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 41,
+      "industry": "Diversified Commercial Services",
+      "source_file": "41.Diversified_Commercial_Services_Companies.md",
+      "slug": "diversified-commercial-services",
+      "stocks": [
+        {
+          "name": "CMS Info Systems",
+          "status_code": "B",
+          "status": "Worth a look"
+        },
+        {
+          "name": "IGI India",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "NESCO",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Positron Energy",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Radiant Cash Management",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Infollion Research",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "PAN HR Solutions",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Happy Square Outsourcing",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Chamunda Electricals",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Armour Security",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "RBM Infracon",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Sobhagya Mercantile",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 42,
+      "industry": "Diversified Consumer Products",
+      "source_file": "42.Diversified consumer products Companies.md",
+      "slug": "diversified-consumer-products",
+      "stocks": [
+        {
+          "name": "Yash Optics & Lens",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 43,
+      "industry": "Diversified FMCG",
+      "source_file": "43.Diversified_FMCG_Companies.md",
+      "slug": "diversified-fmcg",
+      "stocks": [
+        {
+          "name": "Hindustan Unilever",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "ITC",
+          "status_code": "W",
+          "status": "Watch"
+        }
+      ],
+      "playbook_chapter": "§17 FMCG",
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 44,
+      "industry": "Diversified Metals",
+      "source_file": "44.Diversified_Metals_Companies.md",
+      "slug": "diversified-metals",
+      "stocks": [
+        {
+          "name": "Pondy Oxides & Chemicals",
+          "status_code": "W",
+          "status": "Watch"
+        }
+      ],
+      "playbook_chapter": "§13 Non-Ferrous Metals",
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 45,
+      "industry": "Diversified Retail",
+      "source_file": "45.Diversified Retail Companies.md",
+      "slug": "diversified-retail",
+      "stocks": [
+        {
+          "name": "Avenue Supermarts",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Patel Retail",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Jay Ambe Supermarkets",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": "§10 Organised Retail",
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 46,
+      "industry": "Dredging",
+      "source_file": "46.Dredging_Companies_Darwin_Analysis.md",
+      "slug": "dredging",
+      "stocks": [
+        {
+          "name": "Knowledge Marine & Engineering",
+          "status_code": "W",
+          "status": "Watch"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 47,
+      "industry": "Dyes and Pigments",
+      "source_file": "47.Dyes_And_Pigments_Companies.md",
+      "slug": "dyes-and-pigments",
+      "stocks": [
+        {
+          "name": "Arunaya Organics",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Prolife Industries",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Ultramarine & Pigments",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Shree Pushkar Chemicals",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Sudarshan Colorants",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Bhageria Industries",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Paragon Fine & Speciality",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Unilex Colours & Chemicals",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": "§24 Chemicals",
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 48,
+      "industry": "E-Learning",
+      "source_file": "48.E-Learning Companies.md",
+      "slug": "e-learning",
+      "stocks": [
+        {
+          "name": "MPS Limited",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Jaro Institute of Technology",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Sodhani Academy of Fintech",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 49,
+      "industry": "E-Retail / E-Commerce",
+      "source_file": "49.E-Retail_E-Commerce_Companies_Darwin_Analysis.md",
+      "slug": "e-retail-e-commerce",
+      "stocks": [
+        {
+          "name": "CarTrade Tech",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Macfos",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Kaushalya Logistics",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 50,
+      "industry": "Edible Oil",
+      "source_file": "50.Edible_Oil_Companies_Darwin_Analysis.md",
+      "slug": "edible-oil",
+      "stocks": [
+        {
+          "name": "Marico",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Gokul Agro Resources",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Kriti Nutrients",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Ajanta Soya",
+          "status_code": "M",
+          "status": "Monitor"
+        },
+        {
+          "name": "Ambar Protein",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 51,
+      "industry": "Education",
+      "source_file": "51_Education_Darwin_Analysis.md",
+      "slug": "education",
+      "stocks": [
+        {
+          "name": "Career Point Edutech",
+          "status_code": "B",
+          "status": "Worth a look"
+        },
+        {
+          "name": "Global Education Ltd",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "NIIT Learning Systems",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 52,
+      "industry": "Electrodes & Refractories",
+      "source_file": "52.Electrodes_Refractories_Darwin_Analysis.md",
+      "slug": "electrodes-refractories",
+      "stocks": [
+        {
+          "name": "Vesuvius India",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Raghav Productivity Enhancers",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Foseco India",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Monolithisch India",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 53,
+      "industry": "Electronic Media",
+      "source_file": "53.Electronic Media Companies.md",
+      "slug": "electronic-media",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 54,
+      "industry": "Exchange and Data Platform",
+      "source_file": "54.Exchange_and_Data_Platform_Companies_Darwin_Analysis.md",
+      "slug": "exchange-and-data-platform",
+      "stocks": [
+        {
+          "name": "BSE Ltd",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Multi Commodity Exchange",
+          "status_code": "W",
+          "status": "Watch"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 55,
+      "industry": "Explosives",
+      "source_file": "55. Explosives Companies.md",
+      "slug": "explosives",
+      "stocks": [
+        {
+          "name": "Solar Industries India",
+          "status_code": "W",
+          "status": "Watch"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 56,
+      "industry": "Ferro & Silica Manganese",
+      "source_file": "56. Ferro & Silica Manganese Companies.md",
+      "slug": "ferro-silica-manganese",
+      "stocks": [
+        {
+          "name": "Indian Metals & Ferro Alloys",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Maithan Alloys",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 57,
+      "industry": "Fertilizers",
+      "source_file": "57_Fertilizers_Darwin_Analysis.md",
+      "slug": "fertilizers",
+      "stocks": [
+        {
+          "name": "Chambal Fertilisers",
+          "status_code": "B",
+          "status": "Worth a look"
+        },
+        {
+          "name": "Coromandel International",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Krishana Phoschem",
+          "status_code": "M",
+          "status": "Monitor"
+        }
+      ],
+      "playbook_chapter": "§19 Fertilizers",
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 58,
+      "industry": "Film Production & Exhibition",
+      "source_file": "58_Film_Production_Distribution_Exhibition_Darwin_Analysis.md",
+      "slug": "film-production-exhibition",
+      "stocks": [],
+      "playbook_chapter": "§2 Film",
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 59,
+      "industry": "Financial Institution",
+      "source_file": "59_Financial_Institution_Companies_Darwin_Analysis.md",
+      "slug": "financial-institution",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 60,
+      "industry": "Financial Products Distributor",
+      "source_file": "60.Financial Products Distributor Companies.md",
+      "slug": "financial-products-distributor",
+      "stocks": [
+        {
+          "name": "Anand Rathi Wealth",
+          "status_code": "W",
+          "status": "Watch"
+        },
+        {
+          "name": "Prudent Corporate Advisory",
+          "status_code": "W",
+          "status": "Watch"
+        }
+      ],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 61,
+      "industry": "Financial Technology (Fintech)",
+      "source_file": "61_Financial_Technology_Fintech_Industry_Analysis.md",
+      "slug": "financial-technology-fintech",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 62,
+      "industry": "Footwear",
+      "source_file": "62.Footwear Companies.md",
+      "slug": "footwear",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 63,
+      "industry": "Forest Products",
+      "source_file": "63.Forest Products Companies.md",
+      "slug": "forest-products",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 64,
+      "industry": "Furniture & Home Furnishing",
+      "source_file": "64.Furniture_Home_Furnishing_Companies.md",
+      "slug": "furniture-home-furnishing",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 65,
+      "industry": "Garments & Apparels",
+      "source_file": "65.Garments & Apparels Companies.md",
+      "slug": "garments-apparels",
+      "stocks": [],
+      "playbook_chapter": "§23 Textiles (related — garments)",
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 66,
+      "industry": "Gas Transmission / Marketing",
+      "source_file": "66_Gas_Transmission_Marketing_Darwin_Analysis.md",
+      "slug": "gas-transmission-marketing",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 67,
+      "industry": "Gems, Jewellery & Watches",
+      "source_file": "67_Gems_Jewellery_Watches_Darwin_Analysis.md",
+      "slug": "gems-jewellery-watches",
+      "stocks": [],
+      "playbook_chapter": "§8 Gems & Jewellery Retail",
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 68,
+      "industry": "General Insurance",
+      "source_file": "68_General_Insurance_Darwin_Analysis.md",
+      "slug": "general-insurance",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 69,
+      "industry": "Glass — Consumer",
+      "source_file": "69.LaOpala_Darwin_Analysis.md",
+      "slug": "glass-consumer",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 70,
+      "industry": "Glass — Industrial",
+      "source_file": "70.Glass_Industrial_Darwin_Analysis.md",
+      "slug": "glass-industrial",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 72,
+      "industry": "Healthcare Research & Analytics",
+      "source_file": "72. Healthcare Research, Analytics & Technology Companies.md",
+      "slug": "healthcare-research-analytics",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 73,
+      "industry": "Healthcare Service Provider",
+      "source_file": "73_Healthcare_Service_Provider_Industry_Analysis.md",
+      "slug": "healthcare-service-provider",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 74,
+      "industry": "Heavy Electrical Equipment",
+      "source_file": "74.Heavy Electrical Equipment Companies.md",
+      "slug": "heavy-electrical-equipment",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 75,
+      "industry": "Holding Company",
+      "source_file": "75. Holding Company Companies.md",
+      "slug": "holding-company",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 76,
+      "industry": "Hospital",
+      "source_file": "76.Hospital Companies.md",
+      "slug": "hospital",
+      "stocks": [],
+      "playbook_chapter": "§22 Hospitals",
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 77,
+      "industry": "Hotels & Resorts",
+      "source_file": "77.Hotels & Resorts Companies.md",
+      "slug": "hotels-resorts",
+      "stocks": [],
+      "playbook_chapter": "§18 Hotels",
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 78,
+      "industry": "Household Appliances",
+      "source_file": "78.Household Appliances Companies.md",
+      "slug": "household-appliances",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 79,
+      "industry": "Household Products",
+      "source_file": "79.Household Products Companies.md",
+      "slug": "household-products",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 80,
+      "industry": "Houseware",
+      "source_file": "80_houseware.md",
+      "slug": "houseware",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 81,
+      "industry": "Housing Finance Company",
+      "source_file": "81. Housing Finance Companies.md",
+      "slug": "housing-finance-company",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 82,
+      "industry": "Industrial Gases",
+      "source_file": "82.Industrial Gases Companies.md",
+      "slug": "industrial-gases",
+      "stocks": [],
+      "playbook_chapter": null,
+      "notes": null,
+      "report_url": null
+    },
+    {
+      "number": 84,
+      "industry": "Industrial Minerals",
+      "source_file": "84_Industrial_Minerals_Darwin_Analysis.md",
+      "slug": "industrial-minerals",
+      "stocks": [],
+      "playbook_chapter": "§9 Mining (related — minerals)",
+      "notes": "⚠️ filename #84 but content = Industry #83 \"Industrial Minerals\"; true #84 \"Industrial Products\" has no file",
+      "report_url": null
+    }
+  ]
+}
