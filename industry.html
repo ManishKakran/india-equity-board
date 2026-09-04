@@ -9,17 +9,28 @@
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/shared.css">
 <style>
-  .sector-card .stocks{display:flex;flex-wrap:wrap;gap:5px;margin:8px 0}
-  .sector-card .stock-chip{font-family:var(--mono);font-size:10px;padding:2px 7px;border-radius:var(--r-1);border:1px solid;white-space:nowrap}
-  .sector-card .stock-chip.B{color:var(--sage);border-color:#366b4655;background:#366b4611}
-  .sector-card .stock-chip.W{color:var(--amber);border-color:#8a5f1f55;background:#8a5f1f11}
-  .sector-card .stock-chip.M{color:var(--ivory-dim);border-color:var(--hair);background:transparent}
-  .sector-card .no-stocks{font-size:11.5px;color:var(--ivory-dim)}
-  .sector-card .playbook{font-family:var(--mono);font-size:10.5px;color:var(--brass);margin-top:8px}
-  .sector-card h3{font-family:var(--disp);font-weight:600;font-size:15px;margin:0 0 2px}
-  .sector-card .snum{font-family:var(--mono);font-size:10px;color:var(--ivory-dim);letter-spacing:.06em}
-  .sector-card .scrbtn{display:inline-block;margin-top:9px}
-  .sector-card .not-yet{font-family:var(--mono);font-size:10.5px;color:var(--hair-bright);margin-top:9px}
+  /* One row per sector, not a card grid -- 82 sectors as cards meant a lot of scrolling
+     to scan through; a compact list reads faster. Each row is a single flex column
+     (header line + wrapped stock chips + playbook line), divided by hairlines, inside
+     one bordered container -- same visual language as .wlist-compact elsewhere, but
+     rows here can't share a fixed-column grid the way the Watchlist does (a sector's
+     stock list runs from 0 to 10+ names, wildly different per row). */
+  .sector-list{background:var(--panel);border:1px solid var(--hair);border-radius:var(--r-3);box-shadow:var(--shadow-1)}
+  .sector-row{padding:10px 14px;border-bottom:1px solid var(--hair)}
+  .sector-row:last-child{border-bottom:none}
+  .sector-row:hover{background:var(--panel-2)}
+  .sector-row .row-head{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}
+  .sector-row .snum{font-family:var(--mono);font-size:10px;color:var(--ivory-dim);letter-spacing:.06em;flex:0 0 auto}
+  .sector-row .sname{font-family:var(--disp);font-weight:600;font-size:14.5px;flex:0 1 auto}
+  .sector-row .row-head .scrbtn,.sector-row .row-head .not-yet{margin-left:auto;flex:0 0 auto}
+  .sector-row .not-yet{font-family:var(--mono);font-size:10px;color:var(--hair-bright)}
+  .sector-row .stocks{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+  .sector-row .stock-chip{font-family:var(--mono);font-size:10px;padding:2px 7px;border-radius:var(--r-1);border:1px solid;white-space:nowrap}
+  .sector-row .stock-chip.B{color:var(--sage);border-color:#366b4655;background:#366b4611}
+  .sector-row .stock-chip.W{color:var(--amber);border-color:#8a5f1f55;background:#8a5f1f11}
+  .sector-row .stock-chip.M{color:var(--ivory-dim);border-color:var(--hair);background:transparent}
+  .sector-row .no-stocks{font-size:11px;color:var(--ivory-dim);margin-top:5px}
+  .sector-row .playbook{font-family:var(--mono);font-size:10px;color:var(--brass);margin-top:5px}
 </style>
 </head>
 <body>
@@ -47,7 +58,7 @@
   <div class="sec"><span class="eyebrow">§9 · outside view</span><h2>Industry</h2><span class="rule"></span></div>
   <div class="muted" style="margin:-4px 0 10px">Sector-level "outside view" analysis — industry base rates, structural trends, and the Darwin/Nalanda screen applied within each one. Cross-referenced against the Watchlist's own Buy/Watch/Monitor calls where a match exists. Full write-ups are added incrementally — a sector without a link yet still shows its known candidates.</div>
 
-  <div class="grid" id="sectors"></div>
+  <div class="sector-list" id="sectors"></div>
 
   <footer id="footer"></footer>
 </div>
@@ -66,13 +77,15 @@ function renderSectors(){
     const playbook = s.playbook_chapter ? `<div class="playbook">Playbook: ${esc(s.playbook_chapter)}</div>` : "";
     const link = s.report_url
       ? `<a href="${esc(s.report_url)}" target="_blank" rel="noopener" class="scrbtn">Read full analysis ↗</a>`
-      : `<div class="not-yet">Full write-up not yet published</div>`;
-    return `<div class="card sector-card">
-      <div class="snum">§${s.number}</div>
-      <h3>${esc(s.industry)}</h3>
+      : `<span class="not-yet">Full write-up not yet published</span>`;
+    return `<div class="sector-row">
+      <div class="row-head">
+        <span class="snum">§${s.number}</span>
+        <span class="sname">${esc(s.industry)}</span>
+        ${link}
+      </div>
       ${stocks}
       ${playbook}
-      ${link}
     </div>`;
   }).join("");
 }
