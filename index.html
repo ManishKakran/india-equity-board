@@ -85,7 +85,6 @@ function wSortHeader(key,label,extraClass){
     title="Sort by ${esc(label)}">${esc(label)}${arrow}</span>`;
 }
 function renderWatchlist(){
-  const buyNowTickers=new Set((DATA.framework_screen||[]).filter(r=>r.classification==="BUY NOW").map(r=>r.ticker));
   const faeTriggerTickers=new Set((DATA.fae_triggers||[]).map(r=>r.ticker));
   const head=`<div class="wlist-head"><span>#</span><span></span>${wSortHeader("name","Company")}${wSortHeader("ticker","Ticker")}${wSortHeader("status","Status")}${wSortHeader("buy_zone","Buy zone")}
     <span class="wmetrics">${wSortHeader("price","Price","wm-price")}${wSortHeader("pe","PE","wm-pe")}${wSortHeader("roce","ROCE","wm-roce")}${wSortHeader("de","D/E","wm-de")}</span>
@@ -104,11 +103,9 @@ function renderWatchlist(){
     });
   }
   document.getElementById("watchlist").innerHTML = `<div class="wlist-compact">` + head + list.map((w,i)=>{
-    const isBuyNow=false, isFaeTrigger=faeTriggerTickers.has(w.ticker);
+    const isFaeTrigger=faeTriggerTickers.has(w.ticker);
     const band=classBand(w.status||"");
-    const flag=isBuyNow
-      ? `<span class="flag flag-buynow" title="Passes both the profitability and valuation checks — ready for a closer look">⭐</span>`
-      : isFaeTrigger
+    const flag=isFaeTrigger
       ? `<span class="flag flag-trigger" style="cursor:pointer" onclick="showFaeTrigger('${esc(w.ticker)}')" role="button" tabindex="0"
           onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showFaeTrigger('${esc(w.ticker)}')}"
           title="Classification/PE/ROCE moved enough since the last run to be worth a manual re-check — click for why">🚩</span>`

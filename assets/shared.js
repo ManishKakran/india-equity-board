@@ -102,15 +102,13 @@ function classBand(cls){
   return "watch";
 }
 
-/* Public-site-only display mapping (see export_public_data.py / build_static_site.py's own
-   docstrings for the SEBI-investment-adviser reasoning behind softening "Buy" language on the
-   public site specifically). The LOCAL copy of this file always calls
-   esc(r.classification||"") directly in screenCardHtml() below; build_static_site.py swaps
-   that one call site to route through here instead when it copies this file into the public
-   site, so "BUY NOW" reads as a neutral "Worth a look" for public visitors without touching
-   the underlying classification value anything else (buyNowTickers, classBand, gate text)
-   compares against -- color banding (classBand) is intentionally left alone, only the wording
-   changes. */
+/* Display mapping used everywhere this repo shows a classification, local and public alike
+   (see CLAUDE.md/export_public_data.py's own notes -- not a registered investment adviser, so
+   "BUY NOW" is never shown verbatim to anyone, including yourself, per explicit user direction
+   2026-09-04: "local will have only personal portfolio extra" -- General Portfolio/Macro Intel
+   render identically in both places, only My Portfolio (holdings/totals) stays local-only).
+   Underlying classification values (buyNowTickers, classBand, gate text) are untouched --
+   color banding (classBand) is intentionally left alone, only the wording changes. */
 function displayClassification(cls){
   return cls === "BUY NOW" ? "Worth a look" : cls;
 }
