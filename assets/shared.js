@@ -131,7 +131,7 @@ function faeBadge(entry){
   const args=`'${esc(entry.ticker)}','${esc(entry.fundamentals_dir||"")}'`;
   return `<span class="fae-badge" onclick="showFaeScreen(${args})" role="button" tabindex="0"
     onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showFaeScreen(${args})}"
-    title="Full FAE Gate 4.5 + Darwin/Nalanda screen">FAE Screen ↗</span>`;
+    title="Full fundamental screen — profitability, valuation, and quality checks">FAE Screen ↗</span>`;
 }
 /* score_companies.py's output, matched the same way as screenRowFor -- by ticker or
    fundamentals_dir. Components are 0-100 or null (never guessed when data's missing);
@@ -322,7 +322,7 @@ function triggerCardHtml(r){
     </div>
     <ul class="kc" style="margin-top:10px">${reasons}</ul>
     <div class="note" style="margin-top:8px">Now: ${esc(c.classification||"—")} · ${c.pe!=null?c.pe+"x PE":"PE —"} · ${c.roce_pct!=null?c.roce_pct+"% ROCE":"ROCE —"}</div>
-    <div class="proposal">Worklist item — not the full FAE Gates 1-5I engine. Start Gate 1 manually elsewhere.</div>`;
+    <div class="proposal">This flags that something changed enough to be worth a closer look — it isn't a full deep-dive report. Start one separately if you want it.</div>`;
 }
 function showFaeTrigger(ticker){
   const r=triggerRowFor(ticker);

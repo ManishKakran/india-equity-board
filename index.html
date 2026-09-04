@@ -107,7 +107,7 @@ function renderWatchlist(){
     const isBuyNow=false, isFaeTrigger=faeTriggerTickers.has(w.ticker);
     const band=classBand(w.status||"");
     const flag=isBuyNow
-      ? `<span class="flag flag-buynow" title="Passes both Gate 2.1 (ROCE) and Gate 2.4 (valuation) — ready for a manual full FAE cycle">⭐</span>`
+      ? `<span class="flag flag-buynow" title="Passes both the profitability and valuation checks — ready for a closer look">⭐</span>`
       : isFaeTrigger
       ? `<span class="flag flag-trigger" style="cursor:pointer" onclick="showFaeTrigger('${esc(w.ticker)}')" role="button" tabindex="0"
           onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showFaeTrigger('${esc(w.ticker)}')}"
