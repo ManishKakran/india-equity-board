@@ -1,19 +1,17 @@
 {
   "generated": "2026-09-04",
-  "as_of": "2026-09-03",
+  "as_of": "2026-09-04",
   "pipeline": {
-    "buy": 28,
-    "watch": 94,
+    "buy": 27,
+    "watch": 95,
     "monitor": 157,
     "buy_names": [
       "Coal India",
-      "D-Link India",
       "KNR Constructions",
       "Career Point Edutech",
       "Chambal Fertilisers",
       "NALCO",
       "Sandur Manganese",
-      "Infosys",
       "Zensar Technologies",
       "Birlasoft",
       "Fidel Softech",
@@ -37,10 +35,10 @@
       "status": "Worth a look",
       "buy_zone": "At market",
       "concern": "FAE verdict (post adversarial stress-test): FAIRLY VALUED -- WAIT FOR PRICE, revised down from an initial 'attractive'. Composite score 7.2/10 (down from the bull case's 8.2/10). Genuine moat and fortress balance sheet, but four vulnerabilities were underweighted in the original bull case: CCC deterioration is more advanced than tracked, VIDA EV economics are opaque, Honda's competitive response is understated, and the valuation multiple assumes a stability the auto OEM sector isn't showing. All 7 Gate 4.5 hard filters clear (best in the repo). Gate 5H stress test added 2026-08-23: Perfect Storm verdict RESILIENT ON SOLVENCY (zero debt, large liquid corpus), VULNERABLE ON THE GROWTH/MOAT STORY (CCC deterioration + commodity spike + monsoon shock could flatten PAT growth without threatening solvency). Now includes a Plain-English Summary section explaining every open concern in layman terms.",
-      "live_price": 5600.0,
-      "live_pe": 20.41,
+      "live_price": 5300.0,
+      "live_pe": 19.46,
       "de": 0.04,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/HEROMOTOCO/consolidated/",
       "fundamentals_dir": "HERO_MOTOCORP",
       "fundamentals": {
@@ -74,10 +72,10 @@
       "status": "Worth a look",
       "buy_zone": "At market ₹457",
       "concern": "Net-cash; 35% ROCE; ₹98,137 Cr FCF over 5 yrs; monopoly thermal coal",
-      "live_price": 401.0,
-      "live_pe": 7.91,
+      "live_price": 415.35,
+      "live_pe": 8.17,
       "de": 0.12,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/COALINDIA/consolidated/",
       "fundamentals_dir": "COALINDIA_YF",
       "fundamentals": {
@@ -107,10 +105,10 @@
       "status": "Worth a look",
       "buy_zone": "₹400–480 (14–16x PE)",
       "concern": "ROCE >28%; positive FCF 5 yrs; ~30% discount to Sensex PE; India networking infra play; MNC (D-Link Taiwan) backed",
-      "live_price": 443.25,
-      "live_pe": 14.49,
+      "live_price": 451.15,
+      "live_pe": 14.93,
       "de": 0.03,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/DLINKINDIA/consolidated/",
       "fundamentals_dir": "DLINKINDIA_YF",
       "fundamentals": {
@@ -139,11 +137,11 @@
       "ticker": "ACE",
       "status": "Worth a look",
       "buy_zone": "₹780–880 (accumulate on dips)",
-      "concern": "FAE verdict: HOLD -- not a conviction buy, not a sell. Business quality GOOD (7.5/10): excellent financial mechanics, clean governance on the critical metrics, impeccable debt discipline. Penalised for capital-allocation inaction and competitive fragility in heavy cranes. Stock is -35% from its 52-week high -- moved from EXPENSIVE to fair value on reported earnings, but still EXPENSIVE on operational earnings (34.4x ex-treasury income).",
-      "live_price": 1140.6,
-      "live_pe": 31.09,
+      "concern": null,
+      "live_price": 1125.4,
+      "live_pe": 29.24,
       "de": 0.0,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/ACE/consolidated/",
       "fundamentals_dir": "ACE_YF",
       "fundamentals": {
@@ -173,10 +171,10 @@
       "status": "Worth a look",
       "buy_zone": "At market (≤₹250 approx)",
       "concern": "Scale + 28.6% ROCE + low 6.56x PE; sector-leading return ratios; strong promoter track record",
-      "live_price": 124.55,
-      "live_pe": 8.88,
+      "live_price": 124.66,
+      "live_pe": 8.72,
       "de": 0.49,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/KNRCON/consolidated/",
       "fundamentals_dir": "KNRCON_YF",
       "fundamentals": {
@@ -206,10 +204,10 @@
       "status": "Worth a look",
       "buy_zone": "At market (≤₹150 approx)",
       "concern": "Gas pipeline niche; positive FCF; 27.6% ROCE; 14.9x PE; clean balance sheet",
-      "live_price": 208.88,
-      "live_pe": 25.57,
+      "live_price": 204.8,
+      "live_pe": 24.76,
       "de": 0.0,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/LIKHITHA/",
       "fundamentals_dir": "LIKHITHA_YF",
       "fundamentals": {
@@ -239,10 +237,10 @@
       "status": "Worth a look",
       "buy_zone": "At market ₹267",
       "concern": "30.6% ROCE; 31.4% 5-yr ROE; 14.8x PE — Darwin-ideal valuation; all gates cleared",
-      "live_price": 304.6,
-      "live_pe": 18.24,
+      "live_price": 285.25,
+      "live_pe": 17.37,
       "de": 0.38,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/SONATSOFTW/consolidated/",
       "fundamentals_dir": "SONATSOFTW_YF",
       "fundamentals": {
@@ -272,10 +270,10 @@
       "status": "Worth a look",
       "buy_zone": "At market ₹88",
       "concern": "40.86% ROCE; 17-yr B2G infra consultancy; NHAI/MoRTH empanelment moat; near-zero debt (D/E 0.03); 16x PE at 33% discount to Sensex — all Darwin gates clear",
-      "live_price": 148.0,
+      "live_price": 148.95,
       "live_pe": null,
       "de": null,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/MARC/",
       "fundamentals_dir": "MARC_YF",
       "fundamentals": {
@@ -305,10 +303,10 @@
       "status": "Worth a look",
       "buy_zone": "CMP ₹4,329; add aggressively ≤₹3,200",
       "concern": "25.11% ROCE; 22.56% 5-yr ROE; 100-year Gandhi family brand; India's #2 ice cream; consistent FCF ₹245 Cr (5-yr); zero acquisitions",
-      "live_price": 7900.0,
-      "live_pe": 25.95,
+      "live_price": 7655.0,
+      "live_pe": 25.13,
       "de": 0.27,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/VADILALIND/consolidated/",
       "fundamentals_dir": "VADILALIND_YF",
       "fundamentals": {
@@ -338,10 +336,10 @@
       "status": "Worth a look",
       "buy_zone": "At market ₹184 (≤15x PE)",
       "concern": "54.17% ROCE; 43.19% 5-yr ROE; 30-yr JEE/NEET franchise (Kota); debt-free (D/E 0.0x); 63.7% promoter; 59% EBITDA margin; PE 15.14x at 28% discount to Sensex — all Darwin gates clear",
-      "live_price": 186.52,
-      "live_pe": 14.29,
+      "live_price": 191.97,
+      "live_pe": 14.72,
       "de": null,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/CPEDU/",
       "fundamentals_dir": "CPEDU_YF",
       "fundamentals": {
@@ -371,10 +369,10 @@
       "status": "Worth a look",
       "buy_zone": "At market ₹478 (deep value — 57% discount to Sensex PE)",
       "concern": "25.51% ROCE; ₹5,645 Cr 5-yr FCF (best in sector); India's largest private urea manufacturer; K.K. Birla Group; 4,200 dealers + 60,000 retailers; proximate fear (subsidy reform) creates the opportunity",
-      "live_price": 421.55,
-      "live_pe": 8.83,
+      "live_price": 419.05,
+      "live_pe": 8.7,
       "de": 0.1,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/CHAMBLFERT/consolidated/",
       "fundamentals_dir": "CHAMBAL_FERTILISERS_&_CHEMICALS",
       "fundamentals": {
@@ -408,10 +406,10 @@
       "status": "WATCH",
       "buy_zone": "16–17x 700–750",
       "concern": "Mid-size AMC; strong ROCE; SIP tailwind",
-      "live_price": 1047.9,
-      "live_pe": 30.16,
+      "live_price": 1062.3,
+      "live_pe": 30.57,
       "de": 0.02,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/ABSLAMC/consolidated/",
       "fundamentals_dir": "ABSLAMC_YF",
       "fundamentals": {
@@ -441,10 +439,10 @@
       "status": "WATCH",
       "buy_zone": "18–20x 190–200",
       "concern": "Highest ROCE among AMCs; niche but quality",
-      "live_price": 259.9,
-      "live_pe": 23.74,
+      "live_price": 251.5,
+      "live_pe": 23.12,
       "de": 0.02,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/CRAMC/"
     },
     {
@@ -453,10 +451,10 @@
       "status": "WATCH",
       "buy_zone": "15–18x 1,100–1,300",
       "concern": "Top-tier AMC; duopoly economics; strong FCF",
-      "live_price": 2569.0,
-      "live_pe": 37.51,
+      "live_price": 2458.3,
+      "live_pe": 36.13,
       "de": 0.02,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/HDFCAMC/",
       "fundamentals_dir": "HDFCAMC_YF",
       "fundamentals": {
@@ -487,10 +485,10 @@
       "buy_zone": "15–18x 1,400–1,600",
       "concern": "Largest AMC in India; exceptional 115% ROCE; SIP structural tailwind",
       "screener_url": "https://www.screener.in/company/ICICIAMC/",
-      "live_price": 3139.6,
-      "live_pe": 44.71,
+      "live_price": 2970.9,
+      "live_pe": 42.16,
       "de": 0.04,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "fundamentals_dir": "ICICIAMC_YF",
       "fundamentals": {
         "period": "FY23-FY26",
@@ -519,10 +517,10 @@
       "status": "WATCH",
       "buy_zone": "15–18x Market dislocation",
       "concern": "Strong ROCE; foreign parentage adds stability",
-      "live_price": 1194.4,
-      "live_pe": 47.25,
+      "live_price": 1159.9,
+      "live_pe": 45.88,
       "de": 0.02,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/NAM-INDIA/consolidated/",
       "fundamentals_dir": "NAM-INDIA_YF",
       "fundamentals": {
@@ -552,10 +550,10 @@
       "status": "WATCH",
       "buy_zone": "14.9–16x ₹10,300–12,300",
       "concern": "Only Darwin-grade business in 56-co garments universe; 64% ROCE; Jockey licence moat; net cash; 30-yr track record; positive FCF ₹2,861 Cr (5-yr)",
-      "live_price": 35985.0,
-      "live_pe": 53.18,
+      "live_price": 36300.0,
+      "live_pe": 54.12,
       "de": 0.18,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/PAGEIND/",
       "fundamentals_dir": "PAGEIND_YF",
       "fundamentals": {
@@ -585,10 +583,10 @@
       "status": "WATCH",
       "buy_zone": "15–18x ₹1,100–1,350 (approx)",
       "concern": "Best-in-class jewellery franchise; Tata governance; 25.8% ROCE; cultural gold demand moat; organised→unorganised shift beneficiary",
-      "live_price": 5169.2,
-      "live_pe": 79.37,
+      "live_price": 5020.0,
+      "live_pe": 77.41,
       "de": 1.95,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/TITAN/consolidated/",
       "fundamentals_dir": "TITAN_YF",
       "fundamentals": {
@@ -618,10 +616,10 @@
       "status": "WATCH",
       "buy_zone": "15–16x ₹130–145",
       "concern": "Extraordinary 92.77% ROCE; positive 5-yr FCF ₹105 Cr; Timex brand moat in Indian watches",
-      "live_price": 653.75,
-      "live_pe": 74.04,
+      "live_price": 669.85,
+      "live_pe": 78.71,
       "de": 0.32,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/TIMEX/"
     },
     {
@@ -630,10 +628,10 @@
       "status": "WATCH",
       "buy_zone": "14–16x PE 14–16x zone",
       "concern": "33.78% ROCE; POSITIVE FCF (only FCF-positive quality name in sector); founder-led; Nalanda entry zone approaching",
-      "live_price": 550.35,
-      "live_pe": 18.51,
+      "live_price": 547.0,
+      "live_pe": 18.41,
       "de": 0.08,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/543709/"
     },
     {
@@ -642,10 +640,10 @@
       "status": "WATCH",
       "buy_zone": "22–25x 3,000–3,500",
       "concern": "Monopoly defence OEM; order book visibility 5+ yrs",
-      "live_price": 4861.1,
-      "live_pe": 35.09,
+      "live_price": 4856.0,
+      "live_pe": 34.79,
       "de": 0.0,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/HAL/consolidated/",
       "fundamentals_dir": "HAL_YF",
       "fundamentals": {
@@ -675,10 +673,10 @@
       "status": "WATCH",
       "buy_zone": "25–30x 180–240",
       "concern": "Electronics defence PSU; consistent ROCE; strong order pipeline",
-      "live_price": 411.9,
-      "live_pe": 49.04,
+      "live_price": 405.35,
+      "live_pe": 47.91,
       "de": 0.0,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/BEL/consolidated/",
       "fundamentals_dir": "BEL_YF",
       "fundamentals": {
@@ -708,10 +706,10 @@
       "status": "WATCH",
       "buy_zone": "20x 8,500–9,000",
       "concern": "Export-driven 2W OEM; rising EV portfolio; strong FCF",
-      "live_price": 11910.0,
-      "live_pe": 27.86,
+      "live_price": 11919.0,
+      "live_pe": 28.33,
       "de": 0.56,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/BAJAJ-AUTO/consolidated/",
       "fundamentals_dir": "BAJAJ-AUTO_YF",
       "fundamentals": {
@@ -741,10 +739,10 @@
       "status": "WATCH",
       "buy_zone": "28–32x 1,000–1,150",
       "concern": "Saint-Gobain subsidiary; niche abrasives leader; improving ROCE",
-      "live_price": 2057.7,
-      "live_pe": 52.13,
+      "live_price": 1962.5,
+      "live_pe": 49.87,
       "de": 0.02,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/GRINDWELL/consolidated/",
       "fundamentals_dir": "GRINDWELL_YF",
       "fundamentals": {
@@ -774,10 +772,10 @@
       "status": "WATCH",
       "buy_zone": "24–28x 1,400–1,700",
       "concern": "Global bearing MNC; infra & industrial end-markets",
-      "live_price": 3149.8,
-      "live_pe": 55.59,
+      "live_price": 3125.3,
+      "live_pe": 55.09,
       "de": 0.01,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/TIMKEN/",
       "fundamentals_dir": "TIMKEN_YF",
       "fundamentals": {
@@ -807,10 +805,10 @@
       "status": "WATCH",
       "buy_zone": "15x 780–900",
       "concern": "Dominant shrimp feed player; export recovery story",
-      "live_price": 826.75,
-      "live_pe": 21.69,
+      "live_price": 798.6,
+      "live_pe": 20.65,
       "de": 0.0,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/AVANTIFEED/consolidated/",
       "fundamentals_dir": "AVANTIFEED_YF",
       "fundamentals": {
@@ -840,10 +838,10 @@
       "status": "WATCH",
       "buy_zone": "15x 2,200–2,400",
       "concern": "Niche MRO/engineering services; high ROCE for size",
-      "live_price": 4562.0,
-      "live_pe": 22.75,
+      "live_price": 4502.2,
+      "live_pe": 22.45,
       "de": 0.0,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/TAALTECH/consolidated/"
     },
     {
@@ -852,10 +850,10 @@
       "status": "WATCH",
       "buy_zone": "15x 320–350",
       "concern": "PSU aluminium; high ROCE; govt capex beneficiary",
-      "live_price": 394.95,
-      "live_pe": 10.75,
+      "live_price": 374.1,
+      "live_pe": 10.17,
       "de": 0.0,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/NATIONALUM/consolidated/",
       "fundamentals_dir": "NATIONALUM_YF",
       "fundamentals": {
@@ -885,10 +883,10 @@
       "status": "WATCH",
       "buy_zone": "— 1,150–1,250",
       "concern": "Diageo subsidiary; premiumisation play; strong brand moat",
-      "live_price": 1510.0,
-      "live_pe": 64.09,
+      "live_price": 1471.7,
+      "live_pe": 61.78,
       "de": 0.05,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/UNITDSPR/consolidated/",
       "fundamentals_dir": "UNITDSPR_YF",
       "fundamentals": {
@@ -918,10 +916,10 @@
       "status": "WATCH",
       "buy_zone": "— 380–420",
       "concern": "Regional brandy leader; debt reduction on track; ROCE improving",
-      "live_price": 567.2,
+      "live_price": 535.1,
       "live_pe": null,
       "de": 0.77,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/TI/consolidated/"
     },
     {
@@ -930,10 +928,10 @@
       "status": "WATCH",
       "buy_zone": "45–55x 420–520",
       "concern": "High-quality CRDMO; fast growth; ROCE building",
-      "live_price": 900.1,
-      "live_pe": 89.3,
+      "live_price": 934.05,
+      "live_pe": 90.95,
       "de": 0.02,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/ANTHEM/consolidated/",
       "fundamentals_dir": "ANTHEM_YF",
       "fundamentals": {
@@ -963,10 +961,10 @@
       "status": "WATCH",
       "buy_zone": "14–15x 1,000–1,100",
       "concern": "Only listed KPO with 30–35% ROCE; founder-led; zero debt; 25-yr track record; AI risk mitigated by domain depth",
-      "live_price": 1955.5,
-      "live_pe": 25.31,
+      "live_price": 1905.7,
+      "live_pe": 24.66,
       "de": 0.15,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/ECLERX/consolidated/",
       "fundamentals_dir": "ECLERX_YF",
       "fundamentals": {
@@ -996,10 +994,10 @@
       "status": "WATCH",
       "buy_zone": "28–32x 4,800–5,500",
       "concern": "India's best cable franchise; 18% market share; ₹4,591 Cr 5-yr FCF; zero debt",
-      "live_price": 9088.0,
-      "live_pe": 47.85,
+      "live_price": 8300.0,
+      "live_pe": 43.83,
       "de": 0.02,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/POLYCAB/consolidated/",
       "fundamentals_dir": "POLYCAB_YF",
       "fundamentals": {
@@ -1029,10 +1027,10 @@
       "status": "WATCH",
       "buy_zone": "18–22x 800–1,000",
       "concern": "Strong ROCE; gaining market share; significantly overvalued now",
-      "live_price": 2905.2,
-      "live_pe": 54.03,
+      "live_price": 2454.1,
+      "live_pe": 45.96,
       "de": 0.13,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/RRKABEL/consolidated/",
       "fundamentals_dir": "RRKABEL_YF",
       "fundamentals": {
@@ -1062,10 +1060,10 @@
       "status": "WATCH",
       "buy_zone": "17–20x 700–800",
       "concern": "Good ROCE; growing revenues; valuation disconnected",
-      "live_price": 2200.5,
-      "live_pe": 41.96,
+      "live_price": 2151.3,
+      "live_pe": 41.05,
       "de": 0.44,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/ADVAIT/consolidated/",
       "fundamentals_dir": "ADVAIT_YF",
       "fundamentals": {
@@ -1095,10 +1093,10 @@
       "status": "WATCH",
       "buy_zone": "18–20x 270–300",
       "concern": "32% ROCE; coal tar pitch + battery materials; zero pledge; net cash; founder-led",
-      "live_price": 672.95,
-      "live_pe": 42.38,
+      "live_price": 671.05,
+      "live_pe": 42.23,
       "de": 0.16,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/HSCL/consolidated/",
       "fundamentals_dir": "HSCL_YF",
       "fundamentals": {
@@ -1128,10 +1126,10 @@
       "status": "WATCH",
       "buy_zone": "18–20x 650–750",
       "concern": "Only ceramics company with 20%+ ROCE; zero debt; 47.7% promoter; gaining organised-market share",
-      "live_price": 1215.5,
-      "live_pe": 35.41,
+      "live_price": 1239.6,
+      "live_pe": 36.15,
       "de": 0.07,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/KAJARIACER/consolidated/",
       "fundamentals_dir": "KAJARIACER_YF",
       "fundamentals": {
@@ -1161,10 +1159,10 @@
       "status": "WATCH",
       "buy_zone": "15–17x 1,600–1,800",
       "concern": "Marlboro licensee; oligopoly moat; 33% ROCE; 72.6% promoter",
-      "live_price": 2123.7,
-      "live_pe": 24.1,
+      "live_price": 2051.0,
+      "live_pe": 23.38,
       "de": 0.04,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/GODFRYPHLP/consolidated/",
       "fundamentals_dir": "GODFRYPHLP_YF",
       "fundamentals": {
@@ -1194,10 +1192,10 @@
       "status": "WATCH",
       "buy_zone": "12–14x 150–185",
       "concern": "Founder-owner; irreplaceable Karnataka mining licences; net debt-free; EV battery manganese tailwind",
-      "live_price": 205.45,
-      "live_pe": 14.02,
+      "live_price": 197.83,
+      "live_pe": 13.42,
       "de": 0.31,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/SANDUMA/consolidated/",
       "fundamentals_dir": "SANDUMA_YF",
       "fundamentals": {
@@ -1227,10 +1225,10 @@
       "status": "WATCH",
       "buy_zone": "14–18x 1,650–2,000",
       "concern": "Highest ROCE in CV sector; niche bus/truck positioning; M&M parentage",
-      "live_price": 5186.5,
-      "live_pe": 48.01,
+      "live_price": 6298.5,
+      "live_pe": 54.19,
       "de": 0.56,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/SMLMAH/"
     },
     {
@@ -1239,10 +1237,10 @@
       "status": "WATCH",
       "buy_zone": "17x 50–55",
       "concern": "69% promoter; 65+ yrs specialty surface chemistry; zero debt; 23% ROCE; ₹453 Cr FCF",
-      "live_price": 71.32,
-      "live_pe": 20.15,
+      "live_price": 70.59,
+      "live_pe": 19.94,
       "de": 0.01,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/GRAUWEIL/consolidated/"
     },
     {
@@ -1251,10 +1249,10 @@
       "status": "WATCH",
       "buy_zone": "22x 800–900",
       "concern": "23.7% ROCE; niche fluoride chemistry; quality franchise",
-      "live_price": 3103.25,
-      "live_pe": 91.38,
+      "live_price": 3231.6,
+      "live_pe": 95.1,
       "de": 0.25,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/TANFACIND/"
     },
     {
@@ -1263,10 +1261,10 @@
       "status": "WATCH",
       "buy_zone": "15–18x 110–130",
       "concern": "20% ROCE; consistent FCF; niche amines chemistry",
-      "live_price": 184.16,
-      "live_pe": 26.27,
+      "live_price": 172.89,
+      "live_pe": 24.66,
       "de": 0.09,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/AMNPLST/consolidated/"
     },
     {
@@ -1275,10 +1273,10 @@
       "status": "WATCH",
       "buy_zone": "20–22x ₹160–230",
       "concern": "33% ROCE; 26% 5-yr ROE; zero debt; FCF ₹181 Cr (5-yr); verdict \"Build Position / Watchlist\" — PE at 32x needs correction",
-      "live_price": 342.3,
-      "live_pe": 38.16,
+      "live_price": 328.05,
+      "live_pe": 36.61,
       "de": null,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/STEELCAS/"
     },
     {
@@ -1287,10 +1285,10 @@
       "status": "WATCH",
       "buy_zone": "14–16x ₹1,050–1,100",
       "concern": "40% ROCE; $14.9B TCV large deal wins FY26; structural AI tailwind",
-      "live_price": 1144.0,
-      "live_pe": 14.23,
+      "live_price": 1130.0,
+      "live_pe": 14.79,
       "de": 0.1,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/INFY/consolidated/",
       "fundamentals_dir": "INFY_YF",
       "fundamentals": {
@@ -1320,10 +1318,10 @@
       "status": "WATCH",
       "buy_zone": "16–18x ₹950–1,000",
       "concern": "30.6% ROCE; strong product + services mix; less US-concentrated than peers",
-      "live_price": 1316.1,
-      "live_pe": 19.96,
+      "live_price": 1293.4,
+      "live_pe": 20.3,
       "de": 0.07,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/HCLTECH/consolidated/",
       "fundamentals_dir": "HCLTECH_YF",
       "fundamentals": {
@@ -1360,10 +1358,10 @@
       "status": "WATCH",
       "buy_zone": "25–28x ₹2,800–3,200",
       "concern": "34.4% ROCE; fastest revenue growth in mid-cap IT; overvalued",
-      "live_price": 5875.0,
-      "live_pe": 46.3,
+      "live_price": 5643.0,
+      "live_pe": 46.39,
       "de": 0.07,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/PERSISTENT/consolidated/",
       "fundamentals_dir": "PERSISTENT_YF",
       "fundamentals": {
@@ -1393,10 +1391,10 @@
       "status": "WATCH",
       "buy_zone": "18–20x ₹450–500",
       "concern": "26.3% ROCE; automotive EV software niche; wait for normalisation",
-      "live_price": 609.4,
-      "live_pe": 27.62,
+      "live_price": 575.45,
+      "live_pe": 27.25,
       "de": 0.24,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/KPITTECH/consolidated/",
       "fundamentals_dir": "KPITTECH_YF",
       "fundamentals": {
@@ -1426,10 +1424,10 @@
       "status": "WATCH",
       "buy_zone": "13–14x ₹430–450",
       "concern": "23.5% ROCE; 14x PE near Darwin median entry; RPG group",
-      "live_price": 470.6,
-      "live_pe": 13.74,
+      "live_price": 461.55,
+      "live_pe": 13.68,
       "de": 0.02,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/ZENSARTECH/consolidated/",
       "fundamentals_dir": "ZENSARTECH_YF",
       "fundamentals": {
@@ -1459,10 +1457,10 @@
       "status": "WATCH",
       "buy_zone": "16–18x ₹370–390",
       "concern": "25.8% ROCE; BPM/low-code niche; government + BFSI clients",
-      "live_price": 567.1,
-      "live_pe": 23.58,
+      "live_price": 524.8,
+      "live_pe": 23.67,
       "de": 0.02,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/NEWGEN/consolidated/",
       "fundamentals_dir": "NEWGEN_YF",
       "fundamentals": {
@@ -1492,10 +1490,10 @@
       "status": "WATCH",
       "buy_zone": "14–15x ₹280–300",
       "concern": "21.6% ROCE; 16.8x PE near buy zone; Aditya Birla group backing",
-      "live_price": 300.9,
-      "live_pe": 14.11,
+      "live_price": 289.35,
+      "live_pe": 14.18,
       "de": 0.03,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/BSOFT/consolidated/"
     },
     {
@@ -1507,7 +1505,7 @@
       "live_price": 110.0,
       "live_pe": 11.41,
       "de": null,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/FIDEL/consolidated/",
       "fundamentals_dir": "FIDEL_YF",
       "fundamentals": {
@@ -1537,10 +1535,10 @@
       "status": "WATCH",
       "buy_zone": "30–35x ₹2,200–2,800",
       "concern": "36.3% ROCE; ₹4,580 Cr FCF (5-yr); data-centre demand tailwind; debt-free",
-      "live_price": 5193.0,
-      "live_pe": 60.64,
+      "live_price": 5035.0,
+      "live_pe": 59.1,
       "de": 0.0,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/CUMMINSIND/consolidated/",
       "fundamentals_dir": "CUMMINSIND_YF",
       "fundamentals": {
@@ -1570,10 +1568,10 @@
       "status": "WATCH",
       "buy_zone": "30–35x ₹1,500–2,000",
       "concern": "Highest ROCE in sector (60%); MNC; positive FCF — Priority #1 watch",
-      "live_price": 4860.2,
-      "live_pe": 57.31,
+      "live_price": 4844.7,
+      "live_pe": 57.02,
       "de": 0.01,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/INGERRAND/",
       "fundamentals_dir": "INGERRAND_YF",
       "fundamentals": {
@@ -1603,10 +1601,10 @@
       "status": "WATCH",
       "buy_zone": "25–28x ₹260–330",
       "concern": "21.9% ROCE; global compressor franchise; positive FCF ₹906 Cr",
-      "live_price": 628.85,
-      "live_pe": 44.29,
+      "live_price": 642.1,
+      "live_pe": 45.25,
       "de": 0.24,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/ELGIEQUIP/consolidated/",
       "fundamentals_dir": "ELGIEQUIP_YF",
       "fundamentals": {
@@ -1636,10 +1634,10 @@
       "status": "WATCH",
       "buy_zone": "28–30x ₹300–400",
       "concern": "24.7% ROCE; MNC pump leader; positive FCF; infrastructure tailwind",
-      "live_price": 793.85,
-      "live_pe": 56.18,
+      "live_price": 813.55,
+      "live_pe": 57.7,
       "de": 0.0,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/KSB/consolidated/",
       "fundamentals_dir": "KSB_YF",
       "fundamentals": {
@@ -1669,10 +1667,10 @@
       "status": "WATCH",
       "buy_zone": "18–22x ₹1,000–1,200",
       "concern": "20.8% ROCE; strong Jal Jeevan Mission order pipeline; PE most reasonable in tier",
-      "live_price": 1914.7,
-      "live_pe": 40.65,
+      "live_price": 1862.0,
+      "live_pe": 39.59,
       "de": 0.1,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/KIRLOSBROS/consolidated/",
       "fundamentals_dir": "KIRLOSBROS_YF",
       "fundamentals": {
@@ -1702,10 +1700,10 @@
       "status": "WATCH",
       "buy_zone": "22–25x ₹750–900",
       "concern": "30.4% ROCE; positive FCF ₹431 Cr; compressor + refrigeration niche",
-      "live_price": 723.3,
-      "live_pe": 35.82,
+      "live_price": 760.45,
+      "live_pe": 37.63,
       "de": 0.0,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/KIRLPNU/",
       "fundamentals_dir": "KIRLPNU_YF",
       "fundamentals": {
@@ -1735,10 +1733,10 @@
       "status": "WATCH",
       "buy_zone": "18–22x Below ₹500",
       "concern": "India SLCM market leader; ROCE 23.9%; wait for FCF normalisation post-IPO weakness",
-      "live_price": 571.1,
-      "live_pe": 28.83,
+      "live_price": 582.45,
+      "live_pe": 29.46,
       "de": 0.0,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/AJAXENGG/",
       "fundamentals_dir": "AJAXENGG_YF",
       "fundamentals": {
@@ -1768,10 +1766,10 @@
       "status": "WATCH",
       "buy_zone": "25–28x FCF recovery",
       "concern": "33.6% 5-yr ROE; excellent historical returns; micro-cap; FCF declining",
-      "live_price": 701.0,
-      "live_pe": 32.86,
+      "live_price": 677.8,
+      "live_pe": 31.75,
       "de": 0.09,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/505690/"
     },
     {
@@ -1780,10 +1778,10 @@
       "status": "WATCH",
       "buy_zone": "20–25x ₹430–550",
       "concern": "27.9% ROCE; 27% 5-yr ROE; but 80.95x PE prohibitive and FCF negative",
-      "live_price": 1932.25,
-      "live_pe": 73.41,
+      "live_price": 2152.95,
+      "live_pe": 81.58,
       "de": 0.03,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/544037/consolidated/"
     },
     {
@@ -1792,10 +1790,10 @@
       "status": "WATCH",
       "buy_zone": "8–10x Market / confirm BOT",
       "concern": "Highest ROCE in civil construction universe (39.7%); verify BOT asset adjustments",
-      "live_price": 112.65,
-      "live_pe": 5.1,
+      "live_price": 115.55,
+      "live_pe": 1.32,
       "de": 0.24,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/ASHOKA/consolidated/",
       "fundamentals_dir": "ASHOKA_YF",
       "fundamentals": {
@@ -1825,10 +1823,10 @@
       "status": "WATCH",
       "buy_zone": "10–12x Market",
       "concern": "34.2% ROCE + 11.6x PE + positive FCF; needs governance verification",
-      "live_price": 412.1,
-      "live_pe": 11.69,
+      "live_price": 400.0,
+      "live_pe": 11.35,
       "de": 0.03,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/544504/",
       "fundamentals_dir": "GOELCONS_YF",
       "fundamentals": {
@@ -1866,10 +1864,10 @@
       "status": "WATCH",
       "buy_zone": "5–7x ≤₹60",
       "concern": "Near debt-free + FCF positive + railway electrification tailwind + 22-yr history; 5.63x PE",
-      "live_price": 64.0,
-      "live_pe": 7.87,
+      "live_price": 72.3,
+      "live_pe": 8.89,
       "de": 0.55,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/543544/"
     },
     {
@@ -1886,10 +1884,10 @@
       "status": "WATCH",
       "buy_zone": "15–17x Market",
       "concern": "PSU with government mandate; 25% ROCE; positive FCF; BFSI-independent",
-      "live_price": 253.72,
-      "live_pe": 17.69,
+      "live_price": 279.45,
+      "live_pe": 19.62,
       "de": 0.01,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/ENGINERSIN/consolidated/"
     },
     {
@@ -1898,10 +1896,10 @@
       "status": "WATCH",
       "buy_zone": "18–20x Market",
       "concern": "EPC + O&M mix; 22.9% ROCE; verify valuation vs peers",
-      "live_price": 2580.6,
-      "live_pe": 20.84,
+      "live_price": 2306.1,
+      "live_pe": 18.62,
       "de": 0.26,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/POWERMECH/consolidated/",
       "fundamentals_dir": "POWERMECH_YF",
       "fundamentals": {
@@ -1931,10 +1929,10 @@
       "status": "WATCH",
       "buy_zone": "15x ₹175–220",
       "concern": "India's largest ICT refurbisher; 78.7% promoter; ROCE >20%; growing formalisation story",
-      "live_price": 635.1,
-      "live_pe": 50.89,
+      "live_price": 601.25,
+      "live_pe": 49.81,
       "de": 0.59,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/EBGNG/consolidated/"
     },
     {
@@ -1946,7 +1944,7 @@
       "live_price": 37.9,
       "live_pe": null,
       "de": null,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/MAYASHEEL/"
     },
     {
@@ -1955,10 +1953,10 @@
       "status": "WATCH",
       "buy_zone": "8–10x Market (FCF trigger)",
       "concern": "28.52% ROCE; 72.4% promoter; B2G infra consulting moat; 8.56x PE is extraordinary cheap — but debtor days spiked to 113 and WC days to 242",
-      "live_price": 228.45,
-      "live_pe": 8.68,
+      "live_price": 305.25,
+      "live_pe": 11.61,
       "de": 0.05,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/544453/"
     },
     {
@@ -1967,10 +1965,10 @@
       "status": "WATCH",
       "buy_zone": "15–19x ₹600–750",
       "concern": "24.9% ROCE; dominant branded electricals + Lloyd ACs; 59.4% promoter; debt-free; ₹3,380 Cr cash; 700+ brand stores; ₹769 Cr FCF (5-yr)",
-      "live_price": 1222.9,
-      "live_pe": 47.62,
+      "live_price": 1154.0,
+      "live_pe": 44.37,
       "de": 0.03,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/HAVELLS/consolidated/",
       "fundamentals_dir": "HAVELLS_YF",
       "fundamentals": {
@@ -2000,10 +1998,10 @@
       "status": "WATCH",
       "buy_zone": "15–19x ₹5,500–7,000",
       "concern": "41.97% ROCE; India's premier EMS; negative WC (-8 days); 55% revenue CAGR (5-yr); PLI mobile manufacturing leader; ₹1,125 Cr 5-yr FCF",
-      "live_price": 14650.0,
-      "live_pe": 43.1,
+      "live_price": 14240.0,
+      "live_pe": 42.13,
       "de": 0.18,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/DIXON/consolidated/",
       "fundamentals_dir": "DIXON_YF",
       "fundamentals": {
@@ -2033,10 +2031,10 @@
       "status": "WATCH",
       "buy_zone": "15–17x ₹280–320",
       "concern": "India's only vertically integrated copper miner; monopoly ore leases (ALL domestic leases); 42.4% 5-yr ROCE; net cash (D/E effectively zero); Vision 2030 expansion; EV/renewable structural tailwind",
-      "live_price": 533.55,
-      "live_pe": 45.68,
+      "live_price": 521.65,
+      "live_pe": 44.32,
       "de": 0.03,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/HINDCOPPER/",
       "fundamentals_dir": "HINDCOPPER_YF",
       "fundamentals": {
@@ -2066,10 +2064,10 @@
       "status": "WATCH",
       "buy_zone": "32–36x ₹700–800",
       "concern": "Asia's only listed depository; 18+ crore demat accounts; SEBI duopoly; 32% ROCE; ₹1,348 Cr 5-yr FCF; debt-free; secular India financialisation tailwind",
-      "live_price": 1414.7,
-      "live_pe": 62.49,
+      "live_price": 1394.6,
+      "live_pe": 60.63,
       "de": 0.0,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/CDSL/consolidated/",
       "fundamentals_dir": "CDSL_YF",
       "fundamentals": {
@@ -2099,10 +2097,10 @@
       "status": "WATCH",
       "buy_zone": "25–30x ₹500–560",
       "concern": "India's first and institutionally larger depository; 23% ROCE; ₹1,353 Cr 5-yr FCF; institutional asset strength; recently listed",
-      "live_price": 813.7,
-      "live_pe": 42.01,
+      "live_price": 812.85,
+      "live_pe": 41.9,
       "de": 0.01,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/544467/consolidated/",
       "fundamentals_dir": "NSDL_YF",
       "fundamentals": {
@@ -2132,10 +2130,10 @@
       "status": "WATCH",
       "buy_zone": "24–28x ₹480–540",
       "concern": "India's #2 MF RTA (32% share, gaining); 30% ROCE; international expansion (18 countries, USD 360B AUM); NPS growing 35.6%; ₹1,115 Cr 5-yr FCF; debt-free",
-      "live_price": 949.95,
-      "live_pe": 48.54,
+      "live_price": 928.9,
+      "live_pe": 47.18,
       "de": 0.03,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/KFINTECH/consolidated/",
       "fundamentals_dir": "KFINTECH_YF",
       "fundamentals": {
@@ -2165,10 +2163,10 @@
       "status": "WATCH",
       "buy_zone": "7–10x ₹25–40",
       "concern": "India's largest non-OEM construction equipment exporter; 6.9% global market share; Three-Star DGFT Export House; 74.99% founder holding; zero pledge; HexL own brand (nascent)",
-      "live_price": 104.92,
-      "live_pe": 47.05,
+      "live_price": 100.56,
+      "live_pe": 45.09,
       "de": 0.5,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/JKIPL/consolidated/"
     },
     {
@@ -2177,10 +2175,10 @@
       "status": "WATCH",
       "buy_zone": "28–38x ₹12,000–16,000",
       "concern": "40–50% ROCE for 5+ years; 75% MNC parent (MMM USA); 60,000+ global patents; wide moat in safety/adhesives/industrial; zero debt; ₹2,000 Cr 5-yr FCF",
-      "live_price": 34415.0,
-      "live_pe": 67.0,
+      "live_price": 32845.0,
+      "live_pe": 64.15,
       "de": 0.1,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/3MINDIA/",
       "fundamentals_dir": "3MINDIA_YF",
       "fundamentals": {
@@ -2210,10 +2208,10 @@
       "status": "WATCH",
       "buy_zone": "12–14x ₹45–55",
       "concern": "Exclusive premium cosmetics distributor (Moroccanoil, JPMS, BCL Spa); 28.4% ROCE; positive FCF; promoters buying shares in open market (Mar 2026); 30%+ discount to Sensex PE",
-      "live_price": 62.6,
-      "live_pe": 12.83,
+      "live_price": 62.18,
+      "live_pe": 12.74,
       "de": 0.01,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/MKEXIM/consolidated/",
       "fundamentals_dir": "MKEXIM_YF",
       "fundamentals": {
@@ -2243,10 +2241,10 @@
       "status": "WATCH",
       "buy_zone": "20–22x ₹270–290",
       "concern": "50-yr gemstone certification moat; 37% 5-yr ROE; 46% net margins; lab-grown diamond catalyst; asset-light; franchise strengthens as diamond proliferates — but PE promoter structure limits conviction",
-      "live_price": 338.95,
-      "live_pe": 28.6,
+      "live_price": 323.5,
+      "live_pe": 27.28,
       "de": 0.1,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/IGIL/consolidated/",
       "fundamentals_dir": "IGIL_YF",
       "fundamentals": {
@@ -2276,10 +2274,10 @@
       "status": "WATCH",
       "buy_zone": "17–19x ₹1,000–1,050",
       "concern": "Irreplaceable Mumbai exhibition/IT park real estate; Bhartia family (58–60%); debt-free; EPS doubling every 6 yrs; no acquisitions; consistent FCF ₹121 Cr",
-      "live_price": 1048.4,
-      "live_pe": 17.21,
+      "live_price": 1047.6,
+      "live_pe": 17.62,
       "de": 0.09,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/NESCO/consolidated/",
       "fundamentals_dir": "NESCO_YF",
       "fundamentals": {
@@ -2309,10 +2307,10 @@
       "status": "WATCH",
       "buy_zone": "7–9x ₹130–150",
       "concern": "Gas distribution compounder; 30% ROCE; 7x PE — deeply undervalued if FY26 revenue confirms FY25 spike; CGD structural tailwind; pan-India gas aggregator",
-      "live_price": 168.3,
+      "live_price": 180.0,
       "live_pe": null,
       "de": null,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/POSITRON/"
     },
     {
@@ -2321,10 +2319,10 @@
       "status": "WATCH",
       "buy_zone": "— Market (₹25–30 zone)",
       "concern": "Highest ROCE (25%+) in the dyes & pigments universe; SME-listed; nascent track record (<3 yrs meaningful data); specialty dye intermediates niche",
-      "live_price": 14.3,
+      "live_price": 14.45,
       "live_pe": null,
       "de": null,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/ARUNAYA/"
     },
     {
@@ -2333,10 +2331,10 @@
       "status": "WATCH",
       "buy_zone": "35–40x ₹250–320",
       "concern": "25-yr brand moat (Parachute, Saffola); 47% 5-yr ROCE; zero debt; professional mgmt succession; India + international edible oils + FMCG; bolt-on M&A disciplined",
-      "live_price": 829.65,
-      "live_pe": 56.86,
+      "live_price": 815.15,
+      "live_pe": 55.99,
       "de": 0.12,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/MARICO/consolidated/",
       "fundamentals_dir": "MARICO_YF",
       "fundamentals": {
@@ -2366,10 +2364,10 @@
       "status": "WATCH",
       "buy_zone": "28–30x ₹1,100–1,400",
       "concern": "9 million retailer touchpoints; 27–30% ROCE; ₹51,279 Cr 5-yr FCF; Unilever 61.9% parent; dominant across Home Care, Beauty, Foods; ice-cream demerged (capital discipline)",
-      "live_price": 2010.4,
-      "live_pe": 44.65,
+      "live_price": 1973.4,
+      "live_pe": 43.92,
       "de": 0.03,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/HINDUNILVR/consolidated/",
       "fundamentals_dir": "HINDUNILVR_YF",
       "fundamentals": {
@@ -2399,10 +2397,10 @@
       "status": "WATCH",
       "buy_zone": "30–40x ₹900–1,200",
       "concern": "Only high-quality dredger in India; 25%+ ROCE; 100% vessel utilization; ₹1,500 Cr order book; Sagarmala + Maritime Vision 2030 structural demand; 10+ yrs government-backed pipeline",
-      "live_price": 3051.9,
-      "live_pe": 61.18,
+      "live_price": 3033.4,
+      "live_pe": 60.94,
       "de": 0.39,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/KMEW/consolidated/",
       "fundamentals_dir": "KMEW_YF",
       "fundamentals": {
@@ -2432,10 +2430,10 @@
       "status": "WATCH",
       "buy_zone": "13–15x ₹1,300–1,500",
       "concern": "B2B content technology; 39% ROCE rising (from 17% in 2019); ₹611 Cr 5-yr FCF; debt-free; 68.34% institutional promoter (Macmillan heritage); buybacks + dividends dominant capital use; 12-yr CFO track record",
-      "live_price": 2677.9,
-      "live_pe": 24.14,
+      "live_price": 2658.9,
+      "live_pe": 23.93,
       "de": 0.1,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/MPSLTD/consolidated/",
       "fundamentals_dir": "MPSLTD_YF",
       "fundamentals": {
@@ -2465,10 +2463,10 @@
       "status": "WATCH",
       "buy_zone": "16–22x ₹400–550",
       "concern": "Hidden gem — 35–42% ROCE in B2B electronic components (EV, IoT, robotics); founder-led (69% stake); zero debt; structural demand tailwinds; rare quality in capital-destroying sector",
-      "live_price": 1105.2,
-      "live_pe": 43.31,
+      "live_price": 1095.1,
+      "live_pe": 42.91,
       "de": 0.38,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/543787/"
     },
     {
@@ -2477,10 +2475,10 @@
       "status": "WATCH",
       "buy_zone": "≤14.9x ₹60–65",
       "concern": "35–42% ROCE (3-yr median); debt-free; 72.5% promoter; B2G skill development + publishing; all Darwin gates clear on quality",
-      "live_price": 0.53,
+      "live_price": 0.47,
       "live_pe": null,
       "de": 0.02,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/GLOBAL/"
     },
     {
@@ -2489,10 +2487,10 @@
       "status": "WATCH",
       "buy_zone": "14.9–17x ₹191 (60% correction)",
       "concern": "21.34% ROCE; global refractory tech leader (Vesuvius plc subsidiary); near-zero debt; India steel demand tailwind; capex completing — FCF to improve",
-      "live_price": 421.55,
-      "live_pe": 33.38,
+      "live_price": 419.15,
+      "live_pe": 32.72,
       "de": 0.01,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/VESUVIUS/",
       "fundamentals_dir": "VESUVIUS_YF",
       "fundamentals": {
@@ -2522,10 +2520,10 @@
       "status": "WATCH",
       "buy_zone": "14.9–17x ₹178–203",
       "concern": "31.22% ROCE; 63% gross margins; near-zero debt (D/E 0.03); founder-led (62.91%); niche silica ramming mass monopoly; global foundry + semiconductor-grade silica expansion",
-      "live_price": 1748.4,
-      "live_pe": 128.46,
+      "live_price": 1807.2,
+      "live_pe": 133.18,
       "de": 0.02,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/RPEL/consolidated/",
       "fundamentals_dir": "RPEL_YF",
       "fundamentals": {
@@ -2555,10 +2553,10 @@
       "status": "WATCH",
       "buy_zone": "14.9–17x Market correction",
       "concern": "33.05% ROCE; sole full-spectrum foundry consumables supplier in India; zero debt; Vesuvius plc parent; diversified end-markets (auto, railway, mining)",
-      "live_price": 6362.0,
-      "live_pe": 49.34,
+      "live_price": 6263.0,
+      "live_pe": 48.47,
       "de": null,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/FOSECOIND/consolidated/"
     },
     {
@@ -2567,10 +2565,10 @@
       "status": "WATCH",
       "buy_zone": "14–16x ₹950–1,100",
       "concern": "21.29% ROCE; India's largest ferro chrome producer post-Tata Steel acquisition; captive mines + captive power = durable cost moat; ₹1,690 Cr 5-yr FCF; founder-family led (58.7%)",
-      "live_price": 1370.7,
-      "live_pe": 14.06,
+      "live_price": 1288.4,
+      "live_pe": 13.26,
       "de": 0.35,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/IMFA/consolidated/",
       "fundamentals_dir": "IMFA_YF",
       "fundamentals": {
@@ -2600,10 +2598,10 @@
       "status": "WATCH",
       "buy_zone": "25–35x ₹21,000 Cr order book signal",
       "concern": "36–38% ROCE; 30% domestic explosives market share; ₹21,200 Cr order book (₹18,000 Cr defence); Nuwal family promoter; expanding into defence propellants and international markets",
-      "live_price": 20400.0,
-      "live_pe": 93.46,
+      "live_price": 21445.0,
+      "live_pe": 97.79,
       "de": 0.23,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/SOLARINDS/consolidated/"
     },
     {
@@ -2612,10 +2610,10 @@
       "status": "WATCH",
       "buy_zone": "14.9–20x ₹935–1,258",
       "concern": "~40% 5-yr median ROCE (accelerating to 58% in FY26); StAR MF with 281 Mn investors (dominant moat); derivatives ADTO doubling; 88% PAT growth FY26; no promoter = exchange business norm",
-      "live_price": 3405.0,
-      "live_pe": 48.31,
+      "live_price": 3409.8,
+      "live_pe": 49.58,
       "de": 0.0,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/BSE/consolidated/",
       "fundamentals_dir": "BSE_YF",
       "fundamentals": {
@@ -2645,10 +2643,10 @@
       "status": "WATCH",
       "buy_zone": "14.9–20x ₹760–1,020",
       "concern": "98% commodity futures market share; 100% precious metals market share; ~55–65% median ROCE; debt-free; Q4 FY26 revenue doubled; 1:5 stock split Jan 2026",
-      "live_price": 3332.0,
-      "live_pe": 54.06,
+      "live_price": 3275.4,
+      "live_pe": 54.09,
       "de": 0.0,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/MCX/consolidated/",
       "fundamentals_dir": "MCX_YF",
       "fundamentals": {
@@ -2678,10 +2676,10 @@
       "status": "WATCH",
       "buy_zone": "14–17x ₹950–1,100",
       "concern": "22.75% ROCE; ₹4,785 Cr 5-yr FCF; Murugappa Group; 2nd largest phosphatic fertilizer maker; 1,000+ rural retail outlets; crop protection diversification",
-      "live_price": 1913.7,
-      "live_pe": 30.82,
+      "live_price": 1938.8,
+      "live_pe": 31.18,
       "de": 0.11,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/COROMANDEL/consolidated/",
       "fundamentals_dir": "COROMANDEL_YF",
       "fundamentals": {
@@ -2711,10 +2709,10 @@
       "status": "WATCH",
       "buy_zone": "14–17x ₹22–26",
       "concern": "27.19% ROCE; 34.04% 5-yr ROE; Drishyam + Raid franchise IP with global remake rights; organic IP model; no serial acquisitions",
-      "live_price": 46.47,
-      "live_pe": 51.07,
+      "live_price": 47.41,
+      "live_pe": 52.1,
       "de": 0.59,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/PANORAMA/consolidated/",
       "fundamentals_dir": "PANORAMA_YF",
       "fundamentals": {
@@ -2744,10 +2742,10 @@
       "status": "WATCH",
       "buy_zone": "14.9–16x ₹691–738",
       "concern": "57.47% ROCE; 18 consecutive quarters >20% PAT growth; HNI wealth platform; ₹1 lakh crore AUM (April 2026); asset-light; EXCELLENT management",
-      "live_price": 2213.4,
-      "live_pe": 80.49,
+      "live_price": 2215.9,
+      "live_pe": 80.37,
       "de": 0.08,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/ANANDRATHI/"
     },
     {
@@ -2756,10 +2754,10 @@
       "status": "WATCH",
       "buy_zone": "14.9–16x ₹786–840",
       "concern": "37.48% ROCE; B2B2C MFD aggregator; ₹1.33 lakh crore AUM; 5,100 new partners in FY26; Sanjay Shah founder; Prudent Edge AI platform; Q4 FY26 weakness is proximate (market correction)",
-      "live_price": 3421.3,
-      "live_pe": 57.94,
+      "live_price": 3347.6,
+      "live_pe": 56.51,
       "de": 0.04,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/PRUDENT/consolidated/",
       "fundamentals_dir": "PRUDENT_YF",
       "fundamentals": {
@@ -2789,10 +2787,10 @@
       "status": "WATCH",
       "buy_zone": "14–15x ~₹830–850 (~50% correction from ₹1,695)",
       "concern": "India's largest private general insurer; 9% GWP market share; improving combined ratio 102.8% FY25 (sector-best); ROCE 21.88% passes threshold; diversified distribution (bancassurance/agents/brokers/digital); GST removal on retail health (Sept 2025) structural positive",
-      "live_price": 1562.0,
-      "live_pe": 32.9,
+      "live_price": 1510.0,
+      "live_pe": 31.5,
       "de": null,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/ICICIGI/"
     },
     {
@@ -2801,10 +2799,10 @@
       "status": "WATCH",
       "buy_zone": "14–15x ~₹265–270 (~50% correction from ₹555)",
       "concern": "Accreditation-moated CRO/CRT; 25-year FSSAI PPP anchor contract (National Food Laboratory, Navi Mumbai); near-zero debt (D/E 0.01); 30% PAT CAGR 5yr; multi-sector testing (pharma, food, electronics, environment) reduces cyclicality; FCF ₹108 Cr 5yr",
-      "live_price": 617.7,
-      "live_pe": 34.62,
+      "live_price": 635.65,
+      "live_pe": 35.57,
       "de": 0.01,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/VIMTALABS/",
       "fundamentals_dir": "VIMTALABS_YF",
       "fundamentals": {
@@ -2834,10 +2832,10 @@
       "status": "WATCH",
       "buy_zone": "14–16x ~₹460–480 (~70% correction from ₹1,601)",
       "concern": "India's largest listed diagnostics chain; 7,727 Patient Service Centres; ROCE 28.3% (ex-cash 44% FY26); FCF ₹1,841 Cr 5yr; 280% dividend FY26; FY26 revenue +12.2% YoY; hub-and-spoke network moat",
-      "live_price": 1931.1,
-      "live_pe": 59.71,
+      "live_price": 1877.5,
+      "live_pe": 57.98,
       "de": 0.08,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/LALPATHLAB/consolidated/",
       "fundamentals_dir": "LALPATHLAB_YF",
       "fundamentals": {
@@ -2867,10 +2865,10 @@
       "status": "WATCH",
       "buy_zone": "14–16x ~₹245–255 (~80% correction from ₹1,287)",
       "concern": "South India's premium diagnostics franchise; 43.5% EBITDA margins (sector-best); ROCE 21.29%; FY26 revenue ₹814 Cr (+19.5%); Q4 FY26 highest-ever quarter; FCF ₹398 Cr 5yr; new management team (CFO/CTO/COO) in place",
-      "live_price": 1452.5,
-      "live_pe": 79.55,
+      "live_price": 1493.2,
+      "live_pe": 81.95,
       "de": 0.44,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/VIJAYA/consolidated/",
       "fundamentals_dir": "VIJAYA_YF",
       "fundamentals": {
@@ -2900,10 +2898,10 @@
       "status": "WATCH",
       "buy_zone": "14–16x ~₹145–160 (~72% correction from ₹529)",
       "concern": "Best ROCE in listed diagnostics (35.4%); B2B hub-and-spoke capital efficiency; PAT +51% Q3 FY26; FCF ₹637 Cr 5yr; cheapest TTM PE among top-4 diagnostic quality chains",
-      "live_price": 584.35,
-      "live_pe": 52.88,
+      "live_price": 576.15,
+      "live_pe": 52.28,
       "de": 0.09,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/THYROCARE/consolidated/",
       "fundamentals_dir": "THYROCARE_YF",
       "fundamentals": {
@@ -2933,10 +2931,10 @@
       "status": "WATCH",
       "buy_zone": "14–16x ~₹1,000–1,050 (~15–18% correction from ₹1,245)",
       "concern": "Diagnostic kit maker (PCR reagents, rapid test kits); ROCE 25.5%; FCF ₹149 Cr 5yr; PE 18.24x approaching Darwin entry zone — nearest to buy zone among new additions",
-      "live_price": 1441.2,
-      "live_pe": 21.7,
+      "live_price": 1460.1,
+      "live_pe": 21.99,
       "de": 0.01,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/3BBLACKBIO/consolidated/"
     },
     {
@@ -2945,10 +2943,10 @@
       "status": "WATCH",
       "buy_zone": "14–15x ~₹295–310 (~20–22% correction from ₹384)",
       "concern": "ROCE 39.69% 5yr avg (peak 66.94% Q2 FY26); single-site mature Apollo hospital on Delhi Govt land at nominal rent = structural cost moat; zero debt; zero acquisitions in 35yr history; Apollo brand medical tourism; FCF ₹523 Cr 5yr",
-      "live_price": 368.05,
-      "live_pe": 18.02,
+      "live_price": 349.7,
+      "live_pe": 17.05,
       "de": 0.05,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/INDRAMEDCO/",
       "fundamentals_dir": "INDRAMEDCO_YF",
       "fundamentals": {
@@ -2978,10 +2976,10 @@
       "status": "WATCH",
       "buy_zone": "14–15x ~₹3,300–3,400 (~42% correction from ₹5,811)",
       "concern": "ROCE 22.19%; 45yr regional brand monopoly in Coimbatore; integrated medical college drives ROCE premium (education capital-light); asset-light Tier-II expansion (Trichy/Madurai management contracts); FCF ₹616 Cr 5yr",
-      "live_price": 6032.5,
-      "live_pe": 25.72,
+      "live_price": 6062.5,
+      "live_pe": 25.9,
       "de": 0.31,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/KOVAI/"
     },
     {
@@ -2990,10 +2988,10 @@
       "status": "WATCH",
       "buy_zone": "14–15x ₹370–430 (~78% correction from ~₹1,900)",
       "concern": "Sustained >25% ROCE; #2 global steam turbine position (sub-100MW); debt-free; founder-led (Thapar family); aftermarket/export moat; sub-30MW renewables structurally safe; industrial electrification 15–20yr tail risk",
-      "live_price": 283.82,
-      "live_pe": 22.28,
+      "live_price": 275.65,
+      "live_pe": 21.77,
       "de": 0.65,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/TRITURBINE/consolidated/",
       "fundamentals_dir": "TRIVENI_YF",
       "fundamentals": {
@@ -3023,10 +3021,10 @@
       "status": "WATCH",
       "buy_zone": "14–15x ₹1,550–1,750 (~55% correction from ~₹3,800)",
       "concern": "Best-in-class transformer franchise; genuinely debt-free (D/E 0.07x); two-generation Gujarati family ownership; cash-funded organic capex; 24%+ ROCE",
-      "live_price": 11038.5,
-      "live_pe": 35.84,
+      "live_price": 11418.0,
+      "live_pe": 34.85,
       "de": 0.0,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/VOLTAMP/",
       "fundamentals_dir": "VOLTAMP_YF",
       "fundamentals": {
@@ -3056,10 +3054,10 @@
       "status": "WATCH",
       "buy_zone": "14–15x ₹70,000–90,000 (very long-term)",
       "concern": "29% ROCE; global grid-tech leader; debt-free; monopoly in HVDC/FACTS/SF6-free GIS in India; T&D capex super-cycle beneficiary",
-      "live_price": 33330.0,
-      "live_pe": 131.58,
+      "live_price": 31650.0,
+      "live_pe": 122.11,
       "de": 0.02,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/POWERINDIA/"
     },
     {
@@ -3068,10 +3066,10 @@
       "status": "WATCH",
       "buy_zone": "14–15x Sensex-level correction needed",
       "concern": "30% ROCE; global industrial automation + electrification leader; debt-free; strong FCF",
-      "live_price": 7509.0,
-      "live_pe": 100.25,
+      "live_price": 7410.0,
+      "live_pe": 99.7,
       "de": 0.02,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/ABB/",
       "fundamentals_dir": "ABB_YF",
       "fundamentals": {
@@ -3101,10 +3099,10 @@
       "status": "WATCH",
       "buy_zone": "14–15x Sensex-level correction needed",
       "concern": "Highest ROCE in sector (76%); grid transformer + substation + automation leader; debt-free",
-      "live_price": 4339.2,
-      "live_pe": 86.21,
+      "live_price": 4306.3,
+      "live_pe": 82.28,
       "de": 0.01,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/GVT&D/"
     },
     {
@@ -3113,10 +3111,10 @@
       "status": "WATCH",
       "buy_zone": "14–15x Sensex-level correction needed",
       "concern": "68% ROCE; gas turbine + power transmission leader; debt-free",
-      "live_price": 3242.6,
-      "live_pe": 78.12,
+      "live_price": 3115.7,
+      "live_pe": 74.81,
       "de": 0.04,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/ENRIN/"
     },
     {
@@ -3125,10 +3123,10 @@
       "status": "WATCH",
       "buy_zone": "14–15x Sensex-level correction needed",
       "concern": "30% ROCE; smart grid/distribution transformer leader; debt-free",
-      "live_price": 1201.9,
-      "live_pe": 155.69,
+      "live_price": 1232.4,
+      "live_pe": 159.64,
       "de": 0.71,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/SCHNEIDER/"
     },
     {
@@ -3137,10 +3135,10 @@
       "status": "WATCH",
       "buy_zone": "14–15x ₹210–270 (~60% correction from ~₹550)",
       "concern": "ROCE 20.69% rising; Oberoi/Trident multi-generational brand moat; virtually debt-free; irreplaceable locations; sector-best luxury franchise",
-      "live_price": 297.8,
-      "live_pe": 26.38,
+      "live_price": 291.9,
+      "live_pe": 25.23,
       "de": 0.05,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/EIHOTEL/consolidated/"
     },
     {
@@ -3149,10 +3147,10 @@
       "status": "WATCH",
       "buy_zone": "14–15x ₹250–280 (~30% correction from ~₹360)",
       "concern": "ROCE 21.14% improving trend; same Oberoi/Trident brand moat as EIH; virtually debt-free; improving working capital",
-      "live_price": 301.8,
-      "live_pe": 20.91,
+      "live_price": 297.65,
+      "live_pe": 20.61,
       "de": 0.01,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/EIHAHOTELS/",
       "fundamentals_dir": "EIHAHOTELS_YF",
       "fundamentals": {
@@ -3182,10 +3180,10 @@
       "status": "WATCH",
       "buy_zone": "14–15x ₹700–780 (~50% correction from ~₹1,500)",
       "concern": "Highest ROCE in hotels universe (29.8%); Taj-brand Varanasi franchise; Kashi Vishwanath Corridor structural tourism tailwind; near-debt-free; FCF ₹85 Cr 5yr",
-      "live_price": 10122.0,
-      "live_pe": 29.98,
+      "live_price": 10200.0,
+      "live_pe": 30.21,
       "de": 0.02,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/BENARAS/"
     },
     {
@@ -3194,10 +3192,10 @@
       "status": "WATCH",
       "buy_zone": "14–15x ₹380–410 (~77% correction from ~₹1,665)",
       "concern": "India's largest homegrown HVAC company; ROCE 21.17% rising; market leader in commercial AC; 8–10% India household AC penetration = multi-decade runway; Advani family entrepreneur; FCF turning positive",
-      "live_price": 1480.0,
-      "live_pe": 60.61,
+      "live_price": 1484.0,
+      "live_pe": 59.81,
       "de": 0.24,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/BLUESTARCO/consolidated/"
     },
     {
@@ -3206,10 +3204,10 @@
       "status": "WATCH",
       "buy_zone": "14.9–15.6x ₹3,695–3,869 (~52–55% correction from ₹7,815)",
       "concern": "40.89% ROCE; best-in-class sustained ROCE in houseware sector; net cash; zero acquisitions in 65 years; Vasudeva family 3-generation ownership; focused pressure cooker/cookware moat",
-      "live_price": 8230.0,
-      "live_pe": 32.12,
+      "live_price": 8406.5,
+      "live_pe": 32.79,
       "de": 0.07,
-      "live_fetched_at": "2026-08-30T08:48:28",
+      "live_fetched_at": "2026-09-04T16:01:23",
       "screener_url": "https://www.screener.in/company/HAWKINCOOK/"
     },
     {
@@ -3218,9 +3216,11 @@
       "status": "Worth a look",
       "buy_zone": "-",
       "concern": "Sector-wide AI-disruption selloff; heavy capital added Feb-May 2026 now underwater; WC days 34->85 in FY26",
-      "live_price": 2333.5,
+      "live_price": 2304.0,
       "de": 0.11,
-      "screener_url": "https://www.screener.in/company/TCS/consolidated/"
+      "screener_url": "https://www.screener.in/company/TCS/consolidated/",
+      "live_pe": 16.75,
+      "live_fetched_at": "2026-09-04T16:01:23"
     },
     {
       "name": "CAMS",
@@ -3228,9 +3228,11 @@
       "status": "Worth a look",
       "buy_zone": "-",
       "concern": "FAE verdict: WAIT. First standalone report for this holding. Business quality is exceptionally strong for this portfolio: ROCE 46.2% (Screener 47.0%), Piotroski 5/8, 113.5% ten-year cumulative cash conversion, near-zero real debt (D/E 0.045, falling every year since FY2021), zero flags on this repo's deterministic forensic scanner, and related-party exposure verified clean across four years of primary-source annual reports (small, arm's-length subsidiary balances only, plus two new small FY2026 loans-to-subsidiary). CAMS is the dominant #1 in India's two-player MF-RTA duopoly (~68% share vs KFin Technologies' ~31-32%) and -- unusually -- trades at a *lower* P/E (~39.3x) than its smaller, weaker rival (~49-54x). All valuation checks still fail: ~39.3x trailing PE is roughly double the Sensex (19.7x); Graham number (PE x PB) ~577-722 depending on standalone/consolidated basis, one of the largest breaches in this project's report series; reverse-DCF implies 60.2%/yr FCF growth priced in (WACC 15.29%, Beta 1.369, computed not assumed) against a 13.2% ten-year revenue CAGR (~4.6x gap) or a 15.7% recent 2yr CAGR (~3.8x gap). FY2026 broke an otherwise clean upward profitability trend: operating profit fell 0.8% despite revenue growth of 5.9%, driven by an unexplained 135% jump in 'Other Expenses' and a ~Rs.129.5cr unattributed investing-cash-flow residual -- both genuinely open, not resolved even after four annual reports and four quarterly transcripts were read directly. A live, unresolved SEBI mutual-fund fee-regulation overhaul (Base Expense Ratio, effective 1-Apr-2026) is the single most material risk, already visible in miniature via CAMS's own KYC-registration segment margin falling from a 16-17% target to ~13% after an already-realized ~29-30% rate cut in that smaller business. CAMS survived a comparable SEBI fee cut once before (2018) and recovered margins within about a year -- real, relevant precedent for the bull case. Warburg Pincus (via Great Terrain Investment) fully exited its ~19.87% stake in December 2023; CAMS now carries 0% promoter shareholding, the same structural mismatch with this repo's Darwin/Nalanda ownership screen found for CARE Ratings/IEX/ITC.",
-      "live_price": 743.4,
+      "live_price": 748.8,
       "de": null,
-      "screener_url": "https://www.screener.in/company/CAMS/"
+      "screener_url": "https://www.screener.in/company/CAMS/",
+      "live_pe": 37.38,
+      "live_fetched_at": "2026-09-04T16:01:23"
     },
     {
       "name": "CARE Ratings",
@@ -3238,10 +3240,12 @@
       "status": "Worth a look",
       "buy_zone": "-",
       "concern": "FAE verdict: WAIT. First standalone report for this holding, written in the plain-English/full-depth v3.5 format. Business quality is genuinely resilient: near-zero real debt (D/E never above 0.03), operating cash flow never negative in 10 years, zero flags on this repo's deterministic forensic scanner, Piotroski 6/8. OPM more than halved from 62%+ (FY2017-18) to a 29-30% floor (FY2020-22) during a real governance crisis, then recovered to 38.7% by FY2026 -- revenue CAGR is only 5.7% over the full 10-year window but a much stronger 17.6%/yr from the FY2022 trough, and both figures are reported since the flat headline number understates real recent momentum. Every valuation check still fails even against the flattering recent trend: trailing PE ~28.5x is a premium to Sensex (19.7x) and to ICRA (24.2x, though below CRISIL's 39.1x); Graham number (PE x PB) ~155 against a 22.5 threshold; reverse-DCF implies 55.4%/yr FCF growth priced in, ~3.1x even the best recent 4yr actual growth rate. Governance history is real and material: CARE (with CRISIL/ICRA) was penalised by SEBI for failing to downgrade IL&FS in time (2019-2020, up to Rs.1cr each); former MD Rajesh Mokashi and Chairman S B Mainak both departed 2019-2020 amid a whistleblower/forensic probe, but the specific personal-interference allegation against Mokashi was fully exonerated by SAT (27-Jun-2025) and upheld by the Supreme Court (11-Mar-2026) after ~7 years of litigation -- a genuinely resolved chapter, reported in full rather than summarized away. 0% promoter ownership, same structural ownership mismatch with the Darwin/Nalanda screen as IEX/ITC. This is the portfolio's single largest holding (23.9% of value) -- flagged explicitly as a sizing consideration, not a recommendation.",
-      "live_price": 1697.3,
+      "live_price": 1738.2,
       "de": 0.03,
       "screener_url": "https://www.screener.in/company/CARERATING/consolidated/",
-      "fae_report_url": "reports/CARERATING.html"
+      "fae_report_url": "reports/CARERATING.html",
+      "live_pe": 29.07,
+      "live_fetched_at": "2026-09-04T16:01:23"
     },
     {
       "name": "IndiGo",
@@ -3249,9 +3253,11 @@
       "status": "Worth a look",
       "buy_zone": "-",
       "concern": "Domestic aviation share leader",
-      "live_price": 4932.5,
+      "live_price": 4977.0,
       "de": null,
-      "screener_url": "https://www.screener.in/company/INDIGO/consolidated/"
+      "screener_url": "https://www.screener.in/company/INDIGO/consolidated/",
+      "live_pe": null,
+      "live_fetched_at": "2026-09-04T16:01:23"
     },
     {
       "name": "ITC",
@@ -3259,9 +3265,11 @@
       "status": "Worth a look",
       "buy_zone": "-",
       "concern": "Stagnant; cigarette taxation + FMCG margin drag",
-      "live_price": 265.7,
+      "live_price": 264.1,
       "de": null,
-      "screener_url": "https://www.screener.in/company/ITC/consolidated/"
+      "screener_url": "https://www.screener.in/company/ITC/consolidated/",
+      "live_pe": 16.68,
+      "live_fetched_at": "2026-09-04T16:01:23"
     },
     {
       "name": "L&T",
@@ -3269,9 +3277,11 @@
       "status": "Worth a look",
       "buy_zone": "-",
       "concern": "Order book strength; infra + defence",
-      "live_price": 4005.8,
+      "live_price": 3964.1,
       "de": null,
-      "screener_url": "https://www.screener.in/company/LTF/consolidated/"
+      "screener_url": "https://www.screener.in/company/LTF/consolidated/",
+      "live_pe": 32.91,
+      "live_fetched_at": "2026-09-04T16:01:23"
     },
     {
       "name": "Manappuram Finance",
@@ -3279,9 +3289,11 @@
       "status": "Worth a look",
       "buy_zone": "-",
       "concern": "Gold-loan franchise; MFI subsidiary risk contained",
-      "live_price": 339.6,
+      "live_price": 339.7,
       "de": null,
-      "screener_url": "https://www.screener.in/company/MANAPPURAM/consolidated/"
+      "screener_url": "https://www.screener.in/company/MANAPPURAM/consolidated/",
+      "live_pe": 20.75,
+      "live_fetched_at": "2026-09-04T16:01:23"
     },
     {
       "name": "IEX",
@@ -3289,10 +3301,12 @@
       "status": "Worth a look",
       "buy_zone": "-",
       "concern": "FAE verdict: WAIT. Report fully rebuilt from scratch 2026-08-29 (the prior version was deleted; nothing carried forward without re-verification) -- this is the repo's first report in the new standard format: full Gate 1-5I coverage, written in plain English throughout. Business quality is genuinely strong (ROCE 40.5%, Piotroski 6/8, 105% 5yr cash conversion, near-zero debt) but every valuation check independently fails: trailing P/E (~23x) is a premium to Sensex not a discount, the Graham number (P/E x P/B) is ~195 against a 22.5 threshold, and the reverse-DCF implies the market is pricing in 59.3%/yr FCF growth against a 13.2% historical revenue CAGR. Day-Ahead trading (the segment facing CERC's market-coupling order) is 39% of FY26 volume, not the whole business -- Real-Time trading (34%, growing 40%+/yr, not yet targeted) is organically taking its place. Regulatory timeline is now concrete: Supreme Court twice declined to stay CERC (13-Feb-2026 APTEL, 27-Jul-2026 SC), CERC told the Court final regulations would be notified within 4-6 weeks of that hearing, but Grid India then has 6 months to formulate the actual coupling procedure -- so real operational impact likely isn't an FY27 event. New, better-sourced finding replacing an earlier draft's unverified 'Note 46 whistleblower' claim (dropped -- could not be independently verified, no source): a real, dated SEBI interim order (15-Oct-2025) barred 8 individuals and ordered Rs.173.14cr disgorged for insider trading in IEX derivatives ahead of the Jul-2025 CERC order, tracing a leak to CERC-linked officials -- this implicates conduct at the regulator, not at IEX's own management. ROCE has structurally declined from 62% (FY2018) to a 40-42% plateau since FY2023, driven by surplus cash piling into low-yield investments rather than a weakening core business. 0% promoter ownership is a genuine structural mismatch with this repo's Darwin/Nalanda ownership-alignment screen, not a fail.",
-      "live_price": 119.26,
+      "live_price": 118.91,
       "de": 0.01,
       "screener_url": "https://www.screener.in/company/IEX/",
-      "fae_report_url": "reports/IEX.html"
+      "fae_report_url": "reports/IEX.html",
+      "live_pe": 20.86,
+      "live_fetched_at": "2026-09-04T16:01:23"
     },
     {
       "name": "Wonderla Holidays",
@@ -3300,7 +3314,7 @@
       "status": "Worth a look",
       "buy_zone": "-",
       "concern": "5yr+ hold; asset-heavy park operator, new park pipeline",
-      "live_price": 530.25,
+      "live_price": 533.9,
       "de": null,
       "screener_url": "https://www.screener.in/company/WONDERLA/"
     },
@@ -3310,9 +3324,11 @@
       "status": "Worth a look",
       "buy_zone": "-",
       "concern": "Effective M&M captive; tractor-engine cyclical",
-      "live_price": 3561.2,
+      "live_price": 3557.8,
       "de": null,
-      "screener_url": "https://www.screener.in/company/SWARAJENG/"
+      "screener_url": "https://www.screener.in/company/SWARAJENG/",
+      "live_pe": 21.42,
+      "live_fetched_at": "2026-09-04T16:01:23"
     },
     {
       "name": "Tanla Platforms",
@@ -3320,9 +3336,11 @@
       "status": "Worth a look",
       "buy_zone": "-",
       "concern": "CPaaS re-rating down; improving vs Apr 2026",
-      "live_price": 525.3,
+      "live_price": 521.15,
       "de": null,
-      "screener_url": "https://www.screener.in/company/TANLA/consolidated/"
+      "screener_url": "https://www.screener.in/company/TANLA/consolidated/",
+      "live_pe": 12.96,
+      "live_fetched_at": "2026-09-04T16:01:23"
     }
   ],
   "framework_screen": [
@@ -3337,14 +3355,14 @@
       ],
       "concerns": [
         "Accumulate aggressively below Rs.4,200 (15%+ downside buffer from CMP). Watch: FY26 annual report payable days recovering above 55 AND domestic receivable days below 30 together -- that combination would confirm the CCC deterioration is just export-mix, not structural moat erosion.",
-        "Valuation check (WATCHLIST): Trading at 20.41x earnings vs the Sensex average (19.7x) — only a -4% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 19.46x earnings vs the Sensex average (19.7x) — only a 1% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "At market"
       ],
       "metrics": {
         "period": null,
-        "pe": 20.41,
+        "pe": 19.46,
         "roce_pct": 35.8,
         "mcap_cr": 101337.0,
         "fcf_status": "positive",
@@ -3392,7 +3410,7 @@
       "reasons": [
         "Net-cash; 35% ROCE; ₹98,137 Cr FCF over 5 yrs; monopoly thermal coal",
         "Profitability check (PASS): Return on capital employed (ROCE) is 35.3% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
-        "Valuation check (PASS): Trading at 7.91x earnings, a 60% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
+        "Valuation check (PASS): Trading at 8.17x earnings, a 59% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
         "Buy 3–6% position; consider Below PE 6"
@@ -3402,7 +3420,7 @@
       ],
       "metrics": {
         "period": null,
-        "pe": 7.91,
+        "pe": 8.17,
         "roce_pct": 35.3,
         "mcap_cr": 281606.0,
         "fcf_status": "positive",
@@ -3445,22 +3463,22 @@
     {
       "ticker": "DLINKINDIA",
       "name": "D-Link India",
-      "classification": "BUY NOW",
-      "gate": "Profitability: PASS · Valuation: PASS",
+      "classification": "BUILD POSITION ON WEAKNESS",
+      "gate": "Profitability: PASS · Valuation: WATCHLIST (originally flagged BUY; price hasn't reached the target discount yet)",
       "reasons": [
         "ROCE >28%; positive FCF 5 yrs; ~30% discount to Sensex PE; India networking infra play; MNC (D-Link Taiwan) backed",
-        "Profitability check (PASS): Return on capital employed (ROCE) is 28.3% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
-        "Valuation check (PASS): Trading at 14.49x earnings, a 26% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
+        "Profitability check (PASS): Return on capital employed (ROCE) is 28.3% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
-        "Accumulate ₹400–480; watch working capital days trend"
+        "Accumulate ₹400–480; watch working capital days trend",
+        "Valuation check (WATCHLIST): Trading at 14.93x earnings vs the Sensex average (19.7x) — only a 24% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "₹400–480 (14–16x PE)"
       ],
       "metrics": {
         "period": null,
-        "pe": 14.49,
+        "pe": 14.93,
         "roce_pct": 28.3,
         "mcap_cr": 1637.0,
         "fcf_status": "positive",
@@ -3482,14 +3500,14 @@
       ],
       "concerns": [
         "*Personal note :: Swaraj is a subsidiary of M&M and has limited growth scope. Buy only if the dividend yield is higher than FD rates.*",
-        "Valuation check (WATCHLIST): Trading at 22.5x earnings vs the Sensex average (19.7x) — only a -14% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 21.42x earnings vs the Sensex average (19.7x) — only a -9% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "₹3,200–3,700 (at market)"
       ],
       "metrics": {
         "period": null,
-        "pe": 22.5,
+        "pe": 21.42,
         "roce_pct": 58.7,
         "mcap_cr": 4474.0,
         "fcf_status": "positive",
@@ -3504,19 +3522,19 @@
       "ticker": "ACE",
       "name": "Action Construction Equipment",
       "classification": "BUILD POSITION ON WEAKNESS",
-      "gate": "Profitability: PASS · Valuation: FAIL (originally flagged BUY; price hasn't reached the target discount yet)",
+      "gate": "Profitability: PASS · Valuation: WATCHLIST (originally flagged BUY; price hasn't reached the target discount yet)",
       "reasons": [
         "Profitability check (PASS): Return on capital employed (ROCE) is 31.7% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
-        "Valuation check (FAIL): Trading at 31.09x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (WATCHLIST): Trading at 29.24x earnings vs the Sensex average (19.7x) — only a -48% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "₹780–880 (accumulate on dips)"
       ],
       "metrics": {
         "period": null,
-        "pe": 31.09,
+        "pe": 29.24,
         "roce_pct": 31.7,
         "mcap_cr": 10502.0,
         "fcf_status": "positive",
@@ -3535,7 +3553,7 @@
       "reasons": [
         "Scale + 28.6% ROCE + low 6.56x PE; sector-leading return ratios; strong promoter track record",
         "Profitability check (PASS): Return on capital employed (ROCE) is 28.6% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
-        "Valuation check (PASS): Trading at 8.88x earnings, a 55% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
+        "Valuation check (PASS): Trading at 8.72x earnings, a 56% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
         "BUY #1 in civil construction; FCF mixed — monitor closely"
@@ -3545,7 +3563,7 @@
       ],
       "metrics": {
         "period": null,
-        "pe": 8.88,
+        "pe": 8.72,
         "roce_pct": 28.6,
         "mcap_cr": 5000.0,
         "fcf_status": "mixed",
@@ -3567,14 +3585,14 @@
       ],
       "concerns": [
         "BUY #2 civil construction; niche infrastructure play",
-        "Valuation check (WATCHLIST): Trading at 25.57x earnings vs the Sensex average (19.7x) — only a -30% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 24.76x earnings vs the Sensex average (19.7x) — only a -26% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "At market (≤₹150 approx)"
       ],
       "metrics": {
         "period": null,
-        "pe": 25.57,
+        "pe": 24.76,
         "roce_pct": 27.6,
         "mcap_cr": 1500.0,
         "fcf_status": "positive",
@@ -3594,14 +3612,14 @@
         "Profitability check (PASS): Return on capital employed (ROCE) is 63% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
-        "Valuation check (WATCHLIST): Trading at 16.02x earnings vs the Sensex average (19.7x) — only a 19% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 16.75x earnings vs the Sensex average (19.7x) — only a 15% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "At market ₹2,317"
       ],
       "metrics": {
         "period": null,
-        "pe": 16.02,
+        "pe": 16.75,
         "roce_pct": 63.0,
         "mcap_cr": 820000.0,
         "fcf_status": "positive",
@@ -3623,14 +3641,14 @@
       ],
       "concerns": [
         "Buy at market; monitor Microsoft alliance and FCF trend",
-        "Valuation check (WATCHLIST): Trading at 18.24x earnings vs the Sensex average (19.7x) — only a 7% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 17.37x earnings vs the Sensex average (19.7x) — only a 12% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "At market ₹267"
       ],
       "metrics": {
         "period": null,
-        "pe": 18.24,
+        "pe": 17.37,
         "roce_pct": 30.6,
         "mcap_cr": 5000.0,
         "fcf_status": "positive",
@@ -3681,14 +3699,14 @@
       ],
       "concerns": [
         "Accumulate at CMP; 3–5% position; add aggressively on any 20–25% dip to ₹3,200",
-        "Valuation check (WATCHLIST): Trading at 25.95x earnings vs the Sensex average (19.7x) — only a -32% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 25.13x earnings vs the Sensex average (19.7x) — only a -28% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "CMP ₹4,329; add aggressively ≤₹3,200"
       ],
       "metrics": {
         "period": null,
-        "pe": 25.95,
+        "pe": 25.13,
         "roce_pct": 25.11,
         "mcap_cr": 3113.0,
         "fcf_status": "positive",
@@ -3736,7 +3754,7 @@
       "reasons": [
         "54.17% ROCE; 43.19% 5-yr ROE; 30-yr JEE/NEET franchise (Kota); debt-free (D/E 0.0x); 63.7% promoter; 59% EBITDA margin; PE 15.14x at 28% discount to Sensex — all Darwin gates clear",
         "Profitability check (PASS): Return on capital employed (ROCE) is 54.17% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
-        "Valuation check (PASS): Trading at 14.29x earnings, a 27% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
+        "Valuation check (PASS): Trading at 14.72x earnings, a 25% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
         "Buy at market; ≤₹185 entry; 2–3% position; monitor FCF trend and online competitive pressure"
@@ -3746,7 +3764,7 @@
       ],
       "metrics": {
         "period": null,
-        "pe": 14.29,
+        "pe": 14.72,
         "roce_pct": 54.17,
         "mcap_cr": 339.0,
         "fcf_status": "positive",
@@ -3765,7 +3783,7 @@
       "reasons": [
         "25.51% ROCE; ₹5,645 Cr 5-yr FCF (best in sector); India's largest private urea manufacturer; K.K. Birla Group; 4,200 dealers + 60,000 retailers; proximate fear (subsidy reform) creates the opportunity",
         "Profitability check (PASS): Return on capital employed (ROCE) is 25.51% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
-        "Valuation check (PASS): Trading at 8.83x earnings, a 55% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
+        "Valuation check (PASS): Trading at 8.7x earnings, a 56% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
         "Buy at market; add on dips toward ₹380–420; 3–5% position; monitor subsidy policy and natural gas input costs"
@@ -3775,7 +3793,7 @@
       ],
       "metrics": {
         "period": null,
-        "pe": 8.83,
+        "pe": 8.7,
         "roce_pct": 25.51,
         "mcap_cr": 19157.0,
         "fcf_status": "positive",
@@ -3797,14 +3815,14 @@
       ],
       "concerns": [
         "Wait for re-rating to 16–17x; no structural change needed",
-        "Valuation check (FAIL): Trading at 30.16x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 30.57x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "16–17x 700–750"
       ],
       "metrics": {
         "period": null,
-        "pe": 30.16,
+        "pe": 30.57,
         "roce_pct": 32.2,
         "mcap_cr": 29788.0,
         "fcf_status": "positive",
@@ -3826,14 +3844,14 @@
       ],
       "concerns": [
         "Entry at 18–20x PE; await broad market dip",
-        "Valuation check (WATCHLIST): Trading at 23.74x earnings vs the Sensex average (19.7x) — only a -21% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 23.12x earnings vs the Sensex average (19.7x) — only a -17% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "18–20x 190–200"
       ],
       "metrics": {
         "period": null,
-        "pe": 23.74,
+        "pe": 23.12,
         "roce_pct": 40.1,
         "mcap_cr": 4795.0,
         "fcf_status": "positive",
@@ -3855,14 +3873,14 @@
       ],
       "concerns": [
         "Wait for 35–40% correction; target 15–18x PE",
-        "Valuation check (FAIL): Trading at 37.51x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 36.13x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "15–18x 1,100–1,300"
       ],
       "metrics": {
         "period": null,
-        "pe": 37.51,
+        "pe": 36.13,
         "roce_pct": 42.9,
         "mcap_cr": 115836.0,
         "fcf_status": "positive",
@@ -3884,14 +3902,14 @@
       ],
       "concerns": [
         "Wait for broad market correction of 30–35%; no structural change needed",
-        "Valuation check (FAIL): Trading at 44.71x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 42.16x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "15–18x 1,400–1,600"
       ],
       "metrics": {
         "period": null,
-        "pe": 44.71,
+        "pe": 42.16,
         "roce_pct": 115.1,
         "mcap_cr": 158143.0,
         "fcf_status": "positive",
@@ -3913,14 +3931,14 @@
       ],
       "concerns": [
         "Enter only during market dislocation; no price target set",
-        "Valuation check (FAIL): Trading at 47.25x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 45.88x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "15–18x Market dislocation"
       ],
       "metrics": {
         "period": null,
-        "pe": 47.25,
+        "pe": 45.88,
         "roce_pct": 43.8,
         "mcap_cr": 70250.0,
         "fcf_status": "positive",
@@ -3942,14 +3960,14 @@
       ],
       "concerns": [
         "Wait for 35–40% market correction or 3–4 yrs earnings compounding; currently 3x above Nalanda entry PE",
-        "Valuation check (FAIL): Trading at 53.18x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 54.12x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14.9–16x ₹10,300–12,300"
       ],
       "metrics": {
         "period": null,
-        "pe": 53.18,
+        "pe": 54.12,
         "roce_pct": 64.38,
         "mcap_cr": 41520.0,
         "fcf_status": "positive",
@@ -3971,14 +3989,14 @@
       ],
       "concerns": [
         "Gate 1 marginal (lease-adj D/E concern; neg FCF FY25); PE 4x above Nalanda target; wait for broad market correction; re-evaluate FCF trajectory",
-        "Valuation check (FAIL): Trading at 79.37x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 77.41x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "15–18x ₹1,100–1,350 (approx)"
       ],
       "metrics": {
         "period": null,
-        "pe": 79.37,
+        "pe": 77.41,
         "roce_pct": 25.8,
         "mcap_cr": 357298.0,
         "fcf_status": "mixed",
@@ -4000,14 +4018,14 @@
       ],
       "concerns": [
         "PE 57.3x = 2.5x above Sensex; needs ~70% correction to enter Nalanda zone; monitor smartwatch disruption risk",
-        "Valuation check (FAIL): Trading at 74.04x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 78.71x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "15–16x ₹130–145"
       ],
       "metrics": {
         "period": null,
-        "pe": 74.04,
+        "pe": 78.71,
         "roce_pct": 92.77,
         "mcap_cr": 4543.0,
         "fcf_status": "positive",
@@ -4029,14 +4047,14 @@
       ],
       "concerns": [
         "⭐ Priority watch; entry at 14–16x PE; independently verify promoter background; gold import duty headwind is proximate not ultimate",
-        "Valuation check (WATCHLIST): Trading at 18.51x earnings vs the Sensex average (19.7x) — only a 6% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 18.41x earnings vs the Sensex average (19.7x) — only a 7% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "14–16x PE 14–16x zone"
       ],
       "metrics": {
         "period": null,
-        "pe": 18.51,
+        "pe": 18.41,
         "roce_pct": 33.78,
         "mcap_cr": null,
         "fcf_status": "positive",
@@ -4058,14 +4076,14 @@
       ],
       "concerns": [
         "Wait for PE to correct to 22–25x; no order risk",
-        "Valuation check (FAIL): Trading at 35.09x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 34.79x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "22–25x 3,000–3,500"
       ],
       "metrics": {
         "period": null,
-        "pe": 35.09,
+        "pe": 34.79,
         "roce_pct": 32.0,
         "mcap_cr": 293338.0,
         "fcf_status": "positive",
@@ -4087,7 +4105,7 @@
       ],
       "concerns": [
         "Target 25–30x PE; await market-wide correction",
-        "Valuation check (FAIL): Trading at 49.04x earnings, far above the Sensex average (19.7x) — no margin of safety at this price",
+        "Valuation check (FAIL): Trading at 47.91x earnings, far above the Sensex average (19.7x) — no margin of safety at this price",
         "Worth checking yourself: possible government/PSU ownership"
       ],
       "thesis_breakers": [
@@ -4095,7 +4113,7 @@
       ],
       "metrics": {
         "period": null,
-        "pe": 49.04,
+        "pe": 47.91,
         "roce_pct": 38.9,
         "mcap_cr": 309679.0,
         "fcf_status": "positive",
@@ -4117,14 +4135,14 @@
       ],
       "concerns": [
         "Enter at 20x PE; no product risk; global diversification",
-        "Valuation check (WATCHLIST): Trading at 27.86x earnings vs the Sensex average (19.7x) — only a -41% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 28.33x earnings vs the Sensex average (19.7x) — only a -44% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "20x 8,500–9,000"
       ],
       "metrics": {
         "period": null,
-        "pe": 27.86,
+        "pe": 28.33,
         "roce_pct": 28.2,
         "mcap_cr": 290049.0,
         "fcf_status": "positive",
@@ -4146,14 +4164,14 @@
       ],
       "concerns": [
         "Wait for PE to compress to 28–32x",
-        "Valuation check (FAIL): Trading at 52.13x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 49.87x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "28–32x 1,000–1,150"
       ],
       "metrics": {
         "period": null,
-        "pe": 52.13,
+        "pe": 49.87,
         "roce_pct": 22.7,
         "mcap_cr": 20592.0,
         "fcf_status": "positive",
@@ -4175,14 +4193,14 @@
       ],
       "concerns": [
         "PE expensive at 62x; target 24–28x entry",
-        "Valuation check (FAIL): Trading at 55.59x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 55.09x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "24–28x 1,400–1,700"
       ],
       "metrics": {
         "period": null,
-        "pe": 55.59,
+        "pe": 55.09,
         "roce_pct": 20.9,
         "mcap_cr": 26561.0,
         "fcf_status": "positive",
@@ -4204,14 +4222,14 @@
       ],
       "concerns": [
         "Target 15x PE; watch shrimp export cycle",
-        "Valuation check (WATCHLIST): Trading at 21.69x earnings vs the Sensex average (19.7x) — only a -10% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 20.65x earnings vs the Sensex average (19.7x) — only a -5% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "15x 780–900"
       ],
       "metrics": {
         "period": null,
-        "pe": 21.69,
+        "pe": 20.65,
         "roce_pct": 24.0,
         "mcap_cr": 18028.0,
         "fcf_status": "positive",
@@ -4233,14 +4251,14 @@
       ],
       "concerns": [
         "Fairly valued; watch for 15x PE confirmation",
-        "Valuation check (WATCHLIST): Trading at 22.75x earnings vs the Sensex average (19.7x) — only a -15% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 22.45x earnings vs the Sensex average (19.7x) — only a -14% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "15x 2,200–2,400"
       ],
       "metrics": {
         "period": null,
-        "pe": 22.75,
+        "pe": 22.45,
         "roce_pct": 32.7,
         "mcap_cr": 862.0,
         "fcf_status": "positive",
@@ -4259,7 +4277,7 @@
       "reasons": [
         "PSU aluminium; high ROCE; govt capex beneficiary",
         "Profitability check (PASS): Return on capital employed (ROCE) is 39.6% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
-        "Valuation check (PASS): Trading at 10.75x earnings, a 45% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
+        "Valuation check (PASS): Trading at 10.17x earnings, a 48% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
         "Cyclical; enter at 15x; watch aluminium prices",
@@ -4270,7 +4288,7 @@
       ],
       "metrics": {
         "period": null,
-        "pe": 10.75,
+        "pe": 10.17,
         "roce_pct": 39.6,
         "mcap_cr": 74126.0,
         "fcf_status": "positive",
@@ -4321,14 +4339,14 @@
       ],
       "concerns": [
         "Premium valuation justified; watch for price correction to ₹1,150–1,250",
-        "Valuation check (FAIL): Trading at 64.09x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 61.78x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "— 1,150–1,250"
       ],
       "metrics": {
         "period": null,
-        "pe": 64.09,
+        "pe": 61.78,
         "roce_pct": 27.5,
         "mcap_cr": 96061.0,
         "fcf_status": "positive",
@@ -4408,14 +4426,14 @@
       ],
       "concerns": [
         "Wait for PE to correct to 45–55x; no client concentration risk",
-        "Valuation check (FAIL): Trading at 89.3x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 90.95x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "45–55x 420–520"
       ],
       "metrics": {
         "period": null,
-        "pe": 89.3,
+        "pe": 90.95,
         "roce_pct": 28.5,
         "mcap_cr": 43999.0,
         "fcf_status": "positive",
@@ -4437,14 +4455,14 @@
       ],
       "concerns": [
         "Wait for Sensex-wide correction; target 14–15x TTM PE",
-        "Valuation check (WATCHLIST): Trading at 25.31x earnings vs the Sensex average (19.7x) — only a -28% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 24.66x earnings vs the Sensex average (19.7x) — only a -25% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "14–15x 1,000–1,100"
       ],
       "metrics": {
         "period": null,
-        "pe": 25.31,
+        "pe": 24.66,
         "roce_pct": 34.8,
         "mcap_cr": 13867.0,
         "fcf_status": "positive",
@@ -4466,14 +4484,14 @@
       ],
       "concerns": [
         "Wait for 30–40% correction; UltraTech entry (Dec 2026) a risk to monitor",
-        "Valuation check (FAIL): Trading at 47.85x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 43.83x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "28–32x 4,800–5,500"
       ],
       "metrics": {
         "period": null,
-        "pe": 47.85,
+        "pe": 43.83,
         "roce_pct": 34.0,
         "mcap_cr": 110000.0,
         "fcf_status": "positive",
@@ -4495,14 +4513,14 @@
       ],
       "concerns": [
         "Wait for 18–22x PE entry",
-        "Valuation check (FAIL): Trading at 54.03x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 45.96x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "18–22x 800–1,000"
       ],
       "metrics": {
         "period": null,
-        "pe": 54.03,
+        "pe": 45.96,
         "roce_pct": 25.0,
         "mcap_cr": 20000.0,
         "fcf_status": "positive",
@@ -4524,14 +4542,14 @@
       ],
       "concerns": [
         "Target 17–20x PE; confirm ROCE sustainability",
-        "Valuation check (FAIL): Trading at 41.96x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 41.05x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "17–20x 700–800"
       ],
       "metrics": {
         "period": null,
-        "pe": 41.96,
+        "pe": 41.05,
         "roce_pct": 28.0,
         "mcap_cr": 3500.0,
         "fcf_status": "positive",
@@ -4553,7 +4571,7 @@
       ],
       "concerns": [
         "Wait for ~45–50% correction; D/E must stay ≤0.3x through LFP capex",
-        "Valuation check (FAIL): Trading at 42.38x earnings, far above the Sensex average (19.7x) — no margin of safety at this price",
+        "Valuation check (FAIL): Trading at 42.23x earnings, far above the Sensex average (19.7x) — no margin of safety at this price",
         "Worth checking yourself: promoter pledge mentioned"
       ],
       "thesis_breakers": [
@@ -4561,7 +4579,7 @@
       ],
       "metrics": {
         "period": null,
-        "pe": 42.38,
+        "pe": 42.23,
         "roce_pct": 32.0,
         "mcap_cr": 27830.0,
         "fcf_status": "positive",
@@ -4612,14 +4630,14 @@
       ],
       "concerns": [
         "Wait for 29–38% correction; gas price or demand softness the trigger",
-        "Valuation check (FAIL): Trading at 35.41x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 36.15x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "18–20x 650–750"
       ],
       "metrics": {
         "period": null,
-        "pe": 35.41,
+        "pe": 36.15,
         "roce_pct": 23.3,
         "mcap_cr": 16775.0,
         "fcf_status": "positive",
@@ -4641,14 +4659,14 @@
       ],
       "concerns": [
         "Wait for correction post-2026 tax shock; target 15–17x PE; watch working capital",
-        "Valuation check (WATCHLIST): Trading at 24.1x earnings vs the Sensex average (19.7x) — only a -22% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 23.38x earnings vs the Sensex average (19.7x) — only a -19% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "15–17x 1,600–1,800"
       ],
       "metrics": {
         "period": null,
-        "pe": 24.1,
+        "pe": 23.38,
         "roce_pct": 32.8,
         "mcap_cr": 36500.0,
         "fcf_status": "positive",
@@ -4667,7 +4685,7 @@
       "reasons": [
         "Founder-owner; irreplaceable Karnataka mining licences; net debt-free; EV battery manganese tailwind",
         "Profitability check (PASS): Return on capital employed (ROCE) is 24.4% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
-        "Valuation check (PASS): Trading at 14.02x earnings, a 29% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
+        "Valuation check (PASS): Trading at 13.42x earnings, a 32% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
         "Wait for ferroalloy/small-cap correction; target 12–14x normalised PE"
@@ -4677,7 +4695,7 @@
       ],
       "metrics": {
         "period": null,
-        "pe": 14.02,
+        "pe": 13.42,
         "roce_pct": 24.4,
         "mcap_cr": 10993.0,
         "fcf_status": "positive",
@@ -4699,14 +4717,14 @@
       ],
       "concerns": [
         "Wait for 45–50% correction; target ₹1,650–2,000; re-verify ROCE at that point",
-        "Valuation check (FAIL): Trading at 48.01x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 54.19x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14–18x 1,650–2,000"
       ],
       "metrics": {
         "period": null,
-        "pe": 48.01,
+        "pe": 54.19,
         "roce_pct": 30.9,
         "mcap_cr": 4600.0,
         "fcf_status": "positive",
@@ -4757,14 +4775,14 @@
       ],
       "concerns": [
         "Accumulate at ₹50–55 (~17x PE); market ignores this stock",
-        "Valuation check (WATCHLIST): Trading at 20.15x earnings vs the Sensex average (19.7x) — only a -2% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 19.94x earnings vs the Sensex average (19.7x) — only a -1% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "17x 50–55"
       ],
       "metrics": {
         "period": null,
-        "pe": 20.15,
+        "pe": 19.94,
         "roce_pct": 23.3,
         "mcap_cr": 1600.0,
         "fcf_status": "positive",
@@ -4815,14 +4833,14 @@
       ],
       "concerns": [
         "FCF negative — wait for capex completion; target ₹800–900 (~22x PE)",
-        "Valuation check (FAIL): Trading at 91.38x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 95.1x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "22x 800–900"
       ],
       "metrics": {
         "period": null,
-        "pe": 91.38,
+        "pe": 95.1,
         "roce_pct": 23.7,
         "mcap_cr": 3000.0,
         "fcf_status": "negative",
@@ -4844,14 +4862,14 @@
       ],
       "concerns": [
         "Wait for 40–60% correction; target ₹110–130",
-        "Valuation check (WATCHLIST): Trading at 26.27x earnings vs the Sensex average (19.7x) — only a -33% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 24.66x earnings vs the Sensex average (19.7x) — only a -25% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "15–18x 110–130"
       ],
       "metrics": {
         "period": null,
-        "pe": 26.27,
+        "pe": 24.66,
         "roce_pct": 20.0,
         "mcap_cr": 950.0,
         "fcf_status": "positive",
@@ -4873,14 +4891,14 @@
       ],
       "concerns": [
         "Strong buy at ₹160–190; accumulate up to ₹230; upgrade to BUY when PE compresses",
-        "Valuation check (FAIL): Trading at 38.16x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 36.61x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "20–22x ₹160–230"
       ],
       "metrics": {
         "period": null,
-        "pe": 38.16,
+        "pe": 36.61,
         "roce_pct": 32.9,
         "mcap_cr": 2914.0,
         "fcf_status": "positive",
@@ -4894,22 +4912,22 @@
     {
       "ticker": "INFY",
       "name": "Infosys",
-      "classification": "BUY NOW",
-      "gate": "Profitability: PASS · Valuation: PASS",
+      "classification": "WATCHLIST",
+      "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
         "40% ROCE; $14.9B TCV large deal wins FY26; structural AI tailwind",
-        "Profitability check (PASS): Return on capital employed (ROCE) is 40% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
-        "Valuation check (PASS): Trading at 14.23x earnings, a 28% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
+        "Profitability check (PASS): Return on capital employed (ROCE) is 40% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
-        "Buy at ₹1,050–1,100; broad market dip entry"
+        "Buy at ₹1,050–1,100; broad market dip entry",
+        "Valuation check (WATCHLIST): Trading at 14.79x earnings vs the Sensex average (19.7x) — only a 25% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "14–16x ₹1,050–1,100"
       ],
       "metrics": {
         "period": null,
-        "pe": 14.23,
+        "pe": 14.79,
         "roce_pct": 40.0,
         "mcap_cr": 610000.0,
         "fcf_status": "positive",
@@ -4931,14 +4949,14 @@
       ],
       "concerns": [
         "Buy at ₹950–1,000",
-        "Valuation check (WATCHLIST): Trading at 19.96x earnings vs the Sensex average (19.7x) — only a -1% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 20.3x earnings vs the Sensex average (19.7x) — only a -3% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "16–18x ₹950–1,000"
       ],
       "metrics": {
         "period": null,
-        "pe": 19.96,
+        "pe": 20.3,
         "roce_pct": 30.6,
         "mcap_cr": 315000.0,
         "fcf_status": "positive",
@@ -4989,14 +5007,14 @@
       ],
       "concerns": [
         "Wait for 35–40% correction; target ₹2,800–3,200",
-        "Valuation check (FAIL): Trading at 46.3x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 46.39x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "25–28x ₹2,800–3,200"
       ],
       "metrics": {
         "period": null,
-        "pe": 46.3,
+        "pe": 46.39,
         "roce_pct": 34.4,
         "mcap_cr": 75000.0,
         "fcf_status": "positive",
@@ -5018,14 +5036,14 @@
       ],
       "concerns": [
         "Buy at ₹450–500",
-        "Valuation check (WATCHLIST): Trading at 27.62x earnings vs the Sensex average (19.7x) — only a -40% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 27.25x earnings vs the Sensex average (19.7x) — only a -38% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "18–20x ₹450–500"
       ],
       "metrics": {
         "period": null,
-        "pe": 27.62,
+        "pe": 27.25,
         "roce_pct": 26.3,
         "mcap_cr": 20000.0,
         "fcf_status": "positive",
@@ -5044,7 +5062,7 @@
       "reasons": [
         "23.5% ROCE; 14x PE near Darwin median entry; RPG group",
         "Profitability check (PASS): Return on capital employed (ROCE) is 23.5% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
-        "Valuation check (PASS): Trading at 13.74x earnings, a 30% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
+        "Valuation check (PASS): Trading at 13.68x earnings, a 31% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
         "Near buy zone; target ₹430–450"
@@ -5054,7 +5072,7 @@
       ],
       "metrics": {
         "period": null,
-        "pe": 13.74,
+        "pe": 13.68,
         "roce_pct": 23.5,
         "mcap_cr": 10000.0,
         "fcf_status": "positive",
@@ -5076,14 +5094,14 @@
       ],
       "concerns": [
         "Buy at ₹370–390",
-        "Valuation check (WATCHLIST): Trading at 23.58x earnings vs the Sensex average (19.7x) — only a -20% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 23.67x earnings vs the Sensex average (19.7x) — only a -20% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "16–18x ₹370–390"
       ],
       "metrics": {
         "period": null,
-        "pe": 23.58,
+        "pe": 23.67,
         "roce_pct": 25.8,
         "mcap_cr": 6500.0,
         "fcf_status": "positive",
@@ -5102,7 +5120,7 @@
       "reasons": [
         "21.6% ROCE; 16.8x PE near buy zone; Aditya Birla group backing",
         "Profitability check (PASS): Return on capital employed (ROCE) is 21.6% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
-        "Valuation check (PASS): Trading at 14.11x earnings, a 28% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
+        "Valuation check (PASS): Trading at 14.18x earnings, a 28% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
         "Watch for ₹280–300 entry"
@@ -5112,7 +5130,7 @@
       ],
       "metrics": {
         "period": null,
-        "pe": 14.11,
+        "pe": 14.18,
         "roce_pct": 21.6,
         "mcap_cr": 7500.0,
         "fcf_status": "positive",
@@ -5163,14 +5181,14 @@
       ],
       "concerns": [
         "Alert at ₹2,800; priority large-cap wait",
-        "Valuation check (FAIL): Trading at 60.64x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 59.1x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "30–35x ₹2,200–2,800"
       ],
       "metrics": {
         "period": null,
-        "pe": 60.64,
+        "pe": 59.1,
         "roce_pct": 36.3,
         "mcap_cr": 148505.0,
         "fcf_status": "positive",
@@ -5192,14 +5210,14 @@
       ],
       "concerns": [
         "Set alert ₹2,000; highest quality in compressor sector",
-        "Valuation check (FAIL): Trading at 57.31x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 57.02x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "30–35x ₹1,500–2,000"
       ],
       "metrics": {
         "period": null,
-        "pe": 57.31,
+        "pe": 57.02,
         "roce_pct": 60.0,
         "mcap_cr": 14091.0,
         "fcf_status": "positive",
@@ -5221,14 +5239,14 @@
       ],
       "concerns": [
         "Alert at ₹330; global compressor play",
-        "Valuation check (FAIL): Trading at 44.29x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 45.25x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "25–28x ₹260–330"
       ],
       "metrics": {
         "period": null,
-        "pe": 44.29,
+        "pe": 45.25,
         "roce_pct": 21.9,
         "mcap_cr": 17758.0,
         "fcf_status": "positive",
@@ -5250,14 +5268,14 @@
       ],
       "concerns": [
         "Alert at ₹400",
-        "Valuation check (FAIL): Trading at 56.18x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 57.7x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "28–30x ₹300–400"
       ],
       "metrics": {
         "period": null,
-        "pe": 56.18,
+        "pe": 57.7,
         "roce_pct": 24.7,
         "mcap_cr": 14276.0,
         "fcf_status": "positive",
@@ -5279,14 +5297,14 @@
       ],
       "concerns": [
         "Alert at ₹1,200; active watch — most attractively priced",
-        "Valuation check (FAIL): Trading at 40.65x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 39.59x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "18–22x ₹1,000–1,200"
       ],
       "metrics": {
         "period": null,
-        "pe": 40.65,
+        "pe": 39.59,
         "roce_pct": 20.8,
         "mcap_cr": 12684.0,
         "fcf_status": "positive",
@@ -5308,14 +5326,14 @@
       ],
       "concerns": [
         "Alert at ₹900",
-        "Valuation check (FAIL): Trading at 35.82x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 37.63x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "22–25x ₹750–900"
       ],
       "metrics": {
         "period": null,
-        "pe": 35.82,
+        "pe": 37.63,
         "roce_pct": 30.4,
         "mcap_cr": 10442.0,
         "fcf_status": "positive",
@@ -5337,14 +5355,14 @@
       ],
       "concerns": [
         "Trigger: 2 consecutive quarters of volume recovery + FCF >₹100 Cr",
-        "Valuation check (WATCHLIST): Trading at 28.83x earnings vs the Sensex average (19.7x) — only a -46% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 29.46x earnings vs the Sensex average (19.7x) — only a -50% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "18–22x Below ₹500"
       ],
       "metrics": {
         "period": null,
-        "pe": 28.83,
+        "pe": 29.46,
         "roce_pct": 23.9,
         "mcap_cr": 6521.0,
         "fcf_status": "positive",
@@ -5395,14 +5413,14 @@
       ],
       "concerns": [
         "Watch FCF recovery; micro-cap caution; sub-30x PE target",
-        "Valuation check (FAIL): Trading at 32.86x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 31.75x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "25–28x FCF recovery"
       ],
       "metrics": {
         "period": null,
-        "pe": 32.86,
+        "pe": 31.75,
         "roce_pct": 25.4,
         "mcap_cr": 208.0,
         "fcf_status": "positive",
@@ -5453,14 +5471,14 @@
       ],
       "concerns": [
         "Wait for PE to compress to 20–25x (target ₹430–550)",
-        "Valuation check (FAIL): Trading at 73.41x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 81.58x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "20–25x ₹430–550"
       ],
       "metrics": {
         "period": null,
-        "pe": 73.41,
+        "pe": 81.58,
         "roce_pct": 27.9,
         "mcap_cr": 2042.0,
         "fcf_status": "negative",
@@ -5479,7 +5497,7 @@
       "reasons": [
         "Highest ROCE in civil construction universe (39.7%); verify BOT asset adjustments",
         "Profitability check (PASS): Return on capital employed (ROCE) is 39.7% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
-        "Valuation check (PASS): Trading at 5.1x earnings, a 74% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
+        "Valuation check (PASS): Trading at 1.32x earnings, a 93% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
         "Verify BOT accounting; if clean → consider BUY"
@@ -5489,7 +5507,7 @@
       ],
       "metrics": {
         "period": null,
-        "pe": 5.1,
+        "pe": 1.32,
         "roce_pct": 39.7,
         "mcap_cr": 8000.0,
         "fcf_status": "positive",
@@ -5508,7 +5526,7 @@
       "reasons": [
         "34.2% ROCE + 11.6x PE + positive FCF; needs governance verification",
         "Profitability check (PASS): Return on capital employed (ROCE) is 34.2% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
-        "Valuation check (PASS): Trading at 11.69x earnings, a 41% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
+        "Valuation check (PASS): Trading at 11.35x earnings, a 42% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
         "Verify promoter + governance; strong metrics"
@@ -5518,7 +5536,7 @@
       ],
       "metrics": {
         "period": null,
-        "pe": 11.69,
+        "pe": 11.35,
         "roce_pct": 34.2,
         "mcap_cr": null,
         "fcf_status": "positive",
@@ -5566,7 +5584,7 @@
       "reasons": [
         "Near debt-free + FCF positive + railway electrification tailwind + 22-yr history; 5.63x PE",
         "Profitability check (PASS): Return on capital employed (ROCE) is 22.3% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
-        "Valuation check (PASS): Trading at 7.87x earnings, a 60% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
+        "Valuation check (PASS): Trading at 8.89x earnings, a 55% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
         "Entry ≤₹60; railway niche structural tailwind"
@@ -5576,7 +5594,7 @@
       ],
       "metrics": {
         "period": null,
-        "pe": 7.87,
+        "pe": 8.89,
         "roce_pct": 22.3,
         "mcap_cr": null,
         "fcf_status": "positive",
@@ -5627,7 +5645,7 @@
       ],
       "concerns": [
         "Watch for correction to 15–17x PE",
-        "Valuation check (WATCHLIST): Trading at 17.69x earnings vs the Sensex average (19.7x) — only a 10% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)",
+        "Valuation check (WATCHLIST): Trading at 19.62x earnings vs the Sensex average (19.7x) — only a 0% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)",
         "Worth checking yourself: possible government/PSU ownership"
       ],
       "thesis_breakers": [
@@ -5635,7 +5653,7 @@
       ],
       "metrics": {
         "period": null,
-        "pe": 17.69,
+        "pe": 19.62,
         "roce_pct": 25.0,
         "mcap_cr": null,
         "fcf_status": "positive",
@@ -5657,14 +5675,14 @@
       ],
       "concerns": [
         "Wait for 18–20x PE confirmation",
-        "Valuation check (WATCHLIST): Trading at 20.84x earnings vs the Sensex average (19.7x) — only a -6% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 18.62x earnings vs the Sensex average (19.7x) — only a 5% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "18–20x Market"
       ],
       "metrics": {
         "period": null,
-        "pe": 20.84,
+        "pe": 18.62,
         "roce_pct": 22.9,
         "mcap_cr": null,
         "fcf_status": "positive",
@@ -5715,14 +5733,14 @@
       ],
       "concerns": [
         "Wait for correction to ~15x PE (₹175–220)",
-        "Valuation check (FAIL): Trading at 50.89x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 49.81x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "15x ₹175–220"
       ],
       "metrics": {
         "period": null,
-        "pe": 50.89,
+        "pe": 49.81,
         "roce_pct": 20.3,
         "mcap_cr": 5119.0,
         "fcf_status": "positive",
@@ -5770,7 +5788,7 @@
       "reasons": [
         "28.52% ROCE; 72.4% promoter; B2G infra consulting moat; 8.56x PE is extraordinary cheap — but debtor days spiked to 113 and WC days to 242",
         "Profitability check (PASS): Return on capital employed (ROCE) is 28.52% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
-        "Valuation check (PASS): Trading at 8.68x earnings, a 56% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
+        "Valuation check (PASS): Trading at 11.61x earnings, a 41% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
         "BUY trigger: debtor days <100 + FCF turns positive 2 consecutive qtrs; no debt raised"
@@ -5780,7 +5798,7 @@
       ],
       "metrics": {
         "period": null,
-        "pe": 8.68,
+        "pe": 11.61,
         "roce_pct": 28.52,
         "mcap_cr": 365.0,
         "fcf_status": "mixed",
@@ -5802,14 +5820,14 @@
       ],
       "concerns": [
         "Alert at ₹750; priority buy below ₹600–650 (~18x PE); watch Lloyd margin ramp",
-        "Valuation check (FAIL): Trading at 47.62x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 44.37x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "15–19x ₹600–750"
       ],
       "metrics": {
         "period": null,
-        "pe": 47.62,
+        "pe": 44.37,
         "roce_pct": 24.9,
         "mcap_cr": 75327.0,
         "fcf_status": "positive",
@@ -5831,14 +5849,14 @@
       ],
       "concerns": [
         "Alert at ₹7,000; secondary to Havells (narrower moat); watch customer concentration (mobile 84% of revenue)",
-        "Valuation check (FAIL): Trading at 43.1x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 42.13x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "15–19x ₹5,500–7,000"
       ],
       "metrics": {
         "period": null,
-        "pe": 43.1,
+        "pe": 42.13,
         "roce_pct": 41.97,
         "mcap_cr": 71272.0,
         "fcf_status": "mixed",
@@ -5860,7 +5878,7 @@
       ],
       "concerns": [
         "Alert at ₹320; buy at ₹280–320 (requires 40–50% correction); PSU appointment risk noted",
-        "Valuation check (FAIL): Trading at 45.68x earnings, far above the Sensex average (19.7x) — no margin of safety at this price",
+        "Valuation check (FAIL): Trading at 44.32x earnings, far above the Sensex average (19.7x) — no margin of safety at this price",
         "Worth checking yourself: possible government/PSU ownership"
       ],
       "thesis_breakers": [
@@ -5868,7 +5886,7 @@
       ],
       "metrics": {
         "period": null,
-        "pe": 45.68,
+        "pe": 44.32,
         "roce_pct": 42.4,
         "mcap_cr": 52775.0,
         "fcf_status": "positive",
@@ -5948,14 +5966,14 @@
       ],
       "concerns": [
         "Alert at ₹800; target entry ₹700–800 (32–36x PE); requires 34–42% correction; highest conviction permanent holding candidate",
-        "Valuation check (FAIL): Trading at 62.49x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 60.63x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "32–36x ₹700–800"
       ],
       "metrics": {
         "period": null,
-        "pe": 62.49,
+        "pe": 60.63,
         "roce_pct": 31.97,
         "mcap_cr": 25166.0,
         "fcf_status": "positive",
@@ -5977,7 +5995,7 @@
       ],
       "concerns": [
         "Five things to watch: (1) the realized, full-fiscal-year RTA fee-yield impact of SEBI's new Base Expense Ratio framework once FY2027 is fully reported -- the single biggest open variable; (2) whether the FY2026 'Other Expenses' jump (135% YoY) repeats, grows, or normalizes; (3) whether the ~Rs.129.5cr unattributed FY2026 investing-cash residual gets itemized in CAMS's FY2027 annual report; (4) the KYC-registration segment's margin -- recovers toward the guided 16-17% or stays depressed near 13%, since it's a live preview of what the larger RTA-level regulatory risk could do; (5) receivable days -- stays near FY2026's ~10-day level or reverts toward FY2025's unexplained ~28-day spike. Also worth a fresh pull once available: the FY2024-25 annual report could not be used for this report (the downloaded copy was corrupted twice), so this report's four-year related-party verification skips that one year.",
-        "Valuation check (FAIL): Trading at 39.5x earnings, far above the Sensex average (19.7x) — no margin of safety at this price",
+        "Valuation check (FAIL): Trading at 37.38x earnings, far above the Sensex average (19.7x) — no margin of safety at this price",
         "Worth checking yourself: governance/legal concern mentioned"
       ],
       "thesis_breakers": [
@@ -5985,7 +6003,7 @@
       ],
       "metrics": {
         "period": null,
-        "pe": 39.5,
+        "pe": 37.38,
         "roce_pct": 49.03,
         "mcap_cr": 18777.0,
         "fcf_status": "positive",
@@ -6007,14 +6025,14 @@
       ],
       "concerns": [
         "Alert at ₹560; target ₹500–560 (25–30x PE); lower priority than CAMS/CDSL due to lower ROCE and retail share loss to CDSL",
-        "Valuation check (FAIL): Trading at 42.01x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 41.9x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "25–30x ₹500–560"
       ],
       "metrics": {
         "period": null,
-        "pe": 42.01,
+        "pe": 41.9,
         "roce_pct": 23.22,
         "mcap_cr": 16156.0,
         "fcf_status": "positive",
@@ -6036,14 +6054,14 @@
       ],
       "concerns": [
         "Alert at ₹540; target ₹480–540 (24–28x PE); best earnings growth outlook in sector (27% CAGR); monitor Ascent acquisition discipline",
-        "Valuation check (FAIL): Trading at 48.54x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 47.18x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "24–28x ₹480–540"
       ],
       "metrics": {
         "period": null,
-        "pe": 48.54,
+        "pe": 47.18,
         "roce_pct": 30.48,
         "mcap_cr": 14113.0,
         "fcf_status": "positive",
@@ -6065,7 +6083,7 @@
       ],
       "concerns": [
         "WATCH only after 2–3 post-IPO annual reports confirm ROCE >20%, FCF turns positive, D/E <0.20, ICR >10x; entry ₹25–40 (7–10x normalised earnings)",
-        "Valuation check (FAIL): Trading at 47.05x earnings, far above the Sensex average (19.7x) — no margin of safety at this price",
+        "Valuation check (FAIL): Trading at 45.09x earnings, far above the Sensex average (19.7x) — no margin of safety at this price",
         "Worth checking yourself: promoter pledge mentioned"
       ],
       "thesis_breakers": [
@@ -6073,7 +6091,7 @@
       ],
       "metrics": {
         "period": null,
-        "pe": 47.05,
+        "pe": 45.09,
         "roce_pct": 23.38,
         "mcap_cr": 324.0,
         "fcf_status": "negative",
@@ -6095,14 +6113,14 @@
       ],
       "concerns": [
         "Alert at ₹16,000; target ₹12,000–16,000 (~28–38x PE); requires ~50% correction from CMP or significant earnings growth; permanent portfolio candidate on price",
-        "Valuation check (FAIL): Trading at 67x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 64.15x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "28–38x ₹12,000–16,000"
       ],
       "metrics": {
         "period": null,
-        "pe": 67.0,
+        "pe": 64.15,
         "roce_pct": 50.05,
         "mcap_cr": 37546.0,
         "fcf_status": "positive",
@@ -6121,7 +6139,7 @@
       "reasons": [
         "Exclusive premium cosmetics distributor (Moroccanoil, JPMS, BCL Spa); 28.4% ROCE; positive FCF; promoters buying shares in open market (Mar 2026); 30%+ discount to Sensex PE",
         "Profitability check (PASS): Return on capital employed (ROCE) is 28.36% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
-        "Valuation check (PASS): Trading at 12.83x earnings, a 35% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
+        "Valuation check (PASS): Trading at 12.74x earnings, a 35% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
         "Accumulate ₹45–55; verify exclusive distribution agreement renewals; micro-cap liquidity caveat"
@@ -6131,7 +6149,7 @@
       ],
       "metrics": {
         "period": null,
-        "pe": 12.83,
+        "pe": 12.74,
         "roce_pct": 28.36,
         "mcap_cr": 235.0,
         "fcf_status": "positive",
@@ -6153,14 +6171,14 @@
       ],
       "concerns": [
         "Wait for ~30% correction to ₹270–290; monitor Blackstone exit timeline; high priority on price",
-        "Valuation check (WATCHLIST): Trading at 28.6x earnings vs the Sensex average (19.7x) — only a -45% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 27.28x earnings vs the Sensex average (19.7x) — only a -38% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "20–22x ₹270–290"
       ],
       "metrics": {
         "period": null,
-        "pe": 28.6,
+        "pe": 27.28,
         "roce_pct": 30.7,
         "mcap_cr": 16117.0,
         "fcf_status": "positive",
@@ -6182,14 +6200,14 @@
       ],
       "concerns": [
         "Alert at ₹1,050; buy at ₹1,000–1,050 (15–20% pullback from CMP); permanent hold candidate",
-        "Valuation check (WATCHLIST): Trading at 17.21x earnings vs the Sensex average (19.7x) — only a 13% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 17.62x earnings vs the Sensex average (19.7x) — only a 11% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "17–19x ₹1,000–1,050"
       ],
       "metrics": {
         "period": null,
-        "pe": 17.21,
+        "pe": 17.62,
         "roce_pct": 21.1,
         "mcap_cr": 8747.0,
         "fcf_status": "positive",
@@ -6356,14 +6374,14 @@
       ],
       "concerns": [
         "Target ₹250–320 (~35–40x PE); requires 40–50% correction; STRONG BUY trigger at that level; no structural concern — only valuation",
-        "Valuation check (FAIL): Trading at 56.86x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 55.99x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "35–40x ₹250–320"
       ],
       "metrics": {
         "period": null,
-        "pe": 56.86,
+        "pe": 55.99,
         "roce_pct": 47.21,
         "mcap_cr": 202231.0,
         "fcf_status": "positive",
@@ -6385,14 +6403,14 @@
       ],
       "concerns": [
         "Wait for 50%+ correction to ₹1,100–1,400 (sub-30x PE); longest-term watch; permanent holding at right price",
-        "Valuation check (FAIL): Trading at 44.65x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 43.92x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "28–30x ₹1,100–1,400"
       ],
       "metrics": {
         "period": null,
-        "pe": 44.65,
+        "pe": 43.92,
         "roce_pct": 28.4,
         "mcap_cr": 517756.0,
         "fcf_status": "positive",
@@ -6414,7 +6432,7 @@
       ],
       "concerns": [
         "The single biggest open research gap: no post-February-2026 re-measurement of India's illicit cigarette trade share (~26.1% pre-hike) exists in any source found. Watch: whether cigarette segment gross revenue decline moderates below -15% YoY for a full quarter beyond Q1 FY27's -31.5%; whether the NCCD statutory headroom (25%->60%, effective still held at 25%) gets activated; a post-hike illicit-trade re-estimate from any credible source; inventory days (86.2 in FY26, a 10-year high) reverting toward the historical 60-77 day range; the unexplained FY26 borrowings jump (Rs.284.5cr -> Rs.2,399.1cr) reversing or persisting; and whether a future cycle can successfully re-fetch ITC's own Annual Report directly to independently re-confirm the related-party and equity-statement figures currently carried forward from earlier research.",
-        "Valuation check (WATCHLIST): Trading at 18.1x earnings vs the Sensex average (19.7x) — only a 8% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)",
+        "Valuation check (WATCHLIST): Trading at 16.68x earnings vs the Sensex average (19.7x) — only a 15% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)",
         "Worth checking yourself: governance/legal concern mentioned"
       ],
       "thesis_breakers": [
@@ -6422,7 +6440,7 @@
       ],
       "metrics": {
         "period": null,
-        "pe": 18.1,
+        "pe": 16.68,
         "roce_pct": 38.9,
         "mcap_cr": 378014.0,
         "fcf_status": "positive",
@@ -6444,14 +6462,14 @@
       ],
       "concerns": [
         "Wait for 40–50% correction; set alert at ₹1,200; monitor debtor days (<150) + promoter holding (>50%) + D/E (<₹700 Cr)",
-        "Valuation check (FAIL): Trading at 61.18x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 60.94x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "30–40x ₹900–1,200"
       ],
       "metrics": {
         "period": null,
-        "pe": 61.18,
+        "pe": 60.94,
         "roce_pct": 24.67,
         "mcap_cr": 5001.0,
         "fcf_status": "negative",
@@ -6473,14 +6491,14 @@
       ],
       "concerns": [
         "Wait for 13–15x PE entry (₹1,300–1,500); monitor AI content risk; no consumer EdTech disruption exposure",
-        "Valuation check (WATCHLIST): Trading at 24.14x earnings vs the Sensex average (19.7x) — only a -23% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 23.93x earnings vs the Sensex average (19.7x) — only a -21% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "13–15x ₹1,300–1,500"
       ],
       "metrics": {
         "period": null,
-        "pe": 24.14,
+        "pe": 23.93,
         "roce_pct": 39.27,
         "mcap_cr": 3055.0,
         "fcf_status": "positive",
@@ -6531,14 +6549,14 @@
       ],
       "concerns": [
         "Buy at ₹400–550 (16–22x PE); FCF must turn positive before full conviction; micro-cap illiquidity caveat",
-        "Valuation check (FAIL): Trading at 43.31x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 42.91x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "16–22x ₹400–550"
       ],
       "metrics": {
         "period": null,
-        "pe": 43.31,
+        "pe": 42.91,
         "roce_pct": 41.77,
         "mcap_cr": 1172.0,
         "fcf_status": "negative",
@@ -6618,14 +6636,14 @@
       ],
       "concerns": [
         "Monitor promoter holding reduction (74.98% → 63.54%); wait for 14.9–17x PE entry",
-        "Valuation check (FAIL): Trading at 33.38x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 32.72x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14.9–17x ₹191 (60% correction)"
       ],
       "metrics": {
         "period": null,
-        "pe": 33.38,
+        "pe": 32.72,
         "roce_pct": 21.34,
         "mcap_cr": 9580.0,
         "fcf_status": "positive",
@@ -6647,14 +6665,14 @@
       ],
       "concerns": [
         "Highest conviction in sector; requires ~75–80% PE correction for Nalanda entry; patience essential",
-        "Valuation check (FAIL): Trading at 128.46x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 133.18x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14.9–17x ₹178–203"
       ],
       "metrics": {
         "period": null,
-        "pe": 128.46,
+        "pe": 133.18,
         "roce_pct": 31.22,
         "mcap_cr": 4395.0,
         "fcf_status": "positive",
@@ -6676,14 +6694,14 @@
       ],
       "concerns": [
         "Monitor Morganite Crucible acquisition + promoter holding reduction; most reasonably priced quality name in sector",
-        "Valuation check (FAIL): Trading at 49.34x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 48.47x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14.9–17x Market correction"
       ],
       "metrics": {
         "period": null,
-        "pe": 49.34,
+        "pe": 48.47,
         "roce_pct": 33.05,
         "mcap_cr": 3700.0,
         "fcf_status": "positive",
@@ -6702,7 +6720,7 @@
       "reasons": [
         "21.29% ROCE; India's largest ferro chrome producer post-Tata Steel acquisition; captive mines + captive power = durable cost moat; ₹1,690 Cr 5-yr FCF; founder-family led (58.7%)",
         "Profitability check (PASS): Return on capital employed (ROCE) is 21.29% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
-        "Valuation check (PASS): Trading at 14.06x earnings, a 29% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
+        "Valuation check (PASS): Trading at 13.26x earnings, a 33% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
         "Wait for 14–16x TTM PE entry; monitor ROCE post-acquisition integration and EU quota/CBAM impact"
@@ -6712,7 +6730,7 @@
       ],
       "metrics": {
         "period": null,
-        "pe": 14.06,
+        "pe": 13.26,
         "roce_pct": 21.29,
         "mcap_cr": 7944.0,
         "fcf_status": "positive",
@@ -6734,14 +6752,14 @@
       ],
       "concerns": [
         "Quality fully confirmed; TTM PE 100.62x (379% premium) requires ~65–75% PE correction for entry; monitor defence order execution and ROCE trajectory",
-        "Valuation check (FAIL): Trading at 93.46x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 97.79x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "25–35x ₹21,000 Cr order book signal"
       ],
       "metrics": {
         "period": null,
-        "pe": 93.46,
+        "pe": 97.79,
         "roce_pct": 36.79,
         "mcap_cr": 168791.0,
         "fcf_status": "positive",
@@ -6763,14 +6781,14 @@
       ],
       "concerns": [
         "TTM PE 72.09x (243% premium); entry zone ₹935–1,258; await significant market correction",
-        "Valuation check (FAIL): Trading at 48.31x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 49.58x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14.9–20x ₹935–1,258"
       ],
       "metrics": {
         "period": null,
-        "pe": 48.31,
+        "pe": 49.58,
         "roce_pct": 58.03,
         "mcap_cr": 179126.0,
         "fcf_status": "positive",
@@ -6792,14 +6810,14 @@
       ],
       "concerns": [
         "TTM PE 62.74x (199% premium); historical NSEL/FTIL promoter flag (current management clean); entry zone ₹760–1,020",
-        "Valuation check (FAIL): Trading at 54.06x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 54.09x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14.9–20x ₹760–1,020"
       ],
       "metrics": {
         "period": null,
-        "pe": 54.06,
+        "pe": 54.09,
         "roce_pct": 71.37,
         "mcap_cr": 83568.0,
         "fcf_status": "positive",
@@ -6821,14 +6839,14 @@
       ],
       "concerns": [
         "Wait for 30–40% correction to 14–17x PE; DAP import disruption is proximate risk, not structural; highest quality private fertilizer franchise",
-        "Valuation check (FAIL): Trading at 30.82x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 31.18x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14–17x ₹950–1,100"
       ],
       "metrics": {
         "period": null,
-        "pe": 30.82,
+        "pe": 31.18,
         "roce_pct": 22.75,
         "mcap_cr": 54038.0,
         "fcf_status": "positive",
@@ -6850,7 +6868,7 @@
       ],
       "concerns": [
         "Watch: promoter pledge 26.6% must resolve; rising debt trend; entry at ₹22–26 (14–17x PE); revenue fluctuation is proximate (release timing)",
-        "Valuation check (FAIL): Trading at 51.07x earnings, far above the Sensex average (19.7x) — no margin of safety at this price",
+        "Valuation check (FAIL): Trading at 52.1x earnings, far above the Sensex average (19.7x) — no margin of safety at this price",
         "Worth checking yourself: promoter pledge mentioned"
       ],
       "thesis_breakers": [
@@ -6858,7 +6876,7 @@
       ],
       "metrics": {
         "period": null,
-        "pe": 51.07,
+        "pe": 52.1,
         "roce_pct": 27.19,
         "mcap_cr": 1172.0,
         "fcf_status": "positive",
@@ -6880,14 +6898,14 @@
       ],
       "concerns": [
         "TTM PE 75.65x (261% premium); entry ₹691–738; monitor April 2026 police case resolution; highest quality in sector",
-        "Valuation check (FAIL): Trading at 80.49x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 80.37x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14.9–16x ₹691–738"
       ],
       "metrics": {
         "period": null,
-        "pe": 80.49,
+        "pe": 80.37,
         "roce_pct": 57.47,
         "mcap_cr": 29611.0,
         "fcf_status": "positive",
@@ -6909,14 +6927,14 @@
       ],
       "concerns": [
         "TTM PE 49.84x (138% premium); entry ₹786–840; monitor SIP book growth and GST notice outcome",
-        "Valuation check (FAIL): Trading at 57.94x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 56.51x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14.9–16x ₹786–840"
       ],
       "metrics": {
         "period": null,
-        "pe": 57.94,
+        "pe": 56.51,
         "roce_pct": 37.48,
         "mcap_cr": 11067.0,
         "fcf_status": "positive",
@@ -6938,14 +6956,14 @@
       ],
       "concerns": [
         "Gate 1 all 6 filters pass; PE 32.81x at 61% premium to Sensex ~20.4x; no structural concern — only valuation; wait for ~50% market correction to bring PE ≤15.3x",
-        "Valuation check (FAIL): Trading at 32.9x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 31.5x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14–15x ~₹830–850 (~50% correction from ₹1,695)"
       ],
       "metrics": {
         "period": null,
-        "pe": 32.9,
+        "pe": 31.5,
         "roce_pct": 21.88,
         "mcap_cr": 84633.0,
         "fcf_status": "positive",
@@ -6996,14 +7014,14 @@
       ],
       "concerns": [
         "Set alert ₹270; PE 31.44x (57% premium to Sensex); target ≤15x; smaller MCap ₹2,478 Cr — position size accordingly",
-        "Valuation check (FAIL): Trading at 34.62x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 35.57x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14–15x ~₹265–270 (~50% correction from ₹555)"
       ],
       "metrics": {
         "period": null,
-        "pe": 34.62,
+        "pe": 35.57,
         "roce_pct": 25.23,
         "mcap_cr": 2478.0,
         "fcf_status": "positive",
@@ -7025,14 +7043,14 @@
       ],
       "concerns": [
         "PE 50.89x (2.5x above Sensex); target 14–16x; permanent holding candidate at right price",
-        "Valuation check (FAIL): Trading at 59.71x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 57.98x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14–16x ~₹460–480 (~70% correction from ₹1,601)"
       ],
       "metrics": {
         "period": null,
-        "pe": 59.71,
+        "pe": 57.98,
         "roce_pct": 28.29,
         "mcap_cr": 26847.0,
         "fcf_status": "positive",
@@ -7054,14 +7072,14 @@
       ],
       "concerns": [
         "PE 76.57x (~4x above Sensex); patience required; geographic concentration (68% from Hyderabad) — watch national chain expansion into South India",
-        "Valuation check (FAIL): Trading at 79.55x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 81.95x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14–16x ~₹245–255 (~80% correction from ₹1,287)"
       ],
       "metrics": {
         "period": null,
-        "pe": 79.55,
+        "pe": 81.95,
         "roce_pct": 21.29,
         "mcap_cr": 13245.0,
         "fcf_status": "positive",
@@ -7083,14 +7101,14 @@
       ],
       "concerns": [
         "API Holdings (PharmEasy, promoter ~66% stake) financial difficulties = Gate 1.6 alignment concern; monitor API Holdings stability; upgrade conviction if ownership structure clarifies",
-        "Valuation check (FAIL): Trading at 52.88x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 52.28x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14–16x ~₹145–160 (~72% correction from ₹529)"
       ],
       "metrics": {
         "period": null,
-        "pe": 52.88,
+        "pe": 52.28,
         "roce_pct": 35.38,
         "mcap_cr": 8418.0,
         "fcf_status": "positive",
@@ -7112,14 +7130,14 @@
       ],
       "concerns": [
         "Verify Gate 1 independently (promoter integrity, governance); watch revenue diversification from COVID-era to non-COVID diagnostics; independent research essential before full conviction",
-        "Valuation check (WATCHLIST): Trading at 21.7x earnings vs the Sensex average (19.7x) — only a -10% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 21.99x earnings vs the Sensex average (19.7x) — only a -12% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "14–16x ~₹1,000–1,050 (~15–18% correction from ₹1,245)"
       ],
       "metrics": {
         "period": null,
-        "pe": 21.7,
+        "pe": 21.99,
         "roce_pct": 25.48,
         "mcap_cr": 1069.0,
         "fcf_status": "positive",
@@ -7141,14 +7159,14 @@
       ],
       "concerns": [
         "PE 19.20x just above Darwin entry zone (14.9x); buy trigger ~₹298 (14.9x × TTM EPS ₹20); nearest to buy zone in hospital sector; Delhi Govt 26% minority stake = partial flag (Apollo controls management)",
-        "Valuation check (WATCHLIST): Trading at 18.02x earnings vs the Sensex average (19.7x) — only a 9% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 17.05x earnings vs the Sensex average (19.7x) — only a 13% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "14–15x ~₹295–310 (~20–22% correction from ₹384)"
       ],
       "metrics": {
         "period": null,
-        "pe": 18.02,
+        "pe": 17.05,
         "roce_pct": 35.83,
         "mcap_cr": 3524.0,
         "fcf_status": "positive",
@@ -7170,14 +7188,14 @@
       ],
       "concerns": [
         "PE 26.01x (28% above Nifty TTM PE ~20.37x); succession event June 2026 (Joint MD passed away — confirm succession clarity before initiating); ~42% correction needed for entry",
-        "Valuation check (WATCHLIST): Trading at 25.72x earnings vs the Sensex average (19.7x) — only a -31% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 25.9x earnings vs the Sensex average (19.7x) — only a -31% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "14–15x ~₹3,300–3,400 (~42% correction from ₹5,811)"
       ],
       "metrics": {
         "period": null,
-        "pe": 25.72,
+        "pe": 25.9,
         "roce_pct": 22.19,
         "mcap_cr": 6357.0,
         "fcf_status": "positive",
@@ -7199,14 +7217,14 @@
       ],
       "concerns": [
         "Already on Darwin Active List personal notes; reconfirmed Watchlist via sector 74; TTM PE ~65x = 3.2x above Sensex; set entry alert ₹430",
-        "Valuation check (WATCHLIST): Trading at 22.28x earnings vs the Sensex average (19.7x) — only a -13% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 21.77x earnings vs the Sensex average (19.7x) — only a -11% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "14–15x ₹370–430 (~78% correction from ~₹1,900)"
       ],
       "metrics": {
         "period": null,
-        "pe": 22.28,
+        "pe": 21.77,
         "roce_pct": 35.86,
         "mcap_cr": 23438.0,
         "fcf_status": "positive",
@@ -7228,14 +7246,14 @@
       ],
       "concerns": [
         "PE ~35x = 1.74x above Sensex; clean Gate 1 (no issues); set entry alert ₹1,750",
-        "Valuation check (FAIL): Trading at 35.84x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 34.85x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14–15x ₹1,550–1,750 (~55% correction from ~₹3,800)"
       ],
       "metrics": {
         "period": null,
-        "pe": 35.84,
+        "pe": 34.85,
         "roce_pct": 24.08,
         "mcap_cr": 10632.0,
         "fcf_status": "positive",
@@ -7257,14 +7275,14 @@
       ],
       "concerns": [
         "MNC parent (Hitachi/ABB Power Grids) is an ownership caveat vs pure Darwin; PE 8x above Sensex; permanent portfolio quality confirmed but entry requires extraordinary correction",
-        "Valuation check (FAIL): Trading at 131.58x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 122.11x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14–15x ₹70,000–90,000 (very long-term)"
       ],
       "metrics": {
         "period": null,
-        "pe": 131.58,
+        "pe": 122.11,
         "roce_pct": 29.02,
         "mcap_cr": 163848.0,
         "fcf_status": "positive",
@@ -7286,14 +7304,14 @@
       ],
       "concerns": [
         "MNC parent (ABB Ltd) ownership caveat; PE ~7x above Sensex; quality confirmed — wait for extreme market dislocation",
-        "Valuation check (FAIL): Trading at 100.25x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 99.7x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14–15x Sensex-level correction needed"
       ],
       "metrics": {
         "period": null,
-        "pe": 100.25,
+        "pe": 99.7,
         "roce_pct": 29.93,
         "mcap_cr": 153803.0,
         "fcf_status": "positive",
@@ -7315,14 +7333,14 @@
       ],
       "concerns": [
         "MNC parent caveat; PE ~7x above Sensex; highest quality in sector by ROCE metric; entry zone extremely distant",
-        "Valuation check (FAIL): Trading at 86.21x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 82.28x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14–15x Sensex-level correction needed"
       ],
       "metrics": {
         "period": null,
-        "pe": 86.21,
+        "pe": 82.28,
         "roce_pct": 76.43,
         "mcap_cr": 140687.0,
         "fcf_status": "positive",
@@ -7344,14 +7362,14 @@
       ],
       "concerns": [
         "MNC parent caveat; PE ~7x above Sensex",
-        "Valuation check (FAIL): Trading at 78.12x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 74.81x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14–15x Sensex-level correction needed"
       ],
       "metrics": {
         "period": null,
-        "pe": 78.12,
+        "pe": 74.81,
         "roce_pct": 67.75,
         "mcap_cr": 137587.0,
         "fcf_status": "positive",
@@ -7373,14 +7391,14 @@
       ],
       "concerns": [
         "MNC parent (Schneider Electric SE) caveat; PE ~10x above Sensex — most expensive in group",
-        "Valuation check (FAIL): Trading at 155.69x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 159.64x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14–15x Sensex-level correction needed"
       ],
       "metrics": {
         "period": null,
-        "pe": 155.69,
+        "pe": 159.64,
         "roce_pct": 29.63,
         "mcap_cr": 33366.0,
         "fcf_status": "positive",
@@ -7402,14 +7420,14 @@
       ],
       "concerns": [
         "PE 28.85x = 42% premium to Sensex ~20.3x; RIL 18.8% + ITC 13–15% shareholding noted — complex but stable; set entry alert ₹270",
-        "Valuation check (WATCHLIST): Trading at 26.38x earnings vs the Sensex average (19.7x) — only a -34% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 25.23x earnings vs the Sensex average (19.7x) — only a -28% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "14–15x ₹210–270 (~60% correction from ~₹550)"
       ],
       "metrics": {
         "period": null,
-        "pe": 26.38,
+        "pe": 25.23,
         "roce_pct": 20.69,
         "mcap_cr": 20646.0,
         "fcf_status": "positive",
@@ -7431,14 +7449,14 @@
       ],
       "concerns": [
         "PE 22.09x ≈ Sensex; closest to Darwin entry zone of all Hotels names; set entry alert ₹280 — nearest to buy zone in sector",
-        "Valuation check (WATCHLIST): Trading at 20.91x earnings vs the Sensex average (19.7x) — only a -6% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
+        "Valuation check (WATCHLIST): Trading at 20.61x earnings vs the Sensex average (19.7x) — only a -5% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
         "14–15x ₹250–280 (~30% correction from ~₹360)"
       ],
       "metrics": {
         "period": null,
-        "pe": 20.91,
+        "pe": 20.61,
         "roce_pct": 21.14,
         "mcap_cr": 1987.0,
         "fcf_status": "positive",
@@ -7460,14 +7478,14 @@
       ],
       "concerns": [
         "PE 32.13x = 58% premium to Sensex; single-city concentration risk — size position conservatively on entry; entry alert ₹780",
-        "Valuation check (FAIL): Trading at 29.98x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 30.21x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14–15x ₹700–780 (~50% correction from ~₹1,500)"
       ],
       "metrics": {
         "period": null,
-        "pe": 29.98,
+        "pe": 30.21,
         "roce_pct": 29.83,
         "mcap_cr": 1394.0,
         "fcf_status": "positive",
@@ -7489,14 +7507,14 @@
       ],
       "concerns": [
         "PE 61.47x = 3.1x above Sensex; capex cycle winding down; LG Sri City plant (2026–27) is a competitive risk to monitor",
-        "Valuation check (FAIL): Trading at 60.61x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 59.81x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14–15x ₹380–410 (~77% correction from ~₹1,665)"
       ],
       "metrics": {
         "period": null,
-        "pe": 60.61,
+        "pe": 59.81,
         "roce_pct": 21.17,
         "mcap_cr": 34229.0,
         "fcf_status": "positive",
@@ -7518,14 +7536,14 @@
       ],
       "concerns": [
         "PE 31.51x = 1.7x above Sensex; disciplined business — entry only via broad market crisis; set alert ₹3,869",
-        "Valuation check (FAIL): Trading at 32.12x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
+        "Valuation check (FAIL): Trading at 32.79x earnings, far above the Sensex average (19.7x) — no margin of safety at this price"
       ],
       "thesis_breakers": [
         "14.9–15.6x ₹3,695–3,869 (~52–55% correction from ₹7,815)"
       ],
       "metrics": {
         "period": null,
-        "pe": 32.12,
+        "pe": 32.79,
         "roce_pct": 40.89,
         "mcap_cr": 4134.0,
         "fcf_status": "positive",
@@ -11752,16 +11770,16 @@
         "unit": "%",
         "frequency": "daily",
         "latest_value": 4.39,
-        "latest_date": "2026-09-01",
-        "change": 0.31,
+        "latest_date": "2026-09-02",
+        "change": 0.34,
         "change_kind": "diff_pp",
-        "z_score": 0.66,
+        "z_score": 0.72,
         "contribution": null,
         "source": "fred",
         "source_url": "https://fred.stlouisfed.org/series/DGS2",
         "stale": false,
         "note": null,
-        "observation_count": 866
+        "observation_count": 867
       },
       {
         "id": "us_10y_yield",
@@ -11771,16 +11789,16 @@
         "unit": "%",
         "frequency": "daily",
         "latest_value": 4.79,
-        "latest_date": "2026-09-01",
-        "change": 0.3,
+        "latest_date": "2026-09-02",
+        "change": 0.32,
         "change_kind": "diff_pp",
-        "z_score": 0.56,
+        "z_score": 0.61,
         "contribution": -1,
         "source": "fred",
         "source_url": "https://fred.stlouisfed.org/series/DGS10",
         "stale": false,
         "note": null,
-        "observation_count": 866
+        "observation_count": 867
       },
       {
         "id": "us_dollar_index",
@@ -11808,17 +11826,17 @@
         "category": "global_risk",
         "unit": "index",
         "frequency": "daily",
-        "latest_value": 16.34,
-        "latest_date": "2026-09-01",
+        "latest_value": 15.2,
+        "latest_date": "2026-09-02",
         "change": null,
         "change_kind": "level_z",
-        "z_score": -0.2,
+        "z_score": -0.47,
         "contribution": 0,
         "source": "fred",
         "source_url": "https://fred.stlouisfed.org/series/VIXCLS",
         "stale": false,
         "note": null,
-        "observation_count": 892
+        "observation_count": 893
       },
       {
         "id": "india_cpi",
@@ -11979,17 +11997,17 @@
         "category": "commodity",
         "unit": "USD/oz",
         "frequency": "daily",
-        "latest_value": 4473.0,
-        "latest_date": "2026-09-03",
-        "change": 24.485,
+        "latest_value": 4515.2002,
+        "latest_date": "2026-09-04",
+        "change": 26.625,
         "change_kind": "yoy_pct",
-        "z_score": -1.35,
+        "z_score": -1.22,
         "contribution": null,
         "source": "yfinance",
         "source_url": "https://finance.yahoo.com/quote/GC=F",
         "stale": false,
         "note": "FRED's own gold series (GOLDAMGBD228NLBM) was confirmed discontinued in 2025 with an unstable replacement history -- routed through yfinance instead, already a proven dependency (compute_beta.py).",
-        "observation_count": 505
+        "observation_count": 506
       },
       {
         "id": "copper",
@@ -11998,22 +12016,22 @@
         "category": "commodity",
         "unit": "USD/lb",
         "frequency": "daily",
-        "latest_value": 6.611,
-        "latest_date": "2026-09-03",
-        "change": 45.026,
+        "latest_value": 6.644,
+        "latest_date": "2026-09-04",
+        "change": 48.039,
         "change_kind": "yoy_pct",
-        "z_score": 1.51,
+        "z_score": 1.75,
         "contribution": null,
         "source": "yfinance",
         "source_url": "https://finance.yahoo.com/quote/HG=F",
         "stale": false,
         "note": "A global-growth proxy per the PRD's own commodity classification (section 7E) -- shown informationally, not forced into one of the 5 scored categories.",
-        "observation_count": 505
+        "observation_count": 506
       }
     ],
-    "computed_at": "2026-09-04T05:07:21.033407+00:00"
+    "computed_at": "2026-09-04T10:33:47.569043+00:00"
   },
-  "macro_intel_run_at": "2026-09-04T05:07:21.033407+00:00",
+  "macro_intel_run_at": "2026-09-04T10:33:47.569043+00:00",
   "macro_trend": {
     "score_trend": {
       "has_prior": true,
@@ -12122,7 +12140,7 @@
     "computed_at": "2026-09-03T12:24:09.116760+00:00"
   },
   "scenario_tracking": {
-    "checked_at": "2026-09-03T12:24:14.667058+00:00",
+    "checked_at": "2026-09-04T10:33:47.788115+00:00",
     "based_on_forecast_computed_at": "2026-09-03T12:24:09.116760+00:00",
     "scenarios": [
       {
