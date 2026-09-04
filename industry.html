@@ -9,28 +9,37 @@
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/shared.css">
 <style>
-  /* One row per sector, not a card grid -- 82 sectors as cards meant a lot of scrolling
-     to scan through; a compact list reads faster. Each row is a single flex column
-     (header line + wrapped stock chips + playbook line), divided by hairlines, inside
-     one bordered container -- same visual language as .wlist-compact elsewhere, but
-     rows here can't share a fixed-column grid the way the Watchlist does (a sector's
-     stock list runs from 0 to 10+ names, wildly different per row). */
-  .sector-list{background:var(--panel);border:1px solid var(--hair);border-radius:var(--r-3);box-shadow:var(--shadow-1)}
-  .sector-row{padding:10px 14px;border-bottom:1px solid var(--hair)}
+  /* Real columns (#, Industry, Companies, Report), not free-flowing rows -- per explicit
+     user follow-up. CSS grid, same pattern as .wlist-head/.wrow: every row shares the
+     identical --industry-grid track list so columns line up top to bottom, even though
+     each row is its own independent grid container (no `auto`/content-based tracks --
+     see the Watchlist's own comment on why that drifts columns out of alignment).
+     Companies is the one flexible (1fr) column -- a sector's stock list runs from 0 to
+     10+ names, so its row wraps to multiple lines while every OTHER column on that row
+     stays put; grid rows auto-size to their tallest cell, which is exactly what's wanted
+     here (unlike the Watchlist's Links-column overflow bug, wrapping vertically is fine,
+     the earlier problem there was horizontal overflow into a neighboring column). */
+  :root{ --industry-grid: 34px 190px 1fr 150px; }
+  .sector-list{background:var(--panel);border:1px solid var(--hair);border-radius:var(--r-3);
+    box-shadow:var(--shadow-1);overflow-x:auto}
+  .industry-head{display:grid;grid-template-columns:var(--industry-grid);column-gap:12px;padding:6px 14px;
+    font-family:var(--mono);font-size:9px;letter-spacing:.09em;text-transform:uppercase;color:var(--ivory-dim);
+    background:var(--panel-2);border-bottom:1px solid var(--hair)}
+  .sector-row{display:grid;grid-template-columns:var(--industry-grid);column-gap:12px;align-items:start;
+    padding:9px 14px;border-bottom:1px solid var(--hair)}
   .sector-row:last-child{border-bottom:none}
   .sector-row:hover{background:var(--panel-2)}
-  .sector-row .row-head{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}
-  .sector-row .snum{font-family:var(--mono);font-size:10px;color:var(--ivory-dim);letter-spacing:.06em;flex:0 0 auto}
-  .sector-row .sname{font-family:var(--disp);font-weight:600;font-size:14.5px;flex:0 1 auto}
-  .sector-row .row-head .scrbtn,.sector-row .row-head .not-yet{margin-left:auto;flex:0 0 auto}
-  .sector-row .not-yet{font-family:var(--mono);font-size:10px;color:var(--hair-bright)}
-  .sector-row .stocks{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+  .sector-row .snum{font-family:var(--mono);font-size:10px;color:var(--ivory-dim);letter-spacing:.06em}
+  .sector-row .sname{font-family:var(--disp);font-weight:600;font-size:13.5px;line-height:1.3}
+  .sector-row .stocks{display:flex;flex-wrap:wrap;gap:5px}
   .sector-row .stock-chip{font-family:var(--mono);font-size:10px;padding:2px 7px;border-radius:var(--r-1);border:1px solid;white-space:nowrap}
   .sector-row .stock-chip.B{color:var(--sage);border-color:#366b4655;background:#366b4611}
   .sector-row .stock-chip.W{color:var(--amber);border-color:#8a5f1f55;background:#8a5f1f11}
   .sector-row .stock-chip.M{color:var(--ivory-dim);border-color:var(--hair);background:transparent}
-  .sector-row .no-stocks{font-size:11px;color:var(--ivory-dim);margin-top:5px}
-  .sector-row .playbook{font-family:var(--mono);font-size:10px;color:var(--brass);margin-top:5px}
+  .sector-row .no-stocks{font-size:11px;color:var(--ivory-dim)}
+  .sector-row .report-cell{display:flex;flex-direction:column;gap:3px;align-items:flex-start}
+  .sector-row .not-yet{font-family:var(--mono);font-size:10px;color:var(--hair-bright)}
+  .sector-row .playbook{font-family:var(--mono);font-size:9.5px;color:var(--brass)}
 </style>
 </head>
 <body>
@@ -70,22 +79,20 @@ let SECTORS = { sectors: [] };
 
 function renderSectors(){
   const rows = (SECTORS.sectors||[]).slice().sort((a,b)=>a.industry.localeCompare(b.industry));
-  document.getElementById("sectors").innerHTML = rows.map(s=>{
+  const head = `<div class="industry-head"><span>#</span><span>Industry</span><span>Companies</span><span>Report</span></div>`;
+  document.getElementById("sectors").innerHTML = head + rows.map(s=>{
     const stocks = (s.stocks||[]).length
       ? `<div class="stocks">${s.stocks.map(st=>`<span class="stock-chip ${esc(st.status_code)}">${esc(st.name)} · ${esc(st.status)}</span>`).join("")}</div>`
       : `<div class="no-stocks">No Darwin-screened stocks in this industry yet.</div>`;
     const playbook = s.playbook_chapter ? `<div class="playbook">Playbook: ${esc(s.playbook_chapter)}</div>` : "";
     const link = s.report_url
       ? `<a href="${esc(s.report_url)}" target="_blank" rel="noopener" class="scrbtn">Read full analysis ↗</a>`
-      : `<span class="not-yet">Full write-up not yet published</span>`;
+      : `<span class="not-yet">Not yet published</span>`;
     return `<div class="sector-row">
-      <div class="row-head">
-        <span class="snum">§${s.number}</span>
-        <span class="sname">${esc(s.industry)}</span>
-        ${link}
-      </div>
+      <span class="snum">§${s.number}</span>
+      <span class="sname">${esc(s.industry)}</span>
       ${stocks}
-      ${playbook}
+      <div class="report-cell">${link}${playbook}</div>
     </div>`;
   }).join("");
 }
