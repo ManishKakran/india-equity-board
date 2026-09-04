@@ -88,7 +88,7 @@ function renderWatchlist(){
   const faeTriggerTickers=new Set((DATA.fae_triggers||[]).map(r=>r.ticker));
   const head=`<div class="wlist-head"><span>#</span><span></span>${wSortHeader("name","Company")}${wSortHeader("ticker","Ticker")}${wSortHeader("status","Status")}${wSortHeader("buy_zone","Buy zone")}
     <span class="wmetrics">${wSortHeader("price","Price","wm-price")}${wSortHeader("pe","PE","wm-pe")}${wSortHeader("roce","ROCE","wm-roce")}${wSortHeader("de","D/E","wm-de")}</span>
-    <span>Links</span></div>`;
+    <span>Screener</span><span>FAE Screen</span><span>Report</span></div>`;
   let list=(DATA.watchlist||[]).slice();
   if(wSort.key){
     const isText=WSORT_TEXT_KEYS.has(wSort.key);
@@ -124,7 +124,9 @@ function renderWatchlist(){
       <span class="wstatus ${band}">${esc(w.status||"—")}</span>
       <span class="wbuyzone">${w.buy_zone&&w.buy_zone!=="-"?esc(w.buy_zone):'<span class="wm-empty">—</span>'}</span>
       <span class="wmetrics">${metrics}</span>
-      <span class="wlinks">${screenerLink(w)}${faeBadge(w)}${scoreBadge(w)}${forensicBadge(w)}${validationBadge(w)}${faeReportUrlFor(w.ticker)?`<a href="${esc(faeReportUrlFor(w.ticker))}" target="_blank" rel="noopener" class="scrbtn" title="Read the full FAE report">FAE report ↗</a>`:""}</span>
+      <span class="wlink-screener">${screenerLink(w)}</span>
+      <span class="wlink-fae">${faeBadge(w)}${scoreBadge(w)}${forensicBadge(w)}${validationBadge(w)}</span>
+      <span class="wlink-report">${faeReportUrlFor(w.ticker)?`<a href="${esc(faeReportUrlFor(w.ticker))}" target="_blank" rel="noopener" class="scrbtn" title="Read the full FAE report">FAE report ↗</a>`:""}</span>
     </div>`;
   }).join("") + `</div>`;
 }
