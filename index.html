@@ -50,7 +50,7 @@ let DATA = {};
 function renderPipeline(){
   const p=DATA.pipeline||{};
   document.getElementById("pipeline").innerHTML = `
-    <div class="fstep buy"><div class="n">${p.buy??"—"}</div><div class="l">Buy</div></div>
+    <div class="fstep buy"><div class="n">${p.buy??"—"}</div><div class="l">Worth a look</div></div>
     <div class="fstep watch"><div class="n">${p.watch??"—"}</div><div class="l">Watch</div></div>`;
 }
 
@@ -104,7 +104,7 @@ function renderWatchlist(){
     });
   }
   document.getElementById("watchlist").innerHTML = `<div class="wlist-compact">` + head + list.map((w,i)=>{
-    const isBuyNow=buyNowTickers.has(w.ticker), isFaeTrigger=faeTriggerTickers.has(w.ticker);
+    const isBuyNow=false, isFaeTrigger=faeTriggerTickers.has(w.ticker);
     const band=classBand(w.status||"");
     const flag=isBuyNow
       ? `<span class="flag flag-buynow" title="Passes both Gate 2.1 (ROCE) and Gate 2.4 (valuation) — ready for a manual full FAE cycle">⭐</span>`

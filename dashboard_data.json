@@ -34,7 +34,7 @@
     {
       "name": "Hero MotoCorp",
       "ticker": "HEROMOTOCO",
-      "status": "BUY",
+      "status": "Worth a look",
       "buy_zone": "At market",
       "concern": "FAE verdict (post adversarial stress-test): FAIRLY VALUED -- WAIT FOR PRICE, revised down from an initial 'attractive'. Composite score 7.2/10 (down from the bull case's 8.2/10). Genuine moat and fortress balance sheet, but four vulnerabilities were underweighted in the original bull case: CCC deterioration is more advanced than tracked, VIDA EV economics are opaque, Honda's competitive response is understated, and the valuation multiple assumes a stability the auto OEM sector isn't showing. All 7 Gate 4.5 hard filters clear (best in the repo). Gate 5H stress test added 2026-08-23: Perfect Storm verdict RESILIENT ON SOLVENCY (zero debt, large liquid corpus), VULNERABLE ON THE GROWTH/MOAT STORY (CCC deterioration + commodity spike + monsoon shock could flatten PAT growth without threatening solvency). Now includes a Plain-English Summary section explaining every open concern in layman terms.",
       "live_price": 5600.0,
@@ -46,7 +46,7 @@
     {
       "name": "Coal India",
       "ticker": "COALINDIA",
-      "status": "BUY",
+      "status": "Worth a look",
       "buy_zone": "At market ₹457",
       "concern": "Net-cash; 35% ROCE; ₹98,137 Cr FCF over 5 yrs; monopoly thermal coal",
       "live_price": 401.0,
@@ -58,7 +58,7 @@
     {
       "name": "D-Link India",
       "ticker": "DLINKINDIA",
-      "status": "BUY",
+      "status": "Worth a look",
       "buy_zone": "₹400–480 (14–16x PE)",
       "concern": "ROCE >28%; positive FCF 5 yrs; ~30% discount to Sensex PE; India networking infra play; MNC (D-Link Taiwan) backed",
       "live_price": 443.25,
@@ -70,7 +70,7 @@
     {
       "name": "Action Construction Equipment",
       "ticker": "ACE",
-      "status": "BUY",
+      "status": "Worth a look",
       "buy_zone": "₹780–880 (accumulate on dips)",
       "concern": "FAE verdict: HOLD -- not a conviction buy, not a sell. Business quality GOOD (7.5/10): excellent financial mechanics, clean governance on the critical metrics, impeccable debt discipline. Penalised for capital-allocation inaction and competitive fragility in heavy cranes. Stock is -35% from its 52-week high -- moved from EXPENSIVE to fair value on reported earnings, but still EXPENSIVE on operational earnings (34.4x ex-treasury income).",
       "live_price": 1140.6,
@@ -82,7 +82,7 @@
     {
       "name": "KNR Constructions",
       "ticker": "KNRCON",
-      "status": "BUY",
+      "status": "Worth a look",
       "buy_zone": "At market (≤₹250 approx)",
       "concern": "Scale + 28.6% ROCE + low 6.56x PE; sector-leading return ratios; strong promoter track record",
       "live_price": 124.55,
@@ -94,7 +94,7 @@
     {
       "name": "Likhitha Infrastructure",
       "ticker": "LIKHITHA",
-      "status": "BUY",
+      "status": "Worth a look",
       "buy_zone": "At market (≤₹150 approx)",
       "concern": "Gas pipeline niche; positive FCF; 27.6% ROCE; 14.9x PE; clean balance sheet",
       "live_price": 208.88,
@@ -106,7 +106,7 @@
     {
       "name": "Sonata Software",
       "ticker": "SONATSOFTW",
-      "status": "BUY",
+      "status": "Worth a look",
       "buy_zone": "At market ₹267",
       "concern": "30.6% ROCE; 31.4% 5-yr ROE; 14.8x PE — Darwin-ideal valuation; all gates cleared",
       "live_price": 304.6,
@@ -118,7 +118,7 @@
     {
       "name": "Marc Technocrats",
       "ticker": "MARC",
-      "status": "BUY",
+      "status": "Worth a look",
       "buy_zone": "At market ₹88",
       "concern": "40.86% ROCE; 17-yr B2G infra consultancy; NHAI/MoRTH empanelment moat; near-zero debt (D/E 0.03); 16x PE at 33% discount to Sensex — all Darwin gates clear",
       "live_price": 148.0,
@@ -130,7 +130,7 @@
     {
       "name": "Vadilal Industries",
       "ticker": "VADILALIND",
-      "status": "BUY",
+      "status": "Worth a look",
       "buy_zone": "CMP ₹4,329; add aggressively ≤₹3,200",
       "concern": "25.11% ROCE; 22.56% 5-yr ROE; 100-year Gandhi family brand; India's #2 ice cream; consistent FCF ₹245 Cr (5-yr); zero acquisitions",
       "live_price": 7900.0,
@@ -142,7 +142,7 @@
     {
       "name": "Career Point Edutech",
       "ticker": "CPEDU",
-      "status": "BUY",
+      "status": "Worth a look",
       "buy_zone": "At market ₹184 (≤15x PE)",
       "concern": "54.17% ROCE; 43.19% 5-yr ROE; 30-yr JEE/NEET franchise (Kota); debt-free (D/E 0.0x); 63.7% promoter; 59% EBITDA margin; PE 15.14x at 28% discount to Sensex — all Darwin gates clear",
       "live_price": 186.52,
@@ -154,7 +154,7 @@
     {
       "name": "Chambal Fertilisers",
       "ticker": "CHAMBLFERT",
-      "status": "BUY",
+      "status": "Worth a look",
       "buy_zone": "At market ₹478 (deep value — 57% discount to Sensex PE)",
       "concern": "25.51% ROCE; ₹5,645 Cr 5-yr FCF (best in sector); India's largest private urea manufacturer; K.K. Birla Group; 4,200 dealers + 60,000 retailers; proximate fear (subsidy reform) creates the opportunity",
       "live_price": 421.55,
@@ -1481,6 +1481,138 @@
       "de": 0.07,
       "live_fetched_at": "2026-08-30T08:48:28",
       "screener_url": "https://www.screener.in/company/HAWKINCOOK/"
+    },
+    {
+      "name": "TCS",
+      "ticker": "TCS",
+      "status": "Worth a look",
+      "buy_zone": "-",
+      "concern": "Sector-wide AI-disruption selloff; heavy capital added Feb-May 2026 now underwater; WC days 34->85 in FY26",
+      "live_price": 2333.5,
+      "live_pe": null,
+      "de": 0.11,
+      "screener_url": "https://www.screener.in/company/TCS/consolidated/",
+      "fae_report_url": null
+    },
+    {
+      "name": "CAMS",
+      "ticker": "CAMS",
+      "status": "Worth a look",
+      "buy_zone": "-",
+      "concern": "FAE verdict: WAIT. First standalone report for this holding. Business quality is exceptionally strong for this portfolio: ROCE 46.2% (Screener 47.0%), Piotroski 5/8, 113.5% ten-year cumulative cash conversion, near-zero real debt (D/E 0.045, falling every year since FY2021), zero flags on this repo's deterministic forensic scanner, and related-party exposure verified clean across four years of primary-source annual reports (small, arm's-length subsidiary balances only, plus two new small FY2026 loans-to-subsidiary). CAMS is the dominant #1 in India's two-player MF-RTA duopoly (~68% share vs KFin Technologies' ~31-32%) and -- unusually -- trades at a *lower* P/E (~39.3x) than its smaller, weaker rival (~49-54x). All valuation checks still fail: ~39.3x trailing PE is roughly double the Sensex (19.7x); Graham number (PE x PB) ~577-722 depending on standalone/consolidated basis, one of the largest breaches in this project's report series; reverse-DCF implies 60.2%/yr FCF growth priced in (WACC 15.29%, Beta 1.369, computed not assumed) against a 13.2% ten-year revenue CAGR (~4.6x gap) or a 15.7% recent 2yr CAGR (~3.8x gap). FY2026 broke an otherwise clean upward profitability trend: operating profit fell 0.8% despite revenue growth of 5.9%, driven by an unexplained 135% jump in 'Other Expenses' and a ~Rs.129.5cr unattributed investing-cash-flow residual -- both genuinely open, not resolved even after four annual reports and four quarterly transcripts were read directly. A live, unresolved SEBI mutual-fund fee-regulation overhaul (Base Expense Ratio, effective 1-Apr-2026) is the single most material risk, already visible in miniature via CAMS's own KYC-registration segment margin falling from a 16-17% target to ~13% after an already-realized ~29-30% rate cut in that smaller business. CAMS survived a comparable SEBI fee cut once before (2018) and recovered margins within about a year -- real, relevant precedent for the bull case. Warburg Pincus (via Great Terrain Investment) fully exited its ~19.87% stake in December 2023; CAMS now carries 0% promoter shareholding, the same structural mismatch with this repo's Darwin/Nalanda ownership screen found for CARE Ratings/IEX/ITC.",
+      "live_price": 743.4,
+      "live_pe": null,
+      "de": null,
+      "screener_url": "https://www.screener.in/company/CAMS/",
+      "fae_report_url": null
+    },
+    {
+      "name": "CARE Ratings",
+      "ticker": "CARERATING",
+      "status": "Worth a look",
+      "buy_zone": "-",
+      "concern": "FAE verdict: WAIT. First standalone report for this holding, written in the plain-English/full-depth v3.5 format. Business quality is genuinely resilient: near-zero real debt (D/E never above 0.03), operating cash flow never negative in 10 years, zero flags on this repo's deterministic forensic scanner, Piotroski 6/8. OPM more than halved from 62%+ (FY2017-18) to a 29-30% floor (FY2020-22) during a real governance crisis, then recovered to 38.7% by FY2026 -- revenue CAGR is only 5.7% over the full 10-year window but a much stronger 17.6%/yr from the FY2022 trough, and both figures are reported since the flat headline number understates real recent momentum. Every valuation check still fails even against the flattering recent trend: trailing PE ~28.5x is a premium to Sensex (19.7x) and to ICRA (24.2x, though below CRISIL's 39.1x); Graham number (PE x PB) ~155 against a 22.5 threshold; reverse-DCF implies 55.4%/yr FCF growth priced in, ~3.1x even the best recent 4yr actual growth rate. Governance history is real and material: CARE (with CRISIL/ICRA) was penalised by SEBI for failing to downgrade IL&FS in time (2019-2020, up to Rs.1cr each); former MD Rajesh Mokashi and Chairman S B Mainak both departed 2019-2020 amid a whistleblower/forensic probe, but the specific personal-interference allegation against Mokashi was fully exonerated by SAT (27-Jun-2025) and upheld by the Supreme Court (11-Mar-2026) after ~7 years of litigation -- a genuinely resolved chapter, reported in full rather than summarized away. 0% promoter ownership, same structural ownership mismatch with the Darwin/Nalanda screen as IEX/ITC. This is the portfolio's single largest holding (23.9% of value) -- flagged explicitly as a sizing consideration, not a recommendation.",
+      "live_price": 1697.3,
+      "live_pe": null,
+      "de": 0.03,
+      "screener_url": "https://www.screener.in/company/CARERATING/consolidated/",
+      "fae_report_url": "reports/CARERATING.html"
+    },
+    {
+      "name": "IndiGo",
+      "ticker": "INDIGO",
+      "status": "Worth a look",
+      "buy_zone": "-",
+      "concern": "Domestic aviation share leader",
+      "live_price": 4932.5,
+      "live_pe": null,
+      "de": null,
+      "screener_url": "https://www.screener.in/company/INDIGO/consolidated/",
+      "fae_report_url": null
+    },
+    {
+      "name": "ITC",
+      "ticker": "ITC",
+      "status": "Worth a look",
+      "buy_zone": "-",
+      "concern": "Stagnant; cigarette taxation + FMCG margin drag",
+      "live_price": 265.7,
+      "live_pe": null,
+      "de": null,
+      "screener_url": "https://www.screener.in/company/ITC/consolidated/",
+      "fae_report_url": null
+    },
+    {
+      "name": "L&T",
+      "ticker": "LT",
+      "status": "Worth a look",
+      "buy_zone": "-",
+      "concern": "Order book strength; infra + defence",
+      "live_price": 4005.8,
+      "live_pe": null,
+      "de": null,
+      "screener_url": "https://www.screener.in/company/LTF/consolidated/",
+      "fae_report_url": null
+    },
+    {
+      "name": "Manappuram Finance",
+      "ticker": "MANAPPURAM",
+      "status": "Worth a look",
+      "buy_zone": "-",
+      "concern": "Gold-loan franchise; MFI subsidiary risk contained",
+      "live_price": 339.6,
+      "live_pe": null,
+      "de": null,
+      "screener_url": "https://www.screener.in/company/MANAPPURAM/consolidated/",
+      "fae_report_url": null
+    },
+    {
+      "name": "IEX",
+      "ticker": "IEX",
+      "status": "Worth a look",
+      "buy_zone": "-",
+      "concern": "FAE verdict: WAIT. Report fully rebuilt from scratch 2026-08-29 (the prior version was deleted; nothing carried forward without re-verification) -- this is the repo's first report in the new standard format: full Gate 1-5I coverage, written in plain English throughout. Business quality is genuinely strong (ROCE 40.5%, Piotroski 6/8, 105% 5yr cash conversion, near-zero debt) but every valuation check independently fails: trailing P/E (~23x) is a premium to Sensex not a discount, the Graham number (P/E x P/B) is ~195 against a 22.5 threshold, and the reverse-DCF implies the market is pricing in 59.3%/yr FCF growth against a 13.2% historical revenue CAGR. Day-Ahead trading (the segment facing CERC's market-coupling order) is 39% of FY26 volume, not the whole business -- Real-Time trading (34%, growing 40%+/yr, not yet targeted) is organically taking its place. Regulatory timeline is now concrete: Supreme Court twice declined to stay CERC (13-Feb-2026 APTEL, 27-Jul-2026 SC), CERC told the Court final regulations would be notified within 4-6 weeks of that hearing, but Grid India then has 6 months to formulate the actual coupling procedure -- so real operational impact likely isn't an FY27 event. New, better-sourced finding replacing an earlier draft's unverified 'Note 46 whistleblower' claim (dropped -- could not be independently verified, no source): a real, dated SEBI interim order (15-Oct-2025) barred 8 individuals and ordered Rs.173.14cr disgorged for insider trading in IEX derivatives ahead of the Jul-2025 CERC order, tracing a leak to CERC-linked officials -- this implicates conduct at the regulator, not at IEX's own management. ROCE has structurally declined from 62% (FY2018) to a 40-42% plateau since FY2023, driven by surplus cash piling into low-yield investments rather than a weakening core business. 0% promoter ownership is a genuine structural mismatch with this repo's Darwin/Nalanda ownership-alignment screen, not a fail.",
+      "live_price": 119.26,
+      "live_pe": null,
+      "de": 0.01,
+      "screener_url": "https://www.screener.in/company/IEX/",
+      "fae_report_url": "reports/IEX.html"
+    },
+    {
+      "name": "Wonderla Holidays",
+      "ticker": "WONDERLA",
+      "status": "Worth a look",
+      "buy_zone": "-",
+      "concern": "5yr+ hold; asset-heavy park operator, new park pipeline",
+      "live_price": 530.25,
+      "live_pe": null,
+      "de": null,
+      "screener_url": "https://www.screener.in/company/WONDERLA/",
+      "fae_report_url": null
+    },
+    {
+      "name": "Swaraj Engines",
+      "ticker": "SWARAJENG",
+      "status": "Worth a look",
+      "buy_zone": "-",
+      "concern": "Effective M&M captive; tractor-engine cyclical",
+      "live_price": 3561.2,
+      "live_pe": null,
+      "de": null,
+      "screener_url": "https://www.screener.in/company/SWARAJENG/",
+      "fae_report_url": null
+    },
+    {
+      "name": "Tanla Platforms",
+      "ticker": "TANLA",
+      "status": "Worth a look",
+      "buy_zone": "-",
+      "concern": "CPaaS re-rating down; improving vs Apr 2026",
+      "live_price": 525.3,
+      "live_pe": null,
+      "de": null,
+      "screener_url": "https://www.screener.in/company/TANLA/consolidated/",
+      "fae_report_url": null
     }
   ],
   "framework_screen": [
@@ -10174,9 +10306,9 @@
         "observation_count": 505
       }
     ],
-    "computed_at": "2026-09-03T15:51:19.560645+00:00"
+    "computed_at": "2026-09-04T02:27:17.032290+00:00"
   },
-  "macro_intel_run_at": "2026-09-03T15:51:19.560645+00:00",
+  "macro_intel_run_at": "2026-09-04T02:27:17.032290+00:00",
   "macro_trend": {
     "score_trend": {
       "has_prior": true,

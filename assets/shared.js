@@ -102,6 +102,19 @@ function classBand(cls){
   return "watch";
 }
 
+/* Public-site-only display mapping (see export_public_data.py / build_static_site.py's own
+   docstrings for the SEBI-investment-adviser reasoning behind softening "Buy" language on the
+   public site specifically). The LOCAL copy of this file always calls
+   esc(r.classification||"") directly in screenCardHtml() below; build_static_site.py swaps
+   that one call site to route through here instead when it copies this file into the public
+   site, so "BUY NOW" reads as a neutral "Worth a look" for public visitors without touching
+   the underlying classification value anything else (buyNowTickers, classBand, gate text)
+   compares against -- color banding (classBand) is intentionally left alone, only the wording
+   changes. */
+function displayClassification(cls){
+  return cls === "BUY NOW" ? "Worth a look" : cls;
+}
+
 
 /* The hand-baked 5-entry FAE screen that used to live in EMBEDDED_DATA was dropped
    (framework_screen is now [] there) -- framework_screen.py's automated screen, fetched
@@ -205,12 +218,17 @@ function scoreBadge(entry){
 }
 /* apply_fae_reports.py writes fae_report_url onto whichever record it actually applied
    to -- a screening_candidate (-> framework_screen row) or a holding with no active-list
-   entry (e.g. IEX). Checked both so this works everywhere a company might carry it. */
+   entry (e.g. IEX). Checked both so this works everywhere a company might carry it. A third
+   check against DATA.watchlist covers export_public_data.py's synthetic holdings-derived
+   rows (public site only -- DATA.holdings itself is never published, so a holding's report
+   link has to travel on the watchlist row instead to reach the public page at all). */
 function faeReportUrlFor(ticker){
   const fs=(DATA.framework_screen||[]).find(r=>r.ticker===ticker);
   if(fs && fs.fae_report_url) return fs.fae_report_url;
   const h=(DATA.holdings||[]).find(x=>x.ticker===ticker);
   if(h && h.fae_report_url) return h.fae_report_url;
+  const w=(DATA.watchlist||[]).find(x=>x.ticker===ticker);
+  if(w && w.fae_report_url) return w.fae_report_url;
   return null;
 }
 function faeReportLinkHtml(ticker){
@@ -272,7 +290,7 @@ function screenCardHtml(r){
   const piotroski=piotroskiRowFor(score&&score.fundamentals_dir);
   return `<div class="scard-h">
       <div><h3>${esc(r.name||r.ticker)}</h3><div class="tk">${esc(r.ticker)} · ${esc(m.period||"")}</div></div>
-      <div class="cls ${band}">${esc(r.classification||"")}</div>
+      <div class="cls ${band}">${esc(displayClassification(r.classification||""))}</div>
     </div>
     <div class="scard-meta">${esc(r.gate||"")}${r.quality_score?` · quality ${esc(r.quality_score)}`:""}${r.valuation?` · ${esc(r.valuation)}`:""}</div>
     ${(reasons||concerns)?`<ul class="rlist">${reasons}${concerns}</ul>`:""}
