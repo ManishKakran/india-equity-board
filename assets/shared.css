@@ -281,21 +281,30 @@
   /* compact one-line watchlist row -- grid, not flex, so every row's columns
      line up vertically across the whole list instead of drifting per-row
      with content length (a plain flex row can't do that). */
-  /* every column but the note is a fixed width, not auto/fr sized to that
-     row's own content -- each .wrow is its own independent grid container,
-     so an `auto` track (e.g. sized to how many links a row has) computes
-     differently per row and the columns after it drift out of alignment;
-     keeping every track but the name fixed keeps the name's 1fr identical
-     across every row, so the whole list still lines up as one table. (The
-     Note column that used to hold this 1fr track was removed 2026-09-04 --
-     that text now lives only in the FAE Screen popup, see general_portfolio.
-     html's renderWatchlist(), with the row's own title="..." tooltip as a
-     hover fallback for a holding-only row that has no popup to show it in.
-     The last track (Links) was widened from 168px to 270px the same day --
-     168px was a real, confirmed overflow: a row with all three text links
-     (Screener + FAE Screen + FAE report, e.g. HEROMOTOCO/CAMS/ITC) needs
-     260px and was visibly bleeding left into the D/E metrics column. */
-  :root{ --wgrid: 26px 18px minmax(130px,1fr) 76px minmax(100px,130px) minmax(100px,130px) 210px 270px; }
+  /* every column is a fixed width, not auto/fr sized to that row's own
+     content -- each .wrow is its own independent grid container, so an
+     `auto` (or 1fr) track computes differently per row and the columns
+     after it drift out of alignment; every track staying pixel-fixed
+     keeps the whole list lining up as one table. No 1fr track at all as
+     of 2026-09-04 -- the Note column that used to hold it was removed
+     (that text now lives only in the FAE Screen popup, see
+     general_portfolio.html's renderWatchlist(), with the row's own
+     title="..." tooltip as a hover fallback for a holding-only row with
+     no popup), and Company briefly took over the 1fr role but that grew
+     it to 480px+ on a wide screen -- far more than any real company name
+     needs (confirmed: 205px covers the longest name in this dataset,
+     "Action Construction Equipment") -- while genuinely being left
+     visually empty after the text. Company and Ticker are both now
+     fixed to their real measured max content width + a small buffer
+     (Ticker: 92px measured for "SCHNEELECINFRA", the longest ticker in
+     this dataset) rather than stretched -- any leftover container width
+     now sits as trailing blank space after the whole table (normal,
+     expected for a data table) instead of padding out a single column.
+     Links stays 270px (confirmed needed: Screener + FAE Screen + FAE
+     report text together measure 260px, e.g. HEROMOTOCO/CAMS/ITC --
+     168px silently overflowed into the D/E column before this was
+     caught). */
+  :root{ --wgrid: 26px 18px 210px 95px minmax(100px,130px) minmax(100px,130px) 210px 270px; }
   /* overflow-x:auto, not hidden -- on any viewport narrower than the grid's
      natural width (~1130px, common on laptops), `hidden` was silently
      clipping the Price/PE/ROCE/D-E/Note/Links columns with no way to see
@@ -535,11 +544,15 @@
     .word{font-size:26px}
   }
   @media(max-width:1200px){
-    /* between the 720px mobile breakpoint and the grid's natural ~1130px
-       width, tables had no middle ground -- shrink the name column's floor
-       and let the whole table scroll horizontally within its own frame
-       rather than only at full desktop width. */
-    :root{ --wgrid: 22px 16px minmax(110px,1fr) 70px minmax(90px,120px) minmax(90px,120px) 200px 260px; }
+    /* between the 720px mobile breakpoint and the grid's natural ~1150px
+       width, tables had no middle ground -- shrink Company's fixed width
+       (some truncation accepted at this tier, same tradeoff the old
+       130px floor already made) and let the whole table scroll
+       horizontally within its own frame rather than only at full desktop
+       width. Ticker stays 95px even here -- its content width doesn't
+       shrink with viewport, so going narrower would just reintroduce
+       the same overflow this size was chosen to fix. */
+    :root{ --wgrid: 22px 16px 180px 95px minmax(90px,120px) minmax(90px,120px) 200px 260px; }
   }
   @media(prefers-reduced-motion:reduce){
     .spin{animation:none}
