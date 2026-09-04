@@ -3332,7 +3332,6 @@
       "classification": "BUILD POSITION ON WEAKNESS",
       "gate": "Profitability: PASS · Valuation: WATCHLIST (originally flagged BUY; price hasn't reached the target discount yet)",
       "reasons": [
-        "FAE verdict (post adversarial stress-test): FAIRLY VALUED -- WAIT FOR PRICE, revised down from an initial 'attractive'. Composite score 7.2/10 (down from the bull case's 8.2/10). Genuine moat and fortress balance sheet, but four vulnerabilities were underweighted in the original bull case: CCC deterioration is more advanced than tracked, VIDA EV economics are opaque, Honda's competitive response is understated, and the valuation multiple assumes a stability the auto OEM sector isn't showing. All 7 Gate 4.5 hard filters clear (best in the repo). Gate 5H stress test added 2026-08-23: Perfect Storm verdict RESILIENT ON SOLVENCY (zero debt, large liquid corpus), VULNERABLE ON THE GROWTH/MOAT STORY (CCC deterioration + commodity spike + monsoon shock could flatten PAT growth without threatening solvency). Now includes a Plain-English Summary section explaining every open concern in layman terms.",
         "Profitability check (PASS): Return on capital employed (ROCE) is 35.8% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -3361,7 +3360,6 @@
       "classification": "MONITOR",
       "gate": "Downgraded from the original 'BUY' call: return on capital doesn't clear the 20% minimum this screen requires",
       "reasons": [
-        "Highest ROCE in small/mid cement; C.K. Birla Group; zero acquisitions; 72.7% promoter",
         "Valuation check (PASS): Trading at 8x earnings, a 59% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
@@ -3390,7 +3388,6 @@
       "classification": "BUY NOW",
       "gate": "Profitability: PASS · Valuation: PASS",
       "reasons": [
-        "Net-cash; 35% ROCE; ₹98,137 Cr FCF over 5 yrs; monopoly thermal coal",
         "Profitability check (PASS): Return on capital employed (ROCE) is 35.3% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 7.91x earnings, a 60% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -3419,7 +3416,6 @@
       "classification": "MONITOR",
       "gate": "Downgraded from the original 'BUY' call: return on capital doesn't clear the 20% minimum this screen requires",
       "reasons": [
-        "Dominant soda ash producer; ₹2,262 Cr 5-yr FCF; PE 8.86x — exceptional margin of safety",
         "Valuation check (PASS): Trading at 9x earnings, a 54% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
@@ -3448,7 +3444,6 @@
       "classification": "BUY NOW",
       "gate": "Profitability: PASS · Valuation: PASS",
       "reasons": [
-        "ROCE >28%; positive FCF 5 yrs; ~30% discount to Sensex PE; India networking infra play; MNC (D-Link Taiwan) backed",
         "Profitability check (PASS): Return on capital employed (ROCE) is 28.3% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 14.49x earnings, a 26% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -3477,7 +3472,6 @@
       "classification": "BUILD POSITION ON WEAKNESS",
       "gate": "Profitability: PASS · Valuation: WATCHLIST (originally flagged BUY; price hasn't reached the target discount yet)",
       "reasons": [
-        "58.7% ROCE; 40.8% 5-yr ROE; positive FCF ₹500 Cr; PE at Sensex parity — only stock in sector clearing all Darwin gates",
         "Profitability check (PASS): Return on capital employed (ROCE) is 58.7% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -3506,7 +3500,6 @@
       "classification": "BUILD POSITION ON WEAKNESS",
       "gate": "Profitability: PASS · Valuation: FAIL (originally flagged BUY; price hasn't reached the target discount yet)",
       "reasons": [
-        "FAE verdict: HOLD -- not a conviction buy, not a sell. Business quality GOOD (7.5/10): excellent financial mechanics, clean governance on the critical metrics, impeccable debt discipline. Penalised for capital-allocation inaction and competitive fragility in heavy cranes. Stock is -35% from its 52-week high -- moved from EXPENSIVE to fair value on reported earnings, but still EXPENSIVE on operational earnings (34.4x ex-treasury income).",
         "Profitability check (PASS): Return on capital employed (ROCE) is 31.7% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -3535,7 +3528,6 @@
       "classification": "BUY NOW",
       "gate": "Profitability: PASS · Valuation: PASS",
       "reasons": [
-        "Scale + 28.6% ROCE + low 6.56x PE; sector-leading return ratios; strong promoter track record",
         "Profitability check (PASS): Return on capital employed (ROCE) is 28.6% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 8.88x earnings, a 55% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -3564,7 +3556,6 @@
       "classification": "BUILD POSITION ON WEAKNESS",
       "gate": "Profitability: PASS · Valuation: WATCHLIST (originally flagged BUY; price hasn't reached the target discount yet)",
       "reasons": [
-        "Gas pipeline niche; positive FCF; 27.6% ROCE; 14.9x PE; clean balance sheet",
         "Profitability check (PASS): Return on capital employed (ROCE) is 27.6% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -3593,7 +3584,6 @@
       "classification": "BUILD POSITION ON WEAKNESS",
       "gate": "Profitability: PASS · Valuation: WATCHLIST (originally flagged BUY; price hasn't reached the target discount yet)",
       "reasons": [
-        "FAE verdict: BUY. Financial Health STABLE-IMPROVING (revenue CAGR 9.8%, EPS CAGR 7.8%, OCF never below 95% of PAT, zero debt). Management Integrity HIGH (8.5/10 FALCON, 90/100 QoE). Gate 4.5 retrofit (2026-08-22): 6 of 7 hard filters clear -- only H3 (related-party) unverifiable; H4 (CWIP) was wrongly marked unverifiable and corrected 2026-08-23 to Clear. Healthiest soft-filter profile in the repo (0 red flags). Stress test verdict: RESILIENT (zero debt, never had a negative-OCF year in 7 years). Now includes a Plain-English Summary section (2026-08-23) explaining every open concern in layman terms.",
         "Profitability check (PASS): Return on capital employed (ROCE) is 63% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -3623,7 +3613,6 @@
       "classification": "BUILD POSITION ON WEAKNESS",
       "gate": "Profitability: PASS · Valuation: WATCHLIST (originally flagged BUY; price hasn't reached the target discount yet)",
       "reasons": [
-        "30.6% ROCE; 31.4% 5-yr ROE; 14.8x PE — Darwin-ideal valuation; all gates cleared",
         "Profitability check (PASS): Return on capital employed (ROCE) is 30.6% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -3652,7 +3641,6 @@
       "classification": "BUILD POSITION ON WEAKNESS",
       "gate": "Profitability: PASS · Valuation: WATCHLIST (originally flagged BUY; price hasn't reached the target discount yet)",
       "reasons": [
-        "40.86% ROCE; 17-yr B2G infra consultancy; NHAI/MoRTH empanelment moat; near-zero debt (D/E 0.03); 16x PE at 33% discount to Sensex — all Darwin gates clear",
         "Profitability check (PASS): Return on capital employed (ROCE) is 40.86% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -3681,7 +3669,6 @@
       "classification": "BUILD POSITION ON WEAKNESS",
       "gate": "Profitability: PASS · Valuation: WATCHLIST (originally flagged BUY; price hasn't reached the target discount yet)",
       "reasons": [
-        "25.11% ROCE; 22.56% 5-yr ROE; 100-year Gandhi family brand; India's #2 ice cream; consistent FCF ₹245 Cr (5-yr); zero acquisitions",
         "Profitability check (PASS): Return on capital employed (ROCE) is 25.11% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -3709,9 +3696,7 @@
       "name": "CMS Info Systems",
       "classification": "MONITOR",
       "gate": "Downgraded from the original 'BUY' call: return on capital doesn't clear the 20% minimum this screen requires",
-      "reasons": [
-        "Duopoly cash logistics + ATM management; 15-yr earnings CAGR 20%; net cash; 35% PE discount to Sensex; sticky multi-year bank contracts; no disruption for 10+ yrs"
-      ],
+      "reasons": [],
       "concerns": [
         "Buy at market; 3–5% position; permanent holding candidate",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 17.7% — below the 20% minimum this screen looks for",
@@ -3739,7 +3724,6 @@
       "classification": "BUY NOW",
       "gate": "Profitability: PASS · Valuation: PASS",
       "reasons": [
-        "54.17% ROCE; 43.19% 5-yr ROE; 30-yr JEE/NEET franchise (Kota); debt-free (D/E 0.0x); 63.7% promoter; 59% EBITDA margin; PE 15.14x at 28% discount to Sensex — all Darwin gates clear",
         "Profitability check (PASS): Return on capital employed (ROCE) is 54.17% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 14.29x earnings, a 27% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -3768,7 +3752,6 @@
       "classification": "BUY NOW",
       "gate": "Profitability: PASS · Valuation: PASS",
       "reasons": [
-        "25.51% ROCE; ₹5,645 Cr 5-yr FCF (best in sector); India's largest private urea manufacturer; K.K. Birla Group; 4,200 dealers + 60,000 retailers; proximate fear (subsidy reform) creates the opportunity",
         "Profitability check (PASS): Return on capital employed (ROCE) is 25.51% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 8.83x earnings, a 55% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -3797,7 +3780,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Mid-size AMC; strong ROCE; SIP tailwind",
         "Profitability check (PASS): Return on capital employed (ROCE) is 32.2% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -3826,7 +3808,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "Highest ROCE among AMCs; niche but quality",
         "Profitability check (PASS): Return on capital employed (ROCE) is 40.1% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -3855,7 +3836,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Top-tier AMC; duopoly economics; strong FCF",
         "Profitability check (PASS): Return on capital employed (ROCE) is 42.9% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -3884,7 +3864,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Largest AMC in India; exceptional 115% ROCE; SIP structural tailwind",
         "Profitability check (PASS): Return on capital employed (ROCE) is 115.1% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -3913,7 +3892,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Strong ROCE; foreign parentage adds stability",
         "Profitability check (PASS): Return on capital employed (ROCE) is 43.8% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -3942,7 +3920,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Only Darwin-grade business in 56-co garments universe; 64% ROCE; Jockey licence moat; net cash; 30-yr track record; positive FCF ₹2,861 Cr (5-yr)",
         "Profitability check (PASS): Return on capital employed (ROCE) is 64.38% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -3971,7 +3948,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Best-in-class jewellery franchise; Tata governance; 25.8% ROCE; cultural gold demand moat; organised→unorganised shift beneficiary",
         "Profitability check (PASS): Return on capital employed (ROCE) is 25.8% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4000,7 +3976,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Extraordinary 92.77% ROCE; positive 5-yr FCF ₹105 Cr; Timex brand moat in Indian watches",
         "Profitability check (PASS): Return on capital employed (ROCE) is 92.77% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4029,7 +4004,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "33.78% ROCE; POSITIVE FCF (only FCF-positive quality name in sector); founder-led; Nalanda entry zone approaching",
         "Profitability check (PASS): Return on capital employed (ROCE) is 33.78% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4058,7 +4032,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Monopoly defence OEM; order book visibility 5+ yrs",
         "Profitability check (PASS): Return on capital employed (ROCE) is 32% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4087,7 +4060,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Electronics defence PSU; consistent ROCE; strong order pipeline",
         "Profitability check (PASS): Return on capital employed (ROCE) is 38.9% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4117,7 +4089,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "Export-driven 2W OEM; rising EV portfolio; strong FCF",
         "Profitability check (PASS): Return on capital employed (ROCE) is 28.2% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4146,7 +4117,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Saint-Gobain subsidiary; niche abrasives leader; improving ROCE",
         "Profitability check (PASS): Return on capital employed (ROCE) is 22.7% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4175,7 +4145,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Global bearing MNC; infra & industrial end-markets",
         "Profitability check (PASS): Return on capital employed (ROCE) is 20.9% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4204,7 +4173,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "Dominant shrimp feed player; export recovery story",
         "Profitability check (PASS): Return on capital employed (ROCE) is 24% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4233,7 +4201,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "Niche MRO/engineering services; high ROCE for size",
         "Profitability check (PASS): Return on capital employed (ROCE) is 32.7% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4262,7 +4229,6 @@
       "classification": "BUY NOW",
       "gate": "Profitability: PASS · Valuation: PASS",
       "reasons": [
-        "PSU aluminium; high ROCE; govt capex beneficiary",
         "Profitability check (PASS): Return on capital employed (ROCE) is 39.6% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 10.75x earnings, a 45% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -4291,9 +4257,7 @@
       "name": "Wonderla Holidays",
       "classification": "MONITOR",
       "gate": "Downgraded from the original 'WATCH' call: return on capital doesn't clear the 20% minimum this screen requires",
-      "reasons": [
-        "Monopoly amusement park chain; capex-heavy phase; ROCE recovering"
-      ],
+      "reasons": [],
       "concerns": [
         "FCF inconsistent; wait for ROCE to normalise above 10%",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 6.4% — below the 20% minimum this screen looks for",
@@ -4321,7 +4285,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Diageo subsidiary; premiumisation play; strong brand moat",
         "Profitability check (PASS): Return on capital employed (ROCE) is 27.5% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4350,7 +4313,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Regional brandy leader; debt reduction on track; ROCE improving",
         "Profitability check (PASS): Return on capital employed (ROCE) is 28.2% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4378,9 +4340,7 @@
       "name": "G M Breweries",
       "classification": "MONITOR",
       "gate": "Downgraded from the original 'WATCH' call: return on capital doesn't clear the 20% minimum this screen requires",
-      "reasons": [
-        "Mumbai region country liquor monopoly; low PE; cash generative"
-      ],
+      "reasons": [],
       "concerns": [
         "Cheap valuation; entry ₹800–850; watch distribution",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 18% — below the 20% minimum this screen looks for",
@@ -4408,7 +4368,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "High-quality CRDMO; fast growth; ROCE building",
         "Profitability check (PASS): Return on capital employed (ROCE) is 28.5% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4437,7 +4396,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "Only listed KPO with 30–35% ROCE; founder-led; zero debt; 25-yr track record; AI risk mitigated by domain depth",
         "Profitability check (PASS): Return on capital employed (ROCE) is 34.8% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4466,7 +4424,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "India's best cable franchise; 18% market share; ₹4,591 Cr 5-yr FCF; zero debt",
         "Profitability check (PASS): Return on capital employed (ROCE) is 34% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4495,7 +4452,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Strong ROCE; gaining market share; significantly overvalued now",
         "Profitability check (PASS): Return on capital employed (ROCE) is 25% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4524,7 +4480,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Good ROCE; growing revenues; valuation disconnected",
         "Profitability check (PASS): Return on capital employed (ROCE) is 28% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4553,7 +4508,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "32% ROCE; coal tar pitch + battery materials; zero pledge; net cash; founder-led",
         "Profitability check (PASS): Return on capital employed (ROCE) is 32% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4582,9 +4536,7 @@
       "name": "JK Cement",
       "classification": "MONITOR",
       "gate": "Downgraded from the original 'WATCH' call: return on capital doesn't clear the 20% minimum this screen requires",
-      "reasons": [
-        "White cement moat (only 2 players nationwide); dual grey+white strategy; consistent FCF"
-      ],
+      "reasons": [],
       "concerns": [
         "Wait for 35–40% correction from ₹5,434; white cement OPMs ~35% justify premium",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 14% — below the 20% minimum this screen looks for",
@@ -4612,7 +4564,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Only ceramics company with 20%+ ROCE; zero debt; 47.7% promoter; gaining organised-market share",
         "Profitability check (PASS): Return on capital employed (ROCE) is 23.3% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4641,7 +4592,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "Marlboro licensee; oligopoly moat; 33% ROCE; 72.6% promoter",
         "Profitability check (PASS): Return on capital employed (ROCE) is 32.8% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4670,7 +4620,6 @@
       "classification": "BUY NOW",
       "gate": "Profitability: PASS · Valuation: PASS",
       "reasons": [
-        "Founder-owner; irreplaceable Karnataka mining licences; net debt-free; EV battery manganese tailwind",
         "Profitability check (PASS): Return on capital employed (ROCE) is 24.4% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 14.02x earnings, a 29% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -4699,7 +4648,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Highest ROCE in CV sector; niche bus/truck positioning; M&M parentage",
         "Profitability check (PASS): Return on capital employed (ROCE) is 30.9% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4728,7 +4676,6 @@
       "classification": "MONITOR",
       "gate": "Downgraded from the original 'WATCH' call: return on capital doesn't clear the 20% minimum this screen requires",
       "reasons": [
-        "50% cumulative FCF yield vs MCap over 5 yrs; niche calcium hypochlorite; PE 8.5x mispriced",
         "Valuation check (PASS): Trading at 9x earnings, a 54% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
@@ -4757,7 +4704,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "69% promoter; 65+ yrs specialty surface chemistry; zero debt; 23% ROCE; ₹453 Cr FCF",
         "Profitability check (PASS): Return on capital employed (ROCE) is 23.3% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4785,9 +4731,7 @@
       "name": "SRF",
       "classification": "MONITOR",
       "gate": "Downgraded from the original 'WATCH' call: return on capital doesn't clear the 20% minimum this screen requires",
-      "reasons": [
-        "Diversified specialty chemical leader; consistent ROCE; strong FCF"
-      ],
+      "reasons": [],
       "concerns": [
         "Wait for 40–60% correction; target ₹1,400–1,600",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 14.6% — below the 20% minimum this screen looks for",
@@ -4815,7 +4759,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "23.7% ROCE; niche fluoride chemistry; quality franchise",
         "Profitability check (PASS): Return on capital employed (ROCE) is 23.7% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4844,7 +4787,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "20% ROCE; consistent FCF; niche amines chemistry",
         "Profitability check (PASS): Return on capital employed (ROCE) is 20% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4873,7 +4815,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "33% ROCE; 26% 5-yr ROE; zero debt; FCF ₹181 Cr (5-yr); verdict \"Build Position / Watchlist\" — PE at 32x needs correction",
         "Profitability check (PASS): Return on capital employed (ROCE) is 32.9% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4902,7 +4843,6 @@
       "classification": "BUY NOW",
       "gate": "Profitability: PASS · Valuation: PASS",
       "reasons": [
-        "40% ROCE; $14.9B TCV large deal wins FY26; structural AI tailwind",
         "Profitability check (PASS): Return on capital employed (ROCE) is 40% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 14.23x earnings, a 28% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -4931,7 +4871,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "30.6% ROCE; strong product + services mix; less US-concentrated than peers",
         "Profitability check (PASS): Return on capital employed (ROCE) is 30.6% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4960,7 +4899,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "29.6% ROCE; technology-forward; wait for re-rating",
         "Profitability check (PASS): Return on capital employed (ROCE) is 29.6% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -4989,7 +4927,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "34.4% ROCE; fastest revenue growth in mid-cap IT; overvalued",
         "Profitability check (PASS): Return on capital employed (ROCE) is 34.4% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -5018,7 +4955,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "26.3% ROCE; automotive EV software niche; wait for normalisation",
         "Profitability check (PASS): Return on capital employed (ROCE) is 26.3% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -5047,7 +4983,6 @@
       "classification": "BUY NOW",
       "gate": "Profitability: PASS · Valuation: PASS",
       "reasons": [
-        "23.5% ROCE; 14x PE near Darwin median entry; RPG group",
         "Profitability check (PASS): Return on capital employed (ROCE) is 23.5% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 13.74x earnings, a 30% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -5076,7 +5011,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "25.8% ROCE; BPM/low-code niche; government + BFSI clients",
         "Profitability check (PASS): Return on capital employed (ROCE) is 25.8% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -5105,7 +5039,6 @@
       "classification": "BUY NOW",
       "gate": "Profitability: PASS · Valuation: PASS",
       "reasons": [
-        "21.6% ROCE; 16.8x PE near buy zone; Aditya Birla group backing",
         "Profitability check (PASS): Return on capital employed (ROCE) is 21.6% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 14.11x earnings, a 28% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -5134,7 +5067,6 @@
       "classification": "BUY NOW",
       "gate": "Profitability: PASS · Valuation: PASS",
       "reasons": [
-        "20-yr LangTech niche; zero debt; 26.8% ROCE; near Nalanda-median entry PE",
         "Profitability check (PASS): Return on capital employed (ROCE) is 26.8% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 11.41x earnings, a 42% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -5163,7 +5095,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "36.3% ROCE; ₹4,580 Cr FCF (5-yr); data-centre demand tailwind; debt-free",
         "Profitability check (PASS): Return on capital employed (ROCE) is 36.3% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -5192,7 +5123,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Highest ROCE in sector (60%); MNC; positive FCF — Priority #1 watch",
         "Profitability check (PASS): Return on capital employed (ROCE) is 60% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -5221,7 +5151,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "21.9% ROCE; global compressor franchise; positive FCF ₹906 Cr",
         "Profitability check (PASS): Return on capital employed (ROCE) is 21.9% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -5250,7 +5179,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "24.7% ROCE; MNC pump leader; positive FCF; infrastructure tailwind",
         "Profitability check (PASS): Return on capital employed (ROCE) is 24.7% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -5279,7 +5207,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "20.8% ROCE; strong Jal Jeevan Mission order pipeline; PE most reasonable in tier",
         "Profitability check (PASS): Return on capital employed (ROCE) is 20.8% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -5308,7 +5235,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "30.4% ROCE; positive FCF ₹431 Cr; compressor + refrigeration niche",
         "Profitability check (PASS): Return on capital employed (ROCE) is 30.4% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -5337,7 +5263,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "India SLCM market leader; ROCE 23.9%; wait for FCF normalisation post-IPO weakness",
         "Profitability check (PASS): Return on capital employed (ROCE) is 23.9% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -5365,9 +5290,7 @@
       "name": "BEML",
       "classification": "MONITOR",
       "gate": "Downgraded from the original 'WATCH' call: return on capital doesn't clear the 20% minimum this screen requires",
-      "reasons": [
-        "Metro rail + defence + mining optionality; FCF improving; 61x PE expensive"
-      ],
+      "reasons": [],
       "concerns": [
         "Trigger: ROCE >18% sustained + metro order execution",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 15.6% — below the 20% minimum this screen looks for",
@@ -5395,7 +5318,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "33.6% 5-yr ROE; excellent historical returns; micro-cap; FCF declining",
         "Profitability check (PASS): Return on capital employed (ROCE) is 25.4% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -5423,9 +5345,7 @@
       "name": "AIA Engineering",
       "classification": "MONITOR",
       "gate": "Downgraded from the original 'WATCH' call: return on capital doesn't clear the 20% minimum this screen requires",
-      "reasons": [
-        "World-class grinding media moat; zero debt; FCF ₹2,706 Cr (5-yr); CBAM beneficiary"
-      ],
+      "reasons": [],
       "concerns": [
         "Wait for 20–25% correction; target ₹2,800–3,100",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 18.9% — below the 20% minimum this screen looks for",
@@ -5453,7 +5373,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "27.9% ROCE; 27% 5-yr ROE; but 80.95x PE prohibitive and FCF negative",
         "Profitability check (PASS): Return on capital employed (ROCE) is 27.9% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -5482,7 +5401,6 @@
       "classification": "BUY NOW",
       "gate": "Profitability: PASS · Valuation: PASS",
       "reasons": [
-        "Highest ROCE in civil construction universe (39.7%); verify BOT asset adjustments",
         "Profitability check (PASS): Return on capital employed (ROCE) is 39.7% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 5.1x earnings, a 74% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -5511,7 +5429,6 @@
       "classification": "BUY NOW",
       "gate": "Profitability: PASS · Valuation: PASS",
       "reasons": [
-        "34.2% ROCE + 11.6x PE + positive FCF; needs governance verification",
         "Profitability check (PASS): Return on capital employed (ROCE) is 34.2% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 11.69x earnings, a 41% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -5540,7 +5457,6 @@
       "classification": "BUY NOW",
       "gate": "Profitability: PASS · Valuation: PASS",
       "reasons": [
-        "FCF positive all horizons (unique in sector); ROCE 25%; 73.68% promoter; structural repairs niche",
         "Profitability check (PASS): Return on capital employed (ROCE) is 25.3% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 7.4x earnings, a 62% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -5569,7 +5485,6 @@
       "classification": "BUY NOW",
       "gate": "Profitability: PASS · Valuation: PASS",
       "reasons": [
-        "Near debt-free + FCF positive + railway electrification tailwind + 22-yr history; 5.63x PE",
         "Profitability check (PASS): Return on capital employed (ROCE) is 22.3% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 7.87x earnings, a 60% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -5598,7 +5513,6 @@
       "classification": "BUY NOW",
       "gate": "Profitability: PASS · Valuation: PASS",
       "reasons": [
-        "30% ROCE; 32% 5-yr ROE; equipment maker vs EPC; 7.91x PE; debtor days 242 flag",
         "Profitability check (PASS): Return on capital employed (ROCE) is 30.2% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 7.91x earnings, a 60% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -5627,7 +5541,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "PSU with government mandate; 25% ROCE; positive FCF; BFSI-independent",
         "Profitability check (PASS): Return on capital employed (ROCE) is 25% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -5657,7 +5570,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "EPC + O&M mix; 22.9% ROCE; verify valuation vs peers",
         "Profitability check (PASS): Return on capital employed (ROCE) is 22.9% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -5685,9 +5597,7 @@
       "name": "Control Print",
       "classification": "MONITOR",
       "gate": "Downgraded from the original 'WATCH' call: return on capital doesn't clear the 20% minimum this screen requires",
-      "reasons": [
-        "Debt-free; razor-blade model (consumables); 27% profit CAGR; founder-led"
-      ],
+      "reasons": [],
       "concerns": [
         "Wait for ₹420–480 (17–19x PE)",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 16.5% — below the 20% minimum this screen looks for",
@@ -5715,7 +5625,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "India's largest ICT refurbisher; 78.7% promoter; ROCE >20%; growing formalisation story",
         "Profitability check (PASS): Return on capital employed (ROCE) is 20.3% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -5744,7 +5653,6 @@
       "classification": "BUY NOW",
       "gate": "Profitability: PASS · Valuation: PASS",
       "reasons": [
-        "ROCE 30%+; FCF positive; cheap PE; short track record is only constraint",
         "Profitability check (PASS): Return on capital employed (ROCE) is 30% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 8.34x earnings, a 58% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -5773,7 +5681,6 @@
       "classification": "BUY NOW",
       "gate": "Profitability: PASS · Valuation: PASS",
       "reasons": [
-        "28.52% ROCE; 72.4% promoter; B2G infra consulting moat; 8.56x PE is extraordinary cheap — but debtor days spiked to 113 and WC days to 242",
         "Profitability check (PASS): Return on capital employed (ROCE) is 28.52% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 8.68x earnings, a 56% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -5802,7 +5709,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "24.9% ROCE; dominant branded electricals + Lloyd ACs; 59.4% promoter; debt-free; ₹3,380 Cr cash; 700+ brand stores; ₹769 Cr FCF (5-yr)",
         "Profitability check (PASS): Return on capital employed (ROCE) is 24.9% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -5831,7 +5737,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "41.97% ROCE; India's premier EMS; negative WC (-8 days); 55% revenue CAGR (5-yr); PLI mobile manufacturing leader; ₹1,125 Cr 5-yr FCF",
         "Profitability check (PASS): Return on capital employed (ROCE) is 41.97% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -5860,7 +5765,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "India's only vertically integrated copper miner; monopoly ore leases (ALL domestic leases); 42.4% 5-yr ROCE; net cash (D/E effectively zero); Vision 2030 expansion; EV/renewable structural tailwind",
         "Profitability check (PASS): Return on capital employed (ROCE) is 42.4% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -5889,9 +5793,7 @@
       "name": "Hatsun Agro",
       "classification": "MONITOR",
       "gate": "Downgraded from the original 'WATCH' call: return on capital doesn't clear the 20% minimum this screen requires",
-      "reasons": [
-        "Largest private dairy (India); Chandramogan founder (~75% stake); Arokya + Ibaco brands; ₹1,784 Cr 5-yr FCF; South + East expansion via Milk Mantra — ROCE at 15.28% below 20% threshold"
-      ],
+      "reasons": [],
       "concerns": [
         "Alert at ₹550; ROCE must show improvement towards 18–20% before full conviction; watch D/E",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 15.28% — below the 20% minimum this screen looks for",
@@ -5918,9 +5820,7 @@
       "name": "Dodla Dairy",
       "classification": "MONITOR",
       "gate": "Downgraded from the original 'WATCH' call: return on capital doesn't clear the 20% minimum this screen requires",
-      "reasons": [
-        "Net debt-free; ROCE approaching 20% (18%); Africa revenue +48% (Uganda); OSAM acquisition (East India); ₹598 Cr 5-yr FCF; VAP mix targeting 30–32%"
-      ],
+      "reasons": [],
       "concerns": [
         "Alert at ₹750; buy at ₹700–750 (~16x PE); most Darwin-compatible dairy company",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 18.02% — below the 20% minimum this screen looks for",
@@ -5948,7 +5848,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Asia's only listed depository; 18+ crore demat accounts; SEBI duopoly; 32% ROCE; ₹1,348 Cr 5-yr FCF; debt-free; secular India financialisation tailwind",
         "Profitability check (PASS): Return on capital employed (ROCE) is 31.97% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -5977,7 +5876,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "FAE verdict: WAIT. First standalone report for this holding. Business quality is exceptionally strong for this portfolio: ROCE 46.2% (Screener 47.0%), Piotroski 5/8, 113.5% ten-year cumulative cash conversion, near-zero real debt (D/E 0.045, falling every year since FY2021), zero flags on this repo's deterministic forensic scanner, and related-party exposure verified clean across four years of primary-source annual reports (small, arm's-length subsidiary balances only, plus two new small FY2026 loans-to-subsidiary). CAMS is the dominant #1 in India's two-player MF-RTA duopoly (~68% share vs KFin Technologies' ~31-32%) and -- unusually -- trades at a *lower* P/E (~39.3x) than its smaller, weaker rival (~49-54x). All valuation checks still fail: ~39.3x trailing PE is roughly double the Sensex (19.7x); Graham number (PE x PB) ~577-722 depending on standalone/consolidated basis, one of the largest breaches in this project's report series; reverse-DCF implies 60.2%/yr FCF growth priced in (WACC 15.29%, Beta 1.369, computed not assumed) against a 13.2% ten-year revenue CAGR (~4.6x gap) or a 15.7% recent 2yr CAGR (~3.8x gap). FY2026 broke an otherwise clean upward profitability trend: operating profit fell 0.8% despite revenue growth of 5.9%, driven by an unexplained 135% jump in 'Other Expenses' and a ~Rs.129.5cr unattributed investing-cash-flow residual -- both genuinely open, not resolved even after four annual reports and four quarterly transcripts were read directly. A live, unresolved SEBI mutual-fund fee-regulation overhaul (Base Expense Ratio, effective 1-Apr-2026) is the single most material risk, already visible in miniature via CAMS's own KYC-registration segment margin falling from a 16-17% target to ~13% after an already-realized ~29-30% rate cut in that smaller business. CAMS survived a comparable SEBI fee cut once before (2018) and recovered margins within about a year -- real, relevant precedent for the bull case. Warburg Pincus (via Great Terrain Investment) fully exited its ~19.87% stake in December 2023; CAMS now carries 0% promoter shareholding, the same structural mismatch with this repo's Darwin/Nalanda ownership screen found for CARE Ratings/IEX/ITC.",
         "Profitability check (PASS): Return on capital employed (ROCE) is 49.03% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6007,7 +5905,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "India's first and institutionally larger depository; 23% ROCE; ₹1,353 Cr 5-yr FCF; institutional asset strength; recently listed",
         "Profitability check (PASS): Return on capital employed (ROCE) is 23.22% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6036,7 +5933,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "India's #2 MF RTA (32% share, gaining); 30% ROCE; international expansion (18 countries, USD 360B AUM); NPS growing 35.6%; ₹1,115 Cr 5-yr FCF; debt-free",
         "Profitability check (PASS): Return on capital employed (ROCE) is 30.48% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6065,7 +5961,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "India's largest non-OEM construction equipment exporter; 6.9% global market share; Three-Star DGFT Export House; 74.99% founder holding; zero pledge; HexL own brand (nascent)",
         "Profitability check (PASS): Return on capital employed (ROCE) is 23.38% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6095,7 +5990,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "40–50% ROCE for 5+ years; 75% MNC parent (MMM USA); 60,000+ global patents; wide moat in safety/adhesives/industrial; zero debt; ₹2,000 Cr 5-yr FCF",
         "Profitability check (PASS): Return on capital employed (ROCE) is 50.05% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6124,7 +6018,6 @@
       "classification": "BUY NOW",
       "gate": "Profitability: PASS · Valuation: PASS",
       "reasons": [
-        "Exclusive premium cosmetics distributor (Moroccanoil, JPMS, BCL Spa); 28.4% ROCE; positive FCF; promoters buying shares in open market (Mar 2026); 30%+ discount to Sensex PE",
         "Profitability check (PASS): Return on capital employed (ROCE) is 28.36% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 12.83x earnings, a 35% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -6153,7 +6046,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "50-yr gemstone certification moat; 37% 5-yr ROE; 46% net margins; lab-grown diamond catalyst; asset-light; franchise strengthens as diamond proliferates — but PE promoter structure limits conviction",
         "Profitability check (PASS): Return on capital employed (ROCE) is 30.7% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6182,7 +6074,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "Irreplaceable Mumbai exhibition/IT park real estate; Bhartia family (58–60%); debt-free; EPS doubling every 6 yrs; no acquisitions; consistent FCF ₹121 Cr",
         "Profitability check (PASS): Return on capital employed (ROCE) is 21.1% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6211,7 +6102,6 @@
       "classification": "BUY NOW",
       "gate": "Profitability: PASS · Valuation: PASS",
       "reasons": [
-        "Gas distribution compounder; 30% ROCE; 7x PE — deeply undervalued if FY26 revenue confirms FY25 spike; CGD structural tailwind; pan-India gas aggregator",
         "Profitability check (PASS): Return on capital employed (ROCE) is 29.8% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 7.1x earnings, a 64% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -6239,9 +6129,7 @@
       "name": "Pondy Oxides & Chemicals",
       "classification": "MONITOR",
       "gate": "Downgraded from the original 'WATCH' call: return on capital doesn't clear the 20% minimum this screen requires",
-      "reasons": [
-        "India's largest secondary lead manufacturer; consistent dividends 29 yrs; EV battery recycling tailwind; net cash; FY25 best-ever — but ROCE 16.88% borderline and FCF 5-yr negative"
-      ],
+      "reasons": [],
       "concerns": [
         "Wait for ROCE to cross 20% sustainably and FCF to turn consistently positive; target ₹600–800 (20–22x normalised); verify ACE Green Recycling investment outcomes",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 16.88% — below the 20% minimum this screen looks for",
@@ -6268,9 +6156,7 @@
       "name": "Avenue Supermarts",
       "classification": "MONITOR",
       "gate": "Downgraded from the original 'WATCH' call: return on capital doesn't clear the 20% minimum this screen requires",
-      "reasons": [
-        "India's finest retail franchise; EDLC/EDLP moat; zero acquisitions; expanding to 500+ stores (2,200 eventual); brand trust impeccable — but ROCE 17% below threshold and PE 90x prohibitive"
-      ],
+      "reasons": [],
       "concerns": [
         "Entry only at ₹1,200–1,500 (~30–35x PE); requires 60%+ correction; monitor ROCE trend toward 20%+ and CEO transition; longest-term watch",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 17.19% — below the 20% minimum this screen looks for",
@@ -6298,7 +6184,6 @@
       "classification": "BUY NOW",
       "gate": "Profitability: PASS · Valuation: PASS",
       "reasons": [
-        "Highest ROCE (25%+) in the dyes & pigments universe; SME-listed; nascent track record (<3 yrs meaningful data); specialty dye intermediates niche",
         "Profitability check (PASS): Return on capital employed (ROCE) is 25.34% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 11.32x earnings, a 43% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -6327,7 +6212,6 @@
       "classification": "MONITOR",
       "gate": "Downgraded from the original 'WATCH' call: return on capital doesn't clear the 20% minimum this screen requires",
       "reasons": [
-        "Best promoter alignment (73.7%) + positive FCF across all horizons in dyes universe; specialty dye intermediate exports; 10.6x PE; ROCE 14.35% just below threshold — investigate whether 19.91% 5-yr ROE reflects past higher ROCE",
         "Valuation check (PASS): Trading at 10.61x earnings, a 46% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
@@ -6356,7 +6240,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "25-yr brand moat (Parachute, Saffola); 47% 5-yr ROCE; zero debt; professional mgmt succession; India + international edible oils + FMCG; bolt-on M&A disciplined",
         "Profitability check (PASS): Return on capital employed (ROCE) is 47.21% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6385,7 +6268,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "9 million retailer touchpoints; 27–30% ROCE; ₹51,279 Cr 5-yr FCF; Unilever 61.9% parent; dominant across Home Care, Beauty, Foods; ice-cream demerged (capital discipline)",
         "Profitability check (PASS): Return on capital employed (ROCE) is 28.4% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6414,7 +6296,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "FAE verdict: HOLD. Rebuilt from scratch 2026-08-30 against a freshly refreshed Screener export and same-day live research, in this project's plain-English, no-jargon format. All 7 hard filters clear -- the cleanest hard-filter result of any holding in this series so far, including related-party exposure (Rs.135.4cr, 0.65% of FY26 profit, arm's-length) and the FY24-FY25 equity-statement demerger entry (Rs.22,033.37cr, tying almost exactly to the earlier estimate) -- both figures carried forward from earlier same-day research rather than independently re-confirmed in this exact pass, since a direct re-fetch of ITC's Annual Report PDF exceeded this session's fetch-size limit; stated plainly in the report rather than presented as fresh verification. Reverse-DCF implied growth is only 8.7%/yr (WACC 10.16%, Beta 0.519) vs 7.0% historical / ~9.9% recent-5yr CAGR -- the smallest implied-vs-historical gap (~1.2x) in this project's report series (vs ~4.5x for IEX, ~3.1-9.7x for CARE Ratings), and Graham number (~74) is also the lowest in the series, though still above the 22.5 threshold. Darwin/Nalanda screen: ROCE 35.3% clears >20% easily, D/E 0.033 trivial even after an 8x FY26 borrowings jump, but PE discount to Sensex is only ~18%, short of the 25-30% target; 0% formal promoter ownership is a genuine middle case (not a clean fit either way) since BAT-linked entities still hold ~22.9% combined -- influential, below the 25% control threshold, not a full exit like CARE/IEX. This holding's own pre-defined 'punitive cigarette tax' kill criterion has genuinely fired (Q1 FY27 cigarette segment gross revenue -31.5% YoY) -- addressed head-on in its own report section rather than smoothed over; the other two kill criteria (FMCG margin, non-core capital misallocation) have not triggered.",
         "Profitability check (PASS): Return on capital employed (ROCE) is 38.9% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6444,7 +6325,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Only high-quality dredger in India; 25%+ ROCE; 100% vessel utilization; ₹1,500 Cr order book; Sagarmala + Maritime Vision 2030 structural demand; 10+ yrs government-backed pipeline",
         "Profitability check (PASS): Return on capital employed (ROCE) is 24.67% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6473,7 +6353,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "B2B content technology; 39% ROCE rising (from 17% in 2019); ₹611 Cr 5-yr FCF; debt-free; 68.34% institutional promoter (Macmillan heritage); buybacks + dividends dominant capital use; 12-yr CFO track record",
         "Profitability check (PASS): Return on capital employed (ROCE) is 39.27% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6501,9 +6380,7 @@
       "name": "CarTrade Tech",
       "classification": "MONITOR",
       "gate": "Downgraded from the original 'WATCH' call: return on capital doesn't clear the 20% minimum this screen requires",
-      "reasons": [
-        "Only profitable listed auto marketplace; zero debt; 14 consecutive profitable qtrs; EBITDA margins 3% → 35%; ₹508 Cr 5-yr FCF; ROCE trending up toward 20%; network effects in automotive classifieds"
-      ],
+      "reasons": [],
       "concerns": [
         "Buy aggressively at ₹1,000–1,200 (18–22x PE); ROCE crossing 20% is the upgrade trigger to BUY",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 11.84% — below the 20% minimum this screen looks for",
@@ -6531,7 +6408,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Hidden gem — 35–42% ROCE in B2B electronic components (EV, IoT, robotics); founder-led (69% stake); zero debt; structural demand tailwinds; rare quality in capital-destroying sector",
         "Profitability check (PASS): Return on capital employed (ROCE) is 41.77% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6559,9 +6435,7 @@
       "name": "FSN E-Commerce (Nykaa)",
       "classification": "MONITOR",
       "gate": "Downgraded from the original 'WATCH' call: return on capital doesn't clear the 20% minimum this screen requires",
-      "reasons": [
-        "India's #1 beauty platform; ROCE approaching 20% (17.2% and rising); FCF now positive; brand moat in premium beauty building; Falguni Nayar founder (52.1%); 237 stores"
-      ],
+      "reasons": [],
       "concerns": [
         "Extreme patience required — 369x PE; wait for ROCE >20% sustained + severe market correction; entry ₹60–120 only",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 17.2% — below the 20% minimum this screen looks for",
@@ -6589,7 +6463,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "35–42% ROCE (3-yr median); debt-free; 72.5% promoter; B2G skill development + publishing; all Darwin gates clear on quality",
         "Profitability check (PASS): Return on capital employed (ROCE) is 35.93% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6618,7 +6491,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "21.34% ROCE; global refractory tech leader (Vesuvius plc subsidiary); near-zero debt; India steel demand tailwind; capex completing — FCF to improve",
         "Profitability check (PASS): Return on capital employed (ROCE) is 21.34% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6647,7 +6519,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "31.22% ROCE; 63% gross margins; near-zero debt (D/E 0.03); founder-led (62.91%); niche silica ramming mass monopoly; global foundry + semiconductor-grade silica expansion",
         "Profitability check (PASS): Return on capital employed (ROCE) is 31.22% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6676,7 +6547,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "33.05% ROCE; sole full-spectrum foundry consumables supplier in India; zero debt; Vesuvius plc parent; diversified end-markets (auto, railway, mining)",
         "Profitability check (PASS): Return on capital employed (ROCE) is 33.05% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6705,7 +6575,6 @@
       "classification": "BUY NOW",
       "gate": "Profitability: PASS · Valuation: PASS",
       "reasons": [
-        "21.29% ROCE; India's largest ferro chrome producer post-Tata Steel acquisition; captive mines + captive power = durable cost moat; ₹1,690 Cr 5-yr FCF; founder-family led (58.7%)",
         "Profitability check (PASS): Return on capital employed (ROCE) is 21.29% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 14.06x earnings, a 29% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -6734,7 +6603,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "36–38% ROCE; 30% domestic explosives market share; ₹21,200 Cr order book (₹18,000 Cr defence); Nuwal family promoter; expanding into defence propellants and international markets",
         "Profitability check (PASS): Return on capital employed (ROCE) is 36.79% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6763,7 +6631,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "~40% 5-yr median ROCE (accelerating to 58% in FY26); StAR MF with 281 Mn investors (dominant moat); derivatives ADTO doubling; 88% PAT growth FY26; no promoter = exchange business norm",
         "Profitability check (PASS): Return on capital employed (ROCE) is 58.03% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6792,7 +6659,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "98% commodity futures market share; 100% precious metals market share; ~55–65% median ROCE; debt-free; Q4 FY26 revenue doubled; 1:5 stock split Jan 2026",
         "Profitability check (PASS): Return on capital employed (ROCE) is 71.37% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6821,7 +6687,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "22.75% ROCE; ₹4,785 Cr 5-yr FCF; Murugappa Group; 2nd largest phosphatic fertilizer maker; 1,000+ rural retail outlets; crop protection diversification",
         "Profitability check (PASS): Return on capital employed (ROCE) is 22.75% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6850,7 +6715,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "27.19% ROCE; 34.04% 5-yr ROE; Drishyam + Raid franchise IP with global remake rights; organic IP model; no serial acquisitions",
         "Profitability check (PASS): Return on capital employed (ROCE) is 27.19% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6880,7 +6744,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "57.47% ROCE; 18 consecutive quarters >20% PAT growth; HNI wealth platform; ₹1 lakh crore AUM (April 2026); asset-light; EXCELLENT management",
         "Profitability check (PASS): Return on capital employed (ROCE) is 57.47% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6909,7 +6772,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "37.48% ROCE; B2B2C MFD aggregator; ₹1.33 lakh crore AUM; 5,100 new partners in FY26; Sanjay Shah founder; Prudent Edge AI platform; Q4 FY26 weakness is proximate (market correction)",
         "Profitability check (PASS): Return on capital employed (ROCE) is 37.48% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6938,7 +6800,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "India's largest private general insurer; 9% GWP market share; improving combined ratio 102.8% FY25 (sector-best); ROCE 21.88% passes threshold; diversified distribution (bancassurance/agents/brokers/digital); GST removal on retail health (Sept 2025) structural positive",
         "Profitability check (PASS): Return on capital employed (ROCE) is 21.88% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6966,9 +6827,7 @@
       "name": "Indegene",
       "classification": "MONITOR",
       "gate": "Downgraded from the original 'WATCH' call: return on capital doesn't clear the 20% minimum this screen requires",
-      "reasons": [
-        "Asset-light pharma commercialisation tech; 69% revenue from top-20 global pharma companies; AI-embedded regulatory/medical affairs workflows; high switching costs; ROCE 20–24%; FCF ₹1,899 Cr 5yr; Q3 FY26 revenue +26.8% YoY reacceleration"
-      ],
+      "reasons": [],
       "concerns": [
         "Set alert ₹260; PE 29.66x (49% premium to Sensex); target ≤15x; founder-led; *screener ROCE 18.82% due to intangibles; FY25 company-reported ROCE 24.2%",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 18.82% — below the 20% minimum this screen looks for",
@@ -6996,7 +6855,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Accreditation-moated CRO/CRT; 25-year FSSAI PPP anchor contract (National Food Laboratory, Navi Mumbai); near-zero debt (D/E 0.01); 30% PAT CAGR 5yr; multi-sector testing (pharma, food, electronics, environment) reduces cyclicality; FCF ₹108 Cr 5yr",
         "Profitability check (PASS): Return on capital employed (ROCE) is 25.23% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7025,7 +6883,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "India's largest listed diagnostics chain; 7,727 Patient Service Centres; ROCE 28.3% (ex-cash 44% FY26); FCF ₹1,841 Cr 5yr; 280% dividend FY26; FY26 revenue +12.2% YoY; hub-and-spoke network moat",
         "Profitability check (PASS): Return on capital employed (ROCE) is 28.29% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7054,7 +6911,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "South India's premium diagnostics franchise; 43.5% EBITDA margins (sector-best); ROCE 21.29%; FY26 revenue ₹814 Cr (+19.5%); Q4 FY26 highest-ever quarter; FCF ₹398 Cr 5yr; new management team (CFO/CTO/COO) in place",
         "Profitability check (PASS): Return on capital employed (ROCE) is 21.29% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7083,7 +6939,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Best ROCE in listed diagnostics (35.4%); B2B hub-and-spoke capital efficiency; PAT +51% Q3 FY26; FCF ₹637 Cr 5yr; cheapest TTM PE among top-4 diagnostic quality chains",
         "Profitability check (PASS): Return on capital employed (ROCE) is 35.38% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7112,7 +6967,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "Diagnostic kit maker (PCR reagents, rapid test kits); ROCE 25.5%; FCF ₹149 Cr 5yr; PE 18.24x approaching Darwin entry zone — nearest to buy zone among new additions",
         "Profitability check (PASS): Return on capital employed (ROCE) is 25.48% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7141,7 +6995,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "ROCE 39.69% 5yr avg (peak 66.94% Q2 FY26); single-site mature Apollo hospital on Delhi Govt land at nominal rent = structural cost moat; zero debt; zero acquisitions in 35yr history; Apollo brand medical tourism; FCF ₹523 Cr 5yr",
         "Profitability check (PASS): Return on capital employed (ROCE) is 35.83% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7170,7 +7023,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "ROCE 22.19%; 45yr regional brand monopoly in Coimbatore; integrated medical college drives ROCE premium (education capital-light); asset-light Tier-II expansion (Trichy/Madurai management contracts); FCF ₹616 Cr 5yr",
         "Profitability check (PASS): Return on capital employed (ROCE) is 22.19% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7199,7 +7051,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "Sustained >25% ROCE; #2 global steam turbine position (sub-100MW); debt-free; founder-led (Thapar family); aftermarket/export moat; sub-30MW renewables structurally safe; industrial electrification 15–20yr tail risk",
         "Profitability check (PASS): Return on capital employed (ROCE) is 35.86% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7228,7 +7079,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Best-in-class transformer franchise; genuinely debt-free (D/E 0.07x); two-generation Gujarati family ownership; cash-funded organic capex; 24%+ ROCE",
         "Profitability check (PASS): Return on capital employed (ROCE) is 24.08% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7257,7 +7107,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "29% ROCE; global grid-tech leader; debt-free; monopoly in HVDC/FACTS/SF6-free GIS in India; T&D capex super-cycle beneficiary",
         "Profitability check (PASS): Return on capital employed (ROCE) is 29.02% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7286,7 +7135,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "30% ROCE; global industrial automation + electrification leader; debt-free; strong FCF",
         "Profitability check (PASS): Return on capital employed (ROCE) is 29.93% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7315,7 +7163,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Highest ROCE in sector (76%); grid transformer + substation + automation leader; debt-free",
         "Profitability check (PASS): Return on capital employed (ROCE) is 76.43% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7344,7 +7191,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "68% ROCE; gas turbine + power transmission leader; debt-free",
         "Profitability check (PASS): Return on capital employed (ROCE) is 67.75% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7373,7 +7219,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "30% ROCE; smart grid/distribution transformer leader; debt-free",
         "Profitability check (PASS): Return on capital employed (ROCE) is 29.63% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7402,7 +7247,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "ROCE 20.69% rising; Oberoi/Trident multi-generational brand moat; virtually debt-free; irreplaceable locations; sector-best luxury franchise",
         "Profitability check (PASS): Return on capital employed (ROCE) is 20.69% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7431,7 +7275,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "ROCE 21.14% improving trend; same Oberoi/Trident brand moat as EIH; virtually debt-free; improving working capital",
         "Profitability check (PASS): Return on capital employed (ROCE) is 21.14% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7460,7 +7303,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "Highest ROCE in hotels universe (29.8%); Taj-brand Varanasi franchise; Kashi Vishwanath Corridor structural tourism tailwind; near-debt-free; FCF ₹85 Cr 5yr",
         "Profitability check (PASS): Return on capital employed (ROCE) is 29.83% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7489,7 +7331,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "India's largest homegrown HVAC company; ROCE 21.17% rising; market leader in commercial AC; 8–10% India household AC penetration = multi-decade runway; Advani family entrepreneur; FCF turning positive",
         "Profitability check (PASS): Return on capital employed (ROCE) is 21.17% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7518,7 +7359,6 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "40.89% ROCE; best-in-class sustained ROCE in houseware sector; net cash; zero acquisitions in 65 years; Vasudeva family 3-generation ownership; focused pressure cooker/cookware moat",
         "Profitability check (PASS): Return on capital employed (ROCE) is 40.89% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7546,9 +7386,7 @@
       "name": "UTI AMC",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "Quality AMC franchise; ROCE lagging peers"
-      ],
+      "reasons": [],
       "concerns": [
         "Upgrade to Watch when ROCE >20% sustained",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 15.8% — below the 20% minimum this screen looks for",
@@ -7576,7 +7414,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Strong ROCE but negative FCF; order book solid",
         "Profitability check (PASS): Return on capital employed (ROCE) is 43% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7605,7 +7442,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Niche aerospace supplier; quality confirmed; overpriced",
         "Profitability check (PASS): Return on capital employed (ROCE) is 35.2% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7634,7 +7470,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Early-stage defence tech; business model not yet verified",
         "Profitability check (PASS): Return on capital employed (ROCE) is 26.2% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7663,7 +7498,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "High ROCE micro-cap; liquidity risk; needs deeper diligence",
         "Profitability check (PASS): Return on capital employed (ROCE) is 35% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7692,7 +7526,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Best ROCE in bearings; demerger distorts financials",
         "Profitability check (PASS): Return on capital employed (ROCE) is 56.4% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7721,7 +7554,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Good ROCE; FCF drag from working capital",
         "Profitability check (PASS): Return on capital employed (ROCE) is 34.1% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 14x earnings, a 29% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -7750,7 +7582,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "High ROCE but very new manufacturing operations",
         "Profitability check (PASS): Return on capital employed (ROCE) is 40.2% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7779,7 +7610,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Cheap but illiquid; needs business model verification",
         "Profitability check (PASS): Return on capital employed (ROCE) is 20.2% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 13x earnings, a 34% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -7808,7 +7638,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Decent ROCE extrusion player; current PE too high",
         "Profitability check (PASS): Return on capital employed (ROCE) is 25.5% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7836,9 +7665,7 @@
       "name": "Nicco Parks",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "Legacy amusement brand; PAT collapse unexplained"
-      ],
+      "reasons": [],
       "concerns": [
         "Understand PAT reason first; PE at 114x is a no-go",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 13.5% — below the 20% minimum this screen looks for",
@@ -7866,7 +7693,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Strong premiumisation story; PE too stretched",
         "Profitability check (PASS): Return on capital employed (ROCE) is 24.2% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7894,9 +7720,7 @@
       "name": "Piccadily Agro",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "Scotch whisky India play; capex cycle dragging FCF"
-      ],
+      "reasons": [],
       "concerns": [
         "Wait for capex cycle to end; FCF must turn positive",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 18% — below the 20% minimum this screen looks for",
@@ -7924,7 +7748,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Cheap; borderline ROCE; FCF the only blocker",
         "Profitability check (PASS): Return on capital employed (ROCE) is 20% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -7952,9 +7775,7 @@
       "name": "Som Distilleries",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "Regional beer/spirits; ROCE borderline; FCF weak"
-      ],
+      "reasons": [],
       "concerns": [
         "Both FCF and ROCE need to improve before Watch upgrade",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 18% — below the 20% minimum this screen looks for",
@@ -7981,9 +7802,7 @@
       "name": "Sula Vineyards",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "Only listed Indian wine company; brand moat; ROE too low"
-      ],
+      "reasons": [],
       "concerns": [
         "Watch ROE annually; upgrade if sustained above 10%",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 7.5% — below the 20% minimum this screen looks for",
@@ -8011,7 +7830,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Exceptional ROCE; OOH advertising niche; IPO track record needed",
         "Profitability check (PASS): Return on capital employed (ROCE) is 54.8% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 14x earnings, a 29% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -8039,9 +7857,7 @@
       "name": "Advanced Enzyme",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "Quality enzyme business; ROCE temporarily depressed"
-      ],
+      "reasons": [],
       "concerns": [
         "Watch ROCE recovery; upgrade to Watch when >20%",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 13.9% — below the 20% minimum this screen looks for",
@@ -8069,7 +7885,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Extremely cheap; high ROCE; governance unclear",
         "Profitability check (PASS): Return on capital employed (ROCE) is 42.9% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 5x earnings, a 75% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -8098,7 +7913,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "High ROCE; single-aircraft fleet is concentration risk",
         "Profitability check (PASS): Return on capital employed (ROCE) is 34.7% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -8127,7 +7941,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Strong ROCE 30%; attractive PE 13.7x; promoter governance unproven post-transition",
         "Profitability check (PASS): Return on capital employed (ROCE) is 30.3% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 14x earnings, a 29% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -8156,7 +7969,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Strong ROCE; near-debt-free; 16x PE = near buy range; governance check needed",
         "Profitability check (PASS): Return on capital employed (ROCE) is 26.7% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -8185,7 +7997,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Exceptional 65% ROCE but FCF negative — earnings quality concern",
         "Profitability check (PASS): Return on capital employed (ROCE) is 65.6% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -8214,7 +8025,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Extraordinary 57% ROCE at 13x PE if genuine",
         "Profitability check (PASS): Return on capital employed (ROCE) is 57.5% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 13x earnings, a 34% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -8243,7 +8053,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Exceptional ROCE; micro-cap liquidity risk",
         "Profitability check (PASS): Return on capital employed (ROCE) is 48.8% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -8271,9 +8080,7 @@
       "name": "Heidelberg Cement",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "Consistent FCF ₹1,289 Cr; Heidelberg Group-backed; ROCE borderline"
-      ],
+      "reasons": [],
       "concerns": [
         "Watch for capacity utilisation-led ROCE improvement in FY27–28",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 11.4% — below the 20% minimum this screen looks for",
@@ -8301,7 +8108,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Strong FCF ₹3,245 Cr; cheap valuation; quality group; ROCE still below threshold",
         "Valuation check (PASS): Trading at 14x earnings, a 29% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
@@ -8330,7 +8136,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "FCF positive ₹145 Cr; borderline but improving",
         "Valuation check (PASS): Trading at 13x earnings, a 34% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
@@ -8358,9 +8163,7 @@
       "name": "Mangalam Cement",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "Marginal FCF; reasonable valuation; North India exposure"
-      ],
+      "reasons": [],
       "concerns": [
         "Watch ROCE and FCF for 2 full annual report cycles",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 10.8% — below the 20% minimum this screen looks for",
@@ -8388,7 +8191,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Clean balance sheet; PE at Nalanda median (14.9x); value-segment exposure is competitive weakness",
         "Profitability check (PASS): Return on capital employed (ROCE) is 28.2% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -8417,7 +8219,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Highest ROCE in 75-company chemicals universe; investigate why and whether durable",
         "Profitability check (PASS): Return on capital employed (ROCE) is 35.5% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 14x earnings, a 29% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -8446,7 +8247,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "21.9% ROCE; FCF positive; small company",
         "Profitability check (PASS): Return on capital employed (ROCE) is 21.9% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -8475,7 +8275,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "22% ROCE but negative FCF — capex cycle in progress",
         "Profitability check (PASS): Return on capital employed (ROCE) is 22% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -8504,7 +8303,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Borderline ROCE 13.4%; FCF positive; cheap valuation",
         "Valuation check (PASS): Trading at 12x earnings, a 39% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
@@ -8533,7 +8331,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 25%+ but persistently negative FCF — working capital drain",
         "Profitability check (PASS): Return on capital employed (ROCE) is 25.5% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -8562,7 +8359,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 22%; 74% promoter; micro-cap illiquidity risk",
         "Profitability check (PASS): Return on capital employed (ROCE) is 22.3% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -8591,7 +8387,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Exceptional ROCE if genuine; near-zero FCF; insufficient track record",
         "Profitability check (PASS): Return on capital employed (ROCE) is 59.8% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -8620,7 +8415,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 34%, low PE 8.5x but no 5-year FCF data",
         "Profitability check (PASS): Return on capital employed (ROCE) is 34% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 8.51x earnings, a 57% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -8649,7 +8443,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Solid underlying business; PE ownership is main Darwin concern",
         "Profitability check (PASS): Return on capital employed (ROCE) is 24% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -8678,7 +8471,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Extraordinary 53.6% ROCE in aviation software; concentrated sector",
         "Profitability check (PASS): Return on capital employed (ROCE) is 53.6% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -8707,7 +8499,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "24% ROCE; 14x PE — interesting small cap",
         "Profitability check (PASS): Return on capital employed (ROCE) is 24% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 14x earnings, a 29% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -8736,7 +8527,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "29% ROCE; 17x PE; small cap",
         "Profitability check (PASS): Return on capital employed (ROCE) is 29% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -8765,7 +8555,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Pure cybersecurity play; 38% ROCE; early stage",
         "Profitability check (PASS): Return on capital employed (ROCE) is 38% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -8794,7 +8583,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "33% ROCE at 10.68x PE; FCF improving",
         "Profitability check (PASS): Return on capital employed (ROCE) is 33% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 10.68x earnings, a 46% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -8822,9 +8610,7 @@
       "name": "Roto Pumps",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "PC pump niche; 19% ROCE borderline; small but positive FCF"
-      ],
+      "reasons": [],
       "concerns": [
         "Upgrade if ROCE crosses 20%; PE too high at 34x for current ROCE",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 19% — below the 20% minimum this screen looks for",
@@ -8852,7 +8638,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "31% ROCE but FCF deeply negative (₹-480 Cr 5yr); capex-heavy compounder",
         "Profitability check (PASS): Return on capital employed (ROCE) is 31.3% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -8880,9 +8665,7 @@
       "name": "Happy Forgings",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "Borderline ROCE 18.2%; FCF just turning positive; decent promoter"
-      ],
+      "reasons": [],
       "concerns": [
         "Watch 2 annual report cycles; upgrade if ROCE >20% sustained",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 18.2% — below the 20% minimum this screen looks for",
@@ -8910,7 +8693,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 25%; FCF near breakeven (turning positive)",
         "Profitability check (PASS): Return on capital employed (ROCE) is 25.1% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -8938,9 +8720,7 @@
       "name": "CapitalNumbers Infotech",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "Recovery watch; business in turnaround mode"
-      ],
+      "reasons": [],
       "concerns": [
         "Upgrade when growth confirmed for 2 consecutive quarters",
         "Profitability check (UNKNOWN): no ROCE data available",
@@ -8969,7 +8749,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "29.5% ROCE; 27.14% 5-yr ROE; 11.93x PE attractive — but 3-yr FCF -₹22 Cr despite high ROCE; ESG consulting moat",
         "Profitability check (PASS): Return on capital employed (ROCE) is 29.5% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 11.93x earnings, a 39% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -8998,7 +8777,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 42%, PE 4.65x on screener — extraordinary if genuine; but ₹21 Cr MCap = illiquid; FCF 3-yr negative",
         "Profitability check (PASS): Return on capital employed (ROCE) is 42.03% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 4.65x earnings, a 76% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -9027,7 +8805,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "HR consulting; Walchand Group parentage; FCF ₹3.30 Cr positive; ROCE at 15.66% just below Nalanda minimum",
         "Valuation check (PASS): Trading at 10.72x earnings, a 46% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
@@ -9055,9 +8832,7 @@
       "name": "DMR Engineering",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "Engineering consulting; borderline ROCE 18.94%; tiny MCap ₹33 Cr"
-      ],
+      "reasons": [],
       "concerns": [
         "Upgrade to Watch if ROCE crosses 20% and FCF positive; confirm 5-yr data",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 18.94% — below the 20% minimum this screen looks for",
@@ -9085,7 +8860,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 23.7% clears threshold; but insufficient public data to validate; PE above ideal range",
         "Profitability check (PASS): Return on capital employed (ROCE) is 23.69% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -9114,7 +8888,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 32.3%; 21.5x PE — strong ROCE but 3-yr FCF negative (-₹32 Cr)",
         "Profitability check (PASS): Return on capital employed (ROCE) is 32.27% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -9143,7 +8916,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 31.9%; 5-yr ROE 35.47%; PE 9.46x — all metrics attractive; but ₹144 Cr MCap limits liquidity",
         "Profitability check (PASS): Return on capital employed (ROCE) is 31.88% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 9.46x earnings, a 52% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -9172,7 +8944,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 22.9%; PE 10.2x — valuation attractive; FCF negative across all periods is the blocker",
         "Profitability check (PASS): Return on capital employed (ROCE) is 22.95% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 10.19x earnings, a 48% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -9201,7 +8972,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 27.4%; 5-yr ROE 21%; PE 12.5x; FCF consistently positive (5-yr ₹4.96 Cr) — metrics pass all Darwin tests but size is a hard constraint",
         "Profitability check (PASS): Return on capital employed (ROCE) is 27.44% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 12.51x earnings, a 36% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -9229,9 +8999,7 @@
       "name": "Heritage Foods",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "Decent South India dairy brand; Chandrababu Naidu family (political risk); ROCE 15.92% below threshold; FCF declining (₹42 Cr last yr vs ₹133 Cr 5-yr)"
-      ],
+      "reasons": [],
       "concerns": [
         "Watch ROCE and FCF for 2 annual report cycles; upgrade if ROCE crosses 18%+",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 15.92% — below the 20% minimum this screen looks for",
@@ -9259,7 +9027,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Distribution arm for Vadilal brand; 5-yr ROE 37.47% impressive; ROCE 20.03% clears threshold; but FCF -₹19 Cr last yr and PE 145x is prohibitive",
         "Profitability check (PASS): Return on capital employed (ROCE) is 20.03% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -9287,9 +9054,7 @@
       "name": "Sheetal Cool Products",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "Small Gujarat dairy/ice cream; ROCE 16% below threshold; ROE declining to 13.28%; positive FCF ₹45 Cr (5-yr)"
-      ],
+      "reasons": [],
       "concerns": [
         "Watch ROCE consistency across 2 annual cycles; insufficient scale and information for high conviction",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 16% — below the 20% minimum this screen looks for",
@@ -9317,7 +9082,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "North India dairy; ROCE 22.53% crosses threshold; but 5-yr avg ROE 8.7% exposes poor historical capital returns; PE 3.77x very cheap",
         "Profitability check (PASS): Return on capital employed (ROCE) is 22.53% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 3.77x earnings, a 81% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -9346,7 +9110,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Clean PSU; debt-free; ₹680 Cr 5-yr FCF; 47% discount to Sensex PE (11.18x); industrial packaging + greases + logistics; dividend yield ~5%",
         "Valuation check (PASS): Trading at 11.18x earnings, a 43% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
@@ -9375,9 +9138,7 @@
       "name": "Empire Industries",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "Small-cap diversified; ₹393 Cr 5-yr FCF (exceptional FCF yield vs ₹551 Cr MCap); PE 14.87x near Nalanda entry zone; limited public information"
-      ],
+      "reasons": [],
       "concerns": [
         "Deep-dive on promoter + governance before any action; upgrade to Watch if ROCE crosses 20% and governance verified",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 14.36% — below the 20% minimum this screen looks for",
@@ -9405,7 +9166,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Rural-focused cash logistics; 26.3% ROCE; 23.7% 5-yr ROE; 11.1x PE — 50%+ discount to Sensex; smaller CMS analogue",
         "Profitability check (PASS): Return on capital employed (ROCE) is 26.3% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 11.1x earnings, a 44% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -9434,7 +9194,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Expert network + research services; 28.1% ROCE; 24.8% 5-yr ROE; 15.1x PE; positive FCF ₹26 Cr",
         "Profitability check (PASS): Return on capital employed (ROCE) is 28.1% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -9463,7 +9222,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Outstanding 43% ROCE; 35% 5-yr ROE; 9.4x PE; founder 90%+ skin in game; blue-collar HR outsourcing niche",
         "Profitability check (PASS): Return on capital employed (ROCE) is 42.99% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 9.4x earnings, a 52% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -9492,7 +9250,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "40.9% ROCE; 9.5x PE; family promoter; blue-collar staffing; strong return metrics — but IPO-stage risks remain",
         "Profitability check (PASS): Return on capital employed (ROCE) is 40.91% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 9.5x earnings, a 52% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -9521,7 +9278,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "30.6% ROCE; 21.3% 5-yr ROE; 9.3x PE — strong metrics if genuine",
         "Profitability check (PASS): Return on capital employed (ROCE) is 30.62% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 9.33x earnings, a 53% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -9550,7 +9306,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "29% ROCE; 8.5x PE; security services; organised sector gaining share; low PE",
         "Profitability check (PASS): Return on capital employed (ROCE) is 29% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 8.49x earnings, a 57% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -9579,7 +9334,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "32.8% ROCE; 21.9% 5-yr ROE; cheap 8.4x PE — but FCF -₹85 Cr (3-yr) contradicts ROCE",
         "Profitability check (PASS): Return on capital employed (ROCE) is 32.8% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 8.4x earnings, a 57% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -9608,7 +9362,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "33.7% ROCE; 34.5% 5-yr ROE — exceptional if genuine; but 36.8x PE and negative FCF need explanation",
         "Profitability check (PASS): Return on capital employed (ROCE) is 33.7% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -9636,9 +9389,7 @@
       "name": "Patel Retail",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "Founder-run; local moat; 18.3x PE near Darwin entry zone; 17.3% ROCE borderline; interesting small-cap if metrics improve"
-      ],
+      "reasons": [],
       "concerns": [
         "Re-evaluate after FY26 annual report; ROCE >20% + debt reduction = immediate Watch upgrade",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 17.33% — below the 20% minimum this screen looks for",
@@ -9666,7 +9417,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Highest ROCE in diversified retail universe (24.5%); micro-cap; limited public information",
         "Profitability check (PASS): Return on capital employed (ROCE) is 24.49% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -9694,9 +9444,7 @@
       "name": "Ultramarine & Pigments",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "Consistent FCF ₹75 Cr (5-yr); clean balance sheet; well-managed; but ROCE 10.72% fails Nalanda minimum"
-      ],
+      "reasons": [],
       "concerns": [
         "Watch ROCE trend; upgrade if structural improvement to 18%+ over 2 annual cycles",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 10.72% — below the 20% minimum this screen looks for",
@@ -9723,9 +9471,7 @@
       "name": "Shree Pushkar Chemicals",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "13% ROCE; cheap 16x PE; FCF inconsistent — both gatekeepers uncleared"
-      ],
+      "reasons": [],
       "concerns": [
         "FCF must turn positive and ROCE must cross 18% before Watch upgrade",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 12.97% — below the 20% minimum this screen looks for",
@@ -9752,9 +9498,7 @@
       "name": "Sudarshan Colorants",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "Best FCF profile in dyes sector (₹221 Cr 5-yr); if standalone ROCE improves and parent debt normalises → strong Watch candidate"
-      ],
+      "reasons": [],
       "concerns": [
         "Track parent leverage resolution; ROCE expansion post capacity ramp (FY27–28) is the trigger",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 11.41% — below the 20% minimum this screen looks for",
@@ -9782,7 +9526,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Moderate quality; 10% ROCE; 14.6x PE near entry zone; watch for ROCE improvement",
         "Valuation check (PASS): Trading at 14.63x earnings, a 26% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
@@ -9810,9 +9553,7 @@
       "name": "Paragon Fine & Speciality",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "5-yr ROE 22.51% suggests historical quality; current ROCE 9.17% is below threshold; FCF negative"
-      ],
+      "reasons": [],
       "concerns": [
         "Confirm whether 5Y ROE reflects durable advantage or one-cycle anomaly; FCF must turn positive",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 9.17% — below the 20% minimum this screen looks for",
@@ -9840,7 +9581,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "13.63% ROCE; 16.37% 5-yr ROE; positive FCF trend; micro-cap",
         "Valuation check (PASS): Trading at 9.91x earnings, a 50% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
@@ -9869,7 +9609,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "36.7% ROCE — exceptional for sector; 17.4x PE attractive; positive FCF; but debt elevated and acquisition pace concerning",
         "Profitability check (PASS): Return on capital employed (ROCE) is 36.73% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -9899,7 +9638,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE just clears threshold; positive FCF; attractive 14.3x PE",
         "Profitability check (PASS): Return on capital employed (ROCE) is 20.15% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 14.26x earnings, a 28% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -9928,7 +9666,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "26.8% ROCE; 13.4x PE attractive; but FCF inconsistency and data gaps",
         "Profitability check (PASS): Return on capital employed (ROCE) is 26.76% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 13.39x earnings, a 32% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -9957,7 +9694,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "27.5% ROCE; positive FCF; 15x PE; but too little public information to validate",
         "Profitability check (PASS): Return on capital employed (ROCE) is 27.5% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -9986,7 +9722,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 24–35% (IPO prospectus); recently listed Sep 2025; thin FCF; declining ROE trend; online degree facilitator moat uncertain",
         "Profitability check (PASS): Return on capital employed (ROCE) is 24.33% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -10015,7 +9750,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "26.62% ROCE; 22% 5-yr ROE; positive FCF; debt-free; founder family; niche fintech training — correct DNA but uninvestable at this scale",
         "Profitability check (PASS): Return on capital employed (ROCE) is 26.62% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -10044,7 +9778,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "18.85% ROCE improving; 5.69x PE — extraordinarily cheap if genuine; but FCF negative and insufficient verification",
         "Valuation check (PASS): Trading at 5.69x earnings, a 71% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
@@ -10072,9 +9805,7 @@
       "name": "Yash Optics & Lens",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "Gate 1 clean — promoter 73.19% zero pledge, net cash, slow-changing industry, no M&A; ROCE 12.84% below threshold; debtor days elevated (108 days)"
-      ],
+      "reasons": [],
       "concerns": [
         "Track over 2–4 annual report cycles; upgrade to Watch when ROCE crosses 18–20% AND PE compresses to ≤16x",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 12.84% — below the 20% minimum this screen looks for",
@@ -10103,7 +9834,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 20.59%; 110 annuity clients; USD 459M revenue visibility; PE at deep discount (13x); good FCF",
         "Profitability check (PASS): Return on capital employed (ROCE) is 20.59% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 13.09x earnings, a 34% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -10133,7 +9863,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 34.79% impressive; monolithic refractory specialist; but only 2–3 years listed",
         "Profitability check (PASS): Return on capital employed (ROCE) is 34.79% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -10162,7 +9891,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Gate 1 passes: zero debt, 75% promoter, zero pledge; ₹22 Bn cash; but ROCE 14.83% below threshold in current cycle",
         "Valuation check (PASS): Trading at 6.8x earnings, a 65% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
       "concerns": [
@@ -10192,7 +9920,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE above threshold; ROE 23.89% (5-yr); but FCF-ROCE disconnect is unexplained",
         "Profitability check (PASS): Return on capital employed (ROCE) is 27.24% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -10221,7 +9948,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 43.57%; asset-light FOFO franchise model in Tier 2/3/4 cities; debt-free; approaching 17x PE",
         "Profitability check (PASS): Return on capital employed (ROCE) is 43.57% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -10249,9 +9975,7 @@
       "name": "PB Fintech (Policybazaar)",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "FY26 inflection: 37% revenue growth; PAT doubled; India insurance penetration decade-long story; high mgmt quality"
-      ],
+      "reasons": [],
       "concerns": [
         "Not a Darwin stock yet (no 5-yr ROCE >20%); monitor FCF turn; note: Darwin Gate 1 concern on high PE & no positive FCF history; track as sector-best",
         "Profitability check (UNKNOWN): no ROCE data available",
@@ -10278,9 +10002,7 @@
       "name": "Paytm / One97 Communications",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "First annual profit FY26; AI cost optimisation structural; ₹13,315 Cr cash; consumer UPI 2x industry"
-      ],
+      "reasons": [],
       "concerns": [
         "Not a Darwin stock yet (no sustained ROCE >20%); watch Q1 FY27 PAT continuity; regulatory overhang remains; proximate concern only",
         "Profitability check (UNKNOWN): no ROCE data available",
@@ -10308,7 +10030,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 20.18% (marginal pass); zero debt; India's leading multi-brand footwear retailer; Rafique Malik family",
         "Profitability check (PASS): Return on capital employed (ROCE) is 20.18% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -10337,7 +10058,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 22.9% clears threshold; affordable athleisure leader; founder-aligned; India sports footwear megatrend",
         "Profitability check (PASS): Return on capital employed (ROCE) is 22.9% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -10366,7 +10086,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 36.81% and PE ~11.89x — most compelling quality-price combo in footwear; only name approaching Nalanda entry zone on price",
         "Profitability check (PASS): Return on capital employed (ROCE) is 36.81% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 11.89x earnings, a 40% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -10395,7 +10114,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "39.57% ROCE; PE 10x at Nalanda entry zone; strong ROCE quality",
         "Profitability check (PASS): Return on capital employed (ROCE) is 39.57% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 10x earnings, a 49% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -10424,7 +10142,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "26.83% ROCE; PE 17.5x approaching Nalanda zone; FCF improving",
         "Profitability check (PASS): Return on capital employed (ROCE) is 26.83% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -10453,7 +10170,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "33.49% ROCE; PE 11.8x well within Nalanda zone if FCF turns positive",
         "Profitability check (PASS): Return on capital employed (ROCE) is 33.49% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 11.8x earnings, a 40% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -10482,7 +10198,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "34.79% ROCE; PE 17.1x near Nalanda entry; FCF improving",
         "Profitability check (PASS): Return on capital employed (ROCE) is 34.79% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -10511,7 +10226,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 20.52% marginal pass; FCF improving; large-format organised player; pan-India presence",
         "Profitability check (PASS): Return on capital employed (ROCE) is 20.52% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -10540,7 +10254,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Highest sustainable ROCE candidate in furniture sector at ~38% if verified",
         "Profitability check (PASS): Return on capital employed (ROCE) is 38% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -10568,9 +10281,7 @@
       "name": "Sheela Foam",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "Market leader; strong Sleepwell brand; large scale"
-      ],
+      "reasons": [],
       "concerns": [
         "Acquisition of Kurlon is Gate 1 concern (serial acquirer); monitor FCF turn and debt reduction",
         "Profitability check (UNKNOWN): no ROCE data available",
@@ -10598,9 +10309,7 @@
       "name": "Star Health Insurance",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "Pure-play retail health insurer; GST removal tailwind on retail policies (Sept 2025); improving combined ratio; promoter Jhunjhunwala estate (IRDAI transfer approved April 2026); retail market share ~14.5–15% SAHI"
-      ],
+      "reasons": [],
       "concerns": [
         "ROCE 8.57% deeply fails Gate 2; upgrade to Watch when ROCE crosses 15%; watch FY28 ROE trajectory and combined ratio improvement",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 8.57% — below the 20% minimum this screen looks for",
@@ -10627,9 +10336,7 @@
       "name": "Go Digit General Insurance",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "ROCE 13.06% fails Gate 2; combined ratio 111.3% Q4 FY25 (still underwriting loss-making); CRISIL \"developing\" watch on proposed amalgamation with parent Go Digit Infoworks; Fairfax (Prem Watsa) backed"
-      ],
+      "reasons": [],
       "concerns": [
         "Monitor combined ratio trend; amalgamation clarity needed; upgrade if ROCE crosses 20% sustainably; PAT surged 133.5% FY25 but off low base",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 13.06% — below the 20% minimum this screen looks for",
@@ -10656,9 +10363,7 @@
       "name": "La Opala RG",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "ROCE 15.27% below threshold; revenue declined 3 consecutive years (FY24 ₹409 Cr → FY26 ₹309 Cr); working capital deteriorated to 723 days; Gate 1 all 6 filters pass (promoter buying in open market June 2026; zero debt; slow-changing opalware; ~66% promoter stake)"
-      ],
+      "reasons": [],
       "concerns": [
         "Entry ₹124–135 (14.9x × TTM EPS ~₹8.30); upgrade to Watch if ROCE recovers above 20% AND price corrects to entry zone",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 15.27% — below the 20% minimum this screen looks for",
@@ -10685,9 +10390,7 @@
       "name": "Borosil Scientific",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "ROCE 12.08% below threshold (CARE forecasts ~18% by FY26 — still below 20%); genuine moat (~60% domestic lab glassware share, 8,000+ labs served); gearing 0.06x; interest coverage 19x; FCF ₹139 Cr 3yr"
-      ],
+      "reasons": [],
       "concerns": [
         "Re-evaluate after FY27–FY28 annual reports; watch ROCE trajectory as independent entity; PE 33.79x also far above entry zone",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 12.08% — below the 20% minimum this screen looks for",
@@ -10715,7 +10418,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 22.97% borderline (some sources 19.9%); FCF negative across 5yr; working capital deteriorated (118→251 days); legal proceedings disclosed in IPO prospectus; dealer-relationship moat not proprietary; LOW ROBUSTNESS; IPO Dec 2024",
         "Profitability check (PASS): Return on capital employed (ROCE) is 22.97% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 10.29x earnings, a 48% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -10743,9 +10445,7 @@
       "name": "Pokarna Ltd",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "Gate 1 fail: D/E 0.68x exceeds max 0.3; ROCE 11.57% also below threshold; India's only Bretonstone® quartz manufacturer (Quantra brand; 23 countries); FCF ₹95.76 Cr last year (strong; repaying debt); founding Jain family clean 34yr record"
-      ],
+      "reasons": [],
       "concerns": [
         "Re-evaluate FY27–28; D/E could reach <0.3 by FY27–28 at current FCF trajectory; if debt clears → reassess Gate 2 ROCE",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 11.57% — below the 20% minimum this screen looks for",
@@ -10772,9 +10472,7 @@
       "name": "Syngene International",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "ROCE 10.12% from capital-intensive biologics buildout (US Baltimore facility USD 36.5M, Stelis integration); India's finest CRDMO (Biocon-backed; integrated research/dev/mfg; USFDA/EMA-approved); revenue ₹3,642 Cr; FCF ₹1,908 Cr 5yr"
-      ],
+      "reasons": [],
       "concerns": [
         "Track ROCE recovery in FY27–FY28; upgrade to Watch when ROCE approaches 15%+; PE 49.26x also far from entry zone",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 10.12% — below the 20% minimum this screen looks for",
@@ -10802,7 +10500,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "Extraordinary ROCE 87.02% and ROE 65.3%; but FCF base tiny (₹14 Cr last annual, ₹18 Cr 3yr); small market cap; business model and revenue source needs deep independent diligence before any action",
         "Profitability check (PASS): Return on capital employed (ROCE) is 87.02% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -10831,7 +10528,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 29.27%; ROE 5yr 41.0% exceptional; FCF marginally negative (₹-0.16 Cr last year vs ₹12 Cr 5yr); India's premium IVF/fertility chain; structural fertility treatment growth; niche high-pricing-power specialty",
         "Profitability check (PASS): Return on capital employed (ROCE) is 29.27% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -10860,7 +10556,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 26.04%; ROE 5yr 29.4%; PE 7.88x extremely cheap (61% discount to Sensex); FCF negative last year only; very small MCap ₹152 Cr",
         "Profitability check (PASS): Return on capital employed (ROCE) is 26.04% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 7.88x earnings, a 60% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -10888,9 +10583,7 @@
       "name": "Metropolis Healthcare",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "ROCE 17.77% below threshold; Q4 FY26 revenue growth 23% YoY (best in sector); Roche HPV self-sampling DNA test partnership; B2C push (TruHealth wellness); FCF ₹1,113 Cr 5yr; national diagnostics chain with Tier-II expansion"
-      ],
+      "reasons": [],
       "concerns": [
         "Upgrade to Watch when ROCE crosses 20% and sustains; monitor ROE stabilisation; improving trajectory is encouraging",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 17.77% — below the 20% minimum this screen looks for",
@@ -10918,7 +10611,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 23.27%; ROE 5yr 22.4%; PE 18.97x near Darwin entry zone on price; but FCF deeply negative across all measured periods from aggressive expansion capex",
         "Profitability check (PASS): Return on capital employed (ROCE) is 23.27% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -10946,9 +10638,7 @@
       "name": "Rainbow Children's Medicare",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "ROCE 18.25% (1.75% below threshold); ROE 5yr 19.87%; FCF ₹770 Cr 5yr; specialty paediatric/mother-child niche (less competition than general hospitals); Dr. Ramesh Kancharla promoter; positive ROCE trajectory"
-      ],
+      "reasons": [],
       "concerns": [
         "ROCE improving towards 20%; upgrade to Watch when ROCE sustains above 20%; PE 49.61x far from Darwin entry zone",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 18.25% — below the 20% minimum this screen looks for",
@@ -10975,9 +10665,7 @@
       "name": "GPT Healthcare",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "ROCE borderline (table: 19.58%; some sources: 21.80%); D/E 0.05 (excellent balance sheet); Tantia family 65.57% post-IPO (normal OFS dilution); clean governance"
-      ],
+      "reasons": [],
       "concerns": [
         "Track 2 more annual reports post-IPO; upgrade to Watch if ROCE confirms >20% sustainably and price corrects to ≤15x PE",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 19.58% — below the 20% minimum this screen looks for",
@@ -11005,7 +10693,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 26.04% passes threshold; but related-party corporate guarantee is a documented Gate 1.1 concern; Kauvery group backed; practically illiquid (daily vol ~₹0.18 Cr)",
         "Profitability check (PASS): Return on capital employed (ROCE) is 26.04% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -11035,7 +10722,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 27.39%; ROE 21.43%; but FCF negative across all periods (5yr: –₹28 Cr; 3yr: –₹36 Cr; last yr: –₹13 Cr) — earnings-FCF disconnect unexplained; micro-cap (₹752 Cr below shortlist threshold)",
         "Profitability check (PASS): Return on capital employed (ROCE) is 27.39% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -11064,7 +10750,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "3-yr average ROCE ~23–25%; backward-integrated T&D EPC (towers + conductor + civil); founder since 1984; FCF consistently positive; credit-rating upgrade AA-(Stable); only quality stock in sector trading below Sensex PE",
         "Profitability check (PASS): Return on capital employed (ROCE) is 28.5% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -11093,7 +10778,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "33.43% ROCE; generator manufacturer (AC generators for industrial and utility); positive FCF; excellent ROCE but founder-family concentration is watchitem",
         "Profitability check (PASS): Return on capital employed (ROCE) is 33.43% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 4.3x earnings, a 78% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -11122,7 +10806,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 45.26% — exceptional; high-voltage transformer niche; UNVERIFIED over full cycle due to short listing history",
         "Profitability check (PASS): Return on capital employed (ROCE) is 45.26% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 3.6x earnings, a 82% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -11151,7 +10834,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 20.86% marginal; gearboxes for sugar/cement/power sectors; confirm moat source and cyclicality",
         "Profitability check (PASS): Return on capital employed (ROCE) is 20.86% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 1.7x earnings, a 91% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -11180,7 +10862,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 23.3%; transformer specialist; newly listed; some promoter pledge reported; improving order book",
         "Profitability check (PASS): Return on capital employed (ROCE) is 23.3% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 2x earnings, a 90% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -11210,7 +10891,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 31.53%; EPC + manufacture; strong numbers but recent acquisitions cloud quality signal",
         "Profitability check (PASS): Return on capital employed (ROCE) is 31.53% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 4.2x earnings, a 79% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -11239,7 +10919,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 21.87%; Clarks hotel group (Agra, Jaipur, Lucknow, Khajuraho); debt-free; but live SEBI warning + unresolved delisting attempt = hard Gate 1.1 concern",
         "Profitability check (PASS): Return on capital employed (ROCE) is 21.87% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -11269,7 +10948,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 28.40% on paper; insufficient independent track record (<2.5yr); FCF/profit gap is a real cash-conversion red flag; illiquid micro-cap",
         "Profitability check (PASS): Return on capital employed (ROCE) is 28.4% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 12.35x earnings, a 37% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -11298,7 +10976,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 20.31% marginal pass; India's #1 in front-load washing machines; BLDC motor capacity being added; genuine category leadership",
         "Profitability check (PASS): Return on capital employed (ROCE) is 20.31% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -11327,7 +11004,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 20.37% standalone; India air cooler ~50% share; Achal Bakeri family 73.4%; FCF positive (5yr ₹458 Cr); Bonaire USA divested June 2026",
         "Profitability check (PASS): Return on capital employed (ROCE) is 20.37% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -11355,9 +11031,7 @@
       "name": "V-Guard Industries",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "Entrepreneur-owned (Kochouseph 53%); diversified electricals + consumer durables; ROCE 17% approaching Darwin threshold"
-      ],
+      "reasons": [],
       "concerns": [
         "Watch ROCE for 2–3 annual cycles; consumer durables softness must reverse for ROCE to cross 20%",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 17.03% — below the 20% minimum this screen looks for",
@@ -11384,9 +11058,7 @@
       "name": "TTK Prestige",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "T.T. Jagannathan family; 70+ year kitchen appliance brand; FCF positive; ROCE too far below threshold currently"
-      ],
+      "reasons": [],
       "concerns": [
         "2 annual report cycles; ROCE must show structural improvement toward 18–20% before Watch consideration",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 12.48% — below the 20% minimum this screen looks for",
@@ -11414,7 +11086,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 28.66% high; Ujala 84% category share (owned); Pril was 14% market share in liquid dishwash (~9% of revenue) — now structurally lost; Exo scale-up is the rebuild thesis; PE at 23x is above Darwin zone despite ~36% fall",
         "Profitability check (PASS): Return on capital employed (ROCE) is 28.66% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -11442,9 +11113,7 @@
       "name": "Ellenbarrie Industrial Gases",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "ROCE trending toward 20%; regional ASU player; clean Gate 1; Uluberia-II argon/specialty expansion underway; improving specialty gas mix"
-      ],
+      "reasons": [],
       "concerns": [
         "Re-check FY27/FY28: ROCE ≥20% + positive FCF + customer concentration flat/falling = Watch upgrade trigger",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 18% — below the 20% minimum this screen looks for",
@@ -11472,7 +11141,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 35.86% excellent on captive Surjagarh iron ore mine; but ₹32,700 Cr steel capex transformation = massive execution + leverage risk; institutional RPT dissent at June 2026 AGM; contract breach history with Sunflag (₹1,194 Cr loss)",
         "Profitability check (PASS): Return on capital employed (ROCE) is 35.86% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -11500,9 +11168,7 @@
       "name": "Gravita India",
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
-      "reasons": [
-        "India's largest organised lead recycler; Rajat Agrawal founder; D/E 0.2x; positive FCF; diversifying into lithium/aluminium recycling; ROCE improving from 17% (5yr avg) toward 21%"
-      ],
+      "reasons": [],
       "concerns": [
         "ROCE 5yr average still 17% — the fundamental blocker; FY26+FY27 annual ROCE ≥20% = Watch upgrade; PE 33x also needs to correct",
         "Profitability check (FAIL): Return on capital employed (ROCE) is 17.02% — below the 20% minimum this screen looks for",
@@ -11530,7 +11196,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE trending 16%→18.8%→19.9%→25.28% (FY26); net cash (D/E 0.04x); FCF positive 5yr; Vuyyuru Ramesh founder; PE 9.58x already below Darwin entry zone — rare case where price is right but quality needs 2yr confirmation",
         "Profitability check (PASS): Return on capital employed (ROCE) is 25.28% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)",
         "Valuation check (PASS): Trading at 9.58x earnings, a 51% discount to the Sensex average (19.7x) — comfortably past the 25-30% discount this screen looks for"
       ],
@@ -11559,7 +11224,6 @@
       "classification": "MONITOR",
       "gate": "Carried over as MONITOR from the original review — a qualitative concern was flagged there that this automated screen doesn't re-check",
       "reasons": [
-        "ROCE 21.17% borderline; FCF history mostly negative; March 2026 acquisition into metal recycling is a concern; small-cap with limited info",
         "Profitability check (PASS): Return on capital employed (ROCE) is 21.17% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -12016,9 +11680,9 @@
         "observation_count": 505
       }
     ],
-    "computed_at": "2026-09-04T03:41:58.776153+00:00"
+    "computed_at": "2026-09-04T03:52:42.421301+00:00"
   },
-  "macro_intel_run_at": "2026-09-04T03:41:58.776153+00:00",
+  "macro_intel_run_at": "2026-09-04T03:52:42.421301+00:00",
   "macro_trend": {
     "score_trend": {
       "has_prior": true,
