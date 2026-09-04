@@ -20,7 +20,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/2-3-wheelers.html"
     },
     {
       "number": 2,
@@ -46,7 +46,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/abrasives-bearings.html"
     },
     {
       "number": 3,
@@ -62,7 +62,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/advertising-media.html"
     },
     {
       "number": 4,
@@ -108,7 +108,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/aerospace-defence.html"
     },
     {
       "number": 5,
@@ -124,7 +124,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/airline.html"
     },
     {
       "number": 6,
@@ -134,7 +134,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/airport-airport-services.html"
     },
     {
       "number": 7,
@@ -170,7 +170,7 @@
       ],
       "playbook_chapter": "§13 Non-Ferrous Metals",
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/aluminium.html"
     },
     {
       "number": 8,
@@ -180,7 +180,7 @@
       "stocks": [],
       "playbook_chapter": "§13 Non-Ferrous Metals",
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/aluminium-copper-zinc-products.html"
     },
     {
       "number": 9,
@@ -201,7 +201,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/amusement-parks.html"
     },
     {
       "number": 10,
@@ -222,7 +222,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/animal-feed.html"
     },
     {
       "number": 11,
@@ -263,7 +263,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/asset-management-amc.html"
     },
     {
       "number": 12,
@@ -273,7 +273,7 @@
       "stocks": [],
       "playbook_chapter": "§28 Auto Ancillary",
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/auto-components-equipments.html"
     },
     {
       "number": 13,
@@ -283,7 +283,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/auto-dealer.html"
     },
     {
       "number": 14,
@@ -304,7 +304,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/biotechnology.html"
     },
     {
       "number": 15,
@@ -355,7 +355,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/breweries-distilleries.html"
     },
     {
       "number": 16,
@@ -376,7 +376,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/bpo-kpo.html"
     },
     {
       "number": 17,
@@ -422,7 +422,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/cables-electricals.html"
     },
     {
       "number": 18,
@@ -438,7 +438,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/carbon-black.html"
     },
     {
       "number": 19,
@@ -479,7 +479,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/castings-forgings.html"
     },
     {
       "number": 20,
@@ -536,7 +536,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/ceramics.html"
     },
     {
       "number": 22,
@@ -557,7 +557,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/cigarettes-tobacco.html"
     },
     {
       "number": 23,
@@ -618,7 +618,7 @@
       ],
       "playbook_chapter": "§14 Construction",
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/civil-construction.html"
     },
     {
       "number": 24,
@@ -639,7 +639,7 @@
       ],
       "playbook_chapter": "§9 Mining (related — coal)",
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/coal.html"
     },
     {
       "number": 25,
@@ -655,7 +655,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/commercial-vehicles.html"
     },
     {
       "number": 26,
@@ -716,7 +716,7 @@
       ],
       "playbook_chapter": "§24 Chemicals",
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/commodity-chemicals.html"
     },
     {
       "number": 27,
@@ -767,7 +767,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/compressors-pumps-diesel-engines.html"
     },
     {
       "number": 28,
@@ -868,7 +868,7 @@
       ],
       "playbook_chapter": "§29 IT Services",
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/computers-software-consulting.html"
     },
     {
       "number": 29,
@@ -878,7 +878,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/computers-hardware-equipments.html"
     },
     {
       "number": 30,
@@ -909,7 +909,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/construction-vehicles.html"
     },
     {
       "number": 31,
@@ -950,7 +950,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/consulting-services.html"
     },
     {
       "number": 32,
@@ -996,7 +996,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/consumer-electronics.html"
     },
     {
       "number": 33,
@@ -1012,7 +1012,7 @@
       ],
       "playbook_chapter": "§13 Non-Ferrous Metals",
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/copper.html"
     },
     {
       "number": 34,
@@ -1058,7 +1058,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/dairy-products.html"
     },
     {
       "number": 35,
@@ -1068,7 +1068,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/data-processing-services.html"
     },
     {
       "number": 36,
@@ -1084,7 +1084,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/dealers-cv-tractors-construction.html"
     },
     {
       "number": 37,
@@ -1115,7 +1115,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/depositories-clearing-houses.html"
     },
     {
       "number": 38,
@@ -1125,7 +1125,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/digital-entertainment.html"
     },
     {
       "number": 39,
@@ -1141,7 +1141,7 @@
       ],
       "playbook_chapter": "§6 Trading Companies (related)",
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/distributors.html"
     },
     {
       "number": 40,
@@ -1167,7 +1167,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/diversified.html"
     },
     {
       "number": 41,
@@ -1238,7 +1238,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/diversified-commercial-services.html"
     },
     {
       "number": 42,
@@ -1254,7 +1254,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/diversified-consumer-products.html"
     },
     {
       "number": 43,
@@ -1275,7 +1275,7 @@
       ],
       "playbook_chapter": "§17 FMCG",
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/diversified-fmcg.html"
     },
     {
       "number": 44,
@@ -1291,7 +1291,7 @@
       ],
       "playbook_chapter": "§13 Non-Ferrous Metals",
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/diversified-metals.html"
     },
     {
       "number": 45,
@@ -1317,7 +1317,7 @@
       ],
       "playbook_chapter": "§10 Organised Retail",
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/diversified-retail.html"
     },
     {
       "number": 46,
@@ -1333,7 +1333,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/dredging.html"
     },
     {
       "number": 47,
@@ -1384,7 +1384,7 @@
       ],
       "playbook_chapter": "§24 Chemicals",
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/dyes-and-pigments.html"
     },
     {
       "number": 48,
@@ -1410,7 +1410,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/e-learning.html"
     },
     {
       "number": 49,
@@ -1441,7 +1441,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/e-retail-e-commerce.html"
     },
     {
       "number": 50,
@@ -1477,7 +1477,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/edible-oil.html"
     },
     {
       "number": 51,
@@ -1503,7 +1503,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/education.html"
     },
     {
       "number": 52,
@@ -1534,7 +1534,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/electrodes-refractories.html"
     },
     {
       "number": 53,
@@ -1544,7 +1544,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/electronic-media.html"
     },
     {
       "number": 54,
@@ -1565,7 +1565,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/exchange-and-data-platform.html"
     },
     {
       "number": 55,
@@ -1581,7 +1581,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/explosives.html"
     },
     {
       "number": 56,
@@ -1602,7 +1602,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/ferro-silica-manganese.html"
     },
     {
       "number": 57,
@@ -1628,7 +1628,7 @@
       ],
       "playbook_chapter": "§19 Fertilizers",
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/fertilizers.html"
     },
     {
       "number": 58,
@@ -1638,7 +1638,7 @@
       "stocks": [],
       "playbook_chapter": "§2 Film",
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/film-production-exhibition.html"
     },
     {
       "number": 59,
@@ -1648,7 +1648,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/financial-institution.html"
     },
     {
       "number": 60,
@@ -1669,7 +1669,7 @@
       ],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/financial-products-distributor.html"
     },
     {
       "number": 61,
@@ -1679,7 +1679,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/financial-technology-fintech.html"
     },
     {
       "number": 62,
@@ -1689,7 +1689,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/footwear.html"
     },
     {
       "number": 63,
@@ -1699,7 +1699,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/forest-products.html"
     },
     {
       "number": 64,
@@ -1709,7 +1709,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/furniture-home-furnishing.html"
     },
     {
       "number": 65,
@@ -1719,7 +1719,7 @@
       "stocks": [],
       "playbook_chapter": "§23 Textiles (related — garments)",
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/garments-apparels.html"
     },
     {
       "number": 66,
@@ -1729,7 +1729,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/gas-transmission-marketing.html"
     },
     {
       "number": 67,
@@ -1739,7 +1739,7 @@
       "stocks": [],
       "playbook_chapter": "§8 Gems & Jewellery Retail",
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/gems-jewellery-watches.html"
     },
     {
       "number": 68,
@@ -1749,7 +1749,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/general-insurance.html"
     },
     {
       "number": 69,
@@ -1759,7 +1759,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/glass-consumer.html"
     },
     {
       "number": 70,
@@ -1769,7 +1769,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/glass-industrial.html"
     },
     {
       "number": 72,
@@ -1779,7 +1779,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/healthcare-research-analytics.html"
     },
     {
       "number": 73,
@@ -1789,7 +1789,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/healthcare-service-provider.html"
     },
     {
       "number": 74,
@@ -1799,7 +1799,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/heavy-electrical-equipment.html"
     },
     {
       "number": 75,
@@ -1809,7 +1809,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/holding-company.html"
     },
     {
       "number": 76,
@@ -1819,7 +1819,7 @@
       "stocks": [],
       "playbook_chapter": "§22 Hospitals",
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/hospital.html"
     },
     {
       "number": 77,
@@ -1829,7 +1829,7 @@
       "stocks": [],
       "playbook_chapter": "§18 Hotels",
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/hotels-resorts.html"
     },
     {
       "number": 78,
@@ -1839,7 +1839,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/household-appliances.html"
     },
     {
       "number": 79,
@@ -1849,7 +1849,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/household-products.html"
     },
     {
       "number": 80,
@@ -1859,7 +1859,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/houseware.html"
     },
     {
       "number": 81,
@@ -1869,7 +1869,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/housing-finance-company.html"
     },
     {
       "number": 82,
@@ -1879,7 +1879,7 @@
       "stocks": [],
       "playbook_chapter": null,
       "notes": null,
-      "report_url": null
+      "report_url": "sectors/industrial-gases.html"
     },
     {
       "number": 84,
@@ -1889,7 +1889,7 @@
       "stocks": [],
       "playbook_chapter": "§9 Mining (related — minerals)",
       "notes": "⚠️ filename #84 but content = Industry #83 \"Industrial Minerals\"; true #84 \"Industrial Products\" has no file",
-      "report_url": null
+      "report_url": "sectors/industrial-minerals.html"
     }
   ]
 }
