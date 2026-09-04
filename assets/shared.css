@@ -285,9 +285,13 @@
      row's own content -- each .wrow is its own independent grid container,
      so an `auto` track (e.g. sized to how many links a row has) computes
      differently per row and the columns after it drift out of alignment;
-     keeping every track but the note fixed keeps the note's 1fr identical
-     across every row, so the whole list still lines up as one table. */
-  :root{ --wgrid: 26px 18px minmax(130px,170px) 76px minmax(100px,130px) minmax(100px,130px) 210px minmax(160px,1fr) 168px; }
+     keeping every track but the name fixed keeps the name's 1fr identical
+     across every row, so the whole list still lines up as one table. (The
+     Note column that used to hold this 1fr track was removed 2026-09-04 --
+     that text now lives only in the FAE Screen popup, see general_portfolio.
+     html's renderWatchlist(), with the row's own title="..." tooltip as a
+     hover fallback for a holding-only row that has no popup to show it in.) */
+  :root{ --wgrid: 26px 18px minmax(130px,1fr) 76px minmax(100px,130px) minmax(100px,130px) 210px 168px; }
   /* overflow-x:auto, not hidden -- on any viewport narrower than the grid's
      natural width (~1130px, common on laptops), `hidden` was silently
      clipping the Price/PE/ROCE/D-E/Note/Links columns with no way to see
@@ -338,7 +342,6 @@
   .wrow .wmetrics .wm-roce{color:var(--sage)}
   .wrow .wmetrics .wm-de{color:var(--ivory-dim)}
   .wrow .wmetrics .wm-de.flag{color:var(--rust)}
-  .wrow .wconcern{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--ivory-dim);font-size:11px}
   .wrow .wlinks{display:flex;gap:8px;justify-self:end;align-items:center}
   .wrow .wlinks a, .wrow .wlinks .fae-badge{font-size:9.5px;white-space:nowrap}
 
@@ -529,10 +532,10 @@
   }
   @media(max-width:1200px){
     /* between the 720px mobile breakpoint and the grid's natural ~1130px
-       width, tables had no middle ground -- shrink the note column's floor
+       width, tables had no middle ground -- shrink the name column's floor
        and let the whole table scroll horizontally within its own frame
        rather than only at full desktop width. */
-    :root{ --wgrid: 22px 16px minmax(110px,150px) 70px minmax(90px,120px) minmax(90px,120px) 200px minmax(120px,1fr) 150px; }
+    :root{ --wgrid: 22px 16px minmax(110px,1fr) 70px minmax(90px,120px) minmax(90px,120px) 200px 150px; }
   }
   @media(prefers-reduced-motion:reduce){
     .spin{animation:none}
