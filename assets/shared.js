@@ -250,6 +250,53 @@ function showScoreCard(ticker, fundamentals_dir){
     <div class="proposal">Proposal — you decide.</div>`);
 }
 
+/* My Portfolio's own holdings table only, not the Watchlist -- per explicit user direction
+   2026-09-04. A holding that also happens to be a Darwin/Nalanda screening candidate (5 of
+   this repo's 11: TCS/CAMS/ITC/Wonderla/Swaraj Engines) was showing faeBadge()'s gate-
+   classification popup (WATCHLIST/BUY NOW, Profitability/Valuation PASS-FAIL checks) on its
+   OWN Fund Tracker row -- confusing for something already owned, and inconsistent with the
+   other 6 holdings (no screening_candidates entry), which correctly only ever showed the
+   plain Score card. The Watchlist page is deliberately left alone: there, EVERY row
+   (including a holding shown as "Worth a look") is already treated as an undifferentiated
+   candidate, so the gate-screen content is consistent with that page's own framing --
+   this fix is scoped to My Portfolio's holdings table specifically, not universal.
+   holdingScoreBadge() is scoreBadge() minus its "skip if a framework_screen row already
+   covers this" guard -- always shows Score, uniformly, for every holding.
+   showHoldingScoreCard() is showScoreCard() plus the holding's own personal thesis note
+   (h.note -- previously only visible as the row's hover tooltip, never surfaced in any
+   popup) and its signal/thesis_health tags, which the plain Score card never showed. */
+function holdingScoreBadge(entry){
+  const s=scoreRowFor(entry.ticker, entry.fundamentals_dir);
+  if(!s) return "";
+  const args=`'${esc(entry.ticker)}','${esc(entry.fundamentals_dir||"")}'`;
+  return `<span class="fae-badge" onclick="showHoldingScoreCard(${args})" role="button" tabindex="0"
+    onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showHoldingScoreCard(${args})}"
+    title="Component score + reverse DCF">Score ↗</span>`;
+}
+function showHoldingScoreCard(ticker, fundamentals_dir){
+  const s=scoreRowFor(ticker, fundamentals_dir);
+  if(!s) return;
+  const d=reverseDcfRowFor(s.fundamentals_dir);
+  const p=piotroskiRowFor(s.fundamentals_dir);
+  const h=(DATA.holdings||[]).find(x=>x.ticker===ticker);
+  const noteBlock=h&&h.note
+    ? `<div class="score-block">
+        <span class="lbl">Note</span>
+        ${h.thesis_health?`<span class="tag ${h.thesis_health==="INTACT"?"intact":h.thesis_health==="WEAKENING"?"weakening":"broken"}" style="margin-left:6px">${esc(h.thesis_health)}</span>`:""}
+        <div style="margin-top:4px;font-size:12.5px">${esc(h.note)}</div>
+      </div>`
+    : "";
+  openModal(`<div class="scard-h">
+      <div><h3>${esc(s.name||ticker)}</h3><div class="tk">${esc(ticker)}</div></div>
+    </div>
+    ${noteBlock}
+    ${scoreBlockHtml(s)}
+    ${reverseDcfBlockHtml(d)}
+    ${piotroskiBlockHtml(p)}
+    ${faeReportLinkHtml(ticker)}
+    <div class="proposal">Proposal — you decide.</div>`);
+}
+
 /* piotroski_score.py's output -- deliberately a SEPARATE block from Component Score,
    never merged into Business Quality. Piotroski measures year-over-year TREND ("did
    this improve"), not absolute level -- confirmed against real data that a stable,

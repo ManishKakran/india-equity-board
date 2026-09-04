@@ -12029,9 +12029,9 @@
         "observation_count": 506
       }
     ],
-    "computed_at": "2026-09-04T11:16:11.619018+00:00"
+    "computed_at": "2026-09-04T11:41:28.776158+00:00"
   },
-  "macro_intel_run_at": "2026-09-04T11:16:11.619018+00:00",
+  "macro_intel_run_at": "2026-09-04T11:41:28.776158+00:00",
   "macro_trend": {
     "score_trend": {
       "has_prior": true,
@@ -12209,6 +12209,50 @@
   },
   "forensic_flags": [
     {
+      "ticker": "TCS",
+      "name": "TATA CONSULTANCY SERVICES LTD",
+      "fundamentals_dir": "TATA_CONSULTANCY_SERVICES",
+      "period": "FY17-FY26",
+      "flags": [
+        {
+          "check": "equity_dilution",
+          "severity": "medium",
+          "message": "Equity share capital grew 7.0%/yr over 9 years (2017→2026) — either share-count dilution or a split/bonus (this check can't tell them apart); confirm which before treating it as a concern."
+        }
+      ],
+      "flag_count": 1
+    },
+    {
+      "ticker": "CARERATING",
+      "name": "CARE RATINGS LTD",
+      "fundamentals_dir": "CARE_RATINGS",
+      "period": "FY17-FY26",
+      "flags": [],
+      "flag_count": 0
+    },
+    {
+      "ticker": "CAMS SERVICES",
+      "name": "COMPUTER AGE MANAGEMENT SERVICES LTD",
+      "fundamentals_dir": "COMPUTER_AGE_MANAGEMENT_SERVICES",
+      "period": "FY17-FY26",
+      "flags": [],
+      "flag_count": 0
+    },
+    {
+      "ticker": "INDIAN ENERGY EX",
+      "name": "INDIAN ENERGY EXCHANGE LTD",
+      "fundamentals_dir": "INDIAN_ENERGY_EXCHANGE",
+      "period": "FY17-FY26",
+      "flags": [
+        {
+          "check": "equity_dilution",
+          "severity": "medium",
+          "message": "Equity share capital grew 13.5%/yr over 9 years (2017→2026) — either share-count dilution or a split/bonus (this check can't tell them apart); confirm which before treating it as a concern."
+        }
+      ],
+      "flag_count": 1
+    },
+    {
       "ticker": "INDIGO PAINTS",
       "name": "INDIGO PAINTS LTD",
       "fundamentals_dir": "INDIGO_PAINTS",
@@ -12218,6 +12262,80 @@
           "check": "equity_dilution",
           "severity": "medium",
           "message": "Equity share capital grew 5.8%/yr over 9 years (2017→2026) — either share-count dilution or a split/bonus (this check can't tell them apart); confirm which before treating it as a concern."
+        }
+      ],
+      "flag_count": 1
+    },
+    {
+      "ticker": "ITC",
+      "name": "ITC LTD",
+      "fundamentals_dir": "ITC",
+      "period": "FY17-FY26",
+      "flags": [],
+      "flag_count": 0
+    },
+    {
+      "ticker": "MANAPPURAM FIN",
+      "name": "MANAPPURAM FINANCE LTD",
+      "fundamentals_dir": "MANAPPURAM_FINANCE",
+      "period": "FY17-FY26",
+      "flags": [],
+      "flag_count": 0
+    },
+    {
+      "ticker": "SWARAJ ENGINES",
+      "name": "SWARAJ ENGINES LTD",
+      "fundamentals_dir": "SWARAJ_ENGINES",
+      "period": "FY17-FY26",
+      "flags": [
+        {
+          "check": "receivables_outpacing_revenue",
+          "severity": "medium",
+          "message": "Receivables grew 35.9%/yr vs revenue's 13.0%/yr over 9 years (2017→2026) — sales may not be converting to cash as fast as they're being booked."
+        }
+      ],
+      "flag_count": 1
+    },
+    {
+      "ticker": "TANLA PLATFORMS",
+      "name": "TANLA PLATFORMS LTD",
+      "fundamentals_dir": "TANLA_PLATFORMS",
+      "period": "FY17-FY26",
+      "flags": [],
+      "flag_count": 0
+    },
+    {
+      "ticker": "INDIGO",
+      "name": "INTERGLOBE AVIATION LTD",
+      "fundamentals_dir": "INTERGLOBE_AVIATION",
+      "period": "FY17-FY26",
+      "flags": [
+        {
+          "check": "leverage_outpacing_earnings",
+          "severity": "high",
+          "message": "Borrowings grew 45.9%/yr over 9 years (D/E now 11.15) while net profit grew not computable (loss-making in an endpoint year) — debt is funding growth faster than earnings are."
+        }
+      ],
+      "flag_count": 1
+    },
+    {
+      "ticker": "LT",
+      "name": "LARSEN & TOUBRO LTD",
+      "fundamentals_dir": "LARSEN_&_TOUBRO",
+      "period": "FY17-FY26",
+      "flags": [],
+      "flag_count": 0
+    },
+    {
+      "ticker": "WONDERLA",
+      "name": "WONDERLA HOLIDAYS LTD",
+      "fundamentals_dir": "WONDERLA_HOLIDAYS",
+      "period": "FY17-FY26",
+      "flags": [
+        {
+          "check": "other_income_dependence",
+          "severity": "low",
+          "message": "Other income was 25% of PBT in 2026 — a material share of profit is non-operating, not core-business earnings."
         }
       ],
       "flag_count": 1
@@ -13377,6 +13495,22 @@
       "flag_count": 0
     },
     {
+      "ticker": "CAMS",
+      "name": "CAMS",
+      "fundamentals_dir": "CAMS_YF",
+      "period": "FY23-FY26",
+      "flags": [],
+      "flag_count": 0
+    },
+    {
+      "ticker": "CARERATING",
+      "name": "CARE Ratings",
+      "fundamentals_dir": "CARERATING_YF",
+      "period": "FY23-FY26",
+      "flags": [],
+      "flag_count": 0
+    },
+    {
       "ticker": "CHAMBLFERT",
       "name": "Chambal Fertilisers",
       "fundamentals_dir": "CHAMBLFERT_YF",
@@ -13386,6 +13520,215 @@
     }
   ],
   "scores": [
+    {
+      "ticker": "TCS",
+      "name": "TCS",
+      "fundamentals_dir": "TATA_CONSULTANCY_SERVICES",
+      "data_path": "full",
+      "sector_type": "general",
+      "components": {
+        "business_quality": 100,
+        "financial_strength": 94.5,
+        "growth": 38.0,
+        "cash_generation": 76.16666666666667,
+        "capital_allocation": 70.0,
+        "valuation": 64.08583022929804
+      },
+      "components_scored": 6,
+      "overall": 77.6,
+      "pe_used": 16.9,
+      "quality_metric_used": "roce_pct"
+    },
+    {
+      "ticker": "CAMS",
+      "name": "CAMS",
+      "fundamentals_dir": "COMPUTER_AGE_MANAGEMENT_SERVICES",
+      "data_path": "full",
+      "sector_type": "general",
+      "components": {
+        "business_quality": 89.65,
+        "financial_strength": 98.0,
+        "growth": 52.800000000000004,
+        "cash_generation": 86.83333333333334,
+        "capital_allocation": 100,
+        "valuation": 0
+      },
+      "components_scored": 6,
+      "overall": 73.0,
+      "pe_used": 44.7,
+      "quality_metric_used": "roce_pct"
+    },
+    {
+      "ticker": "CARERATING",
+      "name": "CARE Ratings",
+      "fundamentals_dir": "CARE_RATINGS",
+      "data_path": "full",
+      "sector_type": "general",
+      "components": {
+        "business_quality": 50.875,
+        "financial_strength": 98.5,
+        "growth": 22.8,
+        "cash_generation": 66.75,
+        "capital_allocation": 100,
+        "valuation": 0
+      },
+      "components_scored": 6,
+      "overall": 55.9,
+      "pe_used": 30.8,
+      "quality_metric_used": "roce_pct"
+    },
+    {
+      "ticker": "INDIGO",
+      "name": "IndiGo",
+      "fundamentals_dir": "INTERGLOBE_AVIATION",
+      "data_path": "full",
+      "sector_type": "general",
+      "components": {
+        "business_quality": 3.75,
+        "financial_strength": 0,
+        "growth": 73.6,
+        "cash_generation": 100.0,
+        "capital_allocation": 70.0,
+        "valuation": null
+      },
+      "components_scored": 5,
+      "overall": 40.0,
+      "pe_used": null,
+      "quality_metric_used": "roce_pct"
+    },
+    {
+      "ticker": "ITC",
+      "name": "ITC",
+      "fundamentals_dir": "ITC",
+      "data_path": "full",
+      "sector_type": "general",
+      "components": {
+        "business_quality": 76.77499999999999,
+        "financial_strength": 98.5,
+        "growth": 28.000000000000004,
+        "cash_generation": 58.083333333333336,
+        "capital_allocation": 100,
+        "valuation": 68.2270701627348
+      },
+      "components_scored": 6,
+      "overall": 72.0,
+      "pe_used": 16.1,
+      "quality_metric_used": "roce_pct"
+    },
+    {
+      "ticker": "LT",
+      "name": "L&T",
+      "fundamentals_dir": "LARSEN_&_TOUBRO",
+      "data_path": "full",
+      "sector_type": "general",
+      "components": {
+        "business_quality": 33.5,
+        "financial_strength": 42.50000000000001,
+        "growth": 45.2,
+        "cash_generation": 100.0,
+        "capital_allocation": 100,
+        "valuation": 0
+      },
+      "components_scored": 6,
+      "overall": 48.7,
+      "pe_used": 35.1,
+      "quality_metric_used": "roce_pct"
+    },
+    {
+      "ticker": "MANAPPURAM",
+      "name": "Manappuram Finance",
+      "fundamentals_dir": "MANAPPURAM_FINANCE",
+      "data_path": "full",
+      "sector_type": "financial",
+      "components": {
+        "business_quality": 17.5,
+        "financial_strength": null,
+        "growth": 48.4,
+        "cash_generation": null,
+        "capital_allocation": 100,
+        "valuation": 0
+      },
+      "components_scored": 4,
+      "overall": 33.3,
+      "pe_used": 34.3,
+      "quality_metric_used": "roe_pct"
+    },
+    {
+      "ticker": "IEX",
+      "name": "IEX",
+      "fundamentals_dir": "INDIAN_ENERGY_EXCHANGE",
+      "data_path": "full",
+      "sector_type": "general",
+      "components": {
+        "business_quality": 85.375,
+        "financial_strength": 99.5,
+        "growth": 52.800000000000004,
+        "cash_generation": 79.33333333333333,
+        "capital_allocation": 70.0,
+        "valuation": 28.55438981655442
+      },
+      "components_scored": 6,
+      "overall": 72.3,
+      "pe_used": 23.9,
+      "quality_metric_used": "roce_pct"
+    },
+    {
+      "ticker": "WONDERLA",
+      "name": "Wonderla Holidays",
+      "fundamentals_dir": "WONDERLA_HOLIDAYS",
+      "data_path": "full",
+      "sector_type": "general",
+      "components": {
+        "business_quality": 11.75,
+        "financial_strength": 100,
+        "growth": 31.2,
+        "cash_generation": 100.0,
+        "capital_allocation": 80.0,
+        "valuation": 0
+      },
+      "components_scored": 6,
+      "overall": 50.6,
+      "pe_used": 38.3,
+      "quality_metric_used": "roce_pct"
+    },
+    {
+      "ticker": "SWARAJENG",
+      "name": "Swaraj Engines",
+      "fundamentals_dir": "SWARAJ_ENGINES",
+      "data_path": "full",
+      "sector_type": "general",
+      "components": {
+        "business_quality": 96.025,
+        "financial_strength": 100,
+        "growth": 52.0,
+        "cash_generation": 66.66666666666666,
+        "capital_allocation": 100,
+        "valuation": 36.886662993137094
+      },
+      "components_scored": 6,
+      "overall": 77.3,
+      "pe_used": 22.3,
+      "quality_metric_used": "roce_pct"
+    },
+    {
+      "ticker": "TANLA",
+      "name": "Tanla Platforms",
+      "fundamentals_dir": "TANLA_PLATFORMS",
+      "data_path": "full",
+      "sector_type": "general",
+      "components": {
+        "business_quality": 58.400000000000006,
+        "financial_strength": 99.0,
+        "growth": 100,
+        "cash_generation": 74.58333333333333,
+        "capital_allocation": 100,
+        "valuation": 68.87803450660027
+      },
+      "components_scored": 6,
+      "overall": 80.9,
+      "pe_used": 16.0,
+      "quality_metric_used": "roce_pct"
+    },
     {
       "ticker": "HEROMOTOCO",
       "name": "Hero MotoCorp",
@@ -18690,6 +19033,102 @@
   ],
   "reverse_dcf": [
     {
+      "ticker": "TCS",
+      "name": "TATA CONSULTANCY SERVICES LTD",
+      "fundamentals_dir": "TATA_CONSULTANCY_SERVICES",
+      "fcf_year": 2026,
+      "fcf0_cr": 40208.0,
+      "net_debt_cr": -1625.0,
+      "ev_cr": 831258.8,
+      "wacc": 0.1266,
+      "wacc_detail": {
+        "re": 0.1272,
+        "beta": 0.936,
+        "beta_source": "computed",
+        "rd": 0.1087,
+        "tax_rate": 0.2448,
+        "d_over_v": 0.0134,
+        "e_over_v": 0.9866,
+        "borrowings_cr": 11283.0
+      },
+      "terminal_growth": 0.04,
+      "implied_growth_pct": 17.7,
+      "historical_revenue_cagr_pct": 9.5,
+      "note": null
+    },
+    {
+      "ticker": "CARERATING",
+      "name": "CARE RATINGS LTD",
+      "fundamentals_dir": "CARE_RATINGS",
+      "fcf_year": 2026,
+      "fcf0_cr": 53.1,
+      "net_debt_cr": -102.8,
+      "ev_cr": 5161.2,
+      "wacc": 0.1085,
+      "wacc_detail": {
+        "re": 0.1087,
+        "beta": 0.629,
+        "beta_source": "computed",
+        "rd": 0.0951,
+        "tax_rate": 0.262,
+        "d_over_v": 0.0049,
+        "e_over_v": 0.9951,
+        "borrowings_cr": 26.18
+      },
+      "terminal_growth": 0.04,
+      "implied_growth_pct": 55.3,
+      "historical_revenue_cagr_pct": 5.7,
+      "note": null
+    },
+    {
+      "ticker": "CAMS SERVICES",
+      "name": "COMPUTER AGE MANAGEMENT SERVICES LTD",
+      "fundamentals_dir": "COMPUTER_AGE_MANAGEMENT_SERVICES",
+      "fcf_year": 2026,
+      "fcf0_cr": 307.0,
+      "net_debt_cr": -316.6,
+      "ev_cr": 19236.8,
+      "wacc": 0.1529,
+      "wacc_detail": {
+        "re": 0.1531,
+        "beta": 1.368,
+        "beta_source": "computed",
+        "rd": 0.109,
+        "tax_rate": 0.2518,
+        "d_over_v": 0.0028,
+        "e_over_v": 0.9972,
+        "borrowings_cr": 54.31
+      },
+      "terminal_growth": 0.04,
+      "implied_growth_pct": 60.2,
+      "historical_revenue_cagr_pct": 13.2,
+      "note": null
+    },
+    {
+      "ticker": "INDIAN ENERGY EX",
+      "name": "INDIAN ENERGY EXCHANGE LTD",
+      "fundamentals_dir": "INDIAN_ENERGY_EXCHANGE",
+      "fcf_year": 2026,
+      "fcf0_cr": 201.7,
+      "net_debt_cr": -93.2,
+      "ev_cr": 11240.2,
+      "wacc": 0.16,
+      "wacc_detail": {
+        "re": 0.16,
+        "beta": 1.483,
+        "beta_source": "computed",
+        "rd": 0.2043,
+        "tax_rate": 0.2418,
+        "d_over_v": 0.001,
+        "e_over_v": 0.999,
+        "borrowings_cr": 11.16
+      },
+      "terminal_growth": 0.04,
+      "implied_growth_pct": 58.8,
+      "historical_revenue_cagr_pct": 13.2,
+      "note": null
+    },
+    {
       "ticker": "INDIGO PAINTS",
       "name": "INDIGO PAINTS LTD",
       "fundamentals_dir": "INDIGO_PAINTS",
@@ -18711,6 +19150,174 @@
       "terminal_growth": 0.04,
       "implied_growth_pct": 111.2,
       "historical_revenue_cagr_pct": 18.5,
+      "note": null
+    },
+    {
+      "ticker": "ITC",
+      "name": "ITC LTD",
+      "fundamentals_dir": "ITC",
+      "fcf_year": 2026,
+      "fcf0_cr": 16143.6,
+      "net_debt_cr": -609.7,
+      "ev_cr": 332682.5,
+      "wacc": 0.1017,
+      "wacc_detail": {
+        "re": 0.1023,
+        "beta": 0.521,
+        "beta_source": "computed",
+        "rd": 0.0355,
+        "tax_rate": 0.2502,
+        "d_over_v": 0.0071,
+        "e_over_v": 0.9929,
+        "borrowings_cr": 2399.06
+      },
+      "terminal_growth": 0.04,
+      "implied_growth_pct": 8.8,
+      "historical_revenue_cagr_pct": 7.0,
+      "note": null
+    },
+    {
+      "ticker": "MANAPPURAM FIN",
+      "name": "MANAPPURAM FINANCE LTD",
+      "fundamentals_dir": "MANAPPURAM_FINANCE",
+      "fcf_year": 2026,
+      "fcf0_cr": -21869.3,
+      "net_debt_cr": 51687.8,
+      "ev_cr": 86137.9,
+      "wacc": 0.1413,
+      "wacc_detail": {
+        "re": 0.1413,
+        "beta": 1.171,
+        "beta_source": "computed",
+        "rd": null,
+        "tax_rate": null,
+        "d_over_v": 0.0,
+        "e_over_v": 1.0,
+        "borrowings_cr": 57836.61
+      },
+      "terminal_growth": 0.04,
+      "implied_growth_pct": null,
+      "historical_revenue_cagr_pct": 12.1,
+      "note": "FCF is zero or negative -- reverse DCF isn't meaningful from a negative base"
+    },
+    {
+      "ticker": "SWARAJ ENGINES",
+      "name": "SWARAJ ENGINES LTD",
+      "fundamentals_dir": "SWARAJ_ENGINES",
+      "fcf_year": 2026,
+      "fcf0_cr": 138.6,
+      "net_debt_cr": -119.8,
+      "ev_cr": 4254.7,
+      "wacc": 0.1557,
+      "wacc_detail": {
+        "re": 0.1557,
+        "beta": 1.412,
+        "beta_source": "computed",
+        "rd": 0.1902,
+        "tax_rate": 0.2552,
+        "d_over_v": 0.0005,
+        "e_over_v": 0.9995,
+        "borrowings_cr": 2.05
+      },
+      "terminal_growth": 0.04,
+      "implied_growth_pct": 38.1,
+      "historical_revenue_cagr_pct": 13.0,
+      "note": null
+    },
+    {
+      "ticker": "TANLA PLATFORMS",
+      "name": "TANLA PLATFORMS LTD",
+      "fundamentals_dir": "TANLA_PLATFORMS",
+      "fcf_year": 2026,
+      "fcf0_cr": 621.7,
+      "net_debt_cr": -1010.9,
+      "ev_cr": 7125.8,
+      "wacc": 0.1609,
+      "wacc_detail": {
+        "re": 0.1612,
+        "beta": 1.504,
+        "beta_source": "computed",
+        "rd": 0.1311,
+        "tax_rate": 0.1975,
+        "d_over_v": 0.0064,
+        "e_over_v": 0.9936,
+        "borrowings_cr": 52.71
+      },
+      "terminal_growth": 0.04,
+      "implied_growth_pct": 11.5,
+      "historical_revenue_cagr_pct": 25.3,
+      "note": null
+    },
+    {
+      "ticker": "INDIGO",
+      "name": "INTERGLOBE AVIATION LTD",
+      "fundamentals_dir": "INTERGLOBE_AVIATION",
+      "fcf_year": 2026,
+      "fcf0_cr": 21526.9,
+      "net_debt_cr": 53749.9,
+      "ev_cr": 265075.1,
+      "wacc": 0.1288,
+      "wacc_detail": {
+        "re": 0.1552,
+        "beta": 1.403,
+        "beta_source": "computed",
+        "rd": 0.0765,
+        "tax_rate": 0.2517,
+        "d_over_v": 0.269,
+        "e_over_v": 0.731,
+        "borrowings_cr": 77749.2
+      },
+      "terminal_growth": 0.04,
+      "implied_growth_pct": 5.2,
+      "historical_revenue_cagr_pct": 18.4,
+      "note": null
+    },
+    {
+      "ticker": "LT",
+      "name": "LARSEN & TOUBRO LTD",
+      "fundamentals_dir": "LARSEN_&_TOUBRO",
+      "fcf_year": 2026,
+      "fcf0_cr": 5360.7,
+      "net_debt_cr": 104648.9,
+      "ev_cr": 668651.1,
+      "wacc": 0.1297,
+      "wacc_detail": {
+        "re": 0.1455,
+        "beta": 1.241,
+        "beta_source": "computed",
+        "rd": 0.0801,
+        "tax_rate": 0.2624,
+        "d_over_v": 0.182,
+        "e_over_v": 0.818,
+        "borrowings_cr": 125496.59
+      },
+      "terminal_growth": 0.04,
+      "implied_growth_pct": 74.7,
+      "historical_revenue_cagr_pct": 11.3,
+      "note": null
+    },
+    {
+      "ticker": "WONDERLA",
+      "name": "WONDERLA HOLIDAYS LTD",
+      "fundamentals_dir": "WONDERLA_HOLIDAYS",
+      "fcf_year": 2026,
+      "fcf0_cr": 9.9,
+      "net_debt_cr": -15.3,
+      "ev_cr": 3114.5,
+      "wacc": 0.1045,
+      "wacc_detail": {
+        "re": 0.1044,
+        "beta": 0.556,
+        "beta_source": "computed",
+        "rd": 0.25,
+        "tax_rate": 0.2455,
+        "d_over_v": 0.002,
+        "e_over_v": 0.998,
+        "borrowings_cr": 6.26
+      },
+      "terminal_growth": 0.04,
+      "implied_growth_pct": 95.0,
+      "historical_revenue_cagr_pct": 7.8,
       "note": null
     },
     {
@@ -20970,6 +21577,54 @@
       "note": null
     },
     {
+      "ticker": "CAMS",
+      "name": "CAMS",
+      "fundamentals_dir": "CAMS_YF",
+      "fcf_year": 2026,
+      "fcf0_cr": 313.9,
+      "net_debt_cr": 52.1,
+      "ev_cr": 18653.7,
+      "wacc": 0.1528,
+      "wacc_detail": {
+        "re": 0.1531,
+        "beta": 1.368,
+        "beta_source": "computed",
+        "rd": 0.1087,
+        "tax_rate": 0.249,
+        "d_over_v": 0.0034,
+        "e_over_v": 0.9966,
+        "borrowings_cr": 64.23
+      },
+      "terminal_growth": 0.04,
+      "implied_growth_pct": 58.4,
+      "historical_revenue_cagr_pct": 16.0,
+      "note": null
+    },
+    {
+      "ticker": "CARERATING",
+      "name": "CARE Ratings",
+      "fundamentals_dir": "CARERATING_YF",
+      "fcf_year": 2026,
+      "fcf0_cr": 53.1,
+      "net_debt_cr": -16.4,
+      "ev_cr": 5213.3,
+      "wacc": 0.1085,
+      "wacc_detail": {
+        "re": 0.1087,
+        "beta": 0.629,
+        "beta_source": "computed",
+        "rd": 0.0951,
+        "tax_rate": 0.262,
+        "d_over_v": 0.005,
+        "e_over_v": 0.995,
+        "borrowings_cr": 26.18
+      },
+      "terminal_growth": 0.04,
+      "implied_growth_pct": 55.6,
+      "historical_revenue_cagr_pct": 19.2,
+      "note": null
+    },
+    {
       "ticker": "CHAMBLFERT",
       "name": "Chambal Fertilisers",
       "fundamentals_dir": "CHAMBLFERT_YF",
@@ -21004,6 +21659,82 @@
         "positive_cfo": true,
         "roa_improved": false,
         "cfo_exceeds_net_income": true,
+        "leverage_decreased": false,
+        "no_dilution": true,
+        "asset_turnover_improved": false,
+        "gross_margin_improved": true
+      },
+      "as_of_year": 2026,
+      "ticker": "TCS",
+      "name": "TATA CONSULTANCY SERVICES LTD",
+      "fundamentals_dir": "TATA_CONSULTANCY_SERVICES"
+    },
+    {
+      "sector_type": "general",
+      "score": 6,
+      "applicable": 8,
+      "tests": {
+        "positive_net_income": true,
+        "positive_cfo": true,
+        "roa_improved": true,
+        "cfo_exceeds_net_income": false,
+        "leverage_decreased": true,
+        "no_dilution": false,
+        "asset_turnover_improved": true,
+        "gross_margin_improved": true
+      },
+      "as_of_year": 2026,
+      "ticker": "CARERATING",
+      "name": "CARE RATINGS LTD",
+      "fundamentals_dir": "CARE_RATINGS"
+    },
+    {
+      "sector_type": "general",
+      "score": 5,
+      "applicable": 8,
+      "tests": {
+        "positive_net_income": true,
+        "positive_cfo": true,
+        "roa_improved": false,
+        "cfo_exceeds_net_income": true,
+        "leverage_decreased": true,
+        "no_dilution": false,
+        "asset_turnover_improved": false,
+        "gross_margin_improved": true
+      },
+      "as_of_year": 2026,
+      "ticker": "CAMS SERVICES",
+      "name": "COMPUTER AGE MANAGEMENT SERVICES LTD",
+      "fundamentals_dir": "COMPUTER_AGE_MANAGEMENT_SERVICES"
+    },
+    {
+      "sector_type": "general",
+      "score": 6,
+      "applicable": 8,
+      "tests": {
+        "positive_net_income": true,
+        "positive_cfo": true,
+        "roa_improved": true,
+        "cfo_exceeds_net_income": false,
+        "leverage_decreased": false,
+        "no_dilution": true,
+        "asset_turnover_improved": true,
+        "gross_margin_improved": true
+      },
+      "as_of_year": 2026,
+      "ticker": "INDIAN ENERGY EX",
+      "name": "INDIAN ENERGY EXCHANGE LTD",
+      "fundamentals_dir": "INDIAN_ENERGY_EXCHANGE"
+    },
+    {
+      "sector_type": "general",
+      "score": 5,
+      "applicable": 8,
+      "tests": {
+        "positive_net_income": true,
+        "positive_cfo": true,
+        "roa_improved": false,
+        "cfo_exceeds_net_income": true,
         "leverage_decreased": true,
         "no_dilution": false,
         "asset_turnover_improved": false,
@@ -21013,6 +21744,138 @@
       "ticker": "INDIGO PAINTS",
       "name": "INDIGO PAINTS LTD",
       "fundamentals_dir": "INDIGO_PAINTS"
+    },
+    {
+      "sector_type": "general",
+      "score": 2,
+      "applicable": 8,
+      "tests": {
+        "positive_net_income": true,
+        "positive_cfo": true,
+        "roa_improved": false,
+        "cfo_exceeds_net_income": false,
+        "leverage_decreased": false,
+        "no_dilution": false,
+        "asset_turnover_improved": false,
+        "gross_margin_improved": false
+      },
+      "as_of_year": 2026,
+      "ticker": "ITC",
+      "name": "ITC LTD",
+      "fundamentals_dir": "ITC"
+    },
+    {
+      "sector_type": "financial",
+      "score": 1,
+      "applicable": 7,
+      "tests": {
+        "positive_net_income": true,
+        "positive_cfo": false,
+        "roa_improved": false,
+        "cfo_exceeds_net_income": false,
+        "leverage_decreased": false,
+        "no_dilution": false,
+        "asset_turnover_improved": false
+      },
+      "as_of_year": 2026,
+      "ticker": "MANAPPURAM FIN",
+      "name": "MANAPPURAM FINANCE LTD",
+      "fundamentals_dir": "MANAPPURAM_FINANCE"
+    },
+    {
+      "sector_type": "general",
+      "score": 6,
+      "applicable": 8,
+      "tests": {
+        "positive_net_income": true,
+        "positive_cfo": true,
+        "roa_improved": true,
+        "cfo_exceeds_net_income": false,
+        "leverage_decreased": true,
+        "no_dilution": true,
+        "asset_turnover_improved": true,
+        "gross_margin_improved": false
+      },
+      "as_of_year": 2026,
+      "ticker": "SWARAJ ENGINES",
+      "name": "SWARAJ ENGINES LTD",
+      "fundamentals_dir": "SWARAJ_ENGINES"
+    },
+    {
+      "sector_type": "general",
+      "score": 6,
+      "applicable": 8,
+      "tests": {
+        "positive_net_income": true,
+        "positive_cfo": true,
+        "roa_improved": false,
+        "cfo_exceeds_net_income": true,
+        "leverage_decreased": true,
+        "no_dilution": true,
+        "asset_turnover_improved": false,
+        "gross_margin_improved": true
+      },
+      "as_of_year": 2026,
+      "ticker": "TANLA PLATFORMS",
+      "name": "TANLA PLATFORMS LTD",
+      "fundamentals_dir": "TANLA_PLATFORMS"
+    },
+    {
+      "sector_type": "general",
+      "score": 3,
+      "applicable": 8,
+      "tests": {
+        "positive_net_income": false,
+        "positive_cfo": true,
+        "roa_improved": false,
+        "cfo_exceeds_net_income": true,
+        "leverage_decreased": true,
+        "no_dilution": false,
+        "asset_turnover_improved": false,
+        "gross_margin_improved": false
+      },
+      "as_of_year": 2026,
+      "ticker": "INDIGO",
+      "name": "INTERGLOBE AVIATION LTD",
+      "fundamentals_dir": "INTERGLOBE_AVIATION"
+    },
+    {
+      "sector_type": "general",
+      "score": 4,
+      "applicable": 8,
+      "tests": {
+        "positive_net_income": true,
+        "positive_cfo": true,
+        "roa_improved": false,
+        "cfo_exceeds_net_income": true,
+        "leverage_decreased": true,
+        "no_dilution": false,
+        "asset_turnover_improved": false,
+        "gross_margin_improved": false
+      },
+      "as_of_year": 2026,
+      "ticker": "LT",
+      "name": "LARSEN & TOUBRO LTD",
+      "fundamentals_dir": "LARSEN_&_TOUBRO"
+    },
+    {
+      "sector_type": "general",
+      "score": 4,
+      "applicable": 8,
+      "tests": {
+        "positive_net_income": true,
+        "positive_cfo": true,
+        "roa_improved": false,
+        "cfo_exceeds_net_income": true,
+        "leverage_decreased": false,
+        "no_dilution": false,
+        "asset_turnover_improved": true,
+        "gross_margin_improved": false
+      },
+      "as_of_year": 2026,
+      "ticker": "WONDERLA",
+      "name": "WONDERLA HOLIDAYS LTD",
+      "fundamentals_dir": "WONDERLA_HOLIDAYS"
     },
     {
       "sector_type": "general",
@@ -22840,6 +23703,44 @@
     },
     {
       "sector_type": "general",
+      "score": 6,
+      "applicable": 8,
+      "tests": {
+        "positive_net_income": true,
+        "positive_cfo": true,
+        "roa_improved": true,
+        "cfo_exceeds_net_income": true,
+        "leverage_decreased": true,
+        "no_dilution": false,
+        "asset_turnover_improved": true,
+        "gross_margin_improved": false
+      },
+      "as_of_year": 2026,
+      "ticker": "CAMS",
+      "name": "CAMS",
+      "fundamentals_dir": "CAMS_YF"
+    },
+    {
+      "sector_type": "general",
+      "score": 4,
+      "applicable": 8,
+      "tests": {
+        "positive_net_income": true,
+        "positive_cfo": true,
+        "roa_improved": true,
+        "cfo_exceeds_net_income": false,
+        "leverage_decreased": false,
+        "no_dilution": false,
+        "asset_turnover_improved": true,
+        "gross_margin_improved": false
+      },
+      "as_of_year": 2026,
+      "ticker": "CARERATING",
+      "name": "CARE Ratings",
+      "fundamentals_dir": "CARERATING_YF"
+    },
+    {
+      "sector_type": "general",
       "score": 3,
       "applicable": 8,
       "tests": {
@@ -22860,8 +23761,44 @@
   ],
   "fae_validation": [
     {
+      "ticker": "IEX",
+      "report_path": "Protfolio Thesis/IEX_FAE.md",
+      "locked_on": "2026-08-29",
+      "prediction_cycle": "FY2027",
+      "due_date": "2027-07-29",
+      "actuals_available": false,
+      "status": "not_due"
+    },
+    {
       "ticker": "HEROMOTOCO",
       "report_path": "Protfolio Thesis/HEROMOTOCO_FAE.md",
+      "locked_on": "2026-08-31",
+      "prediction_cycle": "FY2027",
+      "due_date": "2027-07-29",
+      "actuals_available": false,
+      "status": "not_due"
+    },
+    {
+      "ticker": "ITC",
+      "report_path": "Protfolio Thesis/ITC_FAE.md",
+      "locked_on": "2026-08-30",
+      "prediction_cycle": "FY2027",
+      "due_date": "2027-07-29",
+      "actuals_available": false,
+      "status": "not_due"
+    },
+    {
+      "ticker": "CARERATING",
+      "report_path": "Protfolio Thesis/CARERATING_FAE.md",
+      "locked_on": "2026-08-29",
+      "prediction_cycle": "FY2027",
+      "due_date": "2027-07-29",
+      "actuals_available": false,
+      "status": "not_due"
+    },
+    {
+      "ticker": "CAMS",
+      "report_path": "Protfolio Thesis/CAMS_FAE.md",
       "locked_on": "2026-08-31",
       "prediction_cycle": "FY2027",
       "due_date": "2027-07-29",
