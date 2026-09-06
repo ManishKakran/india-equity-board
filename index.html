@@ -39,11 +39,30 @@
   <div class="funnel" id="pipeline" style="margin-bottom:12px"></div>
   <div class="lwrap" id="watchlist"></div>
 
+  <div class="sec" style="margin-top:26px"><span class="eyebrow">§3 · full write-ups</span><h2>Published Reports</h2><span class="rule"></span></div>
+  <div class="muted" style="margin:-4px 0 10px">Every completed fundamental report, listed straight from the report index — so a write-up stays reachable whether or not its company currently appears in the watchlist above.</div>
+  <div class="rlist" id="faeReports"></div>
+
   </div><!-- /tabGeneral -->
 
   <footer id="footer"></footer>
 </div>
 
+<style>
+  .rlist{display:grid;gap:6px}
+  .rcard{display:grid;grid-template-columns:1fr 96px 128px 60px;align-items:center;gap:10px;
+    padding:9px 12px;border:1px solid var(--hair);border-radius:4px;background:var(--panel);
+    text-decoration:none;color:inherit;transition:background .12s,border-color .12s}
+  .rcard:hover{border-color:var(--hair-bright);background:var(--panel-2)}
+  .rname{font-family:var(--disp);font-size:14px}
+  .rtk{font-family:var(--mono);font-size:10.5px;color:var(--ivory-dim);letter-spacing:.04em}
+  .rcard .tag{justify-self:start;font-size:9.5px}
+  .rgo{font-family:var(--mono);font-size:10px;color:var(--ivory-dim);text-align:right}
+  @media(max-width:760px){
+    .rcard{grid-template-columns:1fr auto;row-gap:5px}
+    .rgo{display:none}
+  }
+</style>
 <script src="assets/shared.js"></script>
 <script>
 let DATA = {};
@@ -60,6 +79,10 @@ function renderPipeline(){
    live-price refreshes) instead of resetting to insertion order every time. */
 let wSort={key:null, dir:1};
 const WSORT_TEXT_KEYS=new Set(["name","ticker","status","buy_zone"]);
+/* Ordered by how actionable the classification is, most first. Keys are the raw
+   framework_screen values, not the display wording -- displayClassification() rewrites
+   "BUY NOW" to "Worth a look" for presentation only. */
+const WSORT_CLASS_RANK={"BUY NOW":4,"BUILD POSITION ON WEAKNESS":3,"WATCHLIST":2,"MONITOR":1};
 function wSortValue(w, key){
   switch(key){
     case "name": return (w.name||"").toLowerCase();
@@ -70,6 +93,24 @@ function wSortValue(w, key){
     case "pe": return w.live_pe;
     case "roce": return (screenRowFor(w)||{}).metrics?.roce_pct;
     case "de": return w.de;
+    /* FAE Screen column: rank by how actionable the classification is, not alphabetically
+       -- "BUILD POSITION ON WEAKNESS" sorting between "BUY NOW" and "MONITOR" is only
+       meaningful as a rank. Ties broken by the composite score (0-100) so two names in the
+       same band still order sensibly; the score is scaled to a fraction so it can never
+       outrank a whole band. Rows with no screen entry return null and sort last. */
+    case "screen": {
+      const r=screenRowFor(w);
+      if(!r) return null;
+      const rank=WSORT_CLASS_RANK[r.classification]||0;
+      const sc=scoreRowFor(w.ticker, w.fundamentals_dir);
+      const overall=(sc&&typeof sc.overall==="number")?sc.overall:0;
+      return rank + (overall/1000);
+    }
+    /* Report column is presence/absence -- 1 sorts above 0 by default (descending), so the
+       companies with a published report group at the top. 0 rather than null on purpose:
+       null is treated as "missing" and forced last regardless of direction, which would
+       make this column's ascending sort do nothing. */
+    case "report": return faeReportUrlFor(w.ticker)?1:0;
     default: return null;
   }
 }
@@ -89,7 +130,7 @@ function renderWatchlist(){
   const faeTriggerTickers=new Set((DATA.fae_triggers||[]).map(r=>r.ticker));
   const head=`<div class="wlist-head"><span>#</span><span></span>${wSortHeader("name","Company")}${wSortHeader("ticker","Ticker")}${wSortHeader("status","Status")}${wSortHeader("buy_zone","Buy zone")}
     <span class="wmetrics">${wSortHeader("price","Price","wm-price")}${wSortHeader("pe","PE","wm-pe")}${wSortHeader("roce","ROCE","wm-roce")}${wSortHeader("de","D/E","wm-de")}</span>
-    <span>Screener</span><span>FAE Screen</span><span>Report</span></div>`;
+    <span>Screener</span>${wSortHeader("screen","FAE Screen")}${wSortHeader("report","Report")}</div>`;
   let list=(DATA.watchlist||[]).slice();
   if(wSort.key){
     const isText=WSORT_TEXT_KEYS.has(wSort.key);
@@ -132,9 +173,30 @@ function renderWatchlist(){
   }).join("") + `</div>`;
 }
 
+/* Reads DATA.fae_reports (written by publish_fae_reports.py straight from
+   fae_reports_index.json) rather than resolving links through holdings/watchlist/
+   framework_screen. That indirection is what previously made a report's link depend on which
+   kind of portfolio record its company happened to have -- CARERATING and IEX are holdings
+   that were never screening candidates, so their only public carrier was a watchlist row, and
+   they lost their link the moment holdings stopped being published. Keyed by ticker only, this
+   cannot regress that way again. */
+function renderFaeReports(){
+  const el=document.getElementById("faeReports");
+  if(!el) return;
+  const rows=DATA.fae_reports||[];
+  if(!rows.length){ el.innerHTML=`<div class="muted">No published reports yet.</div>`; return; }
+  el.innerHTML=rows.map(r=>`<a class="rcard" href="${esc(r.url)}" target="_blank" rel="noopener"
+      title="Read the full report for ${esc(r.name)}">
+      <span class="rname">${esc(r.name)}</span>
+      <span class="rtk">${esc(r.ticker)}</span>
+      <span class="tag ${esc(r.verdict_class||"na")}">${esc(r.verdict||"REPORT")}</span>
+      <span class="rgo">Read ↗</span>
+    </a>`).join("");
+}
+
 function render(){
   document.getElementById("asof").textContent = "as of "+(DATA.as_of||DATA.generated||"\u2014");
-  renderPipeline(); renderWatchlist(); renderFooter(); buildQuickNav();
+  renderPipeline(); renderWatchlist(); renderFaeReports(); renderFooter(); buildQuickNav();
 }
 boot(render);
 
