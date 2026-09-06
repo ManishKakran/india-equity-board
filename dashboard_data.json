@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-04",
+  "generated": "2026-09-06",
   "as_of": "2026-09-04",
   "pipeline": {
     "buy": 27,
@@ -143,25 +143,29 @@
       "de": 0.0,
       "live_fetched_at": "2026-09-04T10:45:17",
       "screener_url": "https://www.screener.in/company/ACE/consolidated/",
-      "fundamentals_dir": "ACE_YF",
+      "fundamentals_dir": "ACTION_CONSTRUCTION_EQUIPMENT",
       "fundamentals": {
-        "period": "FY23-FY26",
-        "revenue_latest": 3277.74,
-        "revenue_cagr": 15.0,
+        "period": "FY17-FY26",
+        "revenue_latest": 3280.44,
+        "revenue_cagr": 17.8,
         "pat_latest": 415.09,
-        "opm": 17.7,
+        "opm": 14.3,
         "npm": 12.7,
-        "cfo_pat_5y": 116.1,
+        "cfo_pat_5y": 114.8,
         "de": 0.0,
         "price": 1125.4,
-        "mcap": 13395.4,
+        "mcap": 13401.62,
         "revenue_spark": [
-          2157.41,
-          2909.68,
-          3324.58,
-          3277.74
+          1342.53,
+          1156.23,
+          1227.15,
+          1629.58,
+          2159.68,
+          2913.8,
+          3327.05,
+          3280.44
         ],
-        "opm_note": "OPM = EBIT / Revenue, both yfinance's own reported figures (no approximation needed)"
+        "opm_note": "EBIT approx = PBT + Interest - Other Income (from Screener schema)"
       },
       "has_fundamentals": true
     },
@@ -3215,7 +3219,7 @@
       "ticker": "TCS",
       "status": "Worth a look",
       "buy_zone": "-",
-      "concern": "Sector-wide AI-disruption selloff; heavy capital added Feb-May 2026 now underwater; WC days 34->85 in FY26",
+      "concern": "Sector-wide AI-disruption selloff; WC days 34->85 in FY26",
       "live_price": 2304.0,
       "de": 0.11,
       "screener_url": "https://www.screener.in/company/TCS/consolidated/",
@@ -3227,7 +3231,7 @@
       "ticker": "CAMS",
       "status": "Worth a look",
       "buy_zone": "-",
-      "concern": "FAE verdict: WAIT. First standalone report for this holding. Business quality is exceptionally strong for this portfolio: ROCE 46.2% (Screener 47.0%), Piotroski 5/8, 113.5% ten-year cumulative cash conversion, near-zero real debt (D/E 0.045, falling every year since FY2021), zero flags on this repo's deterministic forensic scanner, and related-party exposure verified clean across four years of primary-source annual reports (small, arm's-length subsidiary balances only, plus two new small FY2026 loans-to-subsidiary). CAMS is the dominant #1 in India's two-player MF-RTA duopoly (~68% share vs KFin Technologies' ~31-32%) and -- unusually -- trades at a *lower* P/E (~39.3x) than its smaller, weaker rival (~49-54x). All valuation checks still fail: ~39.3x trailing PE is roughly double the Sensex (19.7x); Graham number (PE x PB) ~577-722 depending on standalone/consolidated basis, one of the largest breaches in this project's report series; reverse-DCF implies 60.2%/yr FCF growth priced in (WACC 15.29%, Beta 1.369, computed not assumed) against a 13.2% ten-year revenue CAGR (~4.6x gap) or a 15.7% recent 2yr CAGR (~3.8x gap). FY2026 broke an otherwise clean upward profitability trend: operating profit fell 0.8% despite revenue growth of 5.9%, driven by an unexplained 135% jump in 'Other Expenses' and a ~Rs.129.5cr unattributed investing-cash-flow residual -- both genuinely open, not resolved even after four annual reports and four quarterly transcripts were read directly. A live, unresolved SEBI mutual-fund fee-regulation overhaul (Base Expense Ratio, effective 1-Apr-2026) is the single most material risk, already visible in miniature via CAMS's own KYC-registration segment margin falling from a 16-17% target to ~13% after an already-realized ~29-30% rate cut in that smaller business. CAMS survived a comparable SEBI fee cut once before (2018) and recovered margins within about a year -- real, relevant precedent for the bull case. Warburg Pincus (via Great Terrain Investment) fully exited its ~19.87% stake in December 2023; CAMS now carries 0% promoter shareholding, the same structural mismatch with this repo's Darwin/Nalanda ownership screen found for CARE Ratings/IEX/ITC.",
+      "concern": "FAE verdict: WAIT. First standalone report for this company. Business quality is exceptionally strong relative to this coverage universe: ROCE 46.2% (Screener 47.0%), Piotroski 5/8, 113.5% ten-year cumulative cash conversion, near-zero real debt (D/E 0.045, falling every year since FY2021), zero flags on this repo's deterministic forensic scanner, and related-party exposure verified clean across four years of primary-source annual reports (small, arm's-length subsidiary balances only, plus two new small FY2026 loans-to-subsidiary). CAMS is the dominant #1 in India's two-player MF-RTA duopoly (~68% share vs KFin Technologies' ~31-32%) and -- unusually -- trades at a *lower* P/E (~39.3x) than its smaller, weaker rival (~49-54x). All valuation checks still fail: ~39.3x trailing PE is roughly double the Sensex (19.7x); Graham number (PE x PB) ~577-722 depending on standalone/consolidated basis, one of the largest breaches in this project's report series; reverse-DCF implies 60.2%/yr FCF growth priced in (WACC 15.29%, Beta 1.369, computed not assumed) against a 13.2% ten-year revenue CAGR (~4.6x gap) or a 15.7% recent 2yr CAGR (~3.8x gap). FY2026 broke an otherwise clean upward profitability trend: operating profit fell 0.8% despite revenue growth of 5.9%, driven by an unexplained 135% jump in 'Other Expenses' and a ~Rs.129.5cr unattributed investing-cash-flow residual -- both genuinely open, not resolved even after four annual reports and four quarterly transcripts were read directly. A live, unresolved SEBI mutual-fund fee-regulation overhaul (Base Expense Ratio, effective 1-Apr-2026) is the single most material risk, already visible in miniature via CAMS's own KYC-registration segment margin falling from a 16-17% target to ~13% after an already-realized ~29-30% rate cut in that smaller business. CAMS survived a comparable SEBI fee cut once before (2018) and recovered margins within about a year -- real, relevant precedent for the bull case. Warburg Pincus (via Great Terrain Investment) fully exited its ~19.87% stake in December 2023; CAMS now carries 0% promoter shareholding, the same structural mismatch with this repo's Darwin/Nalanda ownership screen found for CARE Ratings/IEX/ITC.",
       "live_price": 748.8,
       "de": null,
       "screener_url": "https://www.screener.in/company/CAMS/",
@@ -3239,7 +3243,7 @@
       "ticker": "CARERATING",
       "status": "Worth a look",
       "buy_zone": "-",
-      "concern": "FAE verdict: WAIT. First standalone report for this holding, written in the plain-English/full-depth v3.5 format. Business quality is genuinely resilient: near-zero real debt (D/E never above 0.03), operating cash flow never negative in 10 years, zero flags on this repo's deterministic forensic scanner, Piotroski 6/8. OPM more than halved from 62%+ (FY2017-18) to a 29-30% floor (FY2020-22) during a real governance crisis, then recovered to 38.7% by FY2026 -- revenue CAGR is only 5.7% over the full 10-year window but a much stronger 17.6%/yr from the FY2022 trough, and both figures are reported since the flat headline number understates real recent momentum. Every valuation check still fails even against the flattering recent trend: trailing PE ~28.5x is a premium to Sensex (19.7x) and to ICRA (24.2x, though below CRISIL's 39.1x); Graham number (PE x PB) ~155 against a 22.5 threshold; reverse-DCF implies 55.4%/yr FCF growth priced in, ~3.1x even the best recent 4yr actual growth rate. Governance history is real and material: CARE (with CRISIL/ICRA) was penalised by SEBI for failing to downgrade IL&FS in time (2019-2020, up to Rs.1cr each); former MD Rajesh Mokashi and Chairman S B Mainak both departed 2019-2020 amid a whistleblower/forensic probe, but the specific personal-interference allegation against Mokashi was fully exonerated by SAT (27-Jun-2025) and upheld by the Supreme Court (11-Mar-2026) after ~7 years of litigation -- a genuinely resolved chapter, reported in full rather than summarized away. 0% promoter ownership, same structural ownership mismatch with the Darwin/Nalanda screen as IEX/ITC. This is the portfolio's single largest holding (23.9% of value) -- flagged explicitly as a sizing consideration, not a recommendation.",
+      "concern": "FAE verdict: WAIT. First standalone report for this company, written in the plain-English/full-depth v3.5 format. Business quality is genuinely resilient: near-zero real debt (D/E never above 0.03), operating cash flow never negative in 10 years, zero flags on this repo's deterministic forensic scanner, Piotroski 6/8. OPM more than halved from 62%+ (FY2017-18) to a 29-30% floor (FY2020-22) during a real governance crisis, then recovered to 38.7% by FY2026 -- revenue CAGR is only 5.7% over the full 10-year window but a much stronger 17.6%/yr from the FY2022 trough, and both figures are reported since the flat headline number understates real recent momentum. Every valuation check still fails even against the flattering recent trend: trailing PE ~28.5x is a premium to Sensex (19.7x) and to ICRA (24.2x, though below CRISIL's 39.1x); Graham number (PE x PB) ~155 against a 22.5 threshold; reverse-DCF implies 55.4%/yr FCF growth priced in, ~3.1x even the best recent 4yr actual growth rate. Governance history is real and material: CARE (with CRISIL/ICRA) was penalised by SEBI for failing to downgrade IL&FS in time (2019-2020, up to Rs.1cr each); former MD Rajesh Mokashi and Chairman S B Mainak both departed 2019-2020 amid a whistleblower/forensic probe, but the specific personal-interference allegation against Mokashi was fully exonerated by SAT (27-Jun-2025) and upheld by the Supreme Court (11-Mar-2026) after ~7 years of litigation -- a genuinely resolved chapter, reported in full rather than summarized away. 0% promoter ownership, same structural ownership mismatch with the Darwin/Nalanda screen as IEX/ITC. This is the portfolio's single largest holding (23.9% of value) -- flagged explicitly as a sizing consideration, not a recommendation.",
       "live_price": 1738.2,
       "de": 0.03,
       "screener_url": "https://www.screener.in/company/CARERATING/consolidated/",
@@ -3495,7 +3499,7 @@
       "classification": "BUILD POSITION ON WEAKNESS",
       "gate": "Profitability: PASS · Valuation: WATCHLIST (originally flagged BUY; price hasn't reached the target discount yet)",
       "reasons": [
-        "FAE verdict: WAIT. First standalone report for this holding, built via fae_pipeline.py's full 8-gate automated run (with live web search and 5 years of the company's own annual reports read directly, Grep-first) then rewritten into this repo's plain-English format. Business quality is genuinely strong: ROCE ~48-55%, D/E never above 0.005 (effectively debt-free), Piotroski 6/8, zero dilution across the tracked period, and a component score of 77.3/100 driven by top-of-scale Business Quality/Financial Strength/Capital Allocation. The central fact of this company: Mahindra & Mahindra is both its 52.11% controlling shareholder AND, via its Farm Equipment Sector, effectively its sole customer -- confirmed, not just suspected, via 5 years of primary-source annual-report data showing trade receivables ~99-100% owed by M&M every single year FY2022-FY2026, with a disclosed but not independently benchmarked related-party pricing framework (AGM-approved caps, auditor Key Audit Matter flag). All 7 hard filters clear. Every valuation check fails: trailing PE ~21.4x is a premium to Sensex (19.7x); Graham number (PE x PB) ~189, ~8x the 22.5 threshold; reverse-DCF implies 38.1%/yr FCF growth priced in (WACC 15.57%, Beta 1.412, computed) against a 13.0% historical revenue CAGR (~2.9x gap) or ~19%/yr recent 2-year CAGR (~2x gap). FY2026 was also the first year in the 5-year window Swaraj's own dispatch growth (20.1%) lagged total industry growth (23%), a small but real reversal after 4 straight years of outperformance. Industry is past its FY2026 cyclical peak (a record 1.16M+ tractor units sold) with ICRA/Crisil both guiding a sharp FY2027 deceleration (1-4%/0-2%). One correction made during the plain-English rewrite, not present in the raw automated draft: the FY2026 cash-flow-statement-vs-balance-sheet cash gap (Rs.63.17cr) that the automated Gates 1/2/5F/5I repeatedly treated as the single most important open question was checked against the full 9-year record before finalizing -- it recurs in 8 of 9 years (as large as Rs.66cr in FY2024), so it was downgraded from 'this year's alarming new problem' to 'a long-standing, likely definitional (cash-equivalents classification) pattern,' with the correction stated explicitly in the report rather than silently fixed.",
+        "FAE verdict: WAIT. First standalone report for this company, built via fae_pipeline.py's full 8-gate automated run (with live web search and 5 years of the company's own annual reports read directly, Grep-first) then rewritten into this repo's plain-English format. Business quality is genuinely strong: ROCE ~48-55%, D/E never above 0.005 (effectively debt-free), Piotroski 6/8, zero dilution across the tracked period, and a component score of 77.3/100 driven by top-of-scale Business Quality/Financial Strength/Capital Allocation. The central fact of this company: Mahindra & Mahindra is both its 52.11% controlling shareholder AND, via its Farm Equipment Sector, effectively its sole customer -- confirmed, not just suspected, via 5 years of primary-source annual-report data showing trade receivables ~99-100% owed by M&M every single year FY2022-FY2026, with a disclosed but not independently benchmarked related-party pricing framework (AGM-approved caps, auditor Key Audit Matter flag). All 7 hard filters clear. Every valuation check fails: trailing PE ~21.4x is a premium to Sensex (19.7x); Graham number (PE x PB) ~189, ~8x the 22.5 threshold; reverse-DCF implies 38.1%/yr FCF growth priced in (WACC 15.57%, Beta 1.412, computed) against a 13.0% historical revenue CAGR (~2.9x gap) or ~19%/yr recent 2-year CAGR (~2x gap). FY2026 was also the first year in the 5-year window Swaraj's own dispatch growth (20.1%) lagged total industry growth (23%), a small but real reversal after 4 straight years of outperformance. Industry is past its FY2026 cyclical peak (a record 1.16M+ tractor units sold) with ICRA/Crisil both guiding a sharp FY2027 deceleration (1-4%/0-2%). One correction made during the plain-English rewrite, not present in the raw automated draft: the FY2026 cash-flow-statement-vs-balance-sheet cash gap (Rs.63.17cr) that the automated Gates 1/2/5F/5I repeatedly treated as the single most important open question was checked against the full 9-year record before finalizing -- it recurs in 8 of 9 years (as large as Rs.66cr in FY2024), so it was downgraded from 'this year's alarming new problem' to 'a long-standing, likely definitional (cash-equivalents classification) pattern,' with the correction stated explicitly in the report rather than silently fixed.",
         "Profitability check (PASS): Return on capital employed (ROCE) is 58.7% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -3525,9 +3529,11 @@
       "classification": "BUILD POSITION ON WEAKNESS",
       "gate": "Profitability: PASS · Valuation: WATCHLIST (originally flagged BUY; price hasn't reached the target discount yet)",
       "reasons": [
+        "FAE verdict: WAIT. First standalone report on this watchlist name, built from the full 8-gate automated run then rewritten into this repo's plain-English format, with every load-bearing claim re-verified against primary sources. Rebuilt 2026-09-06 on a real Screener export (10 years, FY2017-FY2026, consolidated) after the first version had only 4 years of yfinance standalone data -- the fuller series materially changed several conclusions, see below. Business quality is genuinely strong: domestic leader in pick-and-carry cranes, effectively debt-free TODAY (D/E 0.004), 5-yr cash conversion 114.8%, clean forensic scan across all 10 years, 52 distinct disclosed customers so no concentration risk, survives a three-way stress test at 28x interest cover. Composite score 68.8/100 with Valuation at 0. The thesis breaks on arithmetic, not quality: net margin went 2.0% (FY2017) -> 12.7% (FY2026) and D/E went 0.34 -> 0.004, and BOTH are one-time repairs now exhausted -- decomposed in the report into gross margin (29.1%->31.7%, already peaked at 32.4% in FY2025 and slipping), employee cost (7.9%->4.9% of sales), and interest cost (2.1%->0.7%). Underneath, revenue compounded 17.8%/yr over 9 years and FELL 1.4% in FY2026. KEY FINDING only visible with the 10-year data: FY2026 OPERATING profit fell 8.6cr (-1.8%); the +7.6cr rise in pre-tax profit came entirely from +9.8cr more treasury income and +6.5cr less interest -- the crane business earned less than the prior year. Non-operating income is now 19.8% of pre-tax profit (up from ~8-11% in FY18-22) off a ~1,283cr investment book. ROCE measured excluding treasury income peaked at 35.2% (FY2024) and has fallen two straight years to 25.7% (most screens will show 31.7%, which includes non-operating income). At Rs 1,125.4 (32.3x trailing) the price implies ~45%/yr FCF growth vs 15-18% delivered. NOTE: the repo's own reverse-DCF reports 101.4% -- an artifact of the CFO+CFI proxy counting ~250cr of treasury purchases as capex; corrected to 45.2% using real capex of 100.83cr. Two genuine open items: the receivables ageing mix deteriorated sharply (not-yet-due share fell 37.8%->18.8% of the book in one year) though days (31.7) sit inside stated 15-60 day terms with real reasons on record; and a CARO qualification that bank-filed returns do not agree with the books has now repeated FOUR consecutive years (FY2023-FY2026) with no remediation. Also documents a FY2023 Emphasis of Matter restating FY2022/Apr-2021 comparatives for 'correction of errors' (pure reclassification, ties to exactly zero, no profit restated, but 73.3cr of liabilities including 21.6cr of real bank borrowings had been misclassified) alongside an auditor change to B S R & Co. LLP. Indicated accumulation zone Rs 780-880.",
         "Profitability check (PASS): Return on capital employed (ROCE) is 31.7% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
+        "Highest-priority watch item is whether the CARO bank-filings qualification appears a FIFTH consecutive year in the FY2027 annual report -- that alone would justify walking away. Then: receivable days holding at or below 32 with the ageing mix repairing (not-yet-due share recovering); Finance Ministry notification of the DGTR anti-dumping duty on Chinese heavy cranes (recommended Sept 2025 at 25-52%, still not notified well past the 90-day window) which directly determines whether the KATO Works JV moves off 'practically nil' margins; whether Q1 FY27's +22% core-segment rebound (Rs 738.37cr vs Rs 605.43cr, volumes +17.25%) is a durable run rate or a bounce off a depressed base; ROCE (operating basis, excluding treasury income), which has fallen 35.2%->33.3%->25.7% over two years as the growing Rs 1,283cr treasury book dilutes capital efficiency; and whether operating profit resumes growing on its own rather than being carried by treasury income and a falling interest bill.",
         "Valuation check (WATCHLIST): Trading at 29.24x earnings vs the Sensex average (19.7x) — only a -48% discount, short of the 25-30% this screen looks for (past picks that passed this screen typically entered around 14.9x)"
       ],
       "thesis_breakers": [
@@ -3542,9 +3548,9 @@
         "industry": "Construction Vehicles"
       },
       "next_for_full_fae": "Independently verify promoter integrity, debt levels, and ownership structure from the latest annual report before acting on this.",
-      "thesis_source": null,
-      "fae_report_path": null,
-      "fae_report_url": null
+      "thesis_source": "fae-report",
+      "fae_report_path": "Protfolio Thesis/ACE_FAE.md",
+      "fae_report_url": "reports/ACE.html"
     },
     {
       "ticker": "KNRCON",
@@ -5991,7 +5997,7 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: FAIL",
       "reasons": [
-        "FAE verdict: WAIT. First standalone report for this holding. Business quality is exceptionally strong for this portfolio: ROCE 46.2% (Screener 47.0%), Piotroski 5/8, 113.5% ten-year cumulative cash conversion, near-zero real debt (D/E 0.045, falling every year since FY2021), zero flags on this repo's deterministic forensic scanner, and related-party exposure verified clean across four years of primary-source annual reports (small, arm's-length subsidiary balances only, plus two new small FY2026 loans-to-subsidiary). CAMS is the dominant #1 in India's two-player MF-RTA duopoly (~68% share vs KFin Technologies' ~31-32%) and -- unusually -- trades at a *lower* P/E (~39.3x) than its smaller, weaker rival (~49-54x). All valuation checks still fail: ~39.3x trailing PE is roughly double the Sensex (19.7x); Graham number (PE x PB) ~577-722 depending on standalone/consolidated basis, one of the largest breaches in this project's report series; reverse-DCF implies 60.2%/yr FCF growth priced in (WACC 15.29%, Beta 1.369, computed not assumed) against a 13.2% ten-year revenue CAGR (~4.6x gap) or a 15.7% recent 2yr CAGR (~3.8x gap). FY2026 broke an otherwise clean upward profitability trend: operating profit fell 0.8% despite revenue growth of 5.9%, driven by an unexplained 135% jump in 'Other Expenses' and a ~Rs.129.5cr unattributed investing-cash-flow residual -- both genuinely open, not resolved even after four annual reports and four quarterly transcripts were read directly. A live, unresolved SEBI mutual-fund fee-regulation overhaul (Base Expense Ratio, effective 1-Apr-2026) is the single most material risk, already visible in miniature via CAMS's own KYC-registration segment margin falling from a 16-17% target to ~13% after an already-realized ~29-30% rate cut in that smaller business. CAMS survived a comparable SEBI fee cut once before (2018) and recovered margins within about a year -- real, relevant precedent for the bull case. Warburg Pincus (via Great Terrain Investment) fully exited its ~19.87% stake in December 2023; CAMS now carries 0% promoter shareholding, the same structural mismatch with this repo's Darwin/Nalanda ownership screen found for CARE Ratings/IEX/ITC.",
+        "FAE verdict: WAIT. First standalone report for this company. Business quality is exceptionally strong relative to this coverage universe: ROCE 46.2% (Screener 47.0%), Piotroski 5/8, 113.5% ten-year cumulative cash conversion, near-zero real debt (D/E 0.045, falling every year since FY2021), zero flags on this repo's deterministic forensic scanner, and related-party exposure verified clean across four years of primary-source annual reports (small, arm's-length subsidiary balances only, plus two new small FY2026 loans-to-subsidiary). CAMS is the dominant #1 in India's two-player MF-RTA duopoly (~68% share vs KFin Technologies' ~31-32%) and -- unusually -- trades at a *lower* P/E (~39.3x) than its smaller, weaker rival (~49-54x). All valuation checks still fail: ~39.3x trailing PE is roughly double the Sensex (19.7x); Graham number (PE x PB) ~577-722 depending on standalone/consolidated basis, one of the largest breaches in this project's report series; reverse-DCF implies 60.2%/yr FCF growth priced in (WACC 15.29%, Beta 1.369, computed not assumed) against a 13.2% ten-year revenue CAGR (~4.6x gap) or a 15.7% recent 2yr CAGR (~3.8x gap). FY2026 broke an otherwise clean upward profitability trend: operating profit fell 0.8% despite revenue growth of 5.9%, driven by an unexplained 135% jump in 'Other Expenses' and a ~Rs.129.5cr unattributed investing-cash-flow residual -- both genuinely open, not resolved even after four annual reports and four quarterly transcripts were read directly. A live, unresolved SEBI mutual-fund fee-regulation overhaul (Base Expense Ratio, effective 1-Apr-2026) is the single most material risk, already visible in miniature via CAMS's own KYC-registration segment margin falling from a 16-17% target to ~13% after an already-realized ~29-30% rate cut in that smaller business. CAMS survived a comparable SEBI fee cut once before (2018) and recovered margins within about a year -- real, relevant precedent for the bull case. Warburg Pincus (via Great Terrain Investment) fully exited its ~19.87% stake in December 2023; CAMS now carries 0% promoter shareholding, the same structural mismatch with this repo's Darwin/Nalanda ownership screen found for CARE Ratings/IEX/ITC.",
         "Profitability check (PASS): Return on capital employed (ROCE) is 49.03% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -6428,7 +6434,7 @@
       "classification": "WATCHLIST",
       "gate": "Profitability: PASS · Valuation: WATCHLIST",
       "reasons": [
-        "FAE verdict: HOLD. Rebuilt from scratch 2026-08-30 against a freshly refreshed Screener export and same-day live research, in this project's plain-English, no-jargon format. All 7 hard filters clear -- the cleanest hard-filter result of any holding in this series so far, including related-party exposure (Rs.135.4cr, 0.65% of FY26 profit, arm's-length) and the FY24-FY25 equity-statement demerger entry (Rs.22,033.37cr, tying almost exactly to the earlier estimate) -- both figures carried forward from earlier same-day research rather than independently re-confirmed in this exact pass, since a direct re-fetch of ITC's Annual Report PDF exceeded this session's fetch-size limit; stated plainly in the report rather than presented as fresh verification. Reverse-DCF implied growth is only 8.7%/yr (WACC 10.16%, Beta 0.519) vs 7.0% historical / ~9.9% recent-5yr CAGR -- the smallest implied-vs-historical gap (~1.2x) in this project's report series (vs ~4.5x for IEX, ~3.1-9.7x for CARE Ratings), and Graham number (~74) is also the lowest in the series, though still above the 22.5 threshold. Darwin/Nalanda screen: ROCE 35.3% clears >20% easily, D/E 0.033 trivial even after an 8x FY26 borrowings jump, but PE discount to Sensex is only ~18%, short of the 25-30% target; 0% formal promoter ownership is a genuine middle case (not a clean fit either way) since BAT-linked entities still hold ~22.9% combined -- influential, below the 25% control threshold, not a full exit like CARE/IEX. This holding's own pre-defined 'punitive cigarette tax' kill criterion has genuinely fired (Q1 FY27 cigarette segment gross revenue -31.5% YoY) -- addressed head-on in its own report section rather than smoothed over; the other two kill criteria (FMCG margin, non-core capital misallocation) have not triggered.",
+        "FAE verdict: HOLD. Rebuilt from scratch 2026-08-30 against a freshly refreshed Screener export and same-day live research, in this project's plain-English, no-jargon format. All 7 hard filters clear -- the cleanest hard-filter result of any company in this series so far, including related-party exposure (Rs.135.4cr, 0.65% of FY26 profit, arm's-length) and the FY24-FY25 equity-statement demerger entry (Rs.22,033.37cr, tying almost exactly to the earlier estimate) -- both figures carried forward from earlier same-day research rather than independently re-confirmed in this exact pass, since a direct re-fetch of ITC's Annual Report PDF exceeded this session's fetch-size limit; stated plainly in the report rather than presented as fresh verification. Reverse-DCF implied growth is only 8.7%/yr (WACC 10.16%, Beta 0.519) vs 7.0% historical / ~9.9% recent-5yr CAGR -- the smallest implied-vs-historical gap (~1.2x) in this project's report series (vs ~4.5x for IEX, ~3.1-9.7x for CARE Ratings), and Graham number (~74) is also the lowest in the series, though still above the 22.5 threshold. Darwin/Nalanda screen: ROCE 35.3% clears >20% easily, D/E 0.033 trivial even after an 8x FY26 borrowings jump, but PE discount to Sensex is only ~18%, short of the 25-30% target; 0% formal promoter ownership is a genuine middle case (not a clean fit either way) since BAT-linked entities still hold ~22.9% combined -- influential, below the 25% control threshold, not a full exit like CARE/IEX. The company's own pre-defined 'punitive cigarette tax' kill criterion has genuinely fired (Q1 FY27 cigarette segment gross revenue -31.5% YoY) -- addressed head-on in its own report section rather than smoothed over; the other two kill criteria (FMCG margin, non-core capital misallocation) have not triggered.",
         "Profitability check (PASS): Return on capital employed (ROCE) is 38.9% — comfortably above the 20% minimum this screen looks for (companies that pass this screen typically run around 42%)"
       ],
       "concerns": [
@@ -12030,9 +12036,9 @@
         "observation_count": 506
       }
     ],
-    "computed_at": "2026-09-04T14:20:17.696911+00:00"
+    "computed_at": "2026-09-04T15:27:21.329716+00:00"
   },
-  "macro_intel_run_at": "2026-09-04T14:20:17.696911+00:00",
+  "macro_intel_run_at": "2026-09-04T15:27:21.329716+00:00",
   "macro_trend": {
     "score_trend": {
       "has_prior": true,
@@ -23573,6 +23579,24 @@
       "ticker": "CAMS",
       "report_path": "Protfolio Thesis/CAMS_FAE.md",
       "locked_on": "2026-08-31",
+      "prediction_cycle": "FY2027",
+      "due_date": "2027-07-29",
+      "actuals_available": false,
+      "status": "not_due"
+    },
+    {
+      "ticker": "SWARAJENG",
+      "report_path": "Protfolio Thesis/SWARAJENG_FAE.md",
+      "locked_on": "2026-09-04",
+      "prediction_cycle": "FY2027",
+      "due_date": "2027-07-29",
+      "actuals_available": false,
+      "status": "not_due"
+    },
+    {
+      "ticker": "ACE",
+      "report_path": "Protfolio Thesis/ACE_FAE.md",
+      "locked_on": "2026-09-06",
       "prediction_cycle": "FY2027",
       "due_date": "2027-07-29",
       "actuals_available": false,
